@@ -1,0 +1,24 @@
+[project]
+name = "behoerden-finder"
+version = "0.1.0"
+description = "Anliegen + Adresse -> zuständige Behörde (Behörden-Matcher + Geocoding + Behörden-Resolver)"
+requires-python = ">=3.12"
+# behoerden-matcher und behoerden-resolver sind lokale Schwesterprojekte und werden
+# editierbar mitinstalliert (siehe README); sie stehen bewusst nicht hier.
+dependencies = ["requests>=2.31,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+behoerden-finder = "behoerden_finder.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
