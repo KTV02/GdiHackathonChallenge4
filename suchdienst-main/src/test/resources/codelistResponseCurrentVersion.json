@@ -1,0 +1,801 @@
+{
+  "kennung": "urn:de:xzufi:codeliste:leistungstextmodulleika_20240216",
+  "version": "20240216",
+  "beschreibung": [],
+  "zeitpunktAnlage": "2024-02-16T10:19:26.501+0100",
+  "zeitpunktLetzteBearbeitung": "2024-02-16T10:19:56.752+0100",
+  "statusVeroeffentlichung": {
+    "code": "VEROEFFENTLICHT"
+  },
+  "statusVerwendung": {
+    "code": "AKTUELL"
+  },
+  "statusFassung": {
+    "code": "ENDFASSUNG"
+  },
+  "bezugsort": [],
+  "vorentwurf": false,
+  "datumGueltigkeitAb": "2020-12-01T00:00:00.000+0100",
+  "versionCodelistenHandbuch": "1.2",
+  "aenderungZurVorversion": [
+    {
+      "value": "Umbenennung des Code 07 in „Handlungsgrundlage(n)“ (de-DE) und „Basis for legal action“ (en)"
+    }
+  ],
+  "kennungInhalt": "urn:de:xzufi:codeliste:leistungstextmodulleika",
+  "nutzendeVersionStandardKennung": [],
+  "nutzendeVersionDatentypKennung": [],
+  "technischerBestandteilGenericode": {
+    "datei": [
+      {
+        "dateiname": "Leistungstextmodulleika-20240216.xml",
+        "encoding": "UTF-8",
+        "mimeType": "application/xml",
+        "dateiFormat": "XML",
+        "name": "Leistungstextmodulleika-20240216.xml"
+      }
+    ],
+    "zeitpunktLetzteEinstellung": "2024-02-16T10:19:26.501+0100",
+    "new": false,
+    "artefactTyp": "FACHMODELL_GENERICODE"
+  },
+  "dokument": [],
+  "versionCodelisteExtrakt": {
+    "frameworkVersion": "1.0.0",
+    "nameLang": [
+      {
+        "value": "Codes für Textmodule von Leistungen"
+      }
+    ],
+    "nameKurz": [
+      {
+        "value": "Leistungstextmodulleika"
+      }
+    ],
+    "nameTechnisch": "Leistungstextmodulleika",
+    "kennungInhalt": "urn:de:xzufi:codeliste:leistungstextmodulleika",
+    "codelisteBeschreibung": [
+      {
+        "value": "Ein Leistungstextmodul ist ein spezifizierter Teil einer LeiKa-Leistung, welcher ausschließlich aus textuellem Inhalt besteht und nicht als separates Element an XLeistung bereits zur Verfügung steht. Textmodul ist eine Untermenge der Module einer LeiKa-Leistung. Der Inhalt der einzelnen Module bestimmt sich nach diesen Codes. Die Codeliste steht im XRepository zur Verfügung. Achtung: Die Module \"Ansprechpunkt\" und \"Zuständige Stelle\" sind \"deprecated\" und werden nur noch der Abwärtskompatibilität mitgeführt. In Zukunft werden im LeiKa auch Ansprechpunkte/zuständige Stellen strukturiert erfasst und können somit in XZuFi als Organisationseinheiten ausgegeben werden."
+      }
+    ],
+    "herausgebernameLang": [
+      {
+        "value": "Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement"
+      }
+    ],
+    "herausgebernameKurz": [
+      {
+        "value": "GK_FIM"
+      }
+    ],
+    "version": "20240216",
+    "beschreibung": [],
+    "versionCodelisteBezugsort": [],
+    "datumGueltigkeitAb": "2020-12-01T00:00:00.000+0100",
+    "versionCodelistenHandbuch": "1.2",
+    "versionCodelisteAenderungZurVorversion": [
+      {
+        "value": "Umbenennung des Code 07 in „Handlungsgrundlage(n)“ (de-DE) und „Basis for legal action“ (en)"
+      }
+    ],
+    "spalte": [
+      {
+        "spaltennameLang": "Code",
+        "spaltennameTechnisch": "Code",
+        "datentyp": "string",
+        "codeSpalte": true,
+        "verwendung": {
+          "code": "REQUIRED"
+        },
+        "empfohleneCodeSpalte": true
+      },
+      {
+        "spaltennameLang": "Textmodul",
+        "spaltennameTechnisch": "textmodul",
+        "datentyp": "string",
+        "codeSpalte": false,
+        "verwendung": {
+          "code": "REQUIRED"
+        },
+        "empfohleneCodeSpalte": false,
+        "sprache": "de-DE"
+      },
+      {
+        "spaltennameLang": "Text module",
+        "spaltennameTechnisch": "textmodule",
+        "datentyp": "string",
+        "codeSpalte": false,
+        "verwendung": {
+          "code": "REQUIRED"
+        },
+        "empfohleneCodeSpalte": false,
+        "sprache": "en-GB"
+      }
+    ],
+    "kennung": "urn:de:xzufi:codeliste:leistungstextmodulleika_20240216"
+  },
+  "schematronOutput": {
+    "text": [],
+    "nsPrefixInAttributeValues": [
+      {
+        "prefix": "gc_1_0",
+        "uri": "http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+      },
+      {
+        "prefix": "xoev-cl",
+        "uri": "http://xoev.de/schemata/genericode/1_0"
+      },
+      {
+        "prefix": "xoev-cl-2",
+        "uri": "http://xoev.de/schemata/genericode/2"
+      },
+      {
+        "prefix": "xoev-cl-3",
+        "uri": "http://xoev.de/schemata/genericode/3"
+      },
+      {
+        "prefix": "xoev-cl-4",
+        "uri": "http://xoev.de/schemata/genericode/4"
+      }
+    ],
+    "activePatternAndFiredRuleAndFailedAssert": [
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-R6",
+        "name": "pattern.C-XOEV-R6"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-R33",
+        "name": "pattern.C-XOEV-R33"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R1",
+        "name": "pattern.C-GC-1.0-R1"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R4",
+        "name": "pattern.C-GC-1.0-R4"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R6",
+        "name": "pattern.C-GC-1.0-R6"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R19",
+        "name": "pattern.C-GC-1.0-R19"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R20",
+        "name": "pattern.C-GC-1.0-R20"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R22",
+        "name": "pattern.C-GC-1.0-R22"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R23",
+        "name": "pattern.C-GC-1.0-R23"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R24",
+        "name": "pattern.C-GC-1.0-R24"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R25",
+        "name": "pattern.C-GC-1.0-R25"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R27",
+        "name": "pattern.C-GC-1.0-R27"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R30",
+        "name": "pattern.C-GC-1.0-R30"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R32",
+        "name": "pattern.C-GC-1.0-R32"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R34",
+        "name": "pattern.C-GC-1.0-R34"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R37",
+        "name": "pattern.C-GC-1.0-R37"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R39",
+        "name": "pattern.C-GC-1.0-R39"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R41",
+        "name": "pattern.C-GC-1.0-R41"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R42",
+        "name": "pattern.C-GC-1.0-R42"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R43",
+        "name": "pattern.C-GC-1.0-R43"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R44",
+        "name": "pattern.C-GC-1.0-R44"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R48",
+        "name": "pattern.C-GC-1.0-R48"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-GC-1.0-R50",
+        "name": "pattern.C-GC-1.0-R50"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-R7",
+        "name": "pattern.C-XOEV-R7"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-R8",
+        "name": "pattern.C-XOEV-R8"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R9",
+        "name": "pattern.C-XOEV-2.1-R9"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-R10",
+        "name": "pattern.C-XOEV-R10"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R11",
+        "name": "pattern.C-XOEV-2.1-R11"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R12",
+        "name": "pattern.C-XOEV-2.1-R12"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R5",
+        "name": "pattern.C-XOEV-2.1-R5"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R13",
+        "name": "pattern.C-XOEV-2.1-R13"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R14",
+        "name": "pattern.C-XOEV-2.1-R14"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R15",
+        "name": "pattern.C-XOEV-2.1-R15"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R16",
+        "name": "pattern.C-XOEV-2.1-R16"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R17",
+        "name": "pattern.C-XOEV-2.1-R17"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R18",
+        "name": "pattern.C-XOEV-2.1-R18"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R19",
+        "name": "pattern.C-XOEV-2.1-R19"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R20",
+        "name": "pattern.C-XOEV-2.1-R20"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R21",
+        "name": "pattern.C-XOEV-2.1-R21"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R22",
+        "name": "pattern.C-XOEV-2.1-R22"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R30",
+        "name": "pattern.C-XOEV-2.1-R30"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R23",
+        "name": "pattern.C-XOEV-2.1-R23"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R24",
+        "name": "pattern.C-XOEV-2.1-R24"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R25",
+        "name": "pattern.C-XOEV-2.1-R25"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R1",
+        "name": "pattern.C-XOEV-2.1-R1"
+      },
+      {
+        "documents": "",
+        "id": "pattern.-XOEV-2.1-R2",
+        "name": "pattern.-XOEV-2.1-R2"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R26",
+        "name": "pattern.C-XOEV-2.1-R26"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R27",
+        "name": "pattern.C-XOEV-2.1-R27"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-XOEV-2.1-R35",
+        "name": "pattern.C-XOEV-2.1-R35"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R1",
+        "name": "pattern.C-CLH-1.0-R1"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R3",
+        "name": "pattern.C-CLH-1.0-R3"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R4",
+        "name": "pattern.C-CLH-1.0-R4"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R2",
+        "name": "pattern.C-CLH-1.0-R2"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R12",
+        "name": "pattern.C-CLH-1.0-R12"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R5",
+        "name": "pattern.C-CLH-1.0-R5"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R9",
+        "name": "pattern.C-CLH-1.0-R9"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R10",
+        "name": "pattern.C-CLH-1.0-R10"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R11",
+        "name": "pattern.C-CLH-1.0-R11"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R13",
+        "name": "pattern.C-CLH-1.0-R13"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R14",
+        "name": "pattern.C-CLH-1.0-R14"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R15",
+        "name": "pattern.C-CLH-1.0-R15"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R16",
+        "name": "pattern.C-CLH-1.0-R16"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R17",
+        "name": "pattern.C-CLH-1.0-R17"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R18",
+        "name": "pattern.C-CLH-1.0-R18"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R19",
+        "name": "pattern.C-CLH-1.0-R19"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R31",
+        "name": "pattern.C-CLH-1.0-R31"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R32",
+        "name": "pattern.C-CLH-1.0-R32"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R20",
+        "name": "pattern.C-CLH-1.0-R20"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R21",
+        "name": "pattern.C-CLH-1.0-R21"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R22",
+        "name": "pattern.C-CLH-1.0-R22"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R30",
+        "name": "pattern.C-CLH-1.0-R30"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R23",
+        "name": "pattern.C-CLH-1.0-R23"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R24",
+        "name": "pattern.C-CLH-1.0-R24"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R36",
+        "name": "pattern.C-CLH-1.0-R36"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R28",
+        "name": "pattern.C-CLH-1.0-R28"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R25",
+        "name": "pattern.C-CLH-1.0-R25"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R26",
+        "name": "pattern.C-CLH-1.0-R26"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R27",
+        "name": "pattern.C-CLH-1.0-R27"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R37",
+        "name": "pattern.C-CLH-1.0-R37"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R29",
+        "name": "pattern.C-CLH-1.0-R29"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.0-R35",
+        "name": "pattern.C-CLH-1.0-R35"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R1",
+        "name": "pattern.C-CLH-1.2-R1"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R3",
+        "name": "pattern.C-CLH-1.2-R3"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R4",
+        "name": "pattern.C-CLH-1.2-R4"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R2",
+        "name": "pattern.C-CLH-1.2-R2"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R12",
+        "name": "pattern.C-CLH-1.2-R12"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R5",
+        "name": "pattern.C-CLH-1.2-R5"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R9-A",
+        "name": "pattern.C-CLH-1.2-R9-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R9-B",
+        "name": "pattern.C-CLH-1.2-R9-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R10",
+        "name": "pattern.C-CLH-1.2-R10"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R11-A",
+        "name": "pattern.C-CLH-1.2-R11-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R11-B",
+        "name": "pattern.C-CLH-1.2-R11-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R13",
+        "name": "pattern.C-CLH-1.2-R13"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R14",
+        "name": "pattern.C-CLH-1.2-R14"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R15",
+        "name": "pattern.C-CLH-1.2-R15"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R16",
+        "name": "pattern.C-CLH-1.2-R16"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R17",
+        "name": "pattern.C-CLH-1.2-R17"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R18",
+        "name": "pattern.C-CLH-1.2-R18"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R19-A",
+        "name": "pattern.C-CLH-1.2-R19-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R19-B",
+        "name": "pattern.C-CLH-1.2-R19-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R31-A",
+        "name": "pattern.C-CLH-1.2-R31-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R31-B",
+        "name": "pattern.C-CLH-1.2-R31-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R32-A",
+        "name": "pattern.C-CLH-1.2-R32-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R32-B",
+        "name": "pattern.C-CLH-1.2-R32-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R20-A",
+        "name": "pattern.C-CLH-1.2-R20-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R20-B",
+        "name": "pattern.C-CLH-1.2-R20-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R21-A",
+        "name": "pattern.C-CLH-1.2-R21-A"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R21-B",
+        "name": "pattern.C-CLH-1.2-R21-B"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R22",
+        "name": "pattern.C-CLH-1.2-R22"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R30",
+        "name": "pattern.C-CLH-1.2-R30"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R23",
+        "name": "pattern.C-CLH-1.2-R23"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R24",
+        "name": "pattern.C-CLH-1.2-R24"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R36",
+        "name": "pattern.C-CLH-1.2-R36"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R28",
+        "name": "pattern.C-CLH-1.2-R28"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R25",
+        "name": "pattern.C-CLH-1.2-R25"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R26",
+        "name": "pattern.C-CLH-1.2-R26"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R27",
+        "name": "pattern.C-CLH-1.2-R27"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R29",
+        "name": "pattern.C-CLH-1.2-R29"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R35",
+        "name": "pattern.C-CLH-1.2-R35"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R38",
+        "name": "pattern.C-CLH-1.2-R38"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R39",
+        "name": "pattern.C-CLH-1.2-R39"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R40",
+        "name": "pattern.C-CLH-1.2-R40"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R42",
+        "name": "pattern.C-CLH-1.2-R42"
+      },
+      {
+        "documents": "",
+        "id": "pattern.C-CLH-1.2-R43",
+        "name": "pattern.C-CLH-1.2-R43"
+      }
+    ],
+    "schemaVersion": "1.0.0",
+    "title": ""
+  },
+  "spalte": [
+    {
+      "spaltennameLang": "Code",
+      "spaltennameTechnisch": "Code",
+      "datentyp": "string",
+      "codeSpalte": true,
+      "verwendung": {
+        "code": "REQUIRED"
+      },
+      "empfohleneCodeSpalte": true
+    },
+    {
+      "spaltennameLang": "Textmodul",
+      "spaltennameTechnisch": "textmodul",
+      "datentyp": "string",
+      "codeSpalte": false,
+      "verwendung": {
+        "code": "REQUIRED"
+      },
+      "empfohleneCodeSpalte": false,
+      "sprache": "de-DE"
+    },
+    {
+      "spaltennameLang": "Text module",
+      "spaltennameTechnisch": "textmodule",
+      "datentyp": "string",
+      "codeSpalte": false,
+      "verwendung": {
+        "code": "REQUIRED"
+      },
+      "empfohleneCodeSpalte": false,
+      "sprache": "en-GB"
+    }
+  ]
+}

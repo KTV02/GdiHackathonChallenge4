@@ -1,0 +1,52 @@
+++++
+<style>
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4){
+    background: rgba(173,216,230,0.15);
+}
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7){
+    background: rgba(255,201,78,0.15);
+}
+td p {
+    text-align: center;
+}
+td:nth-child(8),
+td:nth-child(9),
+td:nth-child(10){
+    background: rgba(78,255,87,0.15);
+}
+</style>
+++++
+
+### Zugangskanäle spezialisieren Test Übersicht
+|===
+|*Test Case*|*Textmodul*|||*Spezialisierung*|||*Ergibt-Textmodul*||
+|*Zugangskanal*  +
+Code|*On&Off*  +
+000|*On*  +
+100|*Off*  +
+200|*On&Off*  +
+000|*On*  +
+100|*Off*  +
+200|*On&Off*  +
+000|*On*  +
+100|*Off*  +
+200
+|*Ergänzen*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*
+|textOnOffErgaenzenOnOff|T1|||T2|||T1 T2||
+|textOnOffErgaenzenOnUndOff|T1||||T3|T2||T1 T3|T1 T2
+|textOnUndOffErgaenzenOnUndOff||T1|T1||T2|T3||T1 T2|T1 T3
+|textOnErgaenzenOnOff||T1||T2||||T1 T2|T2
+|textOffErgaenzenOnOff|||T1|T2||||T2|T1 T2
+|textOnErgaenzenOff||T1||||T2||T1|T2
+|*Ersetzen*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*|*↓*
+|textOnOffErsetzenOnOff|T1|||T2|||T2||
+|textOnOffErsetzenOn|T1||||T2|||T2|T1
+|textOnUndOffErsetzenOnOff||T1|T2|T3|||T3||
+|textOnUndOffErsetzenOnUndOff||T1|T2||T3|T4||T3|T4
+|textOffErsetzenOn|||T1||T2|||T2|T1
+|===
+

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>Zuständigkeitskriterium</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Das Zuständigkeitskriterium dient zur Konkretisierung von Zuständigkeiten von Organisationseinheiten. Die Ausprägungen je Zuständigkeitskriterium können individuell festgelegt werden und müssen zusätzlich gepflegt werden. Es kann auch ein Zuständigkeitskriterium zugeordnet werden, das nicht in der Codeliste enthalten ist. In diesem Fall ist die Bezeichnung über den xZuFi zwingend zu übermitteln, damit andere Portale die Bezeichnung veröffentlichen können.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2024-01-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>xzufi.zustaendigkeitskriterium</ShortName>
+      <LongName>Zuständigkeitskriterium</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.zustaendigkeitskriterium</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.zustaendigkeitskriterium_2</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Kriterium" Use="required">
+         <ShortName>Kriterium</ShortName>
+         <LongName>Kriterium</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="criteria" Use="required">
+         <ShortName>criteria</ShortName>
+         <LongName>criteria</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>AnfangsbuchstabeFamilienname</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>First letter family name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>AnfangsbuchstabeVorname</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>First letter first name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>BeginnFamilienname</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Beginning of the family name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>BeginnVorname</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Beginning first name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>020</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Alter</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Age</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>021</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Geburtstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Birthday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>022</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Geburtsmonat</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Month of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>023</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Geburtsjahr</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Year of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>024</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Geburtsdatum</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Date of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>041</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Personengruppe</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Group of people</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>051</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Postleitzahl</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Postal code</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>052</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Straßenname</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Street name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>061</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Geschäftszeichen</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Business sign</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>062</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Kennnummer</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Identification number</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>063</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Versicherungsnummer</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Insurance number</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>101</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>Hunderasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Dog breed</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>111</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>KFZ-Klasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>Car class</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>112</SimpleValue>
+         </Value>
+         <Value ColumnRef="Kriterium">
+            <SimpleValue>KFZ-Kennzeichen</SimpleValue>
+         </Value>
+         <Value ColumnRef="criteria">
+            <SimpleValue>License Plate</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

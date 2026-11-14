@@ -1,0 +1,86 @@
+{
+  "format_version": 1,
+  "description": "Eigene normalisierte Kategorien, keine PVOG- oder BKG-Codeliste. Ausschließlich belegte OE-IDs in der jeweiligen Suchreferenz; keine bundesweite Übertragung.",
+  "categories": [
+    {
+      "code": "FINANZAMT",
+      "label": "Finanzamt",
+      "organisations": [{
+        "id": "L100039.OE.11309476", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v6/servicedescriptions/L100039.LB.229942405/detail?ars=073150000000&useArsHierarchy=true"
+      }]
+    },
+    {
+      "code": "KOMMUNALE_STEUERVERWALTUNG",
+      "label": "Kommunale Steuerverwaltung",
+      "organisations": [{
+        "id": "L100039.OE.249983665", "ars": "073150000000",
+        "evidence_url": "https://www.mainz.de/vv/oe/sachgebiet-gewerbesteuer-vergnuegungssteuer-jagdsteuer-hundesteuer-zweitwohnungsabgabe-beherbergungsabgabe"
+      }]
+    },
+    {
+      "code": "BUERGERSERVICE",
+      "label": "Bürgerservice",
+      "organisations": [{
+        "id": "L100039.OE.250472653", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.250472653"
+      }]
+    },
+    {
+      "code": "KFZ_ZULASSUNGSBEHOERDE",
+      "label": "Kfz-Zulassungsbehörde",
+      "organisations": [{
+        "id": "L100039.OE.329195414", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.329195414"
+      }]
+    },
+    {
+      "code": "BAUAUFSICHT",
+      "label": "Bauaufsicht",
+      "organisations": [{
+        "id": "L100039.OE.249972429", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.249972429"
+      }]
+    },
+    {
+      "code": "BUNDESAGENTUR_FUER_ARBEIT",
+      "label": "Bundesagentur für Arbeit",
+      "organisations": [{
+        "id": "B100019.OE.102789937", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=B100019.OE.102789937"
+      }]
+    },
+    {
+      "code": "GEWERBEBEHOERDE",
+      "label": "Gewerbebehörde",
+      "organisations": [{
+        "id": "L100039.OE.253414647", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.253414647"
+      }]
+    },
+    {
+      "code": "EINHEITLICHER_ANSPRECHPARTNER",
+      "label": "Einheitlicher Ansprechpartner",
+      "organisations": [{
+        "id": "L100039.OE.238389371", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.238389371"
+      }]
+    },
+    {
+      "code": "WOHNGELDSTELLE",
+      "label": "Wohngeldstelle",
+      "organisations": [{
+        "id": "L100039.OE.249968827", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=L100039.OE.249968827"
+      }]
+    },
+    {
+      "code": "AUSLANDSVERTRETUNG",
+      "label": "Auslandsvertretung des Bundes",
+      "organisations": [{
+        "id": "B100019.OE.102941041", "ars": "073150000000",
+        "evidence_url": "https://pvog.fitko.net/suchdienst/api/v5/organisationunits/detail?q=B100019.OE.102941041"
+      }]
+    }
+  ]
+}

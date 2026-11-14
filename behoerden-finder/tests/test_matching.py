@@ -39,6 +39,23 @@ class InterpretTest(unittest.TestCase):
         o = interpret_match(AMBIGUOUS, accept_ambiguous=True)
         self.assertEqual((o.category, o.status), ("buergeramt", "mehrdeutig_beste_gewaehlt"))
 
+    def test_ambiguous_with_single_candidate_is_taken(self):
+        # Wie bei 'Scheidung': Matcher meldet 'mehrdeutig', weil die bestplatzierte Leistung keine Behördenart hat,
+        # es gibt aber nur eine Kandidatenkategorie -> übernehmen, ohne --bei-mehrdeutig.
+        raw = {"status": "mehrdeutig", "behoerdenkategorie": None, "score": 0.03, "top_kategorie": "amtsgericht",
+               "alternativen": [],
+               "leistungen": [{"id": "x", "titel": "Scheidungsantrag Entscheidung", "leistungsschluessel": "99046039221000",
+                               "score": 0.4, "behoerdenkategorien": ["amtsgericht"]}]}
+        o = interpret_match(raw)
+        self.assertEqual((o.category, o.status, o.ambiguous), ("amtsgericht", "einziger_kandidat", False))
+        self.assertIn("nur eine Kandidatenkategorie", o.note)
+        self.assertEqual(o.service["titel"], "Scheidungsantrag Entscheidung")
+
+    def test_ambiguous_same_category_repeated_counts_as_single(self):
+        raw = {"status": "mehrdeutig", "behoerdenkategorie": None, "score": 0.03, "top_kategorie": "amtsgericht",
+               "alternativen": [{"id": "amtsgericht", "score": 0.02}], "leistungen": []}
+        self.assertEqual(interpret_match(raw).category, "amtsgericht")
+
     def test_no_assignment(self):
         o = interpret_match({"status": "keine_zuordnung", "behoerdenkategorie": None, "score": None,
                              "alternativen": [], "leistungen": []})

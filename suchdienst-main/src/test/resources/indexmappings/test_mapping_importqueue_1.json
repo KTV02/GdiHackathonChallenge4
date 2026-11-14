@@ -1,0 +1,32 @@
+{
+  "properties": {
+    "metaData": {
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "transactionId": {
+          "type": "keyword"
+        },
+        "transactionPosition": {
+          "type": "keyword"
+        },
+        "schemeAgencyId": {
+          "type": "keyword"
+        }
+      }
+    },
+    "status": {
+      "type": "keyword"
+    },
+    "requestAcceptedAt": {
+      "type": "date"
+    },
+    "requestProcessedAt": {
+      "type": "date"
+    },
+    "xzufi": {
+      "type": "binary"
+    }
+  }
+}

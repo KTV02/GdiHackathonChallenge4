@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Zustaendigkeitskriterium</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Ein Zuständigkeitskriterium dient zur Konkretisierung von
+            Zuständigkeiten.</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>GK_FIM</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2021-10-01</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.1</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:beschreibung-versionCodeliste>Diese Version nutzt ein mit der KoSIT vereinbartes
+            Übergangsformat zur Abbildung von Mehrsprachigkeit. Eine Anpassung des Formats ist
+            mittelfristig zu erwarten.</xoev-cl-3:beschreibung-versionCodeliste>
+         <xoev-cl-3:aenderungZurVorversion/>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>zustaendigkeitskriterium</ShortName>
+      <LongName>Codes für Zustaendigkeitskriterium</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.zustaendigkeitskriterium</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.zustaendigkeitskriterium_1.0</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Description Deutsch</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="description-en-GB" Use="required">
+         <ShortName>description-en-GB</ShortName>
+         <LongName>Description English</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>AnfangsbuchstabeFamilienname</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>First letter family name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>AnfangsbuchstabeVorname</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>First letter first name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>BeginnFamilienname</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Beginning of the family name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>BeginnVorname</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Beginning first name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>020</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Alter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Age</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>021</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Geburtstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Birthday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>022</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Geburtsmonat</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Month of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>023</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Geburtsjahr</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Year of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>024</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Geburtsdatum</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Date of birth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>041</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Personengruppe</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Group of people</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>051</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Postleitzahl</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Postal code</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>052</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Straßenname</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Street name</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>061</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Geschäftszeichen</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Business sign</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>062</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Kennnummer</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Identification number</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>063</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Versicherungsnummer</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Insurance number</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>101</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Hunderasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Dog breed</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>111</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>KFZ-Klasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Car class</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>112</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>KFZ-Kennzeichen</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>License Plate</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

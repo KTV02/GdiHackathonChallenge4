@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: EUPL-1.2; Copyright (c) 2026 Dataport AöR. -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+    <Identification>
+        <ShortName>SDK-Vertragstest-Lebenslagen</ShortName>
+        <Version>sdk-contract-1</Version>
+        <CanonicalUri>urn:xoev-de:fim:codeliste:pvlagen</CanonicalUri>
+        <CanonicalVersionUri>urn:xoev-de:fim:codeliste:pvlagen_sdk-contract-1</CanonicalVersionUri>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required"><ShortName>code</ShortName><Data Type="string"/></Column>
+        <Column Id="description-de-DE" Use="required"><ShortName>description-de-DE</ShortName><Data Type="string" Lang="de-DE"/></Column>
+        <Column Id="description-en-GB" Use="required"><ShortName>description-en-GB</ShortName><Data Type="string" Lang="en-GB"/></Column>
+        <Column Id="code-service-address" Use="required"><ShortName>code-service-address</ShortName><Data Type="string"/></Column>
+        <Key Id="codeKey"><ShortName>codeKey</ShortName><ColumnRef Ref="code"/></Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>1000000</SimpleValue></Value>
+            <Value ColumnRef="description-de-DE"><SimpleValue>SDK Bürger</SimpleValue></Value>
+            <Value ColumnRef="description-en-GB"><SimpleValue>SDK Citizens</SimpleValue></Value>
+            <Value ColumnRef="code-service-address"><SimpleValue>1</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>1180000</SimpleValue></Value>
+            <Value ColumnRef="description-de-DE"><SimpleValue>SDK Ruhestand</SimpleValue></Value>
+            <Value ColumnRef="description-en-GB"><SimpleValue>SDK Retirement</SimpleValue></Value>
+            <Value ColumnRef="code-service-address"><SimpleValue>1</SimpleValue></Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code"><SimpleValue>1180200</SimpleValue></Value>
+            <Value ColumnRef="description-de-DE"><SimpleValue>SDK Rente</SimpleValue></Value>
+            <Value ColumnRef="description-en-GB"><SimpleValue>SDK Pension</SimpleValue></Value>
+            <Value ColumnRef="code-service-address"><SimpleValue>1</SimpleValue></Value>
+        </Row>
+    </SimpleCodeList>
+</gc:CodeList>

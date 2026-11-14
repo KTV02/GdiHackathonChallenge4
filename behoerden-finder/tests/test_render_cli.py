@@ -25,6 +25,12 @@ def run(argv, factory):
 
 
 class RenderTest(unittest.TestCase):
+    def test_distance_formatting(self):
+        from behoerden_finder.render import _fmt_distance
+        self.assertEqual(_fmt_distance(408.4), "ca. 408 m entfernt")
+        self.assertEqual(_fmt_distance(6075.0), "ca. 6,1 km entfernt")      # "ca." behält den Punkt
+        self.assertIsNone(_fmt_distance(None))
+
     def test_kontakt_aliases(self):
         self.assertEqual(kontakt({"anschriftStrasse": "Schillerstraße", "hausnummer": "13", "anschriftPlz": "55116",
                                   "anschriftOrt": "Mainz", "telefon": " 06131 ", "homepage": "https://x.invalid"}),

@@ -1,0 +1,26 @@
+{
+    "properties": {
+        "ars": {
+            "type": "keyword"
+        },
+        "suggest": {
+            "preserve_separators": true,
+            "analyzer": "pvog_german_suggest",
+            "preserve_position_increments": true,
+            "type": "completion",
+            "max_input_length": 50
+        },
+        "ags": {
+            "type": "keyword"
+        },
+        "name": {
+            "type": "text"
+        },
+        "zipCodes": {
+            "type": "text"
+        },
+        "weight": {
+            "type": "integer"
+        }
+    }
+}

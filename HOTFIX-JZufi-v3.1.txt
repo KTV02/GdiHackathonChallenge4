@@ -1,0 +1,17 @@
+Authority Matcher v3.1 – PVOG/JZuFi-Organisationen-Hotfix
+
+Enthaltene Dateien: pvog_live.py, jzufi_fetch.py, Tests.
+
+Installation auf dem Mac (v3 bereits installiert, editable .venv):
+    cd ~/Desktop/GdiHackathonChallenge4
+    unzip -o ~/Downloads/authority-matcher-pvog-organisationen-hotfix.zip
+    cd behoerden-matcher
+    ./.venv/bin/authority-matcher --json --no-semantic "Ich möchte meinen Wohnsitz abmelden"
+
+Die SQLite-Datenbank unter ~/.local/share/authority-matcher/ bleibt unangetastet.
+Der Elasticsearch-Index muss nicht neu aufgebaut werden.
+Der Hotfix löst Organisationseinheiten direkt anhand der in JZuFi-Zuständigkeitsbeziehungen gefundenen IDs auf.
+Falls /v2/organisationunits/titles weiterhin HTTP 400 zurückgibt, bleibt es ein optionaler Fallback; die Antwort wird diagnostiziert.
+V3-Cache-Einträge mit Beziehungen, aber ohne Behördennamen werden automatisch erneut abgefragt.
+
+Getestet: 35 Offline-Tests. Live-PVOG nicht verifiziert.

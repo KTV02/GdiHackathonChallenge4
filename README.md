@@ -4,6 +4,26 @@ A prototype for Challenge 4 at hack4GDI_DE. Enter a task such as `Auto anmelden`
 
 The interface supports German and English. Most source records are German, so German search terms usually work better.
 
+## Match an authority category in the terminal
+
+The separate CLI turns a German administrative request into a **category keyword**, using actual PVOG service-to-organisation associations and an explicit local category vocabulary. It does not query PostGIS or GeoServer. The existing website is unchanged.
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements-cli.txt
+python -m authority_matcher "Ich möchte meinen Hund anmelden"
+python -m authority_matcher "Ich möchte mein Auto anmelden"
+python -m authority_matcher "Ich möchte einen Personalausweis beantragen" --json
+```
+
+The first example returns `KOMMUNALE_STEUERVERWALTUNG`. The configured search reference is **Mainz**, since PVOG requires a regional key; this is not a nationwide authority classification. Ten local categories, including `FINANZAMT`, are configured. Unknown organisations and ambiguous requests remain unresolved.
+
+The car example returns `KFZ_ZULASSUNGSBEHOERDE` using PVOG's own `Auto anmelden` synonym. Official service synonyms are checked alongside titles and retained in offline exports. `python -m authority_matcher coverage` lists known organisations that still need a category assignment.
+
+For a bounded offline demo, append `--offline`. The official extract contains 90 service records fetched on 13 November 2026, expires after 30 days by default, and is clearly marked as cached data. See the [CLI guide](docs/authority-category-cli.md) for examples, configuration, source evidence, limitations and reuse from a future website or MCP server.
+
+If the complete query has no source hits, the CLI can show related services found by the subject alone. For example, `Schenkung anmelden` produces suggestions, while the actual catalogue title `Schenkungsteuerbescheid erhalten` resolves to `FINANZAMT`. The suggestions do not confirm the original request or equate a gift notification with receiving a tax assessment.
+
 ## Run locally
 
 Python 3.10 or newer, internet access and a modern browser are required.

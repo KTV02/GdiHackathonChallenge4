@@ -1,0 +1,161 @@
+<xzufi:leistungen.antwort.leistung.040104 xmlns:xzufi="http://xoev.de/schemata/xzufi/2_2_0" xmlns:ns4="http://www.opengis.net/gml/3.2" xmlns:ns5="http://www.w3.org/1999/xlink" xmlns:ns6="http://www.isotc211.org/2005/gco" xmlns:ns7="http://www.isotc211.org/2005/gmd" xmlns:ns8="http://www.isotc211.org/2005/gts" produktbezeichnung="XZufi" produkthersteller="TSA" produktversion="3.01.002" xzufiVersion="2.2.0">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>b5977860-c04d-48d6-8032-d852405fe7ca</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2022-02-01T17:22:09.354+01:00</xzufi:erstelltDatumZeit>
+        <xzufi:sender>Leika</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:antwort>
+        <xzufi:antwortrueckgabecode listURI="urn:xoev-de:fim:codeliste:xzufi.nachrichtantwortcode" listVersionID="1.1">
+            <code>000</code>
+        </xzufi:antwortrueckgabecode>
+        <xzufi:anfrage>
+            <xzufi:suchprofil>
+                <xzufi:kennzeichenNurBasisinformation>false</xzufi:kennzeichenNurBasisinformation>
+            </xzufi:suchprofil>
+        </xzufi:anfrage>
+        <xzufi:ergebnis>
+            <xzufi:leistung>
+                <xzufi:id>100157500</xzufi:id>
+                <xzufi:idSekundaer>99038009223001</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtungUndDetail">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>038</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                    <xzufi:leistungsobjektID>967685</xzufi:leistungsobjektID>
+                        <xzufi:verrichtungLeiKa listURI="urn:de:fim:leika:verrichtung" listVersionID="20180103">
+                            <code>223</code>
+                            <name>Vereinbarung</name>
+                        </xzufi:verrichtungLeiKa>
+                    </xzufi:verrichtung>
+                    <xzufi:verrichtungsdetail languageCode="en">For employers</xzufi:verrichtungsdetail>
+                    <xzufi:verrichtungsdetail languageCode="de-DE">Für Arbeitgeber</xzufi:verrichtungsdetail>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Altersteilzeit Vereinbarung Für Arbeitgeber</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>http://www.gesetze-im-internet.de/alttzg_1996/</xzufi:uri>
+                        <xzufi:titel>Altersteilzeitgesetz (AltTZG)</xzufi:titel>
+                        <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=100157500&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Altersteilzeit Vereinbarung Für Arbeitgeber</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2030700</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2012-11-20T07:18:24.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:46:38.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+            <xzufi:leistung>
+                <xzufi:id>100157501</xzufi:id>
+                <xzufi:idSekundaer>TMP99038009223002</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtungUndDetail">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>038</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                    <xzufi:leistungsobjektID>967685</xzufi:leistungsobjektID>
+                    <xzufi:verrichtung>
+                        <xzufi:verrichtungLeiKa listURI="urn:de:fim:leika:verrichtung" listVersionID="20180103">
+                            <name>Vereinbarung</name>
+                        </xzufi:verrichtungLeiKa>
+                    </xzufi:verrichtung>
+                    <xzufi:verrichtungsdetail languageCode="de-DE">für Arbeitnehmer</xzufi:verrichtungsdetail>
+                    <xzufi:verrichtungsdetail languageCode="en">for employees</xzufi:verrichtungsdetail>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Altersteilzeit Vereinbarung für Arbeitnehmer</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>http://www.gesetze-im-internet.de/alttzg_1996/</xzufi:uri>
+                        <xzufi:titel>Altersteilzeitgesetz (AltTZG)</xzufi:titel>
+                        <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=100157501&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Altersteilzeit Vereinbarung für Arbeitnehmer</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1180200</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2012-11-20T07:42:54.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:46:38.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+        </xzufi:ergebnis>
+    </xzufi:antwort>
+</xzufi:leistungen.antwort.leistung.040104>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Behördenfinder</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="nav">
+  <span class="brand">Behördenfinder</span>
+  <span class="nav-sub">Zuständige Stelle für Ihr Anliegen</span>
+</header>
+<main class="layout">
+  <section class="panel">
+    <form id="suche" autocomplete="off">
+      <h1>Wer ist zuständig?</h1>
+      <label for="anliegen">Ihr Anliegen</label>
+      <input id="anliegen" name="anliegen" type="search" required maxlength="500"
+             placeholder="z. B. Hund anmelden, Auto ummelden, Scheidung einreichen">
+      <label for="adresse">Ihre Adresse</label>
+      <div class="combo">
+        <input id="adresse" name="adresse" type="search" required maxlength="200"
+               placeholder="Straße Hausnummer, Ort" aria-autocomplete="list" aria-controls="vorschlaege">
+        <ul id="vorschlaege" role="listbox" hidden></ul>
+      </div>
+      <fieldset class="geocoder">
+        <legend>Adresssuche über</legend>
+        <label><input type="radio" name="geocoder" value="nominatim" checked> Nominatim</label>
+        <label><input type="radio" name="geocoder" value="photon"> Photon</label>
+      </fieldset>
+      <button type="submit" id="los">Zuständige Behörde finden</button>
+    </form>
+    <div id="ergebnis" aria-live="polite"></div>
+  </section>
+  <div id="karte" role="region" aria-label="Karte"></div>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="/app.js"></script>
+</body>
+</html>

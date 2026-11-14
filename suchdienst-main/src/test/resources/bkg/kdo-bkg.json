@@ -1,0 +1,197 @@
+{
+   "features" : [
+      {
+         "type" : "Feature",
+         "id" : "DENIHK0000376120",
+         "geometry" : {
+            "type" : "Point",
+            "coordinates" : [
+               8.20087,
+               53.15156
+            ]
+         },
+         "properties" : {
+            "plz" : "26121",
+            "score" : 0.7422786,
+            "treffer" : "F",
+            "qualitaet" : "A",
+            "rs" : "034030000000",
+            "text" : "Elsässer Straße 66, 26121 Oldenburg(Oldb) - Bürgerfelde",
+            "kreis" : "Oldenburg(Oldb), Kreisfreie Stadt",
+            "bbox" : {
+               "coordinates" : [
+                  [
+                     [
+                        8.2008,
+                        53.15152
+                     ],
+                     [
+                        8.2008,
+                        53.15161
+                     ],
+                     [
+                        8.20095,
+                        53.15161
+                     ],
+                     [
+                        8.20095,
+                        53.15152
+                     ],
+                     [
+                        8.2008,
+                        53.15152
+                     ]
+                  ]
+               ],
+               "type" : "Polygon"
+            },
+            "bundesland" : "Niedersachsen",
+            "haus" : "66",
+            "ortsteil" : "Bürgerfelde",
+            "gemeinde" : "Oldenburg (Oldenb.), Stadt",
+            "strasse" : "Elsässer Straße",
+            "verwgem" : "Oldenburg (Oldb)",
+            "regbezirk" : "Weser-Ems",
+            "ags" : "03403000",
+            "ort" : "Oldenburg(Oldb)",
+            "schluessel" : "034030000000000000353",
+            "typ" : "Haus"
+         },
+         "bbox" : [
+            8.20079989535969,
+            53.1515155679733,
+            8.20094941322669,
+            53.1516054512217
+         ]
+      },
+      {
+         "type" : "Feature",
+         "id" : "DENIHK0000376119",
+         "geometry" : {
+            "type" : "Point",
+            "coordinates" : [
+               8.20189,
+               53.15143
+            ]
+         },
+         "bbox" : [
+            8.20181352515807,
+            53.1513867322995,
+            8.20196304261444,
+            53.151476615572
+         ],
+         "properties" : {
+            "verwgem" : "Oldenburg (Oldb)",
+            "strasse" : "Elsässer Straße",
+            "ags" : "03403000",
+            "regbezirk" : "Weser-Ems",
+            "schluessel" : "034030000000000000353",
+            "typ" : "Haus",
+            "ort" : "Oldenburg(Oldb)",
+            "plz" : "26121",
+            "rs" : "034030000000",
+            "qualitaet" : "A",
+            "treffer" : "F",
+            "score" : 0.7145863,
+            "bundesland" : "Niedersachsen",
+            "bbox" : {
+               "type" : "Polygon",
+               "coordinates" : [
+                  [
+                     [
+                        8.20181,
+                        53.15139
+                     ],
+                     [
+                        8.20181,
+                        53.15148
+                     ],
+                     [
+                        8.20196,
+                        53.15148
+                     ],
+                     [
+                        8.20196,
+                        53.15139
+                     ],
+                     [
+                        8.20181,
+                        53.15139
+                     ]
+                  ]
+               ]
+            },
+            "kreis" : "Oldenburg(Oldb), Kreisfreie Stadt",
+            "text" : "Elsässer Straße 63, 26121 Oldenburg(Oldb) - Bürgerfelde",
+            "gemeinde" : "Oldenburg (Oldenb.), Stadt",
+            "haus" : "63",
+            "ortsteil" : "Bürgerfelde"
+         }
+      },
+      {
+         "id" : "DENIHK0000376118",
+         "type" : "Feature",
+         "properties" : {
+            "bundesland" : "Niedersachsen",
+            "kreis" : "Oldenburg(Oldb), Kreisfreie Stadt",
+            "text" : "Elsässer Straße 59, 26121 Oldenburg(Oldb) - Bürgerfelde",
+            "bbox" : {
+               "coordinates" : [
+                  [
+                     [
+                        8.20242,
+                        53.15156
+                     ],
+                     [
+                        8.20242,
+                        53.15165
+                     ],
+                     [
+                        8.20257,
+                        53.15165
+                     ],
+                     [
+                        8.20257,
+                        53.15156
+                     ],
+                     [
+                        8.20242,
+                        53.15156
+                     ]
+                  ]
+               ],
+               "type" : "Polygon"
+            },
+            "gemeinde" : "Oldenburg (Oldenb.), Stadt",
+            "haus" : "59",
+            "ortsteil" : "Bürgerfelde",
+            "plz" : "26121",
+            "rs" : "034030000000",
+            "qualitaet" : "A",
+            "score" : 0.69286686,
+            "treffer" : "F",
+            "typ" : "Haus",
+            "schluessel" : "034030000000000000353",
+            "ort" : "Oldenburg(Oldb)",
+            "verwgem" : "Oldenburg (Oldb)",
+            "strasse" : "Elsässer Straße",
+            "ags" : "03403000",
+            "regbezirk" : "Weser-Ems"
+         },
+         "bbox" : [
+            8.20241908934931,
+            53.1515592510768,
+            8.202568607427,
+            53.15164913436
+         ],
+         "geometry" : {
+            "type" : "Point",
+            "coordinates" : [
+               8.20249,
+               53.1516
+            ]
+         }
+      }
+   ],
+   "type" : "FeatureCollection"
+}

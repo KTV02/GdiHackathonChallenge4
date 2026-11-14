@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-2="http://xoev.de/schemata/genericode/2"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-2:nameKurz>Leistungstextmodulleika</xoev-cl-2:nameKurz>
+         <xoev-cl-2:beschreibung-codeliste>Ein Leistungstextmodul ist ein spezifizierter Teil einer LeiKa-Leistung, welcher ausschließlich aus textuellem Inhalt besteht und nicht als separates Element an XLeistung bereits zur Verfügung steht. Textmodul ist eine Untermenge der Module einer LeiKa-Leistung. Der Inhalt der einzelnen Module bestimmt sich nach diesen Codes. Die Codeliste steht im XRepository zur Verfügung. Achtung: Die Module "Ansprechpunkt" und "Zuständige Stelle" sind "deprecated" und werden nur noch der Abwärtskompatibilität mitgeführt. In Zukunft werden im LeiKa auch Ansprechpunkte/zuständige Stellen strukturiert erfasst und können somit in XZuFi als Organisationseinheiten ausgegeben werden.</xoev-cl-2:beschreibung-codeliste>
+         <xoev-cl-2:herausgebernameKurz>GK_FIM</xoev-cl-2:herausgebernameKurz>
+         <xoev-cl-2:datumGueltigkeitAb>2019-06-05</xoev-cl-2:datumGueltigkeitAb>
+         <xoev-cl-2:versionXOEVHandbuch>2.1</xoev-cl-2:versionXOEVHandbuch>
+         <xoev-cl-2:aenderungZurVorversion>Neuer Code 25 für Rechtsbehelf aufgenommen</xoev-cl-2:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>Leistungstextmodulleika</ShortName>
+      <LongName xml:lang="en">Codes für Textmodule von Leistungen</LongName>
+      <Version>20190605</Version>
+      <CanonicalUri>urn:de:xzufi:codeliste:leistungstextmodulleika</CanonicalUri>
+      <CanonicalVersionUri>urn:de:xzufi:codeliste:leistungstextmodulleika_20190605</CanonicalVersionUri>
+      <Agency>
+         <LongName xml:lang="de">Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="Code" Use="required">
+         <ShortName>Code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Textmodul" Use="required">
+         <ShortName>Textmodul</ShortName>
+         <LongName>Textmodul</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-code/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="Code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>02</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Leistungsbezeichnung</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>03</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Leistungsbezeichnung II (Leistungsname)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>05</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Kurztext</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>06</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Volltext</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>07</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Rechtsgrundlage(n)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>08</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Erforderliche Unterlagen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>09</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Voraussetzungen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>11</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Verfahrensablauf</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>14</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Formulare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>15</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Weiterführende Informationen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>16</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Hinweise (Besonderheiten)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>18</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Urheber</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>22</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Zuständige Stelle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>23</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Ansprechpunkt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>24</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Teaser</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="Code">
+            <SimpleValue>25</SimpleValue>
+         </Value>
+         <Value ColumnRef="Textmodul">
+            <SimpleValue>Rechtsbehelf</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Tagesposition</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Codeliste für Tagesposition. Die Tagesposition bestimmt
+            die Position eines Tages innerhalb eines Monats. Die Liste orientiert sich am Entwurf
+            des Datenmodell von Fokus Fraunhofer für verzeichnisbasierte
+            Zuständigkeitsfinder.</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>GK_FIM</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2021-04-01</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.1</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:beschreibung-versionCodeliste>Diese Version nutzt ein mit der KoSIT vereinbartes
+            Übergangsformat zur Abbildung von Mehrsprachigkeit. Eine Anpassung des Formats ist
+            mittelfristig zu erwarten.</xoev-cl-3:beschreibung-versionCodeliste>
+         <xoev-cl-3:aenderungZurVorversion>Codeliste erstmalig für das XRepository
+            erstellt</xoev-cl-3:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>tagesposition</ShortName>
+      <LongName>Codes für Tagesposition</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.tagesposition</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.tagesposition_2</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Description Deutsch</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="description-en-GB" Use="required">
+         <ShortName>description-en-GB</ShortName>
+         <LongName>Description English</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>01</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Erster</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>First</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>02</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Zweiter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Second</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>03</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Dritter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Third</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>04</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Vierter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Fourth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>05</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fünfter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Fifth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>10</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Zehnter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Tenth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>15</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fünfzehnter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Fifteenth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>20</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Zwanzigster</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Twentieth</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>40</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Jeder</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Every</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>79</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Vorletzter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Penultimate</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>80</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Letzter</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Last</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

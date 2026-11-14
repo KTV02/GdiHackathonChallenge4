@@ -1,0 +1,123 @@
+{
+  "lebenslagen": [
+    {
+      "name": "Familie und Kind",
+      "children": [
+        {
+          "name": "Geburt",
+          "leikakeys": [
+            {
+              "key": "99041006000000",
+              "name": "Elterngeld"
+            },
+            {
+              "key": "99133002000000",
+              "name": "Erklärung zur Mutterschaftsanerkennung"
+            },
+            {
+              "key": "99133001000000",
+              "name": "Erklärung zur Vaterschaftsanerkennung"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engagement & Hobby",
+      "leikakeys": [
+        {
+          "key": "99094003000000",
+          "name": "Amtsblatt"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Einwanderung",
+      "leikakeys": [
+        {
+          "key": "99011008000000",
+          "name": "Ausländerzentralregister"
+        }
+      ],
+      "children": [
+        {
+          "name": "Aufenthaltserlaubnis und -karte",
+          "leikakeys": [
+            {
+              "key": "99010007000000",
+              "name": "Bescheinigung über das gemeinschaftsrechtliche Aufenthaltsrecht"
+            },
+            {
+              "key": "99010009000000",
+              "name": "Aufenthaltskarte für Familienangehörige von Unionsbürgern"
+            }
+          ]
+        },
+        {
+          "name": "Einbürgerung",
+          "leikakeys": [
+            {
+              "key": "99099002000000",
+              "name": "Einbürgerung"
+            },
+            {
+              "key": "99099004000000",
+              "name": "Miteinbürgerung"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bildung",
+      "leikakeys": [
+        {
+          "key": "99088033000000",
+          "name": "Hortbetreuung"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Arbeit",
+      "leikakeys": [
+        {
+          "key": "99082005000000",
+          "name": "Patentanwalt"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Bauen & Wohnen",
+      "leikakeys": [
+        {
+          "key": "99012028000000",
+          "name": "Eigenheimzulage"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Mobilität & Reisen",
+      "leikakeys": [
+        {
+          "key": "99080005000000",
+          "name": "Erlaubnis zum Führen eines Luftfahrzeuges"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "Recht & Ordnung",
+      "leikakeys": [
+        {
+          "key": "99089022000000",
+          "name": "Angriffe durch Tiere"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

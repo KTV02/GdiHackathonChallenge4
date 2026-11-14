@@ -1,0 +1,106 @@
+== Überblick über die Kombinatorik der Testfälle bzgl. der verarbeiteten Fachobjekte
+
+=== fullimportv7
+
+.fullimport.AddTest Testfälle
+[%header,format=csv]
+|===
+Testcase,Lb,Oe,ZsOe,Od,ZsOd,Fo,ZsFo,Sp
+fullAddLBandFOandZSFO,1,,,,,1,1,
+fullAddLBandODandZSOD,1,,,1,1,,,
+fullAddLBAndODAndZSOD,1,,,1,1,,,
+fullAddLBandODandZSODandSP,1,,,1,1,,,1
+fullAddLBandOEandZSOE,1,1,1,,,,,
+fullAddLBandOEandZSOEandODandZSOD,1,1,1,1,1,,,
+fullAddLBandOEandZSOEandODandZSODandSP,1,1,1,1,1,,,1
+fullAddLBandOEandZSOEandSP,1,1,1,,,,,1
+fullAddLBandOEandZSOEandZSOD,1,1,1,1,1,,,
+addZSOEandZSODandZSFOandSP,,,1,,1,,1,1
+fullAddLBandOEandZSOEandZSODandSP,1,1,1,1,1,,,
+fullAddLBandZSOD,1,,,1,1,,,
+fullAddLBandZSOE,1,1,1,,,,,
+fullAddLBandZSOEandODandZSOD,1,2,2,2,2,,,
+fullAddLBandZSOEandODandZSOD,1,2,2,2,2,,,1
+fullAddLBandZSOEandSP,1,1,1,,,,,1
+fullAddLBandZSOEandZSOD,,,,,,,,
+fullAddLBandZSOEandZSODandSP,,,,,,,,
+fullAddLBSaveAddODSaveAddZSOD,,,,,,,,
+fullAddLBSaveAddODSaveAddZSOD,,,,,,,,
+fullAddODandZSODandSP,,,,,,,,
+fullAddODSaveAddLBSaveAddZSOD,,,,,,,,
+fullAddOEandZSOE,,,,,,,,
+fullAddOEandZSOEandODandZSOD,,,,,,,,
+fullAddOEandZSOEandODandZSODandSP,,,,,,,,
+fullAddOEandZSOEandSP,,,,,,,,
+fullAddOEandZSOEandZSOD,,,,,,,,
+fullAddOEandZSOEandZSODandSP,,,,,,,,
+fullAddSP,,,,,,,,
+fullAddZSOD,,,,,,,,
+fullAddZSODandSP,,,,,,,,
+fullAddZSOD,,,,,,,,
+fullAddZSOEandODandZSOD,,,,,,,,
+fullAddZSOEandODandZSODandSP,,,,,,,,
+fullAddZSOEandSP,,,,,,,,
+fullAddZSOEandZSOD,,,,,,,,
+fullAddZSOEandZSOD,,,,,,,,
+|===
+
+.fullimport.DeleteTest Testfälle
+[%header,format=csv]
+|===
+Testcase,Lb,Oe,ZsOe,Od,ZsOd,Fo,ZsFo,Sp
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+|===
+
+.fullimport.ModifyTest Testfälle
+[%header,format=csv]
+|===
+Testcase,Lb,Oe,ZsOe,Od,ZsOd,Fo,ZsFo,Sp
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+x,,,,,,,,
+|===
+
+=== pushimportv7
+
+ist ca. so umfangreich wie fullimport
+
+=== gemeinsamervollzug
+
+deutlich weniger Tests
+
+

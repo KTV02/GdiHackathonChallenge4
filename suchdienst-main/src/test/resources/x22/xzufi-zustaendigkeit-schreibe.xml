@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<xzufi:transfer.operation.040502 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                                 xmlns:xzufi="http://xoev.de/schemata/xzufi/2_2_0"
+                                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                 produktbezeichnung="DADID"
+                                 produkthersteller="TSA Public Service GmbH"
+                                 produktversion="1.0"
+                                 xzufiVersion="2.2.0">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>4b911341-2dce-4fb5-9f8b-4cca4894c4ad</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2024-07-23T09:25:50.636+02:00</xzufi:erstelltDatumZeit>
+        <xzufi:empfaenger>Portalverbund Sammlerdienst</xzufi:empfaenger>
+        <xzufi:sender>L100012|99150085001000</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:schreibe>
+        <xzufi:zustaendigkeitTransferObjekt>
+            <xzufi:uebergeordnetesObjektID schemeAgencyID="S100003">S1000030000323115</xzufi:uebergeordnetesObjektID>
+            <xzufi:zustaendigkeit xsi:type="xzufi:ZustaendigkeitOrganisationseinheit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <xzufi:id schemeAgencyID="S100003" schemeID="ZustaendigkeitOrganisationseinheit">
+                    S1000030000000041.S1000030000323115.040110000000</xzufi:id>
+                <xzufi:leistungID schemeAgencyID="S100003">S1000030000000041</xzufi:leistungID>
+                <xzufi:gebietID schemeAgencyID="DESTATIS" schemeDataURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" schemeVersionID="2023-08-31">040110000000</xzufi:gebietID>
+                <xzufi:rolle listURI="urn:de:xzufi:codeliste:zustaendigkeitsrolle" listVersionID="20210401">
+                    <code>01</code>
+                    <name>Zuständige Stelle und Ansprechpunkt</name>
+                </xzufi:rolle>
+            </xzufi:zustaendigkeit>
+        </xzufi:zustaendigkeitTransferObjekt>
+    </xzufi:schreibe>
+</xzufi:transfer.operation.040502>

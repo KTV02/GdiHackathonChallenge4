@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        10.1338284924882,
+        54.3546213949904,
+        10.1339823295628,
+        54.3547112512244
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13391,
+          54.35467
+        ]
+      },
+      "properties": {
+        "text": "Feldstraße 247, 24106 Kiel - Wik",
+        "typ": "Haus",
+        "score": 2.3193638,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.13383,
+                54.35462
+              ],
+              [
+                10.13383,
+                54.35471
+              ],
+              [
+                10.13398,
+                54.35471
+              ],
+              [
+                10.13398,
+                54.35462
+              ],
+              [
+                10.13383,
+                54.35462
+              ]
+            ]
+          ]
+        },
+        "rs": "010020000000",
+        "schluessel": "010020000000080000286",
+        "gemeinde": "Kiel  Landeshauptstadt",
+        "plz": "24106",
+        "ort": "Kiel",
+        "ortsteil": "Wik",
+        "strasse": "Feldstraße",
+        "haus": "247"
+      },
+      "id": "DESHPDHK0002bsvR"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        10.1337840256035,
+        54.3546723789425,
+        10.1339378628709,
+        54.3547622351771
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13386,
+          54.35472
+        ]
+      },
+      "properties": {
+        "text": "Feldstraße 247a, 24106 Kiel - Wik",
+        "typ": "Haus",
+        "score": 2.2600794,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.13378,
+                54.35467
+              ],
+              [
+                10.13378,
+                54.35476
+              ],
+              [
+                10.13394,
+                54.35476
+              ],
+              [
+                10.13394,
+                54.35467
+              ],
+              [
+                10.13378,
+                54.35467
+              ]
+            ]
+          ]
+        },
+        "rs": "010020000000",
+        "schluessel": "010020000000080000286",
+        "gemeinde": "Kiel  Landeshauptstadt",
+        "plz": "24106",
+        "ort": "Kiel",
+        "ortsteil": "Wik",
+        "strasse": "Feldstraße",
+        "haus": "247a"
+      },
+      "id": "DESHPDHK0002bsvS"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        10.1337563381723,
+        54.3547342334581,
+        10.1339101756723,
+        54.3548240896926
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13383,
+          54.35478
+        ]
+      },
+      "properties": {
+        "text": "Feldstraße 247b, 24106 Kiel - Wik",
+        "typ": "Haus",
+        "score": 2.2600794,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.13376,
+                54.35473
+              ],
+              [
+                10.13376,
+                54.35482
+              ],
+              [
+                10.13391,
+                54.35482
+              ],
+              [
+                10.13391,
+                54.35473
+              ],
+              [
+                10.13376,
+                54.35473
+              ]
+            ]
+          ]
+        },
+        "rs": "010020000000",
+        "schluessel": "010020000000080000286",
+        "gemeinde": "Kiel  Landeshauptstadt",
+        "plz": "24106",
+        "ort": "Kiel",
+        "ortsteil": "Wik",
+        "strasse": "Feldstraße",
+        "haus": "247b"
+      },
+      "id": "DESHPDHK0002bsvT"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3"
+             xmlns:xoev-cl-2="http://xoev.de/schemata/genericode/2"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Tagestyp</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Codeliste für Tagestypen. Der Tagestyp beschreibt die Art
+            eines Tages innerhalb eines übergeordneten allgemeinen Zeitrahmens. Dies kann z.B. ein
+            Wochentag in einer Woche oder ein Tag in einem Monat sein. Reihenfolge gemäß ISO/R
+            2015-1971 und DIN 1355. Die Liste orientiert sich am Entwurf des Datenmodell von Fokus
+            Fraunhofer für verzeichnisbasierte
+            Zuständigkeitsfinder.</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>GK_FIM</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2021-04-01</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.1</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:beschreibung-versionCodeliste>Diese Version nutzt ein mit der KoSIT vereinbartes
+            Übergangsformat zur Abbildung von Mehrsprachigkeit. Eine Anpassung des Formats ist
+            mittelfristig zu erwarten.</xoev-cl-3:beschreibung-versionCodeliste>
+         <xoev-cl-3:aenderungZurVorversion>Codeliste erstmalig für das XRepository
+            erstellt</xoev-cl-3:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>tagestyp</ShortName>
+      <LongName>Codes für Tagestyp</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.tagestyp</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.tagestyp_2</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Description Deutsch</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="description-en-GB" Use="required">
+         <Annotation>
+            <Description>
+               <xoev-cl-2:isTranslation ref="description-de-DE"/>
+            </Description>
+         </Annotation>
+         <ShortName>description-en-GB</ShortName>
+         <LongName>Description English</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-code/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+      <Key Id="codenameKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-codename/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>CodenameKey</ShortName>
+         <ColumnRef Ref="description-de-DE"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>01</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Montag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Monday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>02</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Dienstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Tuesday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>03</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Mittwoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Wednesday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>04</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Donnerstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Thursday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>05</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Freitag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Friday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>06</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Samstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Saturday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>07</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Sonntag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Sunday</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>08</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Tag</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Day</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>09</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Arbeitstag (Mo-Fr)</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Working day (Mo-Fr)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>10</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Arbeitstag (Mo-Sa)</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-GB">
+            <SimpleValue>Working day (Mo-Sa)</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

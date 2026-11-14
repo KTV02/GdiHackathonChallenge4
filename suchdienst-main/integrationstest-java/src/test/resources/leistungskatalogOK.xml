@@ -1,0 +1,509 @@
+<xzufi:leistungen.antwort.leistung.040104 xmlns:xzufi="http://xoev.de/schemata/xzufi/2_2_0" xmlns:ns4="http://www.opengis.net/gml/3.2" xmlns:ns5="http://www.w3.org/1999/xlink" xmlns:ns6="http://www.isotc211.org/2005/gco" xmlns:ns7="http://www.isotc211.org/2005/gmd" xmlns:ns8="http://www.isotc211.org/2005/gts" produktbezeichnung="XZufi" produkthersteller="TSA" produktversion="3.01.002" xzufiVersion="2.2.0">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>b5977860-c04d-48d6-8032-d852405fe7ca</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2022-02-01T17:22:09.354+01:00</xzufi:erstelltDatumZeit>
+        <xzufi:sender>Leika</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:antwort>
+        <xzufi:antwortrueckgabecode listURI="urn:xoev-de:fim:codeliste:xzufi.nachrichtantwortcode" listVersionID="1.1">
+            <code>000</code>
+        </xzufi:antwortrueckgabecode>
+        <xzufi:anfrage>
+            <xzufi:suchprofil>
+                <xzufi:kennzeichenNurBasisinformation>false</xzufi:kennzeichenNurBasisinformation>
+            </xzufi:suchprofil>
+        </xzufi:anfrage>
+        <xzufi:ergebnis>
+            <xzufi:leistung>
+                <xzufi:id>100157500</xzufi:id>
+                <xzufi:idSekundaer>99038009223001</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtungUndDetail">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>038</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                    <xzufi:leistungsobjektID>967685</xzufi:leistungsobjektID>
+                    <xzufi:verrichtung>
+                        <xzufi:verrichtungLeiKa listURI="urn:de:fim:leika:verrichtung" listVersionID="20180103">
+                            <code>223</code>
+                            <name>Vereinbarung</name>
+                        </xzufi:verrichtungLeiKa>
+                    </xzufi:verrichtung>
+                    <xzufi:verrichtungsdetail languageCode="en">For employers</xzufi:verrichtungsdetail>
+                    <xzufi:verrichtungsdetail languageCode="de-DE">Für Arbeitgeber</xzufi:verrichtungsdetail>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Altersteilzeit Vereinbarung Für Arbeitgeber</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>http://www.gesetze-im-internet.de/alttzg_1996/</xzufi:uri>
+                        <xzufi:titel>Altersteilzeitgesetz (AltTZG)</xzufi:titel>
+                        <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=100157500&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Altersteilzeit Vereinbarung Für Arbeitgeber</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2030700</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2012-11-20T07:18:24.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:46:38.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+            <xzufi:leistung>
+                <xzufi:id>574446</xzufi:id>
+                <xzufi:idSekundaer>99001001000000</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjekt">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>001</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Abfallgebühr</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=574446&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Abfallgebühr</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>5</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1050200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1170100</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2010-04-06T08:18:53.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:34:07.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+            <xzufi:leistung>
+                <xzufi:id>100157501</xzufi:id>
+                <xzufi:idSekundaer>99038009223002</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtungUndDetail">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>038</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                    <xzufi:leistungsobjektID>967685</xzufi:leistungsobjektID>
+                    <xzufi:verrichtung>
+                        <xzufi:verrichtungLeiKa listURI="urn:de:fim:leika:verrichtung" listVersionID="20180103">
+                            <code>223</code>
+                            <name>Vereinbarung</name>
+                        </xzufi:verrichtungLeiKa>
+                    </xzufi:verrichtung>
+                    <xzufi:verrichtungsdetail languageCode="de-DE">für Arbeitnehmer</xzufi:verrichtungsdetail>
+                    <xzufi:verrichtungsdetail languageCode="en">for employees</xzufi:verrichtungsdetail>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Altersteilzeit Vereinbarung für Arbeitnehmer</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>http://www.gesetze-im-internet.de/alttzg_1996/</xzufi:uri>
+                        <xzufi:titel>Altersteilzeitgesetz (AltTZG)</xzufi:titel>
+                        <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=100157501&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Altersteilzeit Vereinbarung für Arbeitnehmer</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1180200</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2012-11-20T07:42:54.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:46:38.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+            <xzufi:leistung>
+                <xzufi:id>102778723</xzufi:id>
+                <xzufi:idSekundaer>99157002014000</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtungUndDetail">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungLeiKa listURI="urn:de:fim:leika:leistungsgruppierung" listVersionID="20200702">
+                            <code>038</code>
+                        </xzufi:leistungsgruppierungLeiKa>
+                    </xzufi:leistungsgruppierung>
+                    <xzufi:leistungsobjektID>103310982</xzufi:leistungsobjektID>
+                    <xzufi:verrichtung>
+                        <xzufi:verrichtungLeiKa listURI="urn:de:fim:leika:verrichtung" listVersionID="20180103">
+                            <code>223</code>
+                            <name>Vereinbarung</name>
+                        </xzufi:verrichtungLeiKa>
+                    </xzufi:verrichtung>
+                    <xzufi:verrichtungsdetail languageCode="de-DE">für Arbeitnehmer</xzufi:verrichtungsdetail>
+                    <xzufi:verrichtungsdetail languageCode="en">for employees</xzufi:verrichtungsdetail>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Änderungen im landwirtschaftlichen Unternehmen Meldung</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>http://www.gesetze-im-internet.de/alttzg_1996/</xzufi:uri>
+                        <xzufi:titel>Altersteilzeitgesetz (AltTZG)</xzufi:titel>
+                        <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=100157501&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Altersteilzeit Vereinbarung für Arbeitnehmer</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2030400</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2160200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040400</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2012-11-20T07:42:54.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T08:46:38.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+            <xzufi:leistung>
+                <xzufi:id>102778724</xzufi:id>
+                <xzufi:idSekundaer>99157003000000</xzufi:idSekundaer>
+                <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjekt">
+                    <xzufi:leistungsgruppierung>
+                        <xzufi:leistungsgruppierungIndividuell>
+                            <xzufi:klasse>
+                                <xzufi:id>LEBENSLAGE_UNTERNEHMENSLAGE</xzufi:id>
+                                <xzufi:bezeichnung languageCode="de-DE">Lebens- und Unternehmenslage</xzufi:bezeichnung>
+                            </xzufi:klasse>
+                            <xzufi:id>103311526</xzufi:id>
+                            <xzufi:uebergeordneteKategorieID>103311523</xzufi:uebergeordneteKategorieID>
+                            <xzufi:bezeichnung languageCode="en">Inspections and certificates of safety and expertise</xzufi:bezeichnung>
+                            <xzufi:bezeichnung languageCode="de-DE">Prüfung und Nachweise für Sachkunde und Sicherheit</xzufi:bezeichnung>
+                            <xzufi:beschreibung languageCode="en">Smoothly functioning processes and procedures can help companies achieve a high level of safety. This applies to facilities, trained specialist staff, and of course the products themselves. Here you will find an overview of government services regarding inspections and certificates to document safety measures and expertise.</xzufi:beschreibung>
+                            <xzufi:beschreibung languageCode="de-DE">Ein hohes Maß an Sicherheit erreichen Unternehmen unter anderem dann, wenn Prozesse oder Abläufe reibungslos funktionieren. Das gilt für Anlagen, geschultes Fachpersonal und natürlich das Produkt selbst. Verwaltungsleistungen zu Prüfungen und Nachweisen, die Sicherheitsmaßnahmen und Know-how dokumentieren, haben wir hier für Sie zusammengestellt.</xzufi:beschreibung>
+                        </xzufi:leistungsgruppierungIndividuell>
+                    </xzufi:leistungsgruppierung>
+                </xzufi:struktur>
+                <xzufi:modulText>
+                    <xzufi:inhalt languageCode="de-DE">Unbedenklichkeitsbescheinigung für Unternehmen der Landwirtschaftlichen Unfallversicherung</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>02</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="en">&lt;p&gt;§ 150 Paragraph 3 SGB VII&lt;/p&gt;</xzufi:inhalt>
+                    <xzufi:inhalt languageCode="de-DE">&lt;p&gt;§ 150 Absatz 3 SGB VII&lt;/p&gt;</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20190605">
+                        <code>07</code>
+                    </xzufi:leikaTextmodul>
+                </xzufi:modulText>
+                <xzufi:modulText>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    <xzufi:inhalt languageCode="de-DE">Weiterleitungsdienst: Deep-Link zum Ursprungsportal</xzufi:inhalt>
+                    <xzufi:leikaTextmodul listURI="urn:de:xzufi:codeliste:leistungstextmodulleika" listVersionID="20150601">
+                        <code>18</code>
+                    </xzufi:leikaTextmodul>
+                    <xzufi:weiterfuehrenderLink languageCode="de-DE">
+                        <xzufi:uri>https://leika.zfinder.de/portaldeeplink/?tsa_leistung_id=102778724&amp;tsa_sprache=de_DE</xzufi:uri>
+                        <xzufi:titel>Unbedenklichkeitsbescheinigung für Unternehmen der Landwirtschaftlichen Unfallversicherung</xzufi:titel>
+                        <xzufi:beschreibung>Anzeige der Leistung im Ursprungsportal</xzufi:beschreibung>
+                        <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                    </xzufi:weiterfuehrenderLink>
+                </xzufi:modulText>
+                <xzufi:typisierung listURI="urn:de:fim:leika:typisierung" listVersionID="20201204">
+                    <code>1</code>
+                </xzufi:typisierung>
+                <xzufi:kennzeichenSchriftformerfordernis>false</xzufi:kennzeichenSchriftformerfordernis>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1050200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1010100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1020100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1020200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1020300</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1020400</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1020500</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1010200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1030100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1030200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1030300</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040300</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040400</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1040500</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1050100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1050200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060300</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060400</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060500</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060600</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060700</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1060800</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1070100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1080100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1090100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1100100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1110100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1120100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>1170100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2010100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2020100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2030100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2040100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2050100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2060100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2070100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2080100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2090100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2100200</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2110100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2120100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2130100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2140100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2150100</code>
+                </xzufi:klassifizierung>
+                <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20230308">
+                    <code>2160100</code>
+                </xzufi:klassifizierung>
+                <xzufi:kennzeichenEA>false</xzufi:kennzeichenEA>
+                <xzufi:versionsinformation>
+                    <xzufi:erstelltDatumZeit>2020-11-06T09:32:35.000Z</xzufi:erstelltDatumZeit>
+                    <xzufi:geaendertDatumZeit>2021-09-27T09:34:46.000Z</xzufi:geaendertDatumZeit>
+                </xzufi:versionsinformation>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>de-DE</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+                <xzufi:sprachversion>
+                    <xzufi:languageCode>en</xzufi:languageCode>
+                    <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                    <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                </xzufi:sprachversion>
+            </xzufi:leistung>
+        </xzufi:ergebnis>
+    </xzufi:antwort>
+</xzufi:leistungen.antwort.leistung.040104>

@@ -1,0 +1,390 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        9.95413178536311,
+        53.4460523040547,
+        9.97643672792396,
+        53.4610553097858
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.96258,
+          53.45589
+        ]
+      },
+      "properties": {
+        "text": "21073 Hamburg - Eißendorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.95413,
+                53.44605
+              ],
+              [
+                9.95413,
+                53.46106
+              ],
+              [
+                9.97644,
+                53.46106
+              ],
+              [
+                9.97644,
+                53.44605
+              ],
+              [
+                9.95413,
+                53.44605
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000009",
+        "schluessel": "0270000000090710, 0270000000010701",
+        "gemeinde": "Eißendorf",
+        "plz": "21073",
+        "ort": "Hamburg",
+        "ortsteil": "Eißendorf"
+      },
+      "id": "DEGAC00000012879"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.96052079186141,
+        53.4496275434532,
+        9.96184141782395,
+        53.4499250419238
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.96118,
+          53.44992
+        ]
+      },
+      "properties": {
+        "text": "21073 Hamburg - Kleingartenanlage",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.96052,
+                53.44963
+              ],
+              [
+                9.96052,
+                53.44993
+              ],
+              [
+                9.96184,
+                53.44993
+              ],
+              [
+                9.96184,
+                53.44963
+              ],
+              [
+                9.96052,
+                53.44963
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000009",
+        "schluessel": "0270000000090710",
+        "gemeinde": "Eißendorf",
+        "plz": "21073",
+        "ort": "Hamburg",
+        "ortsteil": "Kleingartenanlage"
+      },
+      "id": "DEGAC00000012882"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.97207145131838,
+        53.450095921819,
+        9.98356537183578,
+        53.4521595556474
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98179,
+          53.45181
+        ]
+      },
+      "properties": {
+        "text": "21073 Hamburg - Wilstorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.97207,
+                53.4501
+              ],
+              [
+                9.97207,
+                53.45216
+              ],
+              [
+                9.98357,
+                53.45216
+              ],
+              [
+                9.98357,
+                53.4501
+              ],
+              [
+                9.97207,
+                53.4501
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000004",
+        "schluessel": "0270000000040705",
+        "gemeinde": "Wilstorf",
+        "plz": "21073",
+        "ort": "Hamburg",
+        "ortsteil": "Wilstorf"
+      },
+      "id": "DEGAC00000012883"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.92128648394771,
+        53.4487620365966,
+        9.96637626005371,
+        53.461463767898
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9412,
+          53.45462
+        ]
+      },
+      "properties": {
+        "text": "21075 Hamburg - Eißendorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.92129,
+                53.44876
+              ],
+              [
+                9.92129,
+                53.46146
+              ],
+              [
+                9.96638,
+                53.46146
+              ],
+              [
+                9.96638,
+                53.44876
+              ],
+              [
+                9.92129,
+                53.44876
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000009",
+        "schluessel": "0270000000090710",
+        "gemeinde": "Eißendorf",
+        "plz": "21075",
+        "ort": "Hamburg",
+        "ortsteil": "Eißendorf"
+      },
+      "id": "DEGAC00000012884"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.92257081254978,
+        53.4354649063889,
+        9.9715266964994,
+        53.4522999145201
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.94528,
+          53.44608
+        ]
+      },
+      "properties": {
+        "text": "21077 Hamburg - Eißendorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.92257,
+                53.43546
+              ],
+              [
+                9.92257,
+                53.4523
+              ],
+              [
+                9.97153,
+                53.4523
+              ],
+              [
+                9.97153,
+                53.43546
+              ],
+              [
+                9.92257,
+                53.43546
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000009",
+        "schluessel": "0270000000090710, 0270000000080709",
+        "gemeinde": "Eißendorf",
+        "plz": "21077",
+        "ort": "Hamburg",
+        "ortsteil": "Eißendorf"
+      },
+      "id": "DEGAC00000012888"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.96936116766062,
+        53.4362649509423,
+        9.99225243992111,
+        53.4514272361454
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98557,
+          53.4438
+        ]
+      },
+      "properties": {
+        "text": "21077 Hamburg - Wilstorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.96936,
+                53.43626
+              ],
+              [
+                9.96936,
+                53.45143
+              ],
+              [
+                9.99225,
+                53.45143
+              ],
+              [
+                9.99225,
+                53.43626
+              ],
+              [
+                9.96936,
+                53.43626
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000004",
+        "schluessel": "0270000000040705, 0270000000080709",
+        "gemeinde": "Wilstorf",
+        "plz": "21077",
+        "ort": "Hamburg",
+        "ortsteil": "Wilstorf"
+      },
+      "id": "DEGAC00000012893"
+    },
+    {
+      "type": "Feature",
+      "bbox": [
+        9.98738351357928,
+        53.4360323271206,
+        10.0072541529786,
+        53.4538742737576
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99658,
+          53.44304
+        ]
+      },
+      "properties": {
+        "text": "21079 Hamburg - Wilstorf",
+        "typ": "Ort",
+        "score": 1.484691,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9.98738,
+                53.43603
+              ],
+              [
+                9.98738,
+                53.45387
+              ],
+              [
+                10.00725,
+                53.45387
+              ],
+              [
+                10.00725,
+                53.43603
+              ],
+              [
+                9.98738,
+                53.43603
+              ]
+            ]
+          ]
+        },
+        "rs": "027000000004",
+        "schluessel": "0270000000040705, 0270000000010702",
+        "gemeinde": "Wilstorf",
+        "plz": "21079",
+        "ort": "Hamburg",
+        "ortsteil": "Wilstorf"
+      },
+      "id": "DEGAC00000012903"
+    }
+  ]
+}

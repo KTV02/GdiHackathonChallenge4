@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "indexName": {
+      "type": "keyword"
+    },
+    "status": {
+      "type": "keyword"
+    },
+    "version": {
+      "type": "keyword"
+    }
+  }
+}

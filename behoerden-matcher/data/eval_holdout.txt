@@ -1,0 +1,212 @@
+# Held-out: nach dem Tuning geschrieben, nicht zum Nachschärfen der Tabellen benutzt (nur zur Kontrolle der Verallgemeinerung)
+finanzamt:
+hallo, ich habe diesen Sommer ein bisschen Geld mit Nachhilfe verdient muss ich das irgendwo angeben?
+wie viel Steuern muss ich auf meine Erbschaft von meiner Tante zahlen
+bekomme ich vom Finanzamt noch etwas zurück wenn ich Handwerker hatte
+Ich hab mein Elster Passwort vergessen
+wo kann ich einen Antrag auf Steuererlass stellen
+Mein Steuerbescheid kam und ich bin mit der Berechnung nicht einverstanden
+ich brauche meine steuerliche Identifikationsnummer
+Wie melde ich meine Freiberufliche Tätigkeit beim Finanzamt an
+Wo beantrage ich die Befreiung von der Grundsteuer
+ich möchte die Steuerklasse 3 beantragen
+Gewinne aus Bitcoin Verkauf versteuern
+Umsatzsteuerjahreserklärung abgeben bis wann
+Steuernachzahlung stunden lassen
+stadtverwaltung:
+mein hund ist gestorben muss ich ihn abmelden
+Ich habe einen neuen Hund und will den bei der Stadt melden
+Wo bekomme ich eine neue Biotonne
+Wann wird der Sperrmüll abgeholt
+Wo muss ich Hundesteuer überweisen
+Kann ich einen Stand auf dem Flohmarkt anmelden
+Die Straßenbeleuchtung bei uns ist seit Tagen aus
+Wo kann ich einen Grabplatz für meine Mutter aussuchen
+Wer ist für die Kanalgebühren zuständig
+Ich möchte einen Antrag an den Stadtrat stellen
+Bürgerbegehren starten wie
+kreisverwaltung:
+Ich will meinen Jagdschein erneuern
+Wo mache ich die Fischerprüfung
+Ich habe von meinem Opa eine Pistole geerbt
+wo kann ich meine Waffenbesitzkarte ändern lassen
+Schießstand Genehmigung Verein
+Der Landkreis plant eine Schulschließung wo kann ich mich beschweren
+Wo beantrage ich eine Genehmigung für ein Feuerwerk bei meiner Hochzeit
+ordnungsamt:
+Mein Nachbar parkt ständig auf dem Gehweg
+Wer kümmert sich um herrenlose Fahrräder auf dem Bahnhofsvorplatz
+Die Nachbarn feiern jede Nacht bis 4 Uhr
+Wo kann ich einen Einspruch gegen ein Parkticket einlegen
+ich möchte eine Demonstration in der Innenstadt anmelden
+Wer ist zuständig für Taubenplage in der Innenstadt
+Rauchmelder Pflicht Kontrolle Beschwerde
+Sperrstunde Ausnahme für Kneipe
+buergeramt:
+mein Perso läuft nächsten Monat ab was muss ich tun
+wie bekomme ich einen Reisepass für meinen Sohn
+Ich ziehe nächste Woche um muss ich mich irgendwo melden
+ich brauche ein Führungszeugnis für meinen neuen Job
+Meldebescheinigung für das Finanzamt
+wo kann ich Dokumente beglaubigen lassen für die Uni
+Ich bin aus Berlin weggezogen und muss mich abmelden
+Ich will meinen Zweitwohnsitz anmelden
+Wie lange dauert ein neuer Personalausweis
+standesamt:
+Wir möchten im Juni standesamtlich heiraten
+Wo bekomme ich eine beglaubigte Abschrift aus dem Geburtenregister
+Meine Tochter wurde letzte Woche geboren wo melde ich sie an
+Meine Oma ist verstorben wo bekomme ich die Sterbeurkunde
+ich möchte meinen Nachnamen nach der Hochzeit ändern
+Wir wollen unsere eingetragene Partnerschaft in eine Ehe umwandeln
+Ich möchte den Geburtsnamen meines Kindes ändern
+auslaenderbehoerde:
+Meine Aufenthaltserlaubnis läuft bald ab
+Ich möchte einen deutschen Pass beantragen
+Wie bekomme ich eine Niederlassungserlaubnis
+Mein Visum ist abgelaufen
+Ich will meine Ehefrau aus Indien nach Deutschland holen
+Ich brauche eine Arbeitserlaubnis als Student
+bundesamt_migration:
+Wie läuft das Asylverfahren ab
+Ich möchte einen Integrationskurs besuchen
+wo kann ich einen Deutschkurs für Zuwanderer machen
+mein Asylantrag wurde abgelehnt
+amtsgericht:
+Ich will mich scheiden lassen aber wir haben ein gemeinsames Haus
+Wo kann ich mein Testament hinterlegen
+mein Vater ist gestorben und ich brauche einen Erbschein
+Wie schlage ich eine Erbschaft aus
+Wo bekomme ich einen Grundbuchauszug
+ich will einen Verein gründen
+Mein Nachbar zahlt seine Miete nicht ich möchte klagen
+Beratungshilfe beantragen wo
+Ich möchte Privatinsolvenz anmelden
+landgericht:
+Ich möchte gegen das Urteil des Amtsgerichts in Berufung gehen
+Meine Klage geht um 20.000 Euro wo reiche ich die ein
+verwaltungsgericht:
+Ich möchte gegen den Bescheid der Gemeinde klagen
+Ich will gegen meine Ablehnung des Studienplatzes klagen
+Klage gegen eine Ordnungsverfügung der Stadt
+staatsanwaltschaft:
+Ich möchte jemanden wegen Körperverletzung anzeigen
+Ich habe eine Vorladung als Zeuge von der Staatsanwaltschaft erhalten
+Mein Verfahren wurde eingestellt ich möchte Beschwerde einlegen
+polizei:
+Jemand hat mein Auto zerkratzt
+Mein Handy wurde im Zug geklaut
+Ich bin in meiner Wohnung überfallen worden
+Wo melde ich einen Verkehrsunfall mit Fahrerflucht
+Bei mir wurde eingebrochen
+Ich möchte eine Vermisstenanzeige für meinen Bruder aufgeben
+zoll:
+ich habe Zigaretten aus Polen mitgebracht muss ich Zoll zahlen
+Wie viel kostet die Verzollung eines Pakets aus Amerika
+Ich vermute dass mein Nachbar schwarz arbeitet
+Kfz-Steuer Lastschrift Bescheid
+Ich möchte Waren nach Großbritannien ausführen
+jugendamt:
+Mein Ex Partner zahlt keinen Unterhalt für unser Kind
+wo bekomme ich Unterhaltsvorschuss
+Wir möchten ein Kind adoptieren
+Ich möchte Pflegemutter werden
+Kita Platz für mein Kind finden
+Ich mache mir Sorgen um das Wohl eines Kindes in der Nachbarschaft
+Elterngeld nach der Geburt
+sozialamt:
+Ich bekomme eine sehr kleine Rente und brauche Unterstützung
+Wo beantrage ich einen Schwerbehindertenausweis
+wer hilft mir wenn ich meine Pflegeheimkosten nicht zahlen kann
+Wo gibt es Hilfe für Menschen ohne Wohnung
+Zuschuss für Schulsachen vom Amt
+jobcenter:
+Ich bin langzeitarbeitslos und brauche Bürgergeld
+Mein Bürgergeld wurde gekürzt
+Ich will meinen Bürgergeldantrag verlängern
+Das Jobcenter hat mich zu einem Termin eingeladen
+arbeitsagentur:
+Ich habe gekündigt bekommen und brauche Arbeitslosengeld
+Wo finde ich einen Job über die Agentur
+Wie melde ich mich arbeitslos
+Kurzarbeit beantragen für meinen Betrieb
+Ich brauche eine Berufsberatung
+familienkasse:
+Wo bekomme ich Kindergeld für mein neugeborenes Baby
+Mein Sohn macht eine Ausbildung bekomme ich weiter Kindergeld
+Kindergeld wurde nicht überwiesen
+wohngeldstelle:
+Ich möchte Wohngeld für meine Mietwohnung beantragen
+Wie viel Wohngeld bekomme ich als Rentner
+Mein Wohngeld läuft aus
+strassenverkehrsbehoerde:
+Ich habe meinen Führerschein verloren
+Ich muss zur MPU wegen Alkohol
+Wie lange dauert es bis ich nach einem Entzug wieder fahren darf
+Führerschein im Ausland gemacht umschreiben
+Ich will den Motorradführerschein machen
+zulassungsstelle:
+Ich habe ein Auto gekauft und will es anmelden
+Wie melde ich mein Auto ab
+Mein Kennzeichen ist weg
+Ich ziehe in eine andere Stadt brauche ich ein neues Kennzeichen
+Auto verkauft wie abmelden
+bauamt:
+Ich möchte einen Anbau an mein Haus machen brauche ich dafür eine Genehmigung
+Wo kann ich in den Bebauungsplan schauen
+Mein Nachbar baut ohne Baugenehmigung
+Dachfenster einbauen genehmigungspflichtig
+gesundheitsamt:
+ich muss für meinen Job in der Küche eine Belehrung machen
+wo kann ich mich auf Tuberkulose untersuchen lassen
+Impfberatung für Reisen
+Mein Kind soll zur Schuluntersuchung
+veterinaeramt:
+Mein Nachbar quält seine Katzen
+Ich will Hühner halten muss ich das melden
+Wo melde ich Geflügelpest Verdacht
+umweltamt:
+Ich möchte einen alten Baum auf meinem Grundstück fällen
+Jemand kippt Öl in den Fluss
+Wo muss ich meinen Brunnen anmelden
+gewerbeamt:
+Ich möchte ein Café eröffnen
+Wie melde ich ein Gewerbe an
+Ich will nebenbei bei Amazon verkaufen
+Gewerbe abmelden weil ich aufhöre
+ihk:
+Wo kann ich meine Ausbildereignungsprüfung machen
+Ich brauche ein Ursprungszeugnis für meinen Export
+Wie werde ich IHK Mitglied
+handwerkskammer:
+Ich will meinen Meister machen
+Betrieb in die Handwerksrolle eintragen lassen
+Wo melde ich meinen Lehrling an
+rentenversicherung:
+Wann kann ich in Rente gehen
+Wie hoch wird meine Rente
+Ich möchte Erwerbsminderungsrente beantragen
+Mein Mann ist gestorben bekomme ich Witwenrente
+Wo beantrage ich eine Reha
+krankenkasse:
+Ich will meine Krankenkasse wechseln
+Meine Gesundheitskarte ist kaputt
+Mein Kind soll bei mir mitversichert werden
+Ich bin krank und bekomme kein Gehalt mehr Krankengeld
+Zuschuss für meine Zahnkrone
+pflegekasse:
+Meine Mutter braucht einen Pflegegrad
+Wie bekomme ich Pflegegeld für meinen Vater
+Ich pflege meine Frau zu Hause und brauche Entlastung
+bafoegamt:
+Ich will BAföG für mein Studium beantragen
+Wie hoch ist der BAföG Satz
+Ich muss mein BAföG zurückzahlen
+schulamt:
+Mein Sohn soll die Schule wechseln
+Mein Kind wird nächstes Jahr eingeschult wo melde ich es an
+Ich möchte mein Kind vom Unterricht befreien lassen
+Wie bekomme ich ein Duplikat meines Abiturzeugnisses
+bundesverwaltungsamt:
+Ich bin Spätaussiedler und möchte meinen Status feststellen lassen
+Ich möchte als Lehrer an einer Deutschen Schule im Ausland arbeiten

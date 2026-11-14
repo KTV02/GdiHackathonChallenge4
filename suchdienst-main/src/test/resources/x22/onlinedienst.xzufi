@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xzufi:transfer.operation.040502
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xzufi="http://xoev.de/schemata/xzufi/2_2_0"
+  produktbezeichnung=""
+  produkthersteller=""
+  produktversion=""
+  xsi:schemaLocation="http://xoev.de/schemata/xzufi/2_2_0 xzufi-transfer.xsd"
+  xzufiVersion="2.2.0"
+>
+	<xzufi:nachrichtenkopf>
+		<xzufi:nachrichtUUID>065edb61-a010-4ada-9cdc-975b2e93c136</xzufi:nachrichtUUID>
+		<xzufi:erstelltDatumZeit>2018-11-17T07:40:16.568+01:00</xzufi:erstelltDatumZeit>
+		<xzufi:empfaenger>Portalverbund Online-Gateway Sammlerdienst</xzufi:empfaenger>
+		<xzufi:sender>BayernPortal</xzufi:sender>
+	</xzufi:nachrichtenkopf>
+	<xzufi:schreibe>
+		<xzufi:onlinedienst xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="xzufi:OnlinedienstErweitert">
+			<xzufi:id schemeAgencyID="L100001">19</xzufi:id>
+			<xzufi:bezeichnung languageCode="de">URL Online-Dienst</xzufi:bezeichnung>
+			<xzufi:link languageCode="de">
+				<xzufi:typ listVersionID="2"
+									 listURI="urn:xoev-de:fim:codeliste:onlinedienstlinktyp">
+					<code>0</code>
+				</xzufi:typ>
+				<xzufi:link>https://www.marburg.de/buergerservice/online/angebot/personalausweis-online-ausweisfunktion-eigene-daten-auslesen-900000026-23001.html</xzufi:link>
+				<xzufi:titel>Personalausweis: Online-Ausweisfunktion eigene Daten auslesen</xzufi:titel>
+				<xzufi:beschreibung>Erfahren Sie welche Daten auf Ihrem Online-Ausweis gespeichert sind.</xzufi:beschreibung>
+			</xzufi:link>
+			<xzufi:parameter>
+				<xzufi:parameterName>custom.parameter</xzufi:parameterName>
+				<xzufi:parameterWert>Custom value</xzufi:parameterWert>
+			</xzufi:parameter>
+			<xzufi:parameter>
+				<xzufi:parameterName>custom.parameter.de</xzufi:parameterName>
+				<xzufi:parameterWert>Custom DE</xzufi:parameterWert>
+			</xzufi:parameter>
+			<xzufi:parameter>
+				<xzufi:parameterName>custom.parameter.en</xzufi:parameterName>
+				<xzufi:parameterWert>Custom EN</xzufi:parameterWert>
+			</xzufi:parameter>
+			<xzufi:parameter>
+				<xzufi:parameterName>efa.datenschutzerklaerung.url.de</xzufi:parameterName>
+				<xzufi:parameterWert>Datenschutz DE</xzufi:parameterWert>
+			</xzufi:parameter>
+			<xzufi:parameter>
+				<xzufi:parameterName>efa.datenschutzerklaerung.url.en</xzufi:parameterName>
+				<xzufi:parameterWert>Privacy EN</xzufi:parameterWert>
+			</xzufi:parameter>
+			<xzufi:vertrauensniveau listVersionID="3" listURI="urn:xoev-de:fim:codeliste:vertrauensniveau">
+				<code>00</code>
+			</xzufi:vertrauensniveau>
+			<xzufi:logo schemeAgencyID="XZUFI_ERWEITERUNG" schemeID="LEIKA_SCHLUESSEL">http://link.zum/logo1</xzufi:logo>
+			<xzufi:logo schemeAgencyID="XZUFI_ERWEITERUNG" schemeID="LEIKA_SCHLUESSEL">http://link.zum/logo2</xzufi:logo>
+			<xzufi:logo schemeAgencyID="XZUFI_ERWEITERUNG" schemeID="LEIKA_SCHLUESSEL"></xzufi:logo>
+			<xzufi:sprachversion>
+				<xzufi:languageCode>de</xzufi:languageCode>
+			</xzufi:sprachversion>
+			<xzufi:sprachversion>
+				<xzufi:languageCode>en</xzufi:languageCode>
+			</xzufi:sprachversion>
+			<xzufi:zustaendigkeit>
+				<xzufi:leistungID schemeAgencyID="L100001"
+													schemeID="OID">346134126</xzufi:leistungID>
+				<xzufi:gebietID schemeID="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs"
+												schemeVersionID="2018-07-31">065340014014</xzufi:gebietID>
+			</xzufi:zustaendigkeit>
+		</xzufi:onlinedienst>
+	</xzufi:schreibe>
+</xzufi:transfer.operation.040502>

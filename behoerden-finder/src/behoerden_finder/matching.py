@@ -6,7 +6,9 @@ Der Elasticsearch-Check und der Indexaufbau laufen einmal beim ersten Aufruf, ni
 """
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
+
+from . import faelle, themen
 
 
 class MatcherUnavailable(RuntimeError):
@@ -22,6 +24,8 @@ class MatchOutcome:
     candidates: list[dict] = field(default_factory=list)  # Rangliste [{'id', 'score'}], beste zuerst
     ambiguous: bool = False
     raw: dict = field(default_factory=dict)
+    note: str | None = None         # Hinweis für die Ausgabe, z. B. wenn eine einzige Kategorie übernommen wurde
+    source: str = "matcher"         # 'matcher' (amtliche Daten), 'fallkatalog' oder 'themenhinweis' (nicht amtlich belegt)
 
 
 def _service_summary(raw: dict, category: str | None) -> dict | None:
@@ -39,8 +43,10 @@ def _service_summary(raw: dict, category: str | None) -> dict | None:
 def interpret_match(raw: dict, *, accept_ambiguous: bool = False) -> MatchOutcome:
     """Ergebnis von ``match_authority`` in ein einheitliches Objekt umsetzen.
 
-    Bei ``status == 'mehrdeutig'`` liefert der Matcher bewusst keine Kategorie. Nur wenn
-    ``accept_ambiguous`` gesetzt ist, wird die bestplatzierte Kategorie übernommen.
+    Bei ``status == 'mehrdeutig'`` liefert der Matcher bewusst keine Kategorie. Gibt es dabei
+    aber nur *eine* Kandidatenkategorie (keine abweichende Alternative), ist nichts auszuwählen:
+    sie wird übernommen und mit einem Hinweis versehen. Bei mehreren verschiedenen Kandidaten wird
+    die bestplatzierte nur übernommen, wenn ``accept_ambiguous`` gesetzt ist.
     """
     status = raw.get("status") or "unbekannt"
     category = raw.get("behoerdenkategorie")
@@ -50,9 +56,16 @@ def interpret_match(raw: dict, *, accept_ambiguous: bool = False) -> MatchOutcom
     if top is not None:
         candidates.append({"id": top, "score": raw.get("score")})
     candidates += [{"id": a.get("id"), "score": a.get("score")} for a in (raw.get("alternativen") or [])]
-    if category is None and ambiguous and accept_ambiguous:
-        category = top
-        status = "mehrdeutig_beste_gewaehlt"
+    note = None
+    if category is None and ambiguous:
+        distinct = {c["id"] for c in candidates if c["id"]}
+        if distinct == {top}:
+            category, status, ambiguous = top, "einziger_kandidat", False
+            note = ("Der Matcher hat das Ergebnis als mehrdeutig markiert (die bestplatzierte Leistung nennt "
+                    "keine Behördenart), es gibt aber nur eine Kandidatenkategorie; sie wurde übernommen.")
+        elif accept_ambiguous:
+            category = top
+            status = "mehrdeutig_beste_gewaehlt"
     return MatchOutcome(
         status=status,
         category=category,
@@ -61,19 +74,99 @@ def interpret_match(raw: dict, *, accept_ambiguous: bool = False) -> MatchOutcom
         candidates=candidates,
         ambiguous=ambiguous,
         raw=raw,
+        note=note,
     )
+
+
+NO_OFFICIAL_CATEGORY = {"behoerdenart_in_fim_nicht_ermittelbar", "keine_zuordnung"}
+
+
+def _titles(outcome: MatchOutcome) -> list[str]:
+    return [str(s.get("titel")) for s in (outcome.raw.get("leistungen") or []) if s.get("titel")]
+
+
+def _apply_faelle(outcome: MatchOutcome, anliegen: str, katalog: "faelle.FallKatalog",
+                  vorrang: bool = True) -> MatchOutcome | None:
+    """Fall-Katalog vor den Matcher-Ergebnissen anwenden; ``None``, wenn er nichts Eindeutiges liefert oder die
+    Matcher-Kategorie bestätigt. Eine amtlich belegte Kategorie (Status ``vorschlag``) wird nur durch einen starken
+    Treffer (Wendung aus mindestens zwei Wörtern oder mit denselben Wörtern wie die Eingabe) ersetzt."""
+    if outcome.status == "vorschlag" and not vorrang:
+        return None
+    hint = katalog.infer(anliegen)
+    if hint is None:
+        return None
+    if outcome.category == hint.category and outcome.status == "vorschlag":
+        return None
+    if outcome.status == "vorschlag" and not hint.strong:
+        return None
+    phrases = ", ".join(f"„{p}“" for p in hint.phrases[:2])
+    if outcome.category and outcome.category != hint.category:
+        reason = (f"Der Fall-Katalog (nicht amtlich belegt) hat vorrangig die Behördenart gewählt ({phrases}); der Matcher hatte "
+                  f"'{outcome.category}' vorgeschlagen. Mit --matcher-vorrang gilt dessen Ergebnis.")
+    elif outcome.ambiguous and outcome.candidates:
+        reason = f"Mehrere Behördenarten kamen in Frage; der Fall-Katalog (nicht amtlich belegt) entschied anhand von {phrases}."
+    else:
+        reason = (f"Die Behördenart stammt aus dem Fall-Katalog ({phrases}) und ist nicht amtlich belegt; "
+                  "die amtlichen Daten (FIM/PVOG) nennen dafür keine eindeutige Behördenart.")
+    return replace(outcome, status="fallkatalog", category=hint.category, ambiguous=False, source="fallkatalog",
+                   score=None, note=reason, service=outcome.service)
+
+
+def apply_topic_hints(outcome: MatchOutcome, anliegen: str, katalog: "faelle.FallKatalog | None" = None,
+                      *, faelle_vorrang: bool = True) -> MatchOutcome:
+    """Fehlende oder schwach belegte Kategorie aus Wendungen/Stichwörtern ergänzen.
+
+    - Mit ``katalog`` hat der Fall-Katalog Vorrang (siehe ``faelle``); eine amtlich belegte Kategorie weicht nur
+      einem starken Treffer.
+    - Keine amtliche Behördenart (FIM/PVOG leer): Stichwörter (``themen``) in Eingabe und Leistungstiteln entscheiden.
+    - Mehrere gleichrangige Kandidaten: Stichwörter dürfen nur unter diesen Kandidaten wählen.
+    - Nur eine Kategorie, aber die beste Leistung nennt keine Behördenart (``einziger_kandidat``): ein
+      Stichwort in den eigenen Worten der Person ersetzt die Kategorie, wenn es klar auf eine andere zeigt.
+    Eine amtlich belegte Kategorie (Status ``vorschlag``) wird sonst nie verändert.
+    """
+    if katalog is not None:
+        result = _apply_faelle(outcome, anliegen, katalog, faelle_vorrang)
+        if result is not None:
+            return result
+    titles = _titles(outcome)
+    if outcome.category is None and outcome.status in NO_OFFICIAL_CATEGORY:
+        hint = themen.infer(anliegen, titles)
+        reason = ("Für diese Leistung ist in den amtlichen Daten (FIM/PVOG) keine Behördenart hinterlegt; "
+                  "die Behördenart wurde aus Stichwörtern ({kw}) abgeleitet und ist nicht amtlich belegt.")
+    elif outcome.category is None and outcome.ambiguous and len({c["id"] for c in outcome.candidates}) > 1:
+        hint = themen.infer(anliegen, titles, restrict={c["id"] for c in outcome.candidates})
+        reason = ("Die amtlichen Daten nennen mehrere mögliche Behördenarten; anhand der Stichwörter ({kw}) wurde "
+                  "eine davon gewählt (nicht amtlich belegt).")
+    elif outcome.status == "einziger_kandidat":
+        hint = themen.infer(anliegen, titles)
+        if hint and not (hint.from_query and hint.category != outcome.category):
+            hint = None
+        reason = ("Die amtliche Zuordnung ist schwach (die beste Leistung nennt keine Behördenart); Ihre Angaben "
+                  "({kw}) weisen klar auf eine andere Behördenart hin, daher wurde diese gewählt (nicht amtlich belegt).")
+    else:
+        return outcome
+    if hint is None:
+        return outcome
+    return replace(outcome, status="themenhinweis", category=hint.category, ambiguous=False, source="themenhinweis",
+                   score=None, note=reason.format(kw=", ".join(hint.keywords)),
+                   service=outcome.service)
 
 
 class AuthorityMatcher:
     """Lazy Adapter um ``authority_matcher.autorun`` (FIM + Elasticsearch + PVOG)."""
 
     def __init__(self, *, semantic: bool = True, live: bool = True, reference_ars: str | None = None,
-                 live_top: int = 3, start_docker: bool = True, accept_ambiguous: bool = False):
+                 live_top: int = 3, start_docker: bool = True, accept_ambiguous: bool = False,
+                 topic_hints: bool = True, faelle_vorrang: bool = True, faelle_db=None):
         if not 1 <= live_top <= 10:
             raise ValueError("--live-top muss zwischen 1 und 10 liegen")
         self.semantic, self.live = semantic, live
         self.reference_ars, self.live_top = reference_ars, live_top
         self.start_docker, self.accept_ambiguous = start_docker, accept_ambiguous
+        self.topic_hints = topic_hints
+        self.faelle_vorrang = faelle_vorrang
+        self._faelle_db = faelle_db
+        self._katalog = None
         self._am = None
         self._taxonomy = None
         self._regions = None
@@ -85,9 +178,13 @@ class AuthorityMatcher:
             from authority_matcher import autorun as am
             from authority_matcher.catalog import AuthorityTaxonomy
         except ImportError as exc:
+            import importlib.util
+            spec = importlib.util.find_spec("authority_matcher")
+            where = spec.origin if spec else "keins"
             raise MatcherUnavailable(
-                "behoerden-matcher ist in dieser Python-Umgebung nicht installiert "
-                "(pip install -e '../behoerden-matcher[elastic,semantic]')."
+                f"behoerden-matcher konnte nicht geladen werden ({exc}; gefundenes Paket: {where}). "
+                "Installiert? pip install -e '../behoerden-matcher[elastic,semantic]'. Liegt im aktuellen Ordner ein "
+                "anderes Paket 'authority_matcher', aus einem anderen Ordner starten."
             ) from exc
         if not am.DB.exists():
             raise MatcherUnavailable(
@@ -99,6 +196,12 @@ class AuthorityMatcher:
         self._taxonomy = AuthorityTaxonomy(am.DEFAULT_TAXONOMY)
         self._regions = am.reference_regions(self.reference_ars)
         self._am = am
+        if self.topic_hints:
+            try:
+                # Fall-Katalog liegt als eigene Tabelle in der FIM-Datenbank; fehlt sie, wird sie angelegt.
+                self._katalog = faelle.ensure_installed(self._faelle_db or am.DB)
+            except Exception:  # Katalog ist ein Zusatz: bei Problemen mit den mitgelieferten Daten weiterarbeiten
+                self._katalog = faelle.builtin()
 
     def match(self, anliegen: str) -> MatchOutcome:
         self._ensure()
@@ -109,4 +212,5 @@ class AuthorityMatcher:
                                         max_keys=self.live_top, trace=[])
         raw = am.match_authority(anliegen, backend="elasticsearch", es_url=am.ES_URL, es_index=am.INDEX,
                                  semantic=self.semantic, embedding_model=am.MODEL, enrich=enricher)
-        return interpret_match(raw, accept_ambiguous=self.accept_ambiguous)
+        outcome = interpret_match(raw, accept_ambiguous=self.accept_ambiguous)
+        return apply_topic_hints(outcome, anliegen, self._katalog, faelle_vorrang=self.faelle_vorrang) if self.topic_hints else outcome

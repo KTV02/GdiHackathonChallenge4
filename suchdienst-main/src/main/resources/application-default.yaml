@@ -1,0 +1,123 @@
+logging:
+  level:
+    root: WARN
+    de:
+      dataport: INFO
+    de.dataport.suchdienst.indexer.model.I18nTextHelper: ${CUSTOM_CONFIG_LOG_LEVEL_I18NTEXTHELPER :WARN}
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration
+  main:
+    banner-mode: off
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: -1
+      max-request-size: -1
+  jackson:
+    date-format: yyyy-MM-dd
+    default-property-inclusion: NON_NULL
+    mapper:
+      DEFAULT_VIEW_INCLUSION: true
+  cache:
+    type: NONE
+  data:
+    redis:
+      timeout: PT2S
+  output:
+    ansi:
+      enabled: DETECT
+  threads:
+    virtual:
+      enabled: false
+
+de:
+  dataport:
+    suchdienst:
+      instance:
+        type: MASTER
+      importer:
+        initial-leika-import-delay: P1D
+        delay-between-leika-imports: P2D
+      in-mem-cache:
+        codelistEntries: maximumSize=2000,recordStats
+        codelistDownload: maximumSize=10,expireAfterWrite=5m,recordStats
+        personalMatters: maximumSize=200,expireAfterWrite=5m,recordStats
+      endpoint:
+        enableDeprecated:
+          v2-locations-suggestions: false
+          v2-locations: false
+          v2-organisationunits-jzufi: false
+          v3-relations-ars-jzufi: false
+          v3-servicedescriptions-jzufi: false
+          v5-servicedescriptions-ars-detail: false
+
+    pv_onlinegw:
+      pv:
+        virusscan:
+          antivirusscanner:
+            name: DoNothingAntivirusScanner
+    pvog:
+      pvexternaldownloader:
+        config:
+          leistungskatalog:
+            url: http://localhost:8001/leistungskatalog
+          retry-policy:
+            maxAttempts: 3
+
+springdoc:
+  api-docs:
+    enabled: true
+    version: openapi_3_1
+  use-fqn: true
+  explicit-object-schema: true
+  writer-with-default-pretty-printer: true
+  swagger-ui:
+    enabled: true
+    urlsPrimaryName: Suchen
+    displayRequestDuration: true
+    oauth:
+      client-id: swagger_client
+      use-pkce-with-authorization-code-grant: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+  metrics:
+    tags:
+      application: "@project.artifactId@"
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      show-details: when_authorized
+      roles: o_sud_spring_actuator_health
+      probes:
+        enabled: true
+  health:
+    elasticsearch:
+      enabled: true
+    ping:
+      enabled: false
+    ssl:
+      enabled: false
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true # tomcat metriken exportieren
+  max-http-request-header-size: 48000 # groessere Header wegen Keycloak erlauben
+  compression:
+    enabled: true
+    mime-types: application/json, application/xml
+    min-response-size: 2KB
+
+info:
+  app:
+    name: "@project.artifactId@"
+    description: "Suchdienst"
+    version: "@project.version@"

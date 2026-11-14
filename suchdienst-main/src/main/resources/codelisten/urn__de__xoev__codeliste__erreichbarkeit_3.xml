@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3"
+             xmlns:xoev-cl-2="http://xoev.de/schemata/genericode/2"
+>
+   <!-- Die Metadaten werden weiterhin einsprachig verfasst  -->
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Erreichbarkeit-Mehrsprachigkeitsbeispiel</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Ein Beispiel zur Demonstration der Übergangslösung für
+            Merhrsprachigkeit.</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>KoSIT</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:versionCodelistenHandbuch>1.1</xoev-cl-3:versionCodelistenHandbuch>
+         <!-- Die Beschreibung der Version soll den untenstehenden Text enthalten, um anzuzeigen, dass eine Übergangslösung verwendet wird.-->
+         <xoev-cl-3:beschreibung-versionCodeliste>Diese Version nutzt ein mit der KoSIT vereinbartes
+            Übergangsformat zur Abbildung von Mehrsprachigkeit. Eine Anpassung des Formats ist
+            mittelfristig zu erwarten.</xoev-cl-3:beschreibung-versionCodeliste>
+         <xoev-cl-3:aenderungZurVorversion/>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>erreichbarkeit</ShortName>
+      <LongName>Kommunikationskanal / Erreichbarkeit</LongName>
+      <Version>3</Version>
+      <CanonicalUri>urn:de:xoev:codeliste:erreichbarkeit</CanonicalUri>
+      <CanonicalVersionUri>urn:de:xoev:codeliste:erreichbarkeit_3</CanonicalVersionUri>
+      <Agency>
+         <LongName>Koordinierungsstelle für IT-Standards</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <!-- Kurznamen der Spalten, die Gleiches (in unterschiedlichen Sprachen) beschreiben, sollen den gleichen Namenspräfix tragen und auf die Sprachkennung (Identisch zu /Data/@Lang) enden. -->
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Description Deutsch</LongName>
+         <!-- Hier ist das Format gemäß RFC 5646 (ISO 639-1 zur Angabe von Sprachen, ISO 3166-1 zur Angabe des Landes) zu nutzen. Diese Festlegung kann sich ändern, wenn es zur Ablösung des Übergangsformats kommt. -->
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="description-en-EN" Use="required">
+         <Annotation>
+            <Description>
+               <xoev-cl-2:isTranslation ref="description-de-DE"/>
+            </Description>
+         </Annotation>
+         <ShortName>description-en-EN</ShortName>
+         <LongName>Description English</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Column Id="iana-uri-scheme" Use="optional">
+         <ShortName>iana-uri-scheme</ShortName>
+         <LongName>IANA Uniform Resource Identifier (URI) Scheme</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+      <Key Id="codenameKey"><!-- ergaenzt durch PVOG -->
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-codename/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>CodenameKey</ShortName>
+         <ColumnRef Ref="description-de-DE"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>01</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>E-Mail</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Email</SimpleValue>
+         </Value>
+         <Value ColumnRef="iana-uri-scheme">
+            <SimpleValue>mailto</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>02</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Telefon Festnetz</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Landline</SimpleValue>
+         </Value>
+         <Value ColumnRef="iana-uri-scheme">
+            <SimpleValue>tel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>03</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Telefon mobil</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Mobile phone</SimpleValue>
+         </Value>
+         <Value ColumnRef="iana-uri-scheme">
+            <SimpleValue>tel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>04</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fax</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Fax</SimpleValue>
+         </Value>
+         <Value ColumnRef="iana-uri-scheme">
+            <SimpleValue>tel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>05</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Instant Messenger</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Instant messenger</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>06</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Pager</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Pager</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>07</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Sonstiges</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>08</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>De-Mail</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>De-Mail</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>09</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Web</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-en-EN">
+            <SimpleValue>Web</SimpleValue>
+         </Value>
+         <Value ColumnRef="iana-uri-scheme">
+            <SimpleValue>http, https</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

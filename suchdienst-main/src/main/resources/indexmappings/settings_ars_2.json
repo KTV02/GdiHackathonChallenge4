@@ -1,0 +1,27 @@
+{
+   "analysis" : {
+      "filter" : {
+         "german_stemmer" : {
+            "type" : "stemmer",
+            "language" : "light_german"
+         },
+         "german_stop" : {
+            "type" : "stop",
+            "stopwords" : "_german_",
+            "remove_trailing" : "false"
+         }
+      },
+      "analyzer" : {
+         "pvog_german_suggest" : {
+            "type": "custom",
+            "tokenizer" : "standard",
+            "filter" : [
+               "lowercase",
+               "german_stop",
+               "german_normalization",
+               "german_stemmer"
+            ]
+         }
+      }
+   }
+}

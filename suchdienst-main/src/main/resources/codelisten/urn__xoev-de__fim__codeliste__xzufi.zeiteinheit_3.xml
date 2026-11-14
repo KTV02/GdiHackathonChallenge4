@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>Zeiteinheit</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Codeliste für Zeiteinheiten. Diese werden zur u.a. zur Bestimmung von Fristen/Dauern benötigt</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2024-07-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>xzufi.zeiteinheit</ShortName>
+      <LongName>Zeiteinheit</LongName>
+      <Version>3</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.zeiteinheit</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.zeiteinheit_3</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Zeiteinheit" Use="required">
+         <ShortName>Zeiteinheit</ShortName>
+         <LongName>Zeiteinheit</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="time-unit" Use="required">
+         <ShortName>time-unit</ShortName>
+         <LongName>time unit</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Column Id="Beschreibung" Use="optional">
+         <ShortName>Beschreibung</ShortName>
+         <LongName>Beschreibung</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ARBEITSTAG</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Arbeitstag</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>working day</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein Arbeitstag ist ein Tag, an dem eine Person üblicherweise arbeitet. Dies sind in vielen Berufen und Branchen die Wochentage von Montag bis Freitag.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>JAHR</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Jahr</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>year</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein Jahr ist eine Zeiteinheit, die sich auf die Dauer bezieht, die die Erde benötigt, um einmal um die Sonne zu kreisen. Es besteht in der Regel aus 365 Tagen, außer in Schaltjahren, in denen es 366 Tage hat.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MINUTE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>minute</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Eine Minute ist eine Zeiteinheit, die aus 60 Sekunden besteht. Es ist eine der grundlegenden Einheiten zur Messung der Zeit.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MONAT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Monat</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>month</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein Monat ist eine Zeiteinheit, die sich auf einen der zwölf Teile eines Jahres bezieht. Die Länge eines Monats variiert zwischen 28 und 31 Tagen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SEKUNDE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Sekunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>second</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Eine Sekunde ist die grundlegende Zeiteinheit im internationalen Einheitensystem. Sie wird als die Dauer von 9,192,631,770 Perioden der Strahlung entspricht, die dem Übergang zwischen den zwei Hyperfeinstrukturniveaus des Grundzustandes von Atomen des Isotops 133 des Caesiums entspricht.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>STUNDE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Stunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>hour</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Eine Stunde ist eine Zeiteinheit, die aus 60 Minuten besteht. Es ist eine der grundlegenden Einheiten zur Messung der Zeit.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>TAG</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Tag</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>day</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein Tag ist eine Zeiteinheit, die sich auf die Dauer bezieht, die die Erde benötigt, um einmal um ihre eigene Achse zu drehen. Es besteht in der Regel aus 24 Stunden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>WERKTAG</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Werktag</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>weekday</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein Werktag ist ein Tag, an dem das Arbeiten ohne besondere Einschränkungen gesetzlich zulässig ist. Das sind alle Kalendertage, die nicht Sonn- oder gesetzliche Feiertage sind. Üblicherweise sind daher die Tage von Montag bis einschließlich Samstag Werktage.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>WOCHE</SimpleValue>
+         </Value>
+         <Value ColumnRef="Zeiteinheit">
+            <SimpleValue>Woche</SimpleValue>
+         </Value>
+         <Value ColumnRef="time-unit">
+            <SimpleValue>week</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Eine Woche ist eine Zeiteinheit, die aus sieben aufeinanderfolgenden Tagen besteht. In vielen Kulturen beginnt die Woche am Montag und endet am Sonntag.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

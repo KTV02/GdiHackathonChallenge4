@@ -1,0 +1,160 @@
+# Zweite Kontrollmenge, geschrieben nachdem Katalog und Wortschatz feststanden; nicht zum Nachschärfen benutzt.
+finanzamt:
+Wo kann ich die Einkommensteuer für letztes Jahr einreichen
+ich habe Post vom Finanzamt bekommen und verstehe sie nicht
+muss ich als Rentner eine Steuererklärung abgeben
+ich habe ein Haus geerbt und möchte wissen ob Steuern anfallen
+Wo gebe ich meine Umsatzsteuer ab als Kleinunternehmer
+Ich habe Geld von meinem Vater geschenkt bekommen muss ich das versteuern
+Antrag auf Steuerklassenwechsel
+Ich brauche eine Bescheinigung vom Finanzamt dass ich keine Schulden habe
+Wo kann ich Einspruch gegen meinen Grundsteuerbescheid einlegen
+stadtverwaltung:
+Wo melde ich meinen Hund an
+Ich möchte meine Mülltonne tauschen
+Wer räumt den Sperrmüll vor meinem Haus weg
+Wie bekomme ich einen Platz auf dem Wochenmarkt
+Wo kann ich eine Grabstelle für meinen Vater kaufen
+kreisverwaltung:
+Wie komme ich an einen Jagdschein
+Wo bekomme ich einen Waffenschein
+ich möchte ein Reh das ich angefahren habe melden Wildunfall
+ordnungsamt:
+Mein Nachbar stellt seine Mülltonnen immer auf die Straße
+Wo kann ich eine Straßensperrung für mein Straßenfest beantragen
+Jemand hat illegal Müll in unserem Park abgeladen
+Ich habe ein Knöllchen bekommen das ich für unfair halte
+Autowrack steht seit Wochen auf der Straße
+buergeramt:
+Wie lange ist mein Personalausweis gültig und wie verlängere ich ihn
+Ich brauche eine Bescheinigung über meinen Wohnsitz
+Wo bekomme ich ein Führungszeugnis für die Bewerbung
+Mein Reisepass wurde mir gestohlen
+Wo kann ich meinen Wohnsitz ändern
+Ich möchte mich an meiner neuen Adresse anmelden
+standesamt:
+Wir möchten unsere Hochzeit anmelden
+Ich brauche meine Geburtsurkunde für das Visum
+Ich möchte meinen Nachnamen ändern lassen
+Wie bekomme ich eine Heiratsurkunde
+Mein Mann ist gestorben wo bekomme ich die Sterbeurkunde
+auslaenderbehoerde:
+Ich bin Student aus Indien und muss meine Aufenthaltserlaubnis verlängern
+Wie bekomme ich einen unbefristeten Aufenthalt
+Mein Arbeitgeber braucht eine Beschäftigungsgenehmigung für mich
+Meine Eltern wollen mich besuchen und brauchen ein Visum
+Ich möchte die deutsche Staatsbürgerschaft
+bundesamt_migration:
+Wo stelle ich einen Antrag auf Asyl
+Wie melde ich mich für einen Integrationskurs an
+Ich will freiwillig in mein Heimatland zurückkehren
+amtsgericht:
+Wir wollen uns trennen und die Scheidung einreichen
+wo bekomme ich einen Erbschein her
+Ich will meine Vorsorgevollmacht registrieren
+Ich möchte ein Testament beim Gericht hinterlegen
+Mein Sohn braucht einen gesetzlichen Betreuer
+Grundbuch Auszug für mein Haus
+Ich möchte eine GmbH gründen und ins Handelsregister eintragen
+landgericht:
+Ich möchte gegen ein Urteil des Amtsgerichts Berufung einlegen
+verwaltungsgericht:
+Wo reiche ich eine Klage gegen die Ausländerbehörde ein
+Ich möchte gegen die Baugenehmigung meines Nachbarn klagen
+staatsanwaltschaft:
+Wo kann ich einen Betrug anzeigen
+Ich bin Zeuge in einem Strafverfahren und habe einen Brief bekommen
+polizei:
+Mein Rad wurde vor dem Bahnhof gestohlen
+Wo melde ich einen Unfall bei dem der andere abgehauen ist
+Ich wurde betrogen im Internet beim Online Kauf
+Wo kann ich Anzeige gegen meinen Nachbarn wegen Bedrohung erstatten
+Bei uns wurde ins Auto eingebrochen
+zoll:
+Ich habe etwas aus der Türkei mitgebracht muss ich das anmelden
+Ich habe ein Paket aus China bekommen und soll beim Zoll zahlen
+Wie bezahle ich die Kfz Steuer
+Ich möchte mehr als 10000 Euro Bargeld mit ins Ausland nehmen
+jugendamt:
+Mein Exmann zahlt keinen Kindesunterhalt
+Wo bekomme ich Elterngeld
+Ich möchte ein Pflegekind aufnehmen
+Wie beantrage ich einen Kita Platz
+Wo bekomme ich Hilfe als alleinerziehende Mutter mit Kind
+sozialamt:
+Ich brauche Grundsicherung weil meine Rente zu klein ist
+Wo bekomme ich einen Schwerbehindertenausweis
+Ich bin pflegebedürftig im Heim und kann nicht zahlen
+Wohin wenn ich keine Wohnung mehr habe
+Bildung und Teilhabe Antrag für mein Kind
+jobcenter:
+Ich bekomme Bürgergeld und bin umgezogen
+Ich möchte Bürgergeld beantragen
+Das Jobcenter hat meine Leistungen gestrichen
+arbeitsagentur:
+Wie beantrage ich Arbeitslosengeld
+Ich möchte mich arbeitssuchend melden
+Wo finde ich eine Umschulung
+Ich brauche Insolvenzgeld weil mein Chef pleite ist
+familienkasse:
+Ich möchte Kindergeld beantragen
+Bekomme ich Kindergeld für mein Kind das studiert
+wohngeldstelle:
+Wo beantrage ich Wohngeld
+Kann ich als Student Wohngeld bekommen
+strassenverkehrsbehoerde:
+Ich möchte meinen Führerschein umtauschen
+Wo kann ich den Führerschein machen
+Mir wurde der Führerschein abgenommen
+Wo beantrage ich eine Ausnahmegenehmigung für einen Schwertransport
+zulassungsstelle:
+Wie melde ich mein Auto um
+Ich brauche ein Wunschkennzeichen
+Meinen Fahrzeugschein habe ich verloren
+Ich will mein Motorrad für den Winter abmelden
+bauamt:
+Ich will mein Dach ausbauen
+Ich möchte eine Baugenehmigung für ein Einfamilienhaus
+Brauche ich für ein Gartenhaus eine Genehmigung
+gesundheitsamt:
+Wo bekomme ich das Gesundheitszeugnis für die Gastronomie
+Ich möchte mich auf Hepatitis impfen lassen
+veterinaeramt:
+Mein Nachbar hält seine Hunde in schlechten Bedingungen
+Ich möchte Schafe halten
+umweltamt:
+Ich will einen Baum in meinem Garten fällen
+In unserem Bach schwimmen tote Fische
+Wo beantrage ich eine Wasserentnahme aus dem Fluss
+gewerbeamt:
+Ich möchte ein kleines Gewerbe anmelden
+Ich eröffne einen Friseursalon
+Wo kann ich mein Gewerbe ummelden weil ich umgezogen bin
+ihk:
+Ich muss die Abschlussprüfung bei der IHK anmelden
+Wie bekomme ich einen Sachkundenachweis für Gaststätten
+handwerkskammer:
+Ich möchte mich als Elektriker selbstständig machen
+Wo kann ich meine Gesellenprüfung anmelden
+rentenversicherung:
+Ich möchte wissen wie viel Rente ich später bekomme
+Wo stelle ich den Antrag auf Altersrente
+Ich habe meine Rentenversicherungsnummer verloren
+Antrag auf Kur über die Rentenversicherung
+krankenkasse:
+Wie kann ich meine Krankenkasse kündigen
+Ich habe meine Versichertenkarte verloren
+Ich brauche eine Bescheinigung von meiner Krankenkasse
+Wo beantrage ich Mutterschaftsgeld
+pflegekasse:
+Mein Vater ist pflegebedürftig was muss ich beantragen
+Wie bekomme ich einen Zuschuss für den Treppenlift
+bafoegamt:
+Wie viel BAföG bekomme ich
+Ich möchte Schüler BAföG beantragen
+schulamt:
+Mein Kind wird dieses Jahr eingeschult
+Wo melde ich mein Kind in der weiterführenden Schule an
+Ich will mein Kind in eine andere Schule schicken
+bundesverwaltungsamt:
+Ich bin Aussiedler aus Kasachstan und möchte nach Deutschland

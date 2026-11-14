@@ -64,6 +64,14 @@ class FinderTest(unittest.TestCase):
         self.assertEqual(resolver.calls[0][3], {"dsn": "postgresql://x", "backend": "local", "point_fallback": False,
                                                 "radius_km": 12.5, "point_limit": 1})
 
+    def test_single_candidate_note_is_reported_and_lookup_runs(self):
+        o = outcome("amtsgericht", "einziger_kandidat")
+        o.note = "nur eine Kandidatenkategorie übernommen"
+        r = self.finder(matcher=FakeMatcher(o)).find("Scheidung", "Marienstraße 8, Speyer")
+        self.assertNotEqual(r["status"], "kategorie_mehrdeutig")
+        self.assertEqual(r["kategorie"]["id"], "amtsgericht")
+        self.assertIn("nur eine Kandidatenkategorie übernommen", r["hinweise"])
+
     def test_ambiguous_category_stops_before_geocoding(self):
         geocoder, resolver = FakeGeocoder(geo()), Recorder(polygon_result())
         amb = outcome(None, "mehrdeutig", ambiguous=True, candidates=[{"id": "buergeramt", "score": .05}, {"id": "standesamt", "score": .049}])
@@ -123,6 +131,15 @@ class FinderTest(unittest.TestCase):
         self.assertEqual(r["status"], "keine_abdeckung")
         r = self.finder(resolver=Recorder({"status": "context_required", "matches": []})).find("Anliegen", "Adresse 1")
         self.assertEqual(r["status"], "kontext_erforderlich")
+
+    def test_empty_database_is_called_out(self):
+        r = self.finder(resolver=Recorder({"status": "no_local_data", "area_search_status": "no_local_data",
+                                           "matches": []})).find("Anliegen", "Adresse 1")
+        self.assertEqual(r["status"], "keine_abdeckung")
+        self.assertTrue(any("docker compose run --rm cli load" in h for h in r["hinweise"]))
+        r = self.finder(resolver=Recorder({"status": "no_coverage_at_point", "area_search_status": "no_coverage_at_point",
+                                           "matches": []})).find("Anliegen", "Adresse 1")
+        self.assertFalse(any("leere Kategorietabelle" in h for h in r["hinweise"]))
 
     def test_multiple_polygon_matches(self):
         two = polygon_result()

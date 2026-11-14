@@ -1,0 +1,13 @@
+{
+  "pvog_url": "https://pvog.fitko.net/suchdienst/api",
+  "reference_ars": "073150000000",
+  "reference_region_name": "Mainz",
+  "categories_file": "authority-categories.json",
+  "snapshot_file": "../data/pvog/mainz-extract.json",
+  "allow_snapshot_fallback": false,
+  "suggest_related_on_no_match": true,
+  "snapshot_max_age_days": 30,
+  "timeout_seconds": 15,
+  "page_size": 50,
+  "max_pages": 3
+}

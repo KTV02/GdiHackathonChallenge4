@@ -49,7 +49,9 @@ def kontakt(properties: dict | None) -> dict:
 def _fmt_distance(meters) -> str | None:
     if not isinstance(meters, (int, float)):
         return None
-    return f"ca. {meters:.0f} m entfernt" if meters < 1000 else f"ca. {meters / 1000:.1f} km entfernt".replace(".", ",")
+    if meters < 1000:
+        return f"ca. {meters:.0f} m entfernt"
+    return f"ca. {f'{meters / 1000:.1f}'.replace('.', ',')} km entfernt"
 
 
 def render_text(result: dict) -> str:
@@ -64,17 +66,23 @@ def render_text(result: dict) -> str:
     if cat:
         if cat.get("id"):
             score = f"  · Score {cat['score']}" if cat.get("score") is not None else ""
-            origin = " (vorgegeben)" if cat.get("quelle") == "vorgegeben" else ""
+            origin = {"vorgegeben": " (vorgegeben)",
+                      "themenhinweis": " (aus Stichwörtern abgeleitet)",
+                      "fallkatalog": " (aus Fall-Katalog abgeleitet, nicht amtlich belegt)"}.get(cat.get("quelle"), "")
             lines.append(f"Kategorie:  {cat.get('label') or cat['id']} [{cat['id']}]{origin}{score}")
         elif cat.get("kandidaten"):
             names = ", ".join(str(c["id"]) for c in cat["kandidaten"][:4])
             lines.append(f"Kategorie:  nicht eindeutig – Kandidaten: {names}")
     ort = result.get("standort")
     if ort:
-        name = ort.get("anzeige_name") or result.get("adresse") or ""
+        name = ort.get("anzeige_name") or result.get("adresse")
         prec = f", {ort['genauigkeit']}" if ort.get("genauigkeit") else ""
-        lines.append(f"Standort:   {name}")
-        lines.append(f"            lat {ort['lat']:.5f}, lon {ort['lon']:.5f}{prec}")
+        coords = f"lat {ort['lat']:.5f}, lon {ort['lon']:.5f}{prec}"
+        if name:
+            lines.append(f"Standort:   {name}")
+            lines.append(f"            {coords}")
+        else:
+            lines.append(f"Standort:   {coords}")
     elif result.get("adresse"):
         lines.append(f"Adresse:    {result['adresse']}")
 

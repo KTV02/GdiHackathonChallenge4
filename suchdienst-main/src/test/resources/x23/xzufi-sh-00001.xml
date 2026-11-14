@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xzufi:transfer.operation.050502 produktbezeichnung="DADID" produkthersteller="TSA Public Service GmbH" produktversion="1.0" xzufiVersion="2.3.1" xmlns:xzufi="http://xoev.de/schemata/xzufi/2_3_1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>4b911341-2dce-4fb5-9f8b-4cca4894c4ad</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2024-07-23T09:25:50.636+02:00</xzufi:erstelltDatumZeit>
+        <xzufi:empfaenger>Portalverbund Sammlerdienst</xzufi:empfaenger>
+        <xzufi:sender>L100012|99150085001000</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:kennzeichenTransaktionsende>true</xzufi:kennzeichenTransaktionsende>
+    <xzufi:schreibe>
+        <xzufi:leistung>
+            <xzufi:id schemeAgencyID="L100012" schemeID="OID">9413106</xzufi:id>
+            <xzufi:struktur xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtung" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <xzufi:leistungsgruppierungLeiKa listURI="urn:xoev-de:fim:codeliste:xzufi.leistungsgruppierung" listVersionID="20240101">
+                    <code>UNDEFINED</code>
+                </xzufi:leistungsgruppierungLeiKa>
+                <xzufi:leistungsobjektID schemeAgencyID="GK_LEIKA" schemeAgencyName="GK LeiKa" schemeID="LEIKA_LEISTUNG_SCHLUESSEL" schemeName="LeiKa Leistungsschlüssel" schemeVersionID="2">99150085000000</xzufi:leistungsobjektID>
+                <xzufi:verrichtungLeiKa listURI="urn:xoev-de:fim:codeliste:xzufi.verrichtungskennung" listVersionID="20240701">
+                    <code>1</code>
+                    <name>Erteilung</name>
+                </xzufi:verrichtungLeiKa>
+            </xzufi:struktur>
+            <xzufi:referenzLeistungsschluessel schemeURI="urn:de:fim:leika:leistung" schemeVersionID="20220301">99150085001000</xzufi:referenzLeistungsschluessel>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:inhalt html="true" languageCode="de">Ingenieurin und Ingenieur mit ausländischer Berufsqualifikation, Erlaubnis zum Führen der Berufsbezeichnung "Ingenieurin" oder "Ingenieur" beantragen</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">Engineer with foreign professional qualification, apply for permission to use the professional title "engineer</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>02</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:inhalt html="true" languageCode="de">Ingenieurin und Ingenieur mit ausländischer Berufsqualifikation, Erlaubnis zum Führen der Berufsbezeichnung "Ingenieurin" oder "Ingenieur" beantragen</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">Engineer with foreign professional qualification, apply for permission to use the professional title "engineer</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>03</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>14</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;&lt;strong&gt;Working without recognition&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;You can also work without the recognition, e.g. employed in an engineering office.&lt;/p&gt; &lt;p&gt;But: The job title "engineer" is specially protected. You are not allowed to use the professional title. This also applies to a word combination with the professional title.&lt;br&gt; &lt;br&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Freedom of services&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;You only want to offer services in Germany sometimes and for a short time? Then you usually do not need recognition. You must meet these requirements:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;You must be established in another state of the EU, the EEA or in Switzerland.&lt;/li&gt; &lt;li&gt;You must provide proof of your professional qualification.&lt;/li&gt; &lt;li&gt;You must declare or register your activity in writing with the competent body.&lt;/li&gt; &lt;li&gt;You may need to prove: At least one year of professional experience in the profession in the last 10 years.&lt;/li&gt; &lt;li&gt;If you are self-employed, the following may also apply: you must have adequate professional liability insurance.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Certificate evaluation of a foreign university qualification&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;A certificate evaluation can make it easier for you to enter the German job market. The Central Office for Foreign Education (ZAB) evaluates your certificate. Please note: The certificate evaluation does not replace the recognition of your professional qualification. You can only obtain recognition of your professional qualification from the relevant office.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;&lt;strong&gt;Arbeiten ohne Anerkennung&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Sie können auch ohne die Anerkennung arbeiten, z. B. angestellt in einem Ingenieurbüro.&lt;/p&gt; &lt;p&gt;Aber: Die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" ist besonders geschützt. Sie dürfen die Berufsbezeichnung nicht führen. Das gilt auch für eine Wortverbindung mit der Berufsbezeichnung.&lt;br&gt; &amp;#xa0;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Dienstleistungsfreiheit&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Sie möchten nur manchmal und für kurze Zeit in Deutschland Dienstleistungen anbieten? Dann brauchen Sie meistens keine Anerkennung. Sie müssen diese Voraussetzungen erfüllen:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Sie müssen in einem anderen Staat der EU, des EWR oder in der Schweiz niedergelassen sein.&lt;/li&gt; &lt;li&gt;Sie müssen Ihre Berufsqualifikation nachweisen.&lt;/li&gt; &lt;li&gt;Sie müssen Ihre Tätigkeit schriftlich bei der zuständigen Stelle melden oder registrieren.&lt;/li&gt; &lt;li&gt;Sie müssen vielleicht nachweisen: Mindestens ein Jahr Berufserfahrung in dem Beruf in den letzten 10 Jahren.&lt;/li&gt; &lt;li&gt;Wenn Sie selbständig arbeiten gilt vielleicht auch: Sie müssen eine angemessene Berufshaftpflichtversicherung haben.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Zeugnisbewertung einer ausländischen Hochschulqualifikation&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Eine Zeugnisbewertung kann Ihnen den Zugang zum deutschen Arbeitsmarkt erleichtern. Die Zentralstelle für ausländisches Bildungswesen (ZAB) bewertet Ihr Zeugnis. Beachten Sie: Die Zeugnisbewertung ersetzt nicht die Anerkennung Ihrer Berufsqualifikation. Die Anerkennung Ihrer Berufsqualifikation erhalten Sie nur von der zuständigen Stelle.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>16</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>17</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;ul&gt; &lt;li&gt;Ingenieurin und Ingenieur mit ausländischer Berufsqualifikation, Anerkennung beantragen&lt;/li&gt; &lt;li&gt;Antrag auf Genehmigung zum Führen der Berufsbezeichnung "Ingenieurin" oder "Ingenieur"&lt;/li&gt; &lt;li&gt;Um ohne Einschränkungen als Ingenieurin und Ingenieur arbeiten zu dürfen, muss die ausländische Berufsqualifikation anerkannt werden.&lt;/li&gt; &lt;li&gt;Die Anerkennung ist notwendig, um die Erlaubnis zum Führen der Berufsbezeichnung "Ingenieurin" oder "Ingenieur" zu beantragen&lt;/li&gt; &lt;li&gt;Im Anerkennungsverfahren wird geprüft, ob die ausländische Berufsqualifikation mit der deutschen Berufsqualifikation gleichwertig ist.&lt;/li&gt; &lt;li&gt;Wenn es wesentliche Unterschiede gibt, können meistens Ausgleichsmaßnahmen oder Bildungsmaßnahmen gemacht werden.&lt;/li&gt; &lt;li&gt;Der Antrag auf Anerkennung kann auch aus dem Ausland gestellt werden.&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">&lt;ul&gt; &lt;li&gt;Engineer with foreign professional qualification, application for recognition&lt;/li&gt; &lt;li&gt;Application for permission to use the professional title of "engineer".&lt;/li&gt; &lt;li&gt;In order to be allowed to work as an engineer without restrictions, the foreign professional qualification must be recognized.&lt;/li&gt; &lt;li&gt;Recognition is necessary in order to apply for permission to use the professional title "engineer".&lt;/li&gt; &lt;li&gt;In the recognition procedure, it is examined whether the foreign professional qualification is equivalent to the German professional qualification.&lt;/li&gt; &lt;li&gt;If there are significant differences, compensatory measures or educational measures can usually be taken.&lt;/li&gt; &lt;li&gt;The application for recognition can also be made from abroad.&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>05</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>12</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Sie können gegen die Entscheidung von der zuständigen Stelle rechtlich vorgehen. Die Entscheidung wird dann überprüft. Details zu diesem Verfahren stehen in der Rechtsbehelfsbelehrung am Ende Ihres Bescheides. Wir empfehlen Ihnen: Sprechen Sie zuerst mit einer Beratungsstelle, bevor Sie widersprechen oder klagen.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;You can take legal action against the decision from the competent body. The decision will then be reviewed. Details of this procedure can be found in the appeal instructions at the end of your decision. We recommend that you first speak to a counseling center before appealing or taking legal action.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>25</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>13</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Formulare erhalten Sie von der zuständigen Stelle.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;Forms can be obtained from the relevant office.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>14</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;In order to be allowed to use the professional title "engineer" in Germany, you need a permit. For the permit, you need the recognition of your foreign professional qualification as an engineer.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Damit Sie die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" in Deutschland führen dürfen, brauchen Sie eine Erlaubnis. Für die Erlaubnis brauchen Sie die Anerkennung Ihrer ausländischen Berufsqualifikation als Ingenieurin oder Ingenieur.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>24</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>6</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="en">&lt;ul&gt; &lt;li&gt;You have a completed professional qualification as an engineer from abroad.&lt;/li&gt; &lt;li&gt;You have your main residence, your branch office or your predominant work in the selected federal state. Or: You want to live or work in the selected federal state soon.&lt;br&gt; &lt;br&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;You may also need to meet the following requirement:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Personal suitability: you are reliable and have no criminal record.&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="de">&lt;ul&gt; &lt;li&gt;Sie haben eine abgeschlossene Berufsqualifikation als Ingenieurin oder Ingenieur aus dem Ausland.&lt;/li&gt; &lt;li&gt;Sie haben Ihren Hauptwohnsitz, Ihre Niederlassung oder Ihre überwiegende Arbeit in dem gewählten Bundesland. Oder: Sie wollen bald in dem gewählten Bundesland wohnen oder arbeiten.&lt;br&gt; &amp;#xa0;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Vielleicht müssen Sie auch folgende Voraussetzung&amp;#xa0;erfüllen:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Persönliche Eignung: Sie sind zuverlässig und haben keine Vorstrafen.&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>09</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>3</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;You can hand in the application with the documents to the relevant office or send it by mail. Do not send originals. Sometimes you can send the application electronically. The competent body will inform you.&lt;/p&gt; &lt;p&gt;The competent body receives the application. It will confirm to you after one month at the latest that the application has arrived. When the competent body has received all the documents from you, it will process your application.&lt;/p&gt; &lt;p&gt;The competent body then checks: Is your professional qualification equivalent to the professional qualification in your federal state? The content of the training and the duration of the training, for example, are important for the comparison. The competent body also takes into account your professional experience, further certificates of competence and qualifications.&lt;/p&gt; &lt;p&gt;During the equivalency test, the competent body often also checks:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Have you completed a course of study at a university? Or have you completed training at the same level?&lt;/li&gt; &lt;li&gt;In your studies, did you primarily take exams in the subjects of mathematics, computer science, natural sciences and technology (STEM subjects)?&lt;/li&gt; &lt;li&gt;Did your studies last at least 3 years?&lt;/li&gt; &lt;li&gt;Are you allowed to work as an engineer in your country of education?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;You may have to submit additional documents for this. The competent office will inform you.&lt;/p&gt; &lt;p&gt;The competent office will then check other requirements for the use of the professional title. These include, for example, your place of residence or your intention to work in the chosen state.&lt;/p&gt; &lt;p&gt;If your qualification is equivalent and you meet all other requirements, your professional qualification will be recognized. You are allowed to use the professional title "Ingenieurin" or "Ingenieur". You will receive a certificate to this effect. Then you have the same professional rights as a person with the German professional qualification.&lt;/p&gt; &lt;p&gt;Are there significant differences between your professional qualification and the German professional qualification? Then your professional qualification will not be recognized. In most cases, you can then make a compensatory measure. This allows you to compensate for the essential differences.&lt;/p&gt; &lt;p&gt;There are different compensatory measures:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Adaptation course: you work as an engineer. In this, a qualified person supervises them. You may have to do additional training.&lt;/li&gt; &lt;li&gt;Aptitude test: In the aptitude test, only the areas in which significant differences have been identified are tested.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Often you can choose between an adjustment course or a proficiency test. If you successfully complete the compensatory measure, you will receive recognition. You will be allowed to use the professional title "Ingenieurin" or "Ingenieur".&lt;/p&gt; &lt;p&gt;In some federal states, you may not be able to take a compensatory measure with a qualification from a third country. In that case, you can take an educational measure. For example, you can take courses or do continuing education. You have to organize the participation in the courses yourself. After that, you can submit a new application. The responsible office will inform you about your options.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Sie können den Antrag mit den Dokumenten bei der zuständigen Stelle abgeben oder mit der Post schicken. Versenden Sie keine Originale.&amp;#xa0;Manchmal können Sie den Antrag auch elektronisch senden. Die zuständige Stelle informiert Sie.&lt;/p&gt; &lt;p&gt;Die zuständige Stelle bekommt den Antrag. Sie bestätigt Ihnen spätestens nach einem Monat, dass der Antrag angekommen ist. Wenn die zuständige Stelle alle Dokumente von Ihnen erhalten hat, bearbeitet sie Ihren Antrag.&lt;/p&gt; &lt;p&gt;Die zuständige Stelle prüft dann: Ist Ihre Berufsqualifikation mit der Berufsqualifikation in Ihrem Bundesland gleichwertig? Für den Vergleich sind z. B. Inhalt der Ausbildung und Dauer der Ausbildung wichtig. Die zuständige Stelle berücksichtigt auch Ihre Berufserfahrung, weitere Befähigungsnachweise und Qualifikationen.&lt;/p&gt; &lt;p&gt;Bei der Gleichwertigkeitsprüfung prüft die zuständige Stelle oft auch:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Haben Sie ein Studium an einer Hochschule abgeschlossen? Oder haben Sie eine Ausbildung auf gleichem Niveau gemacht?&lt;/li&gt; &lt;li&gt;Haben Sie in Ihrem Studium vor allem Prüfungen in den Fächern Mathematik, Informatik, Naturwissenschaft und Technik (MINT-Fächer) absolviert?&lt;/li&gt; &lt;li&gt;Dauerte das Studium mindestens 3 Jahre?&lt;/li&gt; &lt;li&gt;Dürfen Sie in Ihrem Ausbildungsland als Ingenieurin oder Ingenieur arbeiten?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Vielleicht müssen Sie dafür weitere Dokumente abgeben. Die zuständige Stelle informiert Sie.&lt;/p&gt; &lt;p&gt;Die zuständige Stelle prüft danach weitere Voraussetzungen für das Führen der Berufsbezeichnung. Dazu zählt z. B. Ihr Wohnsitz oder Ihre Absicht, in dem gewählten Bundesland zu arbeiten.&lt;/p&gt; &lt;p&gt;Ist Ihre Qualifikation gleichwertig und Sie erfüllen alle weiteren Voraussetzungen, wird Ihre Berufsqualifikation anerkannt. Sie dürfen die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" führen. Sie erhalten darüber eine Bescheinigung. Dann haben Sie beruflich die gleichen Rechte wie eine Person mit der deutschen Berufsqualifikation.&lt;/p&gt; &lt;p&gt;Gibt es wesentliche Unterschiede zwischen Ihrer Berufsqualifikation und der deutschen Berufsqualifikation? Dann wird Ihre Berufsqualifikation nicht anerkannt. In den meisten Fällen können Sie dann eine Ausgleichsmaßnahme machen. Damit können Sie die wesentlichen Unterschiede ausgleichen.&lt;/p&gt; &lt;p&gt;Es gibt verschiedene Ausgleichsmaßnahmen:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Anpassungslehrgang: Sie arbeiten als Ingenieurin oder Ingenieur. Dabei beaufsichtigt sie eine qualifizierte Person. Vielleicht müssen Sie eine Zusatzausbildung machen.&lt;/li&gt; &lt;li&gt;Eignungsprüfung: In der Eignungsprüfung werden nur die Bereiche geprüft, in denen wesentliche Unterschiede festgestellt wurden.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Oft können Sie zwischen einem Anpassungslehrgang oder einer Eignungsprüfung wählen. Wenn Sie die Ausgleichsmaßnahme erfolgreich absolvieren, erhalten Sie die Anerkennung. Sie dürfen die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" führen.&lt;/p&gt; &lt;p&gt;In manchen Bundesländern können Sie mit einer Qualifikation aus einem Drittstaat vielleicht keine Ausgleichsmaßnahme machen. Dann können Sie eine Bildungsmaßnahme absolvieren. Sie können z. B. an Kursen teilnehmen oder eine Weiterbildung machen. Sie müssen die Teilnahme an den Kursen selbst organisieren. Danach können Sie einen neuen Antrag stellen. Die zuständige Stelle informiert Sie über Ihre Möglichkeiten.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>11</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;ul&gt; &lt;li&gt;Es gibt viele Beratungsangebote. Diese finden Sie auf dem Portal Anerkennung in Deutschland.&lt;br&gt; &amp;#xa0;&lt;/li&gt; &lt;li&gt;Lassen Sie sich von einer IQ-Beratungsstelle&lt;br&gt; persönlich zu diesem Verfahren und Ihrer Qualifikation beraten. Die Beraterinnen und Berater helfen Ihnen auch vor der Antragstellung mit Ihren Unterlagen. Die Beratung ist kostenlos.&lt;br&gt; &amp;#xa0;&lt;/li&gt; &lt;li&gt;Sie können auch die Hotline vom Bundesamt für Migration und Flüchtlinge anrufen. Die Hotline beantwortet Ihnen Fragen zum Thema "Arbeiten und Leben in Deutschland".&lt;br&gt; Telefonnummer: +49 30 1815-1111&lt;br&gt; Sprechzeiten:&lt;br&gt; Montag bis Freitag 08:00 - 18:00 Uhr (MEZ)&lt;br&gt; &lt;br&gt; Wenn Sie im Ausland sind: Über die Hotline erreichen Sie auch die Zentrale Servicestelle Berufsanerkennung (ZSBA). Dies bietet Ihnen vertiefte Beratung und Unterstützung im Anerkennungsverfahren und führt eine Standortberatung durch.&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="en">&lt;ul&gt; &lt;li&gt;There are many consulting services available. You can find them on the Recognition in Germany portal.&lt;br&gt; &lt;br&gt;&lt;/li&gt; &lt;li&gt;Let yourself be advised personally by an IQ&lt;br&gt; for personal advice on this procedure and your qualification. The advisors will also help you with your documents before you apply. The consultation is free of charge.&lt;br&gt; &lt;br&gt;&lt;br&gt;&lt;/li&gt; &lt;li&gt;You can also call the hotline from the Federal Office for Migration and Refugees. The hotline will answer your questions about working and living in Germany.&lt;br&gt; Phone number: +49 30 1815-1111&lt;br&gt; Office hours:&lt;br&gt; Monday to Friday 08:00 - 18:00 (CET)&lt;br&gt; &lt;br&gt; If you are abroad: You can also reach the Central Service Point for Professional Recognition (ZSBA) via the hotline. This offers you in-depth advice and support in the recognition process and provides location advice.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt; &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>23</code>
+                </xzufi:leikaTextmodul>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/beratung.php</xzufi:uri>
+                    <xzufi:titel>Beratungsangebote auf dem Portal Anerkennung in Deutschland</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/beratungssuche.php</xzufi:uri>
+                    <xzufi:titel>Beratung bei einer IQ-Beratungsstelle</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/zentrale-servicestelle-berufsanerkennung.php</xzufi:uri>
+                    <xzufi:titel>Beratung durch die Zentrale Servicestelle Berufsanerkennung (ZSBA)</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>18</xzufi:positionDarstellung>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>15</code>
+                </xzufi:leikaTextmodul>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de</xzufi:uri>
+                    <xzufi:titel>Informationen zur Anerkennung ausländischer Berufsqualifikationen auf dem Portal Anerkennung in Deutschland</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/finanzielle-foerderung.php</xzufi:uri>
+                    <xzufi:titel>Finanzielle Hilfen für das Anerkennungsverfahren</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/hochschule.php</xzufi:uri>
+                    <xzufi:titel>Informationen zur Zeugnisbewertung</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.justiz-dolmetscher.de/Recherche</xzufi:uri>
+                    <xzufi:titel>Öffentlich bestellte Übersetzerinnen und Übersetzer in Deutschland</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>3</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="en">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de</xzufi:uri>
+                    <xzufi:titel>Information on the recognition of foreign professional qualifications on the Recognition in Germany portal</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="en">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/finanzielle-foerderung.php</xzufi:uri>
+                    <xzufi:titel>Financial aid for the recognition procedure</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>5</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="en">
+                    <xzufi:uri>https://www.anerkennung-in-deutschland.de/html/de/hochschule.php</xzufi:uri>
+                    <xzufi:titel>Information on Certificate Evaluation</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>6</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="en">
+                    <xzufi:uri>https://www.justiz-dolmetscher.de/Recherche</xzufi:uri>
+                    <xzufi:titel>Publicly appointed translators in Germany</xzufi:titel>
+                    <xzufi:beschreibung/>
+                    <xzufi:positionDarstellung>7</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="en">&lt;p&gt;The profession of engineer is regulated in Germany. The job title is particularly protected. This means: You must prove a specific qualification in order to be allowed to use the professional title "Ingenieurin" or "Ingenieur". To prove a foreign qualification, you can apply for recognition of your professional qualification. You can also submit the application for the recognition procedure from abroad.&lt;/p&gt; &lt;p&gt;In the recognition procedure, the competent body compares your professional qualification from abroad with the professional qualification in the chosen federal state. The procedure is called: equivalence determination. You will receive a decision on the result of the equivalence assessment. The notice will state your professional qualifications. If you lack professional qualifications for recognition, the notice will also state the main differences.&lt;/p&gt; &lt;p&gt;In order to use the professional title "engineer", you must fulfill other requirements in addition to the equivalence of the professional qualifications. You may have to prove these requirements at a later date:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Main residence, establishment or predominant work in the chosen federal state. Or: You want to live or work in the chosen federal state soon.&lt;/li&gt; &lt;li&gt;Personal suitability&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;If your qualifications are equivalent and you meet all other requirements, you may use the professional title "engineer".&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Der Beruf Ingenieurin und Ingenieur ist in Deutschland reglementiert. Die Berufsbezeichnung ist besonders geschützt. Das bedeutet: Sie müssen eine spezifische Qualifikation nachweisen, um die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" führen zur dürfen. Für den Nachweis einer ausländischen Qualifikation können Sie die Anerkennung Ihrer Berufsqualifikation beantragen. Sie können den Antrag für das Anerkennungsverfahren auch aus dem Ausland stellen.&lt;/p&gt; &lt;p&gt;Im Anerkennungsverfahren vergleicht die zuständige Stelle Ihre Berufsqualifikation aus dem Ausland mit der Berufsqualifikation in dem gewählten Bundesland. Das Verfahren heißt: Gleichwertigkeitsfeststellung. Über das Ergebnis der Gleichwertigkeitsfeststellung erhalten Sie einen Bescheid. Der Bescheid nennt Ihre beruflichen Qualifikationen. Wenn Ihnen für eine Anerkennung berufliche Qualifikationen fehlen, nennt der Bescheid auch die wesentlichen Unterschiede.&lt;/p&gt; &lt;p&gt;Für das Führen der Berufsbezeichnung "Ingenieurin" oder "Ingenieur" müssen Sie neben der Gleichwertigkeit der Berufsqualifikation noch weitere Voraussetzungen erfüllen. Diese Voraussetzungen müssen Sie vielleicht erst zu einem späteren Zeitpunkt nachweisen:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Hauptwohnsitz, Niederlassung oder überwiegende Arbeit in dem gewählten Bundesland. Oder: Sie wollen bald in dem gewählten Bundesland wohnen oder arbeiten.&lt;/li&gt; &lt;li&gt;Persönliche Eignung&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Ist Ihre Qualifikation gleichwertig und Sie erfüllen alle weiteren Voraussetzungen, dürfen Sie die Berufsbezeichnung "Ingenieurin" oder "Ingenieur" führen.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>06</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulFrist>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:beschreibung html="true" languageCode="en">&lt;p&gt;None.&lt;/p&gt; &lt;p&gt;Sometimes documents are still missing in the procedure. The responsible office will then inform you by when you have to submit the documents.&lt;/p&gt;</xzufi:beschreibung>
+                <xzufi:beschreibung html="true" languageCode="de">&lt;p&gt;Keine.&lt;/p&gt; &lt;p&gt;Manchmal fehlen noch Unterlagen im Verfahren. Die zuständige Stelle informiert Sie dann, bis wann Sie die Unterlagen nachreichen müssen.&lt;/p&gt;</xzufi:beschreibung>
+            </xzufi:modulFrist>
+            <xzufi:modulBearbeitungsdauer>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:bearbeitungsdauer>
+                    <xzufi:fristauswahl>
+                        <xzufi:fristDauer>
+                            <xzufi:dauer>3</xzufi:dauer>
+                            <xzufi:einheit listURI="urn:xoev-de:fim:codeliste:xzufi.zeiteinheit" listVersionID="3">
+                                <code>MONAT</code>
+                            </xzufi:einheit>
+                        </xzufi:fristDauer>
+                    </xzufi:fristauswahl>
+                    <xzufi:beschreibung languageCode="de">Die zuständige Stelle bestätigt Ihnen nach höchstens einem Monat, dass Ihre Dokumente angekommen sind. Die zuständige Stelle teilt Ihnen mit, wenn Dokumente fehlen. Wenn die Unterlagen vollständig sind, dauert das Verfahren 3 Monate. Manchmal kann die zuständige Stelle das Verfahren verlängern.</xzufi:beschreibung>
+                    <xzufi:beschreibung languageCode="en">The competent body will confirm that your documents have arrived after a maximum of one month. The competent body will inform you if any documents are missing. If the documents are complete, the procedure takes 3 months. Sometimes the competent body can extend the procedure.</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:bearbeitungsdauer>
+            </xzufi:modulBearbeitungsdauer>
+            <xzufi:modulKosten>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:beschreibung html="true" languageCode="de">&lt;p&gt;Zusätzlich können weitere Kosten entstehen (z. B. für Übersetzungen oder Beglaubigungen Ihrer Dokumente oder Ausgleichsmaßnahmen). Diese Kosten sind individuell unterschiedlich.&lt;/p&gt;</xzufi:beschreibung>
+                <xzufi:beschreibung html="true" languageCode="en">&lt;p&gt;In addition, further costs may arise (e.g. for translations or certifications of your documents or compensation measures). These costs vary individually.&lt;/p&gt;</xzufi:beschreibung>
+            </xzufi:modulKosten>
+            <xzufi:modulDokument>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>7</xzufi:positionDarstellung>
+                <xzufi:beschreibungEingehend html="true" languageCode="en">&lt;ul&gt; &lt;li&gt;Application form from the competent body&lt;/li&gt; &lt;li&gt;Proof of identity (e.g. passport or ID card)&lt;/li&gt; &lt;li&gt;Marriage certificate (if your name has changed due to marriage)&lt;/li&gt; &lt;li&gt;Curriculum vitae&lt;/li&gt; &lt;li&gt;Proof of your professional qualification (e.g. certificates, professional diploma)&lt;/li&gt; &lt;li&gt;Proof of your professional experience (e.g. references)&lt;/li&gt; &lt;li&gt;Proof of your other qualifications (e.g. professional training, seminars)&lt;/li&gt; &lt;li&gt;Perhaps: certificate evaluation by the Central Office for Foreign Education (ZAB)&lt;/li&gt; &lt;li&gt;Information about an already submitted application for recognition. Then indicate the office to which you submitted the application.&lt;/li&gt; &lt;li&gt;Do you come from a third country and do not yet live or work in the EU, EEA or Switzerland? Then you must provide evidence: You want to work in the profession in the chosen federal state (e.g. applications, entry visa for gainful employment, personal statement).&lt;/li&gt; &lt;li&gt;Perhaps: Proof of your personal suitability: certificate of good conduct (e.g. criminal record extract, certificate of good standing).&lt;/li&gt; &lt;li&gt;If the profession is not regulated in your country of training, then you may need to prove: at least one year of work experience in the profession in the last 10 years.&lt;/li&gt; &lt;li&gt;If the profession is regulated in your country of training, then you may need to demonstrate: You are allowed to work in the profession in the country of training.&lt;/li&gt; &lt;li&gt;Maybe: registration certificate of your residence in the respective state.&lt;br&gt; &lt;br&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The responsible office will tell you which documents you have to show as originals or hand in as copies. Some copies must be officially certified. We recommend: Do not send originals by mail.&lt;/p&gt; &lt;p&gt;You must present your documents in German. The translations must be done by publicly appointed or authorized translators.&lt;/p&gt;</xzufi:beschreibungEingehend>
+                <xzufi:beschreibungEingehend html="true" languageCode="de">&lt;ul&gt; &lt;li&gt;Antragsformular von der zuständigen Stelle&lt;/li&gt; &lt;li&gt;Identitätsnachweis (z. B. Reisepass oder Personalausweis)&lt;/li&gt; &lt;li&gt;Eheurkunde (wenn sich Ihr Name durch Heirat geändert hat)&lt;/li&gt; &lt;li&gt;Lebenslauf&lt;/li&gt; &lt;li&gt;Nachweise Ihrer Berufsqualifikation (z. B. Zeugnisse, Berufsurkunde)&lt;/li&gt; &lt;li&gt;Nachweis Ihrer Berufserfahrung (z. B. Arbeitszeugnisse)&lt;/li&gt; &lt;li&gt;Nachweise Ihrer sonstigen Qualifikationen (z. B. berufliche Weiterbildungen, Seminare)&lt;/li&gt; &lt;li&gt;Vielleicht: Zeugnisbewertung der Zentralstelle für ausländisches Bildungswesen (ZAB)&lt;/li&gt; &lt;li&gt;Auskunft über einen bereits gestellten Antrag auf Anerkennung. Geben Sie dann an, bei welcher Stelle Sie den Antrag gestellt haben.&lt;/li&gt; &lt;li&gt;Sie kommen aus einem Drittstaat und wohnen oder arbeiten noch nicht in der EU, dem EWR oder der Schweiz? Dann müssen Sie nachweisen: Sie wollen in dem gewählten Bundesland in dem Beruf arbeiten (z. B. Bewerbungen, Einreisevisum zur Erwerbstätigkeit, persönliche Erklärung).&lt;/li&gt; &lt;li&gt;Vielleicht: Nachweis Ihrer persönlichen Eignung: Führungszeugnis (z. B. Strafregisterauszug, Certificate of Good Standing)&lt;/li&gt; &lt;li&gt;Wenn der Beruf in Ihrem Ausbildungsland nicht reglementiert ist, dann müssen Sie vielleicht nachweisen: mindestens ein Jahr Berufserfahrung in dem Beruf in den letzten 10 Jahren.&lt;/li&gt; &lt;li&gt;Wenn der Beruf in Ihrem Ausbildungsland reglementiert ist, dann müssen Sie vielleicht nachweisen: Sie dürfen im Ausbildungsland in dem Beruf arbeiten.&lt;/li&gt; &lt;li&gt;Vielleicht: Meldebescheinigung über Ihren Wohnsitz in dem jeweiligen Bundesland&lt;br&gt; &amp;#xa0;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Die zuständige Stelle teilt Ihnen mit, welche Dokumente Sie im Original vorzeigen oder als Kopie abgeben müssen. Einige Kopien müssen amtlich beglaubigt sein. Wir empfehlen Ihnen: Senden Sie keine Originale per Post.&lt;/p&gt; &lt;p&gt;Sie müssen Ihre Dokumente in deutscher Sprache vorlegen. Die Übersetzungen müssen öffentlich bestellte oder ermächtigte Übersetzerinnen und Übersetzer machen.&lt;/p&gt;</xzufi:beschreibungEingehend>
+            </xzufi:modulDokument>
+            <xzufi:modulBegriffImKontext>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Foreign qualification</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">berufliche Anerkennung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Anerkennen</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Berufsabschluss</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Anpassungslehrgang</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Vocational recognition</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Ingenieur</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Ingenieurin</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Professional qualification</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Occupation</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Reglementiert</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Assessment of higher education certificates</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Equivalence assessment</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Gleichwertigkeitsprüfung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Berufsbezeichnung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Gleichwertigkeitsbescheid</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Knowledge test</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Certificate of equivalence</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">ausländischer Abschluss</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Eignungsprüfung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Bildung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Anerkennungsverfahren</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Training</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Gleichwertigkeitsfeststellung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">ausländischer Beruf</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Ausbildung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Erlaubnis zum Führen der Berufsbezeichnung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Beruf</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Zeugnisbewertung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Notice of equivalence</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Anerkennung in Deutschland</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Recognition in Germany</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Kenntnisprüfung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Berufsqualifikation</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Gleichwertigkeit</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Recognition of profession</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Vocational qualification</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Aptitude test</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+            </xzufi:modulBegriffImKontext>
+            <xzufi:modulFachlicheFreigabe>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:fachlichFreigegebenAm>2021-10-01+02:00</xzufi:fachlichFreigegebenAm>
+                <xzufi:fachlichFreigegebenDurch languageCode="en">Federal Institute for Vocational Education and Training Saxony-Anhalt Chamber of Engineers</xzufi:fachlichFreigegebenDurch>
+                <xzufi:fachlichFreigegebenDurch languageCode="de">Bundesinstitut für Berufsbildung Ingenieurkammer Sachsen-Anhalt</xzufi:fachlichFreigegebenDurch>
+            </xzufi:modulFachlicheFreigabe>
+            <xzufi:modulUrsprungsportal languageCode="de">
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                <xzufi:uri>https://zufish.schleswig-holstein.de/portaldeeplink?tsa_leistung_id=9413106&amp;tsa_sprache=de_DE</xzufi:uri>
+                <xzufi:titel>Ingenieurin und Ingenieur mit ausländischer Berufsqualifikation, Erlaubnis zum Führen der Berufsbezeichnung „Ingenieurin“ oder „Ingenieur“ beantragen</xzufi:titel>
+            </xzufi:modulUrsprungsportal>
+            <xzufi:modulUrsprungsportal languageCode="en">
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                <xzufi:uri>https://zufish.schleswig-holstein.de/portaldeeplink?tsa_leistung_id=9413106&amp;tsa_sprache=en</xzufi:uri>
+                <xzufi:titel>Engineer with foreign professional qualification, apply for permission to use the professional title "engineer</xzufi:titel>
+            </xzufi:modulUrsprungsportal>
+            <xzufi:typisierung listURI="urn:xoev-de:fim:codeliste:xzufi.typisierung" listVersionID="20240101">
+                <code>4</code>
+                <name>Regelungskompetenz auf Landesebene</name>
+            </xzufi:typisierung>
+            <xzufi:kennzeichenFormularSchriftformerfordernis>false</xzufi:kennzeichenFormularSchriftformerfordernis>
+            <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20211001">
+                <code>1040400</code>
+            </xzufi:klassifizierung>
+            <xzufi:informationsbereicheSDG>
+                <xzufi:informationsbereichSDG1 listURI="urn:xoev-de:fim:codeliste:xzufi.sdginformationsbereich1" listVersionID="1">
+                    <code>1020300</code>
+                </xzufi:informationsbereichSDG1>
+            </xzufi:informationsbereicheSDG>
+            <xzufi:gueltigkeitGebietID schemeID="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bundesland" schemeVersionID="2010-04-01">010000000000</xzufi:gueltigkeitGebietID>
+            <xzufi:durchfuehrbarEinheitlicheStelle listURI="urn:xoev-de:fim:codeliste:xzufi.einheitlichestelletyp" listVersionID="1">
+                <code>11</code>
+            </xzufi:durchfuehrbarEinheitlicheStelle>
+            <xzufi:relevantFuerStaatsangehoerigkeit/>
+            <xzufi:versionsinformation>
+                <xzufi:geaendertDatumZeit>2024-06-01T00:48:59+02:00</xzufi:geaendertDatumZeit>
+            </xzufi:versionsinformation>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>en</xzufi:languageCode>
+                <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+        </xzufi:leistung>
+    </xzufi:schreibe>
+</xzufi:transfer.operation.050502>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-2="http://xoev.de/schemata/genericode/2"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-2:nameKurz>Kommunikationssystem</xoev-cl-2:nameKurz>
+         <xoev-cl-2:beschreibung-codeliste>Code für Kommunikationssysteme. Dies sind Kommunikationskanäle für "Maschine zu Maschine" Kommunikation.</xoev-cl-2:beschreibung-codeliste>
+         <xoev-cl-2:herausgebernameKurz>TELEPORT</xoev-cl-2:herausgebernameKurz>
+         <xoev-cl-2:datumGueltigkeitAb>2020-12-01</xoev-cl-2:datumGueltigkeitAb>
+         <xoev-cl-2:versionXOEVHandbuch>2.1</xoev-cl-2:versionXOEVHandbuch>
+         <xoev-cl-2:aenderungZurVorversion>Enligsch ergänzt</xoev-cl-2:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>Kommunikationssystem</ShortName>
+      <LongName xml:lang="en">Codes für Kommunikationssysteme</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:tsa:infodienste:codeliste:kommunikationssystem</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:tsa:infodienste:codeliste:kommunikationssystem_2</CanonicalVersionUri>
+      <Agency>
+         <LongName xml:lang="de">TELEPORT</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="bezeichnung" Use="required">
+         <ShortName>bezeichnung</ShortName>
+         <LongName>Bezeichnung</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="designation" Use="required">
+         <ShortName>designation</ShortName>
+         <LongName>Designation</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-code/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>De-Mail</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>De-Mail</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>EGVP (Govello-ID)</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>EGVP (Govello-ID)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>E-Mail (Landesnetz)</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>E-Mail (National network)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>E-Mail (EA)</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>E-Mail (EA)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>005</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>Gateway</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>Gateway</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>006</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>Nachrichtenbroker</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>Message broker</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>007</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>Webservice</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>Webservice</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>008</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>FITCONNECTDESTSIGNATURE</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>FITCONNECTDESTSIGNATURE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>009</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>ThAVEL</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>ThAVEL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>010</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>DVDV (DVDV-ID)</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>DVDV (DVDV-ID)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>011</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>Kommunales Fallmanagement</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>Municipal case management</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>012</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>FMT</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>FMT</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>013</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>Xfall</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>Xfall</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>014</SimpleValue>
+         </Value>
+         <Value ColumnRef="bezeichnung">
+            <SimpleValue>beBPo</SimpleValue>
+         </Value>
+         <Value ColumnRef="designation">
+            <SimpleValue>beBPo</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

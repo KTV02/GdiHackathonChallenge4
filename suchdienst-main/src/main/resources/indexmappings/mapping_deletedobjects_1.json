@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "deletedAt": {
+      "type": "date"
+    }
+  }
+}

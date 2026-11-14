@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        10.0154117266061,
+        53.6812005738047,
+        10.0155631049153,
+        53.6812904436537
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.01549,
+          53.68125
+        ]
+      },
+      "properties": {
+        "text": "Am Ochsenzoll 140, 22417 Hamburg - Langenhorn",
+        "typ": "Haus",
+        "score": 1.4546175,
+        "bbox": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                10.01541,
+                53.6812
+              ],
+              [
+                10.01541,
+                53.68129
+              ],
+              [
+                10.01556,
+                53.68129
+              ],
+              [
+                10.01556,
+                53.6812
+              ],
+              [
+                10.01541,
+                53.6812
+              ]
+            ]
+          ]
+        },
+        "ags": "02400013",
+        "rs": "024000000013",
+        "schluessel": "0240000000130432A3010",
+        "bundesland": "Hamburg",
+        "regbezirk": "Bezirk Hamburg-Nord",
+        "kreis": "",
+        "gemeinde": "Langenhorn",
+        "plz": "22417",
+        "ort": "Hamburg",
+        "ortsteil": "Langenhorn",
+        "strasse": "Am Ochsenzoll",
+        "haus": "140",
+        "qualitaet": "A"
+      },
+      "id": "DEHHALKAP0008cCh"
+    }
+  ]
+}

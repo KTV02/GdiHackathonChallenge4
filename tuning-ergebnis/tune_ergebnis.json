@@ -1,0 +1,928 @@
+{
+  "parameter": {
+    "QUERY_CLEAN": false,
+    "FUZZY_BOOST": 0.3,
+    "FUZZINESS": "AUTO:4,8",
+    "LEXICAL_FIELDS": [
+      "titel^4",
+      "synonyme^3",
+      "beschreibung"
+    ],
+    "LEXICAL_WEIGHT": 0.5,
+    "RRF_K": 30,
+    "SEARCH_SIZE": 80,
+    "MIN_SCORE_ES_SEMANTIC": 0.009,
+    "RANK_DECAY": 0.15,
+    "MULTI_CATEGORY_WEIGHT": 1.0,
+    "AMBIGUITY_RATIO": 0.8,
+    "AMBIGUITY_RATIO_MULTI": 0.7,
+    "LIVE_TOP": 6
+  },
+  "ausgang": {
+    "QUERY_CLEAN": false,
+    "FUZZY_BOOST": 0.3,
+    "FUZZINESS": "AUTO:5,100",
+    "LEXICAL_FIELDS": [
+      "titel^4",
+      "synonyme^3",
+      "beschreibung"
+    ],
+    "LEXICAL_WEIGHT": 0.8,
+    "RRF_K": 60,
+    "SEARCH_SIZE": 40,
+    "MIN_SCORE_ES_SEMANTIC": 0.013,
+    "RANK_DECAY": 0.35,
+    "MULTI_CATEGORY_WEIGHT": 0.6,
+    "AMBIGUITY_RATIO": 0.86,
+    "AMBIGUITY_RATIO_MULTI": 0.7,
+    "LIVE_TOP": 3
+  },
+  "training": {
+    "vorher": {
+      "richtig": 160,
+      "falsch": 50,
+      "vorn": 165,
+      "keine": 751
+    },
+    "nachher": {
+      "richtig": 173,
+      "falsch": 46,
+      "vorn": 210,
+      "keine": 697
+    }
+  },
+  "kontrolle": {
+    "vorher": {
+      "richtig": 53,
+      "falsch": 20,
+      "vorn": 44,
+      "keine": 183
+    },
+    "nachher": {
+      "richtig": 51,
+      "falsch": 17,
+      "vorn": 64,
+      "keine": 168
+    }
+  },
+  "kontrolle_je_datei": {
+    "eval_holdout.jsonl": {
+      "vorher": {
+        "richtig": 27,
+        "falsch": 11,
+        "vorn": 28,
+        "keine": 110
+      },
+      "nachher": {
+        "richtig": 27,
+        "falsch": 10,
+        "vorn": 40,
+        "keine": 99
+      }
+    },
+    "eval_holdout2.jsonl": {
+      "vorher": {
+        "richtig": 26,
+        "falsch": 9,
+        "vorn": 16,
+        "keine": 73
+      },
+      "nachher": {
+        "richtig": 24,
+        "falsch": 7,
+        "vorn": 24,
+        "keine": 69
+      }
+    }
+  },
+  "finder": {
+    "training": {
+      "vorher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 256,
+            "falsch": 128,
+            "vorn": 69,
+            "keine": 673
+          },
+          "+ Stichwörter": {
+            "richtig": 628,
+            "falsch": 135,
+            "vorn": 31,
+            "keine": 332
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 1063,
+            "falsch": 53,
+            "vorn": 1,
+            "keine": 9
+          },
+          "+ Katalog zuerst": {
+            "richtig": 1097,
+            "falsch": 19,
+            "vorn": 1,
+            "keine": 9
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "ich habe nebenbei als selbstständiger gearbeitet und muss Umsatzsteuer zahlen",
+            "erwartet": [
+              "finanzamt"
+            ],
+            "bekam": "gewerbeamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Hundesteuerbefreiung beantragen",
+            "erwartet": [
+              "stadtverwaltung"
+            ],
+            "bekam": "finanzamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Umzugswagen Halteverbotszone",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Obdachlosigkeit Hilfe Ordnungsbehörde",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "sozialamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Aufenthaltskarte Verlust",
+            "erwartet": [
+              "auslaenderbehoerde"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Einbürgerungstest Anmeldung",
+            "erwartet": [
+              "auslaenderbehoerde"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Orientierungskurs Test",
+            "erwartet": [
+              "bundesamt_migration"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Umgangsrecht gerichtlich regeln",
+            "erwartet": [
+              "amtsgericht"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Vermisstenanzeige aufgeben",
+            "erwartet": [
+              "polizei"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Gemeinsames Sorgerecht unverheiratet",
+            "erwartet": [
+              "jugendamt"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Eingliederungshilfe Kind mit Behinderung",
+            "erwartet": [
+              "jugendamt"
+            ],
+            "bekam": "sozialamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Eingliederungshilfe Erwachsene",
+            "erwartet": [
+              "sozialamt"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Sozialpass Stadt",
+            "erwartet": [
+              "sozialamt",
+              "stadtverwaltung"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Einstiegsgeld Selbständigkeit",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Bürgergeld Stromkosten Nachzahlung",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Feinstaubplakette Umweltplakette",
+            "erwartet": [
+              "zulassungsstelle",
+              "strassenverkehrsbehoerde",
+              "umweltamt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Hundeführerschein Sachkunde",
+            "erwartet": [
+              "veterinaeramt",
+              "ordnungsamt",
+              "stadtverwaltung"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "themenhinweis"
+          },
+          {
+            "anliegen": "Bienenvolk anmelden",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Heimtierausweis ausstellen",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          }
+        ]
+      },
+      "nachher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 284,
+            "falsch": 168,
+            "vorn": 99,
+            "keine": 575
+          },
+          "+ Stichwörter": {
+            "richtig": 624,
+            "falsch": 145,
+            "vorn": 41,
+            "keine": 316
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 1068,
+            "falsch": 49,
+            "vorn": 1,
+            "keine": 8
+          },
+          "+ Katalog zuerst": {
+            "richtig": 1101,
+            "falsch": 16,
+            "vorn": 1,
+            "keine": 8
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "ich habe nebenbei als selbstständiger gearbeitet und muss Umsatzsteuer zahlen",
+            "erwartet": [
+              "finanzamt"
+            ],
+            "bekam": "gewerbeamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Hundesteuerbefreiung beantragen",
+            "erwartet": [
+              "stadtverwaltung"
+            ],
+            "bekam": "finanzamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Umzugswagen Halteverbotszone",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Obdachlosigkeit Hilfe Ordnungsbehörde",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "sozialamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Einbürgerungstest Anmeldung",
+            "erwartet": [
+              "auslaenderbehoerde"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Orientierungskurs Test",
+            "erwartet": [
+              "bundesamt_migration"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Umgangsrecht gerichtlich regeln",
+            "erwartet": [
+              "amtsgericht"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Vermisstenanzeige aufgeben",
+            "erwartet": [
+              "polizei"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Eingliederungshilfe Kind mit Behinderung",
+            "erwartet": [
+              "jugendamt"
+            ],
+            "bekam": "sozialamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Eingliederungshilfe Erwachsene",
+            "erwartet": [
+              "sozialamt"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Sozialpass Stadt",
+            "erwartet": [
+              "sozialamt",
+              "stadtverwaltung"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Einstiegsgeld Selbständigkeit",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Bürgergeld Stromkosten Nachzahlung",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Feinstaubplakette Umweltplakette",
+            "erwartet": [
+              "zulassungsstelle",
+              "strassenverkehrsbehoerde",
+              "umweltamt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Hundeführerschein Sachkunde",
+            "erwartet": [
+              "veterinaeramt",
+              "ordnungsamt",
+              "stadtverwaltung"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "themenhinweis"
+          },
+          {
+            "anliegen": "Heimtierausweis ausstellen",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          }
+        ]
+      }
+    },
+    "eval_holdout.jsonl": {
+      "vorher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 44,
+            "falsch": 18,
+            "vorn": 11,
+            "keine": 103
+          },
+          "+ Stichwörter": {
+            "richtig": 95,
+            "falsch": 18,
+            "vorn": 3,
+            "keine": 60
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 159,
+            "falsch": 14,
+            "vorn": 0,
+            "keine": 3
+          },
+          "+ Katalog zuerst": {
+            "richtig": 166,
+            "falsch": 7,
+            "vorn": 0,
+            "keine": 3
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "Ich habe einen neuen Hund und will den bei der Stadt melden",
+            "erwartet": [
+              "stadtverwaltung"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich möchte einen Antrag an den Stadtrat stellen",
+            "erwartet": [
+              "stadtverwaltung"
+            ],
+            "bekam": "bauamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Wo beantrage ich eine Genehmigung für ein Feuerwerk bei meiner Hochzeit",
+            "erwartet": [
+              "kreisverwaltung"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Meine Klage geht um 20.000 Euro wo reiche ich die ein",
+            "erwartet": [
+              "landgericht"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich möchte jemanden wegen Körperverletzung anzeigen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich bin in meiner Wohnung überfallen worden",
+            "erwartet": [
+              "polizei"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich bin langzeitarbeitslos und brauche Bürgergeld",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          }
+        ]
+      },
+      "nachher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 45,
+            "falsch": 25,
+            "vorn": 22,
+            "keine": 84
+          },
+          "+ Stichwörter": {
+            "richtig": 93,
+            "falsch": 23,
+            "vorn": 10,
+            "keine": 50
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 158,
+            "falsch": 13,
+            "vorn": 2,
+            "keine": 3
+          },
+          "+ Katalog zuerst": {
+            "richtig": 164,
+            "falsch": 7,
+            "vorn": 2,
+            "keine": 3
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "bekomme ich vom Finanzamt noch etwas zurück wenn ich Handwerker hatte",
+            "erwartet": [
+              "finanzamt"
+            ],
+            "bekam": "handwerkskammer",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich möchte einen Antrag an den Stadtrat stellen",
+            "erwartet": [
+              "stadtverwaltung"
+            ],
+            "bekam": "bauamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Wo beantrage ich eine Genehmigung für ein Feuerwerk bei meiner Hochzeit",
+            "erwartet": [
+              "kreisverwaltung"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Meine Klage geht um 20.000 Euro wo reiche ich die ein",
+            "erwartet": [
+              "landgericht"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich möchte jemanden wegen Körperverletzung anzeigen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich bin in meiner Wohnung überfallen worden",
+            "erwartet": [
+              "polizei"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich bin langzeitarbeitslos und brauche Bürgergeld",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          }
+        ]
+      }
+    },
+    "eval_holdout2.jsonl": {
+      "vorher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 36,
+            "falsch": 19,
+            "vorn": 6,
+            "keine": 63
+          },
+          "+ Stichwörter": {
+            "richtig": 67,
+            "falsch": 19,
+            "vorn": 2,
+            "keine": 36
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 90,
+            "falsch": 18,
+            "vorn": 1,
+            "keine": 15
+          },
+          "+ Katalog zuerst": {
+            "richtig": 95,
+            "falsch": 13,
+            "vorn": 1,
+            "keine": 15
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "Wo bekomme ich einen Waffenschein",
+            "erwartet": [
+              "kreisverwaltung"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Mein Nachbar stellt seine Mülltonnen immer auf die Straße",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo kann ich eine Straßensperrung für mein Straßenfest beantragen",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Autowrack steht seit Wochen auf der Straße",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "zulassungsstelle",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo reiche ich eine Klage gegen die Ausländerbehörde ein",
+            "erwartet": [
+              "verwaltungsgericht"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo kann ich einen Betrug anzeigen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich bin Zeuge in einem Strafverfahren und habe einen Brief bekommen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Mein Exmann zahlt keinen Kindesunterhalt",
+            "erwartet": [
+              "jugendamt"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Mein Nachbar hält seine Hunde in schlechten Bedingungen",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich möchte Schafe halten",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich eröffne einen Friseursalon",
+            "erwartet": [
+              "gewerbeamt"
+            ],
+            "bekam": "handwerkskammer",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich möchte mich als Elektriker selbstständig machen",
+            "erwartet": [
+              "handwerkskammer"
+            ],
+            "bekam": "gewerbeamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich brauche eine Bescheinigung von meiner Krankenkasse",
+            "erwartet": [
+              "krankenkasse"
+            ],
+            "bekam": "gesundheitsamt",
+            "quelle": "matcher"
+          }
+        ]
+      },
+      "nachher": {
+        "stufen": {
+          "Matcher allein": {
+            "richtig": 35,
+            "falsch": 23,
+            "vorn": 13,
+            "keine": 53
+          },
+          "+ Stichwörter": {
+            "richtig": 64,
+            "falsch": 23,
+            "vorn": 6,
+            "keine": 31
+          },
+          "+ Katalog (Matcher zuerst)": {
+            "richtig": 92,
+            "falsch": 20,
+            "vorn": 2,
+            "keine": 10
+          },
+          "+ Katalog zuerst": {
+            "richtig": 95,
+            "falsch": 17,
+            "vorn": 2,
+            "keine": 10
+          }
+        },
+        "falsch_katalog_zuerst": [
+          {
+            "anliegen": "Wo bekomme ich einen Waffenschein",
+            "erwartet": [
+              "kreisverwaltung"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Mein Nachbar stellt seine Mülltonnen immer auf die Straße",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "stadtverwaltung",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo kann ich eine Straßensperrung für mein Straßenfest beantragen",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "strassenverkehrsbehoerde",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Autowrack steht seit Wochen auf der Straße",
+            "erwartet": [
+              "ordnungsamt"
+            ],
+            "bekam": "zulassungsstelle",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo reiche ich eine Klage gegen die Ausländerbehörde ein",
+            "erwartet": [
+              "verwaltungsgericht"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Wo kann ich einen Betrug anzeigen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich bin Zeuge in einem Strafverfahren und habe einen Brief bekommen",
+            "erwartet": [
+              "staatsanwaltschaft"
+            ],
+            "bekam": "polizei",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich wurde betrogen im Internet beim Online Kauf",
+            "erwartet": [
+              "polizei"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich habe etwas aus der Türkei mitgebracht muss ich das anmelden",
+            "erwartet": [
+              "zoll"
+            ],
+            "bekam": "buergeramt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Das Jobcenter hat meine Leistungen gestrichen",
+            "erwartet": [
+              "jobcenter"
+            ],
+            "bekam": "arbeitsagentur",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich brauche Insolvenzgeld weil mein Chef pleite ist",
+            "erwartet": [
+              "arbeitsagentur"
+            ],
+            "bekam": "amtsgericht",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Mein Nachbar hält seine Hunde in schlechten Bedingungen",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich möchte Schafe halten",
+            "erwartet": [
+              "veterinaeramt"
+            ],
+            "bekam": "ordnungsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Ich eröffne einen Friseursalon",
+            "erwartet": [
+              "gewerbeamt"
+            ],
+            "bekam": "handwerkskammer",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich möchte mich als Elektriker selbstständig machen",
+            "erwartet": [
+              "handwerkskammer"
+            ],
+            "bekam": "gewerbeamt",
+            "quelle": "fallkatalog"
+          },
+          {
+            "anliegen": "Ich brauche eine Bescheinigung von meiner Krankenkasse",
+            "erwartet": [
+              "krankenkasse"
+            ],
+            "bekam": "gesundheitsamt",
+            "quelle": "matcher"
+          },
+          {
+            "anliegen": "Mein Vater ist pflegebedürftig was muss ich beantragen",
+            "erwartet": [
+              "pflegekasse"
+            ],
+            "bekam": "jugendamt",
+            "quelle": "themenhinweis"
+          }
+        ]
+      }
+    }
+  }
+}

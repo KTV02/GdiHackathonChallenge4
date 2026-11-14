@@ -1,0 +1,107 @@
+{
+  "analysis": {
+    "filter": {
+      "german_stop": {
+        "type": "stop",
+        "stopwords": "_german_"
+      },
+      "german_stemmer": {
+        "type": "stemmer",
+        "language": "light_german"
+      },
+      "english_stop": {
+        "type": "stop",
+        "stopwords": "_english_"
+      },
+      "english_stemmer": {
+        "type": "stemmer",
+        "language": "english"
+      },
+      "english_possessive_stemmer": {
+        "type": "stemmer",
+        "language": "possessive_english"
+      },
+      "special_term_synonym_graph": {
+        "type": "synonym_graph",
+        "synonyms": [
+          "1 => 1, I",
+          "2 => 2, II",
+          "3 => 3, III",
+          "4 => 4, IV",
+          "5 => 5, V",
+          "6 => 6, VI",
+          "7 => 7, VII",
+          "8 => 8, VIII",
+          "9 => 9, IX",
+          "10 => 10, X",
+          "11 => 11, XI",
+          "12 => 12, XII",
+          "13 => 13, XIII",
+          "14 => 14, XIV",
+          "15 => 15, XV",
+          "16 => 16, XVI",
+          "17 => 17, XVII",
+          "18 => 18, XVIII",
+          "19 => 19, XIX",
+          "20 => 20, XX"
+        ]
+      }
+    },
+    "analyzer": {
+      "pvog_german": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "lowercase",
+          "german_stop",
+          "special_term_synonym_graph",
+          "german_normalization",
+          "german_stemmer",
+          "asciifolding"
+        ]
+      },
+      "pvog_german_html_strip": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "lowercase",
+          "german_stop",
+          "special_term_synonym_graph",
+          "german_normalization",
+          "german_stemmer",
+          "asciifolding"
+        ],
+        "char_filter": [
+          "html_strip"
+        ]
+      },
+      "pvog_english": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "english_possessive_stemmer",
+          "lowercase",
+          "english_stop",
+          "special_term_synonym_graph",
+          "english_stemmer",
+          "asciifolding"
+        ]
+      },
+      "pvog_english_html_strip": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "english_possessive_stemmer",
+          "lowercase",
+          "english_stop",
+          "special_term_synonym_graph",
+          "english_stemmer",
+          "asciifolding"
+        ],
+        "char_filter": [
+          "html_strip"
+        ]
+      }
+    }
+  }
+}

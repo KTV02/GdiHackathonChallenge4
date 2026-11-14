@@ -1,0 +1,182 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "ars": {
+      "type": "keyword"
+    },
+    "exactArs": {
+      "type": "keyword"
+    },
+    "lastUpdate": {
+      "type": "date"
+    },
+    "leistungsbeschreibung": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "searchNames": {
+          "type": "text",
+          "analyzer": "pvog_german"
+        },
+        "searchValues": {
+          "type": "text",
+          "analyzer": "pvog_german"
+        },
+        "description": {
+          "type": "text",
+          "analyzer": "pvog_german_html_strip",
+          "search_analyzer": "pvog_german"
+        },
+        "otherLanguages": {
+          "type": "object",
+          "properties": {
+            "en.searchNames": {
+              "type": "text",
+              "analyzer": "pvog_english"
+            },
+            "en.searchValues": {
+              "type": "text",
+              "analyzer": "pvog_english"
+            },
+            "en.description": {
+              "type": "text",
+              "analyzer": "pvog_english_html_strip",
+              "search_analyzer": "pvog_english"
+            }
+          }
+        },
+        "leikakeys": {
+          "type": "keyword"
+        },
+        "leikaHierarchyKeys": {
+          "type": "keyword"
+        },
+        "arsFederalstate": {
+          "type": "keyword"
+        },
+        "validityPeriods": {
+          "type": "date_range",
+          "format": "yyyy-MM-dd"
+        },
+        "typing": {
+          "properties": {
+            "code": {
+              "type": "keyword"
+            }
+          }
+        },
+        "lifeSituations": {
+          "type": "nested",
+          "properties": {
+            "children": {
+              "type": "nested",
+              "properties": {
+                "children": {
+                  "type": "nested",
+                  "properties": {
+                    "code": {
+                      "type": "keyword"
+                    }
+                  }
+                },
+                "code": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "code": {
+              "type": "keyword"
+            }
+          }
+        },
+        "lifeSituationCodes": {
+          "type": "keyword"
+        },
+        "lifeSituationVersions": {
+          "type": "keyword"
+        }
+      }
+    },
+    "onlinedienste": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "validityPeriods": {
+          "type": "date_range",
+          "format": "yyyy-MM-dd"
+        },
+        "searchValues": {
+          "type": "text",
+          "analyzer": "pvog_german"
+        },
+        "otherLanguages": {
+          "type": "object",
+          "properties": {
+            "en.searchValues": {
+              "type": "text",
+              "analyzer": "pvog_english"
+            }
+          }
+        }
+      }
+    },
+    "organisationseinheiten": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "name": {
+          "type": "text"
+        },
+        "lbId": {
+          "type": "keyword"
+        },
+        "validityPeriods": {
+          "type": "date_range",
+          "format": "yyyy-MM-dd"
+        },
+        "otherLanguages": {
+          "type": "object",
+          "enabled": false
+        }
+      }
+    },
+    "spezialisierungen": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "keyword"
+        },
+        "idLB": {
+          "type": "keyword"
+        },
+        "ars": {
+          "type": "keyword"
+        },
+        "arsFederalstate": {
+          "type": "keyword"
+        },
+        "searchValues": {
+          "type": "text",
+          "analyzer": "pvog_german"
+        },
+        "otherLanguages": {
+          "type": "object",
+          "properties": {
+            "en.searchValues": {
+              "type": "text",
+              "analyzer": "pvog_english"
+            }
+          }
+        }
+      }
+    }
+  }
+}

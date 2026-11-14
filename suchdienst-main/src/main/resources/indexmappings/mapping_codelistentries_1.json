@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "id" : {
+      "type": "keyword"
+    },
+    "code": {
+      "type": "keyword"
+    },
+    "uri": {
+      "type": "keyword"
+    },
+    "version": {
+      "type": "keyword"
+    }
+  }
+}

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xzufi:transfer.operation.050502 xmlns:xzufi="http://xoev.de/schemata/xzufi/2_3_1" produktbezeichnung=""
+                                 produkthersteller="" produktversion="" xzufiVersion="2.3.1">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>065edb61-a010-4ada-9cdc-975b2e93c136</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2018-11-17T07:40:16.568+01:00</xzufi:erstelltDatumZeit>
+        <xzufi:empfaenger>Portalverbund Online-Gateway Sammlerdienst</xzufi:empfaenger>
+        <xzufi:sender>Bund</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:kennzeichenTransaktionsende>true</xzufi:kennzeichenTransaktionsende>
+    <xzufi:schreibe>
+        <xzufi:leistung>
+            <xzufi:id schemeAgencyID="B100019" schemeID="OID">102583095</xzufi:id>
+            <xzufi:struktur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:LeistungsstrukturObjektMitVerrichtung">
+                <xzufi:leistungsgruppierungLeiKa listURI="urn:xoev-de:fim:codeliste:xzufi.leistungsgruppierung" listVersionID="20240101">
+                    <code>UNDEFINED</code>
+                </xzufi:leistungsgruppierungLeiKa>
+                <xzufi:leistungsobjektID schemeAgencyID="GK_LEIKA" schemeAgencyName="GK LeiKa" schemeID="LEIKA_LEISTUNG_SCHLUESSEL" schemeName="LeiKa Leistungsschlüssel" schemeVersionID="2">99148051000000</xzufi:leistungsobjektID>
+                <xzufi:verrichtungLeiKa listURI="urn:xoev-de:fim:codeliste:xzufi.verrichtungskennung" listVersionID="20240701">
+                    <code>269</code>
+                    <name>Auswahl</name>
+                </xzufi:verrichtungLeiKa>
+            </xzufi:struktur>
+            <xzufi:referenzLeistungsschluessel schemeURI="urn:de:fim:leika:leistung" schemeVersionID="20220301">99148051269000</xzufi:referenzLeistungsschluessel>
+            <xzufi:leistungsadressat listURI="urn:xoev-de:fim:codeliste:xzufi.leistungsadressat" listVersionID="3">
+                <code>002</code>
+            </xzufi:leistungsadressat>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:inhalt html="true" languageCode="de">Bewerbung Deutscher Buchhandlungspreis Auswahl</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>02</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:inhalt html="true" languageCode="de">Für den Deutschen Buchhandlungspreis bewerben</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>03</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>11</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Formulare vorhanden: Ja&lt;/p&gt;
+                    &lt;p&gt;Schriftform erforderlich: Nein&lt;/p&gt;
+                    &lt;p&gt;Formlose Antragsstellung möglich: Ja&lt;/p&gt;
+                    &lt;p&gt;Persönliches Erscheinen nötig: Nein&lt;/p&gt;
+                    &lt;p&gt;Online-Dienste vorhanden: Ja&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>14</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>4</xzufi:positionDarstellung>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>07</code>
+                </xzufi:leikaTextmodul>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.deutscher-buchhandlungspreis.de/der-preis/</xzufi:uri>
+                    <xzufi:titel>Teilnahmebedingungen und Verfahrensregeln zum Deutschen Buchhandlungspreis</xzufi:titel>
+                    <xzufi:beschreibung>Keine weiteren Hinweise vorhanden</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>12</xzufi:positionDarstellung>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>15</code>
+                </xzufi:leikaTextmodul>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.deutscher-buchhandlungspreis.de/termine/</xzufi:uri>
+                    <xzufi:titel>Informationen zu Terminen auf der Internetseite des Deutschen Buchhandlungspreises</xzufi:titel>
+                    <xzufi:beschreibung>Keine weiteren Hinweise vorhanden</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.deutscher-buchhandlungspreis.de/jury/</xzufi:uri>
+                    <xzufi:titel>Informationen zur Jury auf der Internetseite des Deutschen Buchhandlungspreises</xzufi:titel>
+                    <xzufi:beschreibung>Keine weiteren Hinweise vorhanden</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.deutscher-buchhandlungspreis.de/der-preis/</xzufi:uri>
+                    <xzufi:titel>Teilnahmebedingungen und Verfahrensregeln auf der Internetseite des Deutschen Buchhandlungspreises</xzufi:titel>
+                    <xzufi:beschreibung>Keine weiteren Hinweise vorhanden</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+                <xzufi:weiterfuehrenderLink languageCode="de">
+                    <xzufi:uri>https://www.deutscher-buchhandlungspreis.de/der-preis/</xzufi:uri>
+                    <xzufi:titel>Anleitung zum Ausfüllen der Antragsunterlagen auf der Internetseite des Deutschen Buchhandlungspreises</xzufi:titel>
+                    <xzufi:beschreibung>Keine weiteren Hinweise vorhanden</xzufi:beschreibung>
+                    <xzufi:positionDarstellung>3</xzufi:positionDarstellung>
+                </xzufi:weiterfuehrenderLink>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;ul&gt;
+                    &lt;li&gt;Bewerbung Deutscher Buchhandlungspreis Auswahl&lt;/li&gt;
+                    &lt;li&gt;Für Auszeichnung bekommen Buchhandlungen Gütesiegel Prämie von bis zu 25.000 EUR&lt;/li&gt;
+                    &lt;li&gt;
+                    Teilnahmevoraussetzungen:
+                    &lt;ul&gt;
+                    &lt;li&gt;inhabergeführte und unabhängige Buchhandlungen,&lt;/li&gt;
+                    &lt;li&gt;Sitz in Deutschland,&lt;/li&gt;
+                    &lt;li&gt;konzernunabhängiges Sortiment,&lt;/li&gt;
+                    &lt;li&gt;nicht im Insolvenzverfahren.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    Der Deutsche Buchhandlungspreis wird verliehen für besondere Leistungen in den folgenden Bereichen:
+                    &lt;ul&gt;
+                    &lt;li&gt;kulturelles Veranstaltungsprogramm&lt;/li&gt;
+                    &lt;li&gt;Engagement für Lese und Literaturförderung&lt;/li&gt;
+                    &lt;li&gt;literarisches Sortiment&lt;/li&gt;
+                    &lt;li&gt;innovatives Geschäftsmodell&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Höhe der Prämie hängt von der Anzahl der erfüllten Kriterien und dem durchschnittlichen Umsatz Ihrer Buchhandlung in den letzten 3 Jahren ab:&lt;/li&gt;
+                    &lt;li&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;
+                    Durchschnittlicher Jahresumsatz der vergangenen 3 Jahre von durchschnittlich unter 1 Million EUR:
+                    &lt;ul&gt;
+                    &lt;li&gt;3 beste Buchhandlungen: Gütesiegel und Prämie von 25.000 EUR,&lt;/li&gt;
+                    &lt;li&gt;5 weitere Buchhandlungen mit herausragender Leistung: Gütesiegel und Prämie von 15.000 EUR,&lt;/li&gt;
+                    &lt;li&gt;100 weitere hervorragende Buchhandlungen: Gütesiegel und Prämie von 7.000 EUR.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    Durchschnittlicher Jahresumsatz der vergangenen 3 Jahre von durchschnittlich über 1 Million EUR:
+                    &lt;ul&gt;
+                    &lt;li&gt;bis zu 10 hervorragende Buchhandlungen: Gütesiegel ohne Prämie.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    Auswahlverfahren:
+                    &lt;ul&gt;
+                    &lt;li&gt;die Beauftragte der Bundesregierung für Kultur und Medien (BKM) entscheidet über die Auszeichnung&lt;/li&gt;
+                    &lt;li&gt;die BKM wird durch eine unabhängige Jury aus Sachverständigen beraten&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;es besteht kein Rechtsanspruch auf eine Auszeichnung&lt;/li&gt;
+                    &lt;li&gt;Auskunft durch: die Beauftragte der Bundesregierung für Kultur und Medien (BKM) Referat K21&lt;/li&gt;
+                    &lt;li&gt;Beantragung über: die Internetseite des Deutschen Buchhandlungspreises&lt;/li&gt;
+                    &lt;li&gt;zuständig: die Beauftragte der Bundesregierung für Kultur und Medien (BKM)&lt;/li&gt;
+                    &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>05</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>8</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Sie müssen sich für die Teilnahme am Deutschen Buchhandlungspreis online auf der Internetseite des Deutschen Buchhandlungspreises bewerben.&lt;/p&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;Gehen Sie auf die Website des Deutschen Buchhandlungspreises, füllen Sie Ihren Teilnahmeantrag online aus und schicken Sie diesen ab. Sie können dafür die Ausfüllanleitung auf der Seite des Deutschen Buchhandlungspreises zur Hilfe nehmen.&lt;/li&gt;
+                    &lt;li&gt;Sie erhalten eine elektronische Bestätigung per E-Mail, dass Ihr Antrag eingegangen ist. Die E-Mail enthält auch Ihre Bewerbungsnummer und eine PDF mit Ihren Angaben.&lt;/li&gt;
+                    &lt;li&gt;Das PDF drucken Sie bitte aus und unterschreiben es.&lt;/li&gt;
+                    &lt;li&gt;Drucken Sie auch alle weiteren geforderten Unterlagen aus. Sie finden diese Unterlagen unter dem Navigationslink Bewerbungsunterlagen auf der Internetseite des Deutschen Buchhandlungspreises zum Download.&lt;/li&gt;
+                    &lt;li&gt;Unterschreiben Sie alle Unterlagen und senden Sie diese per Post an die Beauftragte der Bundesregierung für Kultur und Medien.&lt;/li&gt;
+                    &lt;li&gt;Das Erfordernis, die Unterlagen auszudrucken und zu unterschreiben, entfällt, wenn Sie sich im Online-Bewerbungsportal über "Elster - Mein Unternehmenskonto" eingeloggt haben.&lt;/li&gt;
+                    &lt;li&gt;Sie können außerdem weitere Unterlagen einreichen, die Ihre Bewerbung ergänzen. Laden Sie diese bitte möglichst online auf dem Bewerbungsportal hoch. Sie müssen sich dafür mit Ihrem Benutzernamen und Passwort anmelden.&lt;/li&gt;
+                    &lt;li&gt;Sie werden von der BKM per E-Mail informiert, wenn Sie für den Preis ausgewählt wurden.&lt;/li&gt;
+                    &lt;li&gt;Wenn Sie neben dem Siegel auch eine Prämie bekommen, wird diese von der BKM zu Beginn des nachfolgenden Kalenderjahres ausgezahlt.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;p&gt;Hinweis:&lt;/p&gt;
+                    &lt;p&gt;Sie können sich auch nach der Antragstellung innerhalb der Bewerbungsfrist in Ihr Benutzerkonto einloggen. So können Sie zum Beispiel die Daten Ihres letzten Antrags einsehen, wenn Sie sich im nächsten Jahr erneut bewerben möchten.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>11</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>6</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Sie können sich bewerben,&lt;/p&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;wenn Sie Inhaberin oder Inhaber einer Buchhandlung sind,&lt;/li&gt;
+                    &lt;li&gt;diese unabhängig führen,&lt;/li&gt;
+                    &lt;li&gt;Sie ihren Sitz oder eine Niederlassung in Deutschland haben,&lt;/li&gt;
+                    &lt;li&gt;Sie sich in keinem Insolvenzverfahren befinden und Ihre Buchhandlung herausragende Leistungen erbringt.&lt;/li&gt;
+                    &lt;/ul&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>09</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>13</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Es gibt keine Hinweise und Besonderheiten.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>16</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>3</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Mit der Auszeichnung von Buchhandlungen im Rahmen des Deutschen Buchhandlungspreises soll der Erhalt der Buchkultur in Deutschland gefördert werden.&lt;/p&gt;
+                    &lt;p&gt;Sie können als inhabergeführte Buchhandlung die Auszeichnung des Deutschen Buchhandlungspreises erhalten, wenn Sie:&lt;/p&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;ein literarisches Sortiment oder&lt;/li&gt;
+                    &lt;li&gt;ein kulturelles Veranstaltungsprogramm anbieten,&lt;/li&gt;
+                    &lt;li&gt;innovative Geschäftsmodelle verfolgen oder&lt;/li&gt;
+                    &lt;li&gt;sich im Bereich der Lese und Literaturförderung engagieren.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;p&gt;Bei einer Auszeichnung können Sie neben dem Gütesiegel auch eine Prämie von bis zu 25.000 EUR bekommen. Die Höhe der Prämie hängt von der Anzahl der erfüllten Kriterien und dem durchschnittlichen Umsatz Ihrer Buchhandlung in den letzten 3 Jahren ab:&lt;/p&gt;
+                    &lt;ul&gt;
+                    &lt;li&gt;
+                    Durchschnittlicher Jahresumsatz der vergangenen 3 Jahre von unter EUR 1 Million:
+                    &lt;ul&gt;
+                    &lt;li&gt;Gütesiegel und Prämie von 25.000 EUR für die 3 besten Buchhandlungen,&lt;/li&gt;
+                    &lt;li&gt;Gütesiegel und Prämie von 15.000 EUR für weitere 5 Buchhandlungen mit herausragender Leistung,&lt;/li&gt;
+                    &lt;li&gt;Gütesiegel und Prämie von 7.000 EUR für weitere 100 hervorragende Buchhandlungen.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                    Durchschnittlicher Jahresumsatz der vergangenen 3 Jahre von über 1 Million EUR:
+                    &lt;ul&gt;
+                    &lt;li&gt;Gütesiegel ohne Prämie für bis zu 10 hervorragende Buchhandlungen.&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;p&gt;Ihren Antrag reichen Sie bei der Beauftragten der Bundesregierung für Kultur und Medien (BKM) ein.&lt;/p&gt;
+                    &lt;p&gt;Sie haben keinen Anspruch auf eine Auszeichnung.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>06</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>2</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Als inhabergeführte Buchhandlung, können Sie sich unter bestimmten Voraussetzungen für den Deutschen Buchhandlungspreis bewerben.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>24</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulText>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>14</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">&lt;p&gt;Der Rechtsweg ist ausgeschlossen.&lt;/p&gt;</xzufi:inhalt>
+                <xzufi:leikaTextmodul listURI="urn:xoev-de:fim:codeliste:xzufi.leistungstextmodul" listVersionID="20240101">
+                    <code>25</code>
+                </xzufi:leikaTextmodul>
+            </xzufi:modulText>
+            <xzufi:modulTextIndividuell>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>19</xzufi:positionDarstellung>
+                <xzufi:inhalt html="true" languageCode="de">6</xzufi:inhalt>
+                <xzufi:individuellesTextmodultyp listURI="individuell" listVersionID="unbestimmt">
+                    <code>STATUS</code>
+                    <name>Status</name>
+                </xzufi:individuellesTextmodultyp>
+            </xzufi:modulTextIndividuell>
+            <xzufi:modulFrist>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+            </xzufi:modulFrist>
+            <xzufi:modulBearbeitungsdauer>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:bearbeitungsdauer>
+                    <xzufi:fristauswahl>
+                        <xzufi:fristDauer>
+                            <xzufi:dauer>4</xzufi:dauer>
+                            <xzufi:einheit listURI="urn:xoev-de:fim:codeliste:xzufi.zeiteinheit" listVersionID="3">
+                                <code>MONAT</code>
+                            </xzufi:einheit>
+                            <xzufi:dauerBis>5</xzufi:dauerBis>
+                        </xzufi:fristDauer>
+                    </xzufi:fristauswahl>
+                    <xzufi:positionDarstellung>0</xzufi:positionDarstellung>
+                </xzufi:bearbeitungsdauer>
+            </xzufi:modulBearbeitungsdauer>
+            <xzufi:modulKosten>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:beschreibung html="true" languageCode="de">&lt;p&gt;Es fallen keine Kosten an.&lt;/p&gt;</xzufi:beschreibung>
+            </xzufi:modulKosten>
+            <xzufi:modulDokument>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>5</xzufi:positionDarstellung>
+                <xzufi:beschreibungEingehend html="true" languageCode="de">&lt;ul&gt;
+                    &lt;li&gt;Erklärung zur wirtschaftlichen Leistungsfähigkeit&lt;/li&gt;
+                    &lt;li&gt;Unterschriebene Einverständniserklärung zum Datenschutz&lt;/li&gt;
+                    &lt;li&gt;Unterschriebene Selbstverpflichtungserklärung zur Verwendung der Prämien beim Deutschen Buchhandlungspreis&lt;/li&gt;
+                    &lt;li&gt;Bestätigung der Kenntnisnahme des Merkblattes zu den subventionserheblichen Tatsachen im Rahmen des Deutschen Buchhandlungspreises&lt;/li&gt;
+                    &lt;/ul&gt;</xzufi:beschreibungEingehend>
+            </xzufi:modulDokument>
+            <xzufi:modulBegriffImKontext>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Auszeichnung kulturelles Veranstaltungsprogramm</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Kulturelle Infrastruktur Land</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">undotiertes Gütesiegel</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Verödung Innenstädte</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Bundesbeauftragte für Medien</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">dotiertes Gütesiegel</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Auszeichnung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">BKM</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Bundesbeauftragte für Kultur</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Bundesbeauftragte Kultur Medien</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Lese- und Literaturförderung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">inhabergeführte Buchhandlung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Bewerbung Deutscher Buchhandlungspreis</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">unabhängige Buchhandlung</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Literarische Vielfalt</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Auszeichnung innovative Geschäftsmodelle</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+                <xzufi:begriffImKontext>
+                    <xzufi:begriff languageCode="de">Auszeichnung literarisches Sortiment</xzufi:begriff>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.begriffimkontexttyp" listVersionID="3">
+                        <code>001</code>
+                    </xzufi:typ>
+                </xzufi:begriffImKontext>
+            </xzufi:modulBegriffImKontext>
+            <xzufi:modulFachlicheFreigabe>
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:fachlichFreigegebenAm>2023-06-22+02:00</xzufi:fachlichFreigegebenAm>
+                <xzufi:fachlichFreigegebenDurch languageCode="de">Beauftragte der Bundesregierung für Kultur und Medien (BKM)</xzufi:fachlichFreigegebenDurch>
+            </xzufi:modulFachlicheFreigabe>
+            <xzufi:modulUrsprungsportal languageCode="de">
+                <xzufi:zugangskanal listURI="urn:xoev-de:fim:codeliste:xzufi.zugangskanal" listVersionID="1">
+                    <code>000</code>
+                </xzufi:zugangskanal>
+                <xzufi:positionDarstellung>1</xzufi:positionDarstellung>
+                <xzufi:uri>https://fimportal.de/detail/L/99148051269000</xzufi:uri>
+                <xzufi:titel>Bewerbung Deutscher Buchhandlungspreis Auswahl</xzufi:titel>
+            </xzufi:modulUrsprungsportal>
+            <xzufi:typisierung listURI="urn:xoev-de:fim:codeliste:xzufi.typisierung" listVersionID="20240101">
+                <code>1</code>
+                <name>Regelungs- und Vollzugskompetenz auf Bundesebene</name>
+            </xzufi:typisierung>
+            <xzufi:kennzeichenFormularSchriftformerfordernis>false</xzufi:kennzeichenFormularSchriftformerfordernis>
+            <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:reifegrad" listVersionID="20230917">
+                <code>RG3</code>
+                <name>Reifegrad 3</name>
+            </xzufi:klassifizierung>
+            <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20211001">
+                <code>1110100</code>
+            </xzufi:klassifizierung>
+            <xzufi:klassifizierung listURI="urn:xoev-de:fim:codeliste:pvlagen" listVersionID="20211001">
+                <code>2060800</code>
+            </xzufi:klassifizierung>
+            <xzufi:informationsbereicheSDG>
+                <xzufi:informationsbereichSDG1 listURI="urn:xoev-de:fim:codeliste:xzufi.sdginformationsbereich1" listVersionID="1">
+                    <code>2060200</code>
+                </xzufi:informationsbereichSDG1>
+            </xzufi:informationsbereicheSDG>
+            <xzufi:gueltigkeitGebietID schemeID="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat" schemeVersionID="2022-02-18">000000000000</xzufi:gueltigkeitGebietID>
+            <xzufi:durchfuehrbarEinheitlicheStelle listURI="urn:xoev-de:fim:codeliste:xzufi.einheitlichestelletyp" listVersionID="1">
+                <code>00</code>
+            </xzufi:durchfuehrbarEinheitlicheStelle>
+            <xzufi:relevantFuerStaatsangehoerigkeit/>
+            <xzufi:versionsinformation>
+                <xzufi:geaendertDatumZeit>2023-10-09T12:27:28+02:00</xzufi:geaendertDatumZeit>
+            </xzufi:versionsinformation>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+        </xzufi:leistung>
+    </xzufi:schreibe>
+</xzufi:transfer.operation.050502>

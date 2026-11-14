@@ -12,6 +12,7 @@ test = ["pytest>=8,<10"]
 
 [project.scripts]
 behoerden-finder = "behoerden_finder.cli:main"
+behoerden-finder-web = "behoerden_finder.web:main"
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -22,3 +23,6 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+"behoerden_finder.web" = ["static/*"]

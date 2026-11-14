@@ -1,0 +1,34 @@
+{
+    "properties": {
+        "id": {
+            "type": "keyword"
+        },
+        "arsFederalState": {
+            "type": "keyword"
+        },
+        "lastUpdate": {
+            "type": "date"
+        },
+        "leikaId": {
+            "type": "keyword"
+        },
+        "validityPeriods": {
+            "type": "date_range",
+            "format": "yyyy-MM-dd"
+        },
+        "jzufi": {
+            "type": "object",
+            "enabled": false
+        },
+        "metaData": {
+            "properties": {
+                "schemeAgencyId": {
+                    "type": "keyword"
+                },
+                "producer": {
+                    "type": "keyword"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+        "properties": {
+          "automaticServicedescriptionUpdate": {
+            "type": "boolean",
+            "index": false
+          },
+          "nextTimeStamp": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 500
+              }
+            }
+          },
+          "nextTimeStampLb": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 500
+              }
+            }
+          },
+          "nextTimestamp": {
+            "type": "text",
+            "index": false
+          },
+          "updateServiceDescriptionsAutomatically": {
+            "type": "boolean"
+          }
+        }
+}

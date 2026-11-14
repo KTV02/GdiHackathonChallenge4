@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-2="http://xoev.de/schemata/genericode/2"
+>
+   <Annotation>
+      <Description>
+         <xoev-cl-2:nameKurz>SDGInformationsbereich</xoev-cl-2:nameKurz>
+         <xoev-cl-2:beschreibung-codeliste>Codes der Informationsbereiche, die für Bürger und Unternehmen relevant sind, die ihre Binnenmarktrechte ausüben. Nach VERORDNUNG (EU) 2018/1724 DES EUROPÄISCHEN PARLAMENTS UND DES RATES über die Einrichtung eines einheitlichen digitalen Zugangstors zu Informationen, Verfahren, Hilfs- und Problemlösungsdiensten und zur Änderung der Verordnung (EU) Nr. 1024/2012 (SDG).</xoev-cl-2:beschreibung-codeliste>
+         <xoev-cl-2:herausgebernameKurz>GK_FIM</xoev-cl-2:herausgebernameKurz>
+         <xoev-cl-2:datumGueltigkeitAb>2020-10-30</xoev-cl-2:datumGueltigkeitAb>
+         <xoev-cl-2:versionXOEVHandbuch>2.1</xoev-cl-2:versionXOEVHandbuch>
+         <xoev-cl-2:aenderungZurVorversion>neuer Name; neue Liste hinzugefügt</xoev-cl-2:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>sdginformationsbereich</ShortName>
+      <LongName xml:lang="en">Codes für die Informationsbereiche</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:sdginformationsbereich</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:sdginformationsbereich_2</CanonicalVersionUri>
+      <Agency>
+         <LongName xml:lang="de">Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Bezeichnung" Use="required">
+         <ShortName>Bezeichnung</ShortName>
+         <LongName>Bezeichnung</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="BezeichnungEnglisch" Use="required">
+         <ShortName>BezeichnungEnglisch</ShortName>
+         <LongName>BezeichnungEnglisch</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-2:xoev-code/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1000000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Informationsbereiche im Zusammenhang mit Bürgern</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Areas of information areas related to citizens</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Reisen innerhalb der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Travel with the union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Dokumente, die von Unionsbürgern, ihren Familienmitgliedern, die keine Unionsbürger sind, allein reisenden Minderjährigen und Nicht-Unionsbürgern bei grenzüberschreitenden Reisen innerhalb der Union verlangt werden (Personalausweis, Visum, Pass)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>documents required of Union citizens, their family members who are not Union citizens, minors travelling alone and non-Union citizens when travelling across borders within the Union (ID card, visa, passport)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Pflichten von Flug-, Zug-, Schiffs- und Busreisenden in und aus der Union und von Personen, die Pauschalreisen oder verbundene Reiseleistungen in Anspruch nehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rights and obligations of travellers by plane, train, ship, bus in and from the Union, and of those who buy travel packages or linked travel arrangements</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Hilfeleistung bei eingeschränkter Mobilität bei Reisen in und aus der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>assistance in case of reduced mobility when travelling in and from the Union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Mitnahme von Tieren, Pflanzen, Alkohol, Tabak, Zigaretten und anderen Waren bei Reisen in der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>transport of animals, plants, alcohol, tobacco, cigarettes and other goods when travelling in the Union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1010500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Anrufe und Versand und Empfang von elektronischen Nachrichten und elektronischen Daten innerhalb der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>voice calling and sending and receiving electronic messages and electronic data within the Union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Arbeit und Ruhestand innerhalb der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Work and retirement within the Union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Arbeitssuche in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>seeking employment in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Aufnahme einer Beschäftigung in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>taking up employment in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Anerkennung von Qualifikationen zum Zwecke der Beschäftigung in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>recognition of qualifications with a view to employment in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Besteuerung in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>taxation in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Haftungs- und Pflichtversicherungsbestimmungen im Zusammenhang mit der Niederlassung oder Beschäftigung in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rules on liability and mandatory insurance linked to residence or employment in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gesetzlich oder durch Rechtsverordnung geregelte Beschäftigungsbedingungen — auch für entsandte Arbeitnehmer — (einschließlich Informationen über Arbeitsstunden, bezahlten Urlaub, Urlaubsansprüche, Rechte und Pflichten bei Überstunden, Gesundheitskontrollen, Beendigung von Verträgen, Kündigung oder Entlassungen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>terms and conditions of employment, including for posted workers, as stipulated by law or statutory instrument (including information on working hours, paid leave, holiday entitlements, rights and obligations regarding overtime work, health checks, termination of contracts, dismissal and redundancies)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020700</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gleichbehandlung (Vorschriften zum Verbot von Diskriminierung am Arbeitsplatz, über gleiche Entlohnung für Männer und Frauen und über gleiche Entlohnung für Beschäftigte mit befristeten oder unbefristeten Arbeitsverträgen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>equal treatment (rules prohibiting discrimination in the workplace, rules on equal pay for men and women and on equal pay for employees on fixed-term or permanent employment contracts)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020800</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gesundheits- und Sicherheitsvorschriften im Zusammenhang mit verschiedenen Arten von Tätigkeiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>health and safety obligations in relation to different types of activity</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1020900</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Pflichten im Bereich der sozialen Sicherheit in der Union, auch im Zusammenhang mit Renten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>social security rights and obligations in the Union including those related to getting pensions</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Fahrzeuge in der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Vehicles in the Union</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorübergehende oder dauerhafte Mitnahme eines Kraftfahrzeugs in einen anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>taking a motor vehicle temporarily or permanently to another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Erwerb und Verlängerung eines Führerscheins</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>acquiring and renewing a driving licence</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Abschluss einer Kfz-Pflichtversicherung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>taking out mandatory motor vehicle insurance</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Kauf und Verkauf eines Kraftfahrzeugs in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>buying and selling a motor vehicle in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1030500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Nationale Verkehrsvorschriften und Anforderungen an Fahrer, einschließlich allgemeiner Vorschriften für die Nutzung der nationalen Straßenverkehrsinfrastruktur: zeitabhängige Gebühren (Vignette), entfernungsabhängige Gebühren (Maut), Emissionsplaketten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>national traffic rules and requirements for drivers, including general rules for the use of the national road infrastructure: time-based charges (vignette), distancebased charges (toll), emission stickers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Wohnsitz in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Residence in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorübergehender oder dauerhafter Umzug in einen anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>moving temporarily or permanently to another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Kauf und Verkauf von Immobilien, einschließlich aller Bedingungen und Pflichten im Zusammenhang mit der Besteuerung, dem Eigentum oder der Nutzung von Immobilien (auch als Zweitwohnsitz)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>purchasing and selling of immovable property, including any conditions and obligations related to taxation, ownership, or use of such property, including its use as a secondary residence</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Teilnahme an Kommunalwahlen und Wahlen zum Europäischen Parlament</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>participating in municipal elections and elections to the European Parliament</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Anforderungen in Bezug auf Aufenthaltskarten für Unionsbürger und ihre Familienmitglieder, einschließlich Familienmitglieder, die keine Unionsbürger sind</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>requirements for residence cards for Union citizens and their family members, including family members who are not Union citizens</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Voraussetzungen für die Einbürgerung von Staatsangehörigen eines anderen Mitgliedstaats</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>conditions applicable to the naturalisation of nationals from another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1040600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorschriften für den Todesfall, einschließlich solcher über die Überführung der sterblichen Überreste in einen anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rules applicable in the case of death, including rules on the repatriation of remains to another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1050000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Bildung oder Praktikum in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Education or traineeship in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1050100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Bildungswesen in einem anderen Mitgliedstaat, einschließlich der frühkindlichen Betreuung, Bildung und Erziehung, der Primar- und Sekundarschulbildung, der Hochschulbildung und der Erwachsenenbildung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>education system in another Member State, including early childhood education and care, primary and secondary education, higher education and adult learning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1050200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Freiwilligendienst in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>volunteering in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1050300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Praktika in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>traineeships in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1050400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Forschungstätigkeit in einem anderen Mitgliedstaat als Teil eines Bildungsprogramms</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>conducting research in another Member State as part of an education programme</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Medizinische Versorgung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Healthcare</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Medizinische Behandlung in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>getting medical treatment in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Kauf von verordneten Arzneimitteln in einem anderen Mitgliedstaat als dem, in dem die Verordnung ausgestellt wurde, online oder vor Ort</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>buying prescribed pharmaceutical products in a Member State other than the one where the prescription was issued, online or in person</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Krankenversicherungsbestimmungen für kurze oder längere Aufenthalte in einem anderen Mitgliedstaat und Antrag auf Ausstellung einer Europäischen Krankenversicherungskarte</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>health insurance rules applicable in the case of short-term or long-term stays in another Member State, including how to apply for a European Health Insurance Card</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Allgemeine Informationen über Zugangsrechte zu verfügbaren öffentlichen Präventionsmaßnahmen im Gesundheitsbereich und über die Pflichten zur Teilnahme an diesen Maßnahmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>general information on access rights or obligations to participate in available public preventive healthcare measures</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Dienste, die über die nationalen Notrufnummern (einschließlich 112 und 116) zur Verfügung gestellt werden</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>services provided through national emergency numbers, including ‘112’ and ‘116’ numbers rights and conditions for moving to a residential care home</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1060600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Voraussetzungen für den Einzug in eine stationäre Pflegeeinrichtung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rights and conditions for moving to a residential care home</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Bürger- und Familienrechte</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Citizens’ and family rights</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Geburt, Sorgerecht für Minderjährige, elterliche Pflichten, Vorschriften für Leihmutterschaft und Adoption, einschließlich Stiefkindadoption, Unterhaltspflichten für Kinder bei grenzüberschreitenden familiären Gegebenheiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>birth, custody for minor children, parental responsibilities, rules on surrogacy and adoption, including second-parent-adoption, maintenance obligations in relation to children in a cross-border family situation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Leben in einer binationalen Partnerschaft, auch einer gleichgeschlechtlichen Partnerschaft (Eheschließung, zivile/eingetragene Partnerschaft, Trennung, Scheidung, Güterrecht, Rechte von Lebenspartnern)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>living in a couple with different nationalities, including same-sex couples (marriage, civil or registered partnership, separation, divorce, marital property rights, the rights of cohabitants)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorschriften für die Anerkennung der Geschlechtszugehörigkeit</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rules of gender recognition</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Erbansprüche und -pflichten in einem anderen Mitgliedstaat, einschließlich Steuervorschriften</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rights and obligations in relation to succession in another Member State, including tax rules</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1070500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Vorschriften für Fälle der grenzüberschreitenden Kindesentführung durch einen Elternteil</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rights and rules applicable in the case of cross-border parental child abduction</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Verbraucherrechte</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Consumer rights</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Kauf von Waren, digitalen Inhalten oder entgeltliche Inanspruchnahme von Dienstleistungen aus einem anderen Mitgliedstaat (auch Finanzdienstleistungen), online oder vor Ort</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>buying goods, digital content or services (including financial services) from another Member State, online or in person</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Besitz eines Bankkontos in einem anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>holding a bank account in another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Inanspruchnahme von öffentlichen Dienstleistungen, z. B. Gas-, Strom-, Wasserversorgung, Beseitigung von Haushaltsabfällen, Telekommunikationsdienstleistungen und Internet</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>connection to utilities, such as gas, electricity, water, household waste disposal, telecoms and the internet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zahlungen, einschließlich Überweisungen, Verzögerungen bei grenzüberschreitenden Zahlungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>payments, including credit transfers, delays in cross-border payments</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Verbraucherrechte und Garantien im Zusammenhang mit dem Kauf von Waren und Dienstleistungen, einschließlich Verfahren für die Beilegung von Verbraucherrechtsstreitigkeiten und die Verbraucherentschädigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>consumer rights and guarantees related to buying goods and services, including procedures for consumer dispute resolution and compensation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Sicherheit von Verbraucherprodukten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>safety and security of consumer products</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1080700</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Mieten eines Kraftfahrzeugs</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>renting a motor vehicle</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1090000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Schutz personenbezogener Daten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Protection of personal data</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1090100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Ausübung der Rechte der Betroffenen im Zusammenhang mit dem Schutz personenbezogener Daten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>exercising data subjects’ rights in relation to the protection of personal data</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2000000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Informationsbereiche im Zusammenhang mit Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Areas of information related to businesses</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gründung, Führung und Schließung eines Unternehmens</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Starting, running and closing a business</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Eintragung, Änderung der Rechtsform oder Schließung eines Unternehmens (Registrierungsverfahren und Rechtsformen für geschäftliche Tätigkeiten)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>registering, changing the legal form of or closing a business (registration procedures and legal forms for carrying out business)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Verlagerung eines Unternehmens in einen anderen Mitgliedstaat</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>moving a business to another Member State</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte des geistigen Eigentums (Antrag auf Erteilung eines Patents, Anmeldung einer Marke, einer Zeichnung oder eines Gebrauchsmusters, Erwerb einer Lizenz für die Vervielfältigung)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>intellectual property rights (applying for a patent, registering a trademark, a drawing or a design, getting a licence for reproduction)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Fairness und Transparenz von Geschäftspraktiken, einschließlich Verbraucherrechte und Garantien im Zusammenhang mit dem Verkauf von Waren und Dienstleistungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>fairness and transparency in commercial practices, including consumer rights and guarantees related to selling goods and services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Angebot von Online-Verfahren für grenzüberschreitende Zahlungen beim Online-Verkauf von Waren und Dienstleistungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>offering online facilities for cross-border payments when selling goods and services online</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Pflichten aufgrund des Vertragsrechts, einschließlich Verzugszinsen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rights and obligations arising under contract law, including late payment interests</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010700</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Insolvenzverfahren und Liquidation von Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>insolvency proceedings and liquidation of companies</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010800</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Kreditversicherung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>credit insurance</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2010900</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Unternehmensfusionen oder Verkauf eines Unternehmens</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>mergers of companies or selling a business</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2011000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zivilrechtliche Haftung der Direktoren eines Unternehmens</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>civil liability of directors of a company</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2011100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorschriften und Pflichten im Zusammenhang mit der Verarbeitung personenbezogener Daten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>1rules and obligations regarding the processing of personal data</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Arbeitnehmer</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Employees</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gesetzlich oder durch Rechtsverordnung geregelte Beschäftigungsbedingungen einschließlich Arbeitsstunden, bezahlter Urlaub, Urlaubsansprüche, Rechte und Pflichten in Bezug auf Überstunden, Gesundheitskontrollen, Beendigung von Verträgen, Kündigung oder Entlassungen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>terms of employment stipulated by law or statutory instrument (including working hours, paid leave, holiday entitlements, rights and obligations regarding overtime work, health checks, termination of contracts, dismissals and redundancies)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Rechte und Pflichten im Bereich der sozialen Sicherheit in der Union (Registrierung als Arbeitgeber, Registrierung von Beschäftigten, Mitteilung über das Ende eines Vertrags eines Beschäftigten, Zahlung von Sozialbeiträgen, Rechte und Pflichten im Zusammenhang mit Renten)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>social security rights and obligations in the Union (registering as employer, registering employees, notifying the end of contract of an employee, paying social contributions, rights and obligations related to pensions)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Beschäftigung von Arbeitnehmern in anderen Mitgliedstaaten (Entsendung von Arbeitnehmern, Vorschriften über den freien Dienstleistungsverkehr, Wohnsitzanforderungen für Arbeitnehmer)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>employment of workers in other Member States (posting of workers, rules on freedom to provide services, residency requirements for workers)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gleichbehandlung (Vorschriften gegen Diskriminierung am Arbeitsplatz, Vorschriften zur gleichen Entlohnung für Männer und Frauen, gleiche Entlohnung für Beschäftigte mit befristeten oder mit unbefristeten Arbeitsverträgen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>equal treatment (rules prohibiting discrimination in the workplace, rules on equal pay for men and women and equal pay for employees on fixed-term or under permanent employment contracts)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2020500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorschriften für die Arbeitnehmervertretung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>rules on staff representation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Steuern</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Taxes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Mehrwertsteuer: Informationen über die allgemeinen Vorschriften, Sätze und Ausnahmeregelungen, MwSt.-Registrierung und -Zahlung, MwSt.-Erstattung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>VAT: information on the general rules, rates and exemptions, registering for and paying VAT, obtaining a refund</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Verbrauchsteuern: Informationen über die allgemeinen Vorschriften, Sätze und Ausnahmeregelungen, Verbrauchsteuerregistrierung und -zahlung, Verbrauchsteuererstattung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>excise duties: information on the general rules, rates and exemptions, registration for excise tax purposes and payment of excise tax, obtaining a refund</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zölle und andere Steuern und Abgaben, die auf Einfuhren erhoben werden</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>customs duties and other taxes and duties collected on imports</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zollverfahren für Einfuhren und Ausfuhren gemäß dem Zollkodex der Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>customs procedures for imports and exports under the Union Customs Code</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2030500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Sonstige Steuern: Zahlung, Sätze, Steuererklärungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>other taxes: payment, rates, tax returns</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Waren</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Goods</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Erlangung der CE-Kennzeichnung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>obtaining CE marking</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Vorschriften für und Anforderungen an Erzeugnisse</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>product rules and requirements</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Feststellung der geltenden Normen, technischen Spezifikationen und Zertifizierung der Produkte</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>identifying applicable standards, technical specifications and getting products certified</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040400</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gegenseitige Anerkennung von Produkten, die keinen Unionsspezifikationen unterliegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>mutual recognition of products not subject to Union specifications</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040500</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Anforderungen in Bezug auf die Einstufung, Kennzeichnung und Verpackung von gefährlichen Chemikalien</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>requirements regarding classification, labelling and packaging for hazardous chemicals</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040600</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Verkäufe im Fernabsatz und außerhalb von Geschäftsräumen: Informationen, die Verbrauchern vorab zu erteilen sind, schriftliche Vertragsbestätigung, Rücktritt von einem Vertrag, Lieferung der Waren, sonstige spezifische Verpflichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>distance/off-premises selling: information to be given to customers in advance, confirmation of the contract in writing, withdrawal from a contract, delivering of the goods, other specific obligations</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040700</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Fehlerhafte Produkte: Verbraucherrechte und Garantien, Verantwortlichkeiten nach dem Verkauf, Abhilfemöglichkeiten für eine geschädigte Partei</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>defective products: consumer rights and guarantees, after-sale responsibilities, means of redress for an injured party</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040800</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zertifizierung, Gütezeichen (EMAS, Energieeffizienzkennzeichnung, Ökodesign, EU-Umweltzeichen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>certification, labels (EMAS, energy labels, Eco-design, EU eco-label)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2040900</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Recycling und Abfallentsorgung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>recycling and waste management</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2050000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Dienstleistungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2050100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Erlangung von Lizenzen, Genehmigungen oder Zulassungen im Hinblick auf die Gründung und Führung eines Unternehmens</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>acquiring licences, authorisations or permits with a view to starting and operating a business</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2050200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Unterrichtung der Behörden über grenzüberschreitende Tätigkeiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>notifying the authorities of cross-border activities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2050300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Anerkennung beruflicher Qualifikationen, einschließlich beruflicher Bildung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>recognition of professional qualifications, including vocational education and training</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2060000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Finanzierung eines Unternehmens</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Funding a business</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2060100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zugang zu Finanzmitteln auf Unionsebene, einschließlich Finanzierungsprogramme der Union und Finanzhilfen für Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>obtaining access to finance at the Union level, including Union funding programmes and business grants</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2060200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Zugang zu Finanzmitteln auf nationaler Ebene</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>obtaining access to finance at national level</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2060300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Initiativen für Unternehmer (Austauschmaßnahmen für neue Unternehmer, Mentoring-Programme usw.)</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>initiatives addressed to entrepreneurs (exchanges organised for new entrepreneurs, mentoring programmes, etc.)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2070000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Öffentliche Aufträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Public contracts</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2070100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Teilnahme an öffentlichen Ausschreibungen: Regeln und Verfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>participating in public tenders: rules and procedures</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2070200</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Online-Abgabe eines Gebots auf eine öffentliche Ausschreibung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>submitting a bid online in response to a public call for tender</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2070300</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Meldung von Unregelmäßigkeiten im Zusammenhang mit dem Ausschreibungsverfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>reporting irregularities in relation to the tender process</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2080000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gesundheit und Sicherheit am Arbeitsplatz</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>Health and safety at work</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2080100</SimpleValue>
+         </Value>
+         <Value ColumnRef="Bezeichnung">
+            <SimpleValue>Gesundheits- und Sicherheitsvorschriften im Zusammenhang mit verschiedenen Arten von Tätigkeiten, einschließlich der Risikovermeidung, Information und Ausbildung</SimpleValue>
+         </Value>
+         <Value ColumnRef="BezeichnungEnglisch">
+            <SimpleValue>health and safety obligations in relation to different types of activity, including risk prevention, information and training</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

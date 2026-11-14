@@ -1,0 +1,177 @@
+# Erwartungen sind Annahmen (nicht amtlich belegt); erzeugt aus eval_1000.txt
+{"anliegen": "hallo, ich habe diesen Sommer ein bisschen Geld mit Nachhilfe verdient muss ich das irgendwo angeben?", "erwartet": ["finanzamt"]}
+{"anliegen": "wie viel Steuern muss ich auf meine Erbschaft von meiner Tante zahlen", "erwartet": ["finanzamt"]}
+{"anliegen": "bekomme ich vom Finanzamt noch etwas zurück wenn ich Handwerker hatte", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich hab mein Elster Passwort vergessen", "erwartet": ["finanzamt"]}
+{"anliegen": "wo kann ich einen Antrag auf Steuererlass stellen", "erwartet": ["finanzamt"]}
+{"anliegen": "Mein Steuerbescheid kam und ich bin mit der Berechnung nicht einverstanden", "erwartet": ["finanzamt"]}
+{"anliegen": "ich brauche meine steuerliche Identifikationsnummer", "erwartet": ["finanzamt"]}
+{"anliegen": "Wie melde ich meine Freiberufliche Tätigkeit beim Finanzamt an", "erwartet": ["finanzamt"]}
+{"anliegen": "Wo beantrage ich die Befreiung von der Grundsteuer", "erwartet": ["finanzamt"]}
+{"anliegen": "ich möchte die Steuerklasse 3 beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "Gewinne aus Bitcoin Verkauf versteuern", "erwartet": ["finanzamt"]}
+{"anliegen": "Umsatzsteuerjahreserklärung abgeben bis wann", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuernachzahlung stunden lassen", "erwartet": ["finanzamt"]}
+{"anliegen": "mein hund ist gestorben muss ich ihn abmelden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Ich habe einen neuen Hund und will den bei der Stadt melden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wo bekomme ich eine neue Biotonne", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wann wird der Sperrmüll abgeholt", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wo muss ich Hundesteuer überweisen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Kann ich einen Stand auf dem Flohmarkt anmelden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Die Straßenbeleuchtung bei uns ist seit Tagen aus", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wo kann ich einen Grabplatz für meine Mutter aussuchen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wer ist für die Kanalgebühren zuständig", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Ich möchte einen Antrag an den Stadtrat stellen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Bürgerbegehren starten wie", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Ich will meinen Jagdschein erneuern", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wo mache ich die Fischerprüfung", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Ich habe von meinem Opa eine Pistole geerbt", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "wo kann ich meine Waffenbesitzkarte ändern lassen", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Schießstand Genehmigung Verein", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Der Landkreis plant eine Schulschließung wo kann ich mich beschweren", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wo beantrage ich eine Genehmigung für ein Feuerwerk bei meiner Hochzeit", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Mein Nachbar parkt ständig auf dem Gehweg", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Wer kümmert sich um herrenlose Fahrräder auf dem Bahnhofsvorplatz", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Die Nachbarn feiern jede Nacht bis 4 Uhr", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Wo kann ich einen Einspruch gegen ein Parkticket einlegen", "erwartet": ["ordnungsamt"]}
+{"anliegen": "ich möchte eine Demonstration in der Innenstadt anmelden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Wer ist zuständig für Taubenplage in der Innenstadt", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Rauchmelder Pflicht Kontrolle Beschwerde", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Sperrstunde Ausnahme für Kneipe", "erwartet": ["ordnungsamt"]}
+{"anliegen": "mein Perso läuft nächsten Monat ab was muss ich tun", "erwartet": ["buergeramt"]}
+{"anliegen": "wie bekomme ich einen Reisepass für meinen Sohn", "erwartet": ["buergeramt"]}
+{"anliegen": "Ich ziehe nächste Woche um muss ich mich irgendwo melden", "erwartet": ["buergeramt"]}
+{"anliegen": "ich brauche ein Führungszeugnis für meinen neuen Job", "erwartet": ["buergeramt"]}
+{"anliegen": "Meldebescheinigung für das Finanzamt", "erwartet": ["buergeramt"]}
+{"anliegen": "wo kann ich Dokumente beglaubigen lassen für die Uni", "erwartet": ["buergeramt"]}
+{"anliegen": "Ich bin aus Berlin weggezogen und muss mich abmelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Ich will meinen Zweitwohnsitz anmelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Wie lange dauert ein neuer Personalausweis", "erwartet": ["buergeramt"]}
+{"anliegen": "Wir möchten im Juni standesamtlich heiraten", "erwartet": ["standesamt"]}
+{"anliegen": "Wo bekomme ich eine beglaubigte Abschrift aus dem Geburtenregister", "erwartet": ["standesamt"]}
+{"anliegen": "Meine Tochter wurde letzte Woche geboren wo melde ich sie an", "erwartet": ["standesamt"]}
+{"anliegen": "Meine Oma ist verstorben wo bekomme ich die Sterbeurkunde", "erwartet": ["standesamt"]}
+{"anliegen": "ich möchte meinen Nachnamen nach der Hochzeit ändern", "erwartet": ["standesamt"]}
+{"anliegen": "Wir wollen unsere eingetragene Partnerschaft in eine Ehe umwandeln", "erwartet": ["standesamt"]}
+{"anliegen": "Ich möchte den Geburtsnamen meines Kindes ändern", "erwartet": ["standesamt"]}
+{"anliegen": "Meine Aufenthaltserlaubnis läuft bald ab", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Ich möchte einen deutschen Pass beantragen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Wie bekomme ich eine Niederlassungserlaubnis", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Mein Visum ist abgelaufen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Ich will meine Ehefrau aus Indien nach Deutschland holen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Ich brauche eine Arbeitserlaubnis als Student", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Wie läuft das Asylverfahren ab", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Ich möchte einen Integrationskurs besuchen", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "wo kann ich einen Deutschkurs für Zuwanderer machen", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "mein Asylantrag wurde abgelehnt", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Ich will mich scheiden lassen aber wir haben ein gemeinsames Haus", "erwartet": ["amtsgericht"]}
+{"anliegen": "Wo kann ich mein Testament hinterlegen", "erwartet": ["amtsgericht"]}
+{"anliegen": "mein Vater ist gestorben und ich brauche einen Erbschein", "erwartet": ["amtsgericht"]}
+{"anliegen": "Wie schlage ich eine Erbschaft aus", "erwartet": ["amtsgericht"]}
+{"anliegen": "Wo bekomme ich einen Grundbuchauszug", "erwartet": ["amtsgericht"]}
+{"anliegen": "ich will einen Verein gründen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Mein Nachbar zahlt seine Miete nicht ich möchte klagen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Beratungshilfe beantragen wo", "erwartet": ["amtsgericht"]}
+{"anliegen": "Ich möchte Privatinsolvenz anmelden", "erwartet": ["amtsgericht"]}
+{"anliegen": "Ich möchte gegen das Urteil des Amtsgerichts in Berufung gehen", "erwartet": ["landgericht"]}
+{"anliegen": "Meine Klage geht um 20.000 Euro wo reiche ich die ein", "erwartet": ["landgericht"]}
+{"anliegen": "Ich möchte gegen den Bescheid der Gemeinde klagen", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Ich will gegen meine Ablehnung des Studienplatzes klagen", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen eine Ordnungsverfügung der Stadt", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Ich möchte jemanden wegen Körperverletzung anzeigen", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Ich habe eine Vorladung als Zeuge von der Staatsanwaltschaft erhalten", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Mein Verfahren wurde eingestellt ich möchte Beschwerde einlegen", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Jemand hat mein Auto zerkratzt", "erwartet": ["polizei"]}
+{"anliegen": "Mein Handy wurde im Zug geklaut", "erwartet": ["polizei"]}
+{"anliegen": "Ich bin in meiner Wohnung überfallen worden", "erwartet": ["polizei"]}
+{"anliegen": "Wo melde ich einen Verkehrsunfall mit Fahrerflucht", "erwartet": ["polizei"]}
+{"anliegen": "Bei mir wurde eingebrochen", "erwartet": ["polizei"]}
+{"anliegen": "Ich möchte eine Vermisstenanzeige für meinen Bruder aufgeben", "erwartet": ["polizei"]}
+{"anliegen": "ich habe Zigaretten aus Polen mitgebracht muss ich Zoll zahlen", "erwartet": ["zoll"]}
+{"anliegen": "Wie viel kostet die Verzollung eines Pakets aus Amerika", "erwartet": ["zoll"]}
+{"anliegen": "Ich vermute dass mein Nachbar schwarz arbeitet", "erwartet": ["zoll"]}
+{"anliegen": "Kfz-Steuer Lastschrift Bescheid", "erwartet": ["zoll"]}
+{"anliegen": "Ich möchte Waren nach Großbritannien ausführen", "erwartet": ["zoll"]}
+{"anliegen": "Mein Ex Partner zahlt keinen Unterhalt für unser Kind", "erwartet": ["jugendamt"]}
+{"anliegen": "wo bekomme ich Unterhaltsvorschuss", "erwartet": ["jugendamt"]}
+{"anliegen": "Wir möchten ein Kind adoptieren", "erwartet": ["jugendamt"]}
+{"anliegen": "Ich möchte Pflegemutter werden", "erwartet": ["jugendamt"]}
+{"anliegen": "Kita Platz für mein Kind finden", "erwartet": ["jugendamt"]}
+{"anliegen": "Ich mache mir Sorgen um das Wohl eines Kindes in der Nachbarschaft", "erwartet": ["jugendamt"]}
+{"anliegen": "Elterngeld nach der Geburt", "erwartet": ["jugendamt"]}
+{"anliegen": "Ich bekomme eine sehr kleine Rente und brauche Unterstützung", "erwartet": ["sozialamt"]}
+{"anliegen": "Wo beantrage ich einen Schwerbehindertenausweis", "erwartet": ["sozialamt"]}
+{"anliegen": "wer hilft mir wenn ich meine Pflegeheimkosten nicht zahlen kann", "erwartet": ["sozialamt"]}
+{"anliegen": "Wo gibt es Hilfe für Menschen ohne Wohnung", "erwartet": ["sozialamt"]}
+{"anliegen": "Zuschuss für Schulsachen vom Amt", "erwartet": ["sozialamt"]}
+{"anliegen": "Ich bin langzeitarbeitslos und brauche Bürgergeld", "erwartet": ["jobcenter"]}
+{"anliegen": "Mein Bürgergeld wurde gekürzt", "erwartet": ["jobcenter"]}
+{"anliegen": "Ich will meinen Bürgergeldantrag verlängern", "erwartet": ["jobcenter"]}
+{"anliegen": "Das Jobcenter hat mich zu einem Termin eingeladen", "erwartet": ["jobcenter"]}
+{"anliegen": "Ich habe gekündigt bekommen und brauche Arbeitslosengeld", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Wo finde ich einen Job über die Agentur", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Wie melde ich mich arbeitslos", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Kurzarbeit beantragen für meinen Betrieb", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Ich brauche eine Berufsberatung", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Wo bekomme ich Kindergeld für mein neugeborenes Baby", "erwartet": ["familienkasse"]}
+{"anliegen": "Mein Sohn macht eine Ausbildung bekomme ich weiter Kindergeld", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld wurde nicht überwiesen", "erwartet": ["familienkasse"]}
+{"anliegen": "Ich möchte Wohngeld für meine Mietwohnung beantragen", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wie viel Wohngeld bekomme ich als Rentner", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Mein Wohngeld läuft aus", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Ich habe meinen Führerschein verloren", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ich muss zur MPU wegen Alkohol", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Wie lange dauert es bis ich nach einem Entzug wieder fahren darf", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein im Ausland gemacht umschreiben", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ich will den Motorradführerschein machen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ich habe ein Auto gekauft und will es anmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Wie melde ich mein Auto ab", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Mein Kennzeichen ist weg", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Ich ziehe in eine andere Stadt brauche ich ein neues Kennzeichen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Auto verkauft wie abmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Ich möchte einen Anbau an mein Haus machen brauche ich dafür eine Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Wo kann ich in den Bebauungsplan schauen", "erwartet": ["bauamt"]}
+{"anliegen": "Mein Nachbar baut ohne Baugenehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Dachfenster einbauen genehmigungspflichtig", "erwartet": ["bauamt"]}
+{"anliegen": "ich muss für meinen Job in der Küche eine Belehrung machen", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "wo kann ich mich auf Tuberkulose untersuchen lassen", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Impfberatung für Reisen", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Mein Kind soll zur Schuluntersuchung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Mein Nachbar quält seine Katzen", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Ich will Hühner halten muss ich das melden", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Wo melde ich Geflügelpest Verdacht", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Ich möchte einen alten Baum auf meinem Grundstück fällen", "erwartet": ["umweltamt"]}
+{"anliegen": "Jemand kippt Öl in den Fluss", "erwartet": ["umweltamt"]}
+{"anliegen": "Wo muss ich meinen Brunnen anmelden", "erwartet": ["umweltamt"]}
+{"anliegen": "Ich möchte ein Café eröffnen", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Wie melde ich ein Gewerbe an", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Ich will nebenbei bei Amazon verkaufen", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbe abmelden weil ich aufhöre", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Wo kann ich meine Ausbildereignungsprüfung machen", "erwartet": ["ihk"]}
+{"anliegen": "Ich brauche ein Ursprungszeugnis für meinen Export", "erwartet": ["ihk"]}
+{"anliegen": "Wie werde ich IHK Mitglied", "erwartet": ["ihk"]}
+{"anliegen": "Ich will meinen Meister machen", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Betrieb in die Handwerksrolle eintragen lassen", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Wo melde ich meinen Lehrling an", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Wann kann ich in Rente gehen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Wie hoch wird meine Rente", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Ich möchte Erwerbsminderungsrente beantragen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Mein Mann ist gestorben bekomme ich Witwenrente", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Wo beantrage ich eine Reha", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Ich will meine Krankenkasse wechseln", "erwartet": ["krankenkasse"]}
+{"anliegen": "Meine Gesundheitskarte ist kaputt", "erwartet": ["krankenkasse"]}
+{"anliegen": "Mein Kind soll bei mir mitversichert werden", "erwartet": ["krankenkasse"]}
+{"anliegen": "Ich bin krank und bekomme kein Gehalt mehr Krankengeld", "erwartet": ["krankenkasse"]}
+{"anliegen": "Zuschuss für meine Zahnkrone", "erwartet": ["krankenkasse"]}
+{"anliegen": "Meine Mutter braucht einen Pflegegrad", "erwartet": ["pflegekasse"]}
+{"anliegen": "Wie bekomme ich Pflegegeld für meinen Vater", "erwartet": ["pflegekasse"]}
+{"anliegen": "Ich pflege meine Frau zu Hause und brauche Entlastung", "erwartet": ["pflegekasse"]}
+{"anliegen": "Ich will BAföG für mein Studium beantragen", "erwartet": ["bafoegamt"]}
+{"anliegen": "Wie hoch ist der BAföG Satz", "erwartet": ["bafoegamt"]}
+{"anliegen": "Ich muss mein BAföG zurückzahlen", "erwartet": ["bafoegamt"]}
+{"anliegen": "Mein Sohn soll die Schule wechseln", "erwartet": ["schulamt"]}
+{"anliegen": "Mein Kind wird nächstes Jahr eingeschult wo melde ich es an", "erwartet": ["schulamt"]}
+{"anliegen": "Ich möchte mein Kind vom Unterricht befreien lassen", "erwartet": ["schulamt"]}
+{"anliegen": "Wie bekomme ich ein Duplikat meines Abiturzeugnisses", "erwartet": ["schulamt"]}
+{"anliegen": "Ich bin Spätaussiedler und möchte meinen Status feststellen lassen", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Ich möchte als Lehrer an einer Deutschen Schule im Ausland arbeiten", "erwartet": ["bundesverwaltungsamt"]}

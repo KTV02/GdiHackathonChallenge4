@@ -1,0 +1,66 @@
+spring:
+  elasticsearch:
+    uris: http://elasticsearch:9200
+  cache:
+    type: redis
+
+de:
+  dataport:
+    suchdienst:
+      ars:
+        use-seed-only: true
+      bkg:
+        gdz-geokodierung-basis-url: http://localhost:8002/
+        password: bkg-secret
+      codelist:
+        base-url: http://localhost:8003/api
+      importer:
+        delay-between-queue-polls: PT0.100S
+        delay-between-verwaltungsleistung-import-attempts: PT0.100S
+      in-mem-cache:
+        xoevArsList: "expireAfterWrite=3d,recordStats"
+      endpoint:
+        enableDeprecated:
+          v2-locations-suggestions: true
+          v2-locations: true
+          v2-organisationunits-jzufi: true
+          v3-relations-ars-jzufi: true
+          v3-servicedescriptions-jzufi: true
+          v5-servicedescriptions-ars-detail: true
+    pvog:
+      pvexternaldownloader:
+        config:
+          codelist:
+            query-current-version-pattern: http://localhost:8003/genericode/codeliste/${listUri}/gueltigeVersion
+            download-list-pattern: http://localhost:8003/genericode/${listUri}_${listVersion}/genericode
+
+keycloak:
+  auth-server-url: https://private.devintern.pvog.dataport.de/auth
+  realm: pvog
+  resource: suchdienst
+  credentials:
+    secret: f6649252-d475-4eaa-dc77-d7d8e3f9f4ff
+  bearer-only: true
+  principal-attribute: preferred_username
+
+springdoc:
+  show-actuator: true
+  default-produces-media-type: application/json
+  default-consumes-media-type: application/json
+  swagger-ui:
+    displayRequestDuration: true
+
+cors:
+  custom:
+    config:
+      cors:
+        allowed-methods: GET,POST,PUT,DELETE,HEAD,OPTIONS
+        allowed-headers: Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Request-Method,Access-Control-Request-Headers,Origin,Cache-Control,Content-Type,Authorization,X-CSRF-TOKEN,X-XSRF-TOKEN
+        exposed-headers: Authorization,Access-Control-Allow-Origin
+        allowed-origins: localhost
+      enabled: true
+
+server:
+  compression:
+    # Geringerer Wert als in der Produktion, damit die Komprimierung auch bei kleinen Testantworten aktiviert wird
+    min-response-size: 100B

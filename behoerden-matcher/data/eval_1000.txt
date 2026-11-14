@@ -1,0 +1,1219 @@
+# Testanfragen (Freitext, wie Nutzer sie tippen) mit erwarteter Behördenart. Erwartungen sind Annahmen, nicht amtlich belegt.
+finanzamt:
+Wo gebe ich meine Steuererklärung ab
+ich muss meine steuererklärung machen und weiß nicht wie
+wie funktioniert elster
+Elster Zugang vergessen was tun
+Ich habe meine Steuer-ID verloren
+steuernummer beantragen als freiberufler
+Ich habe einen Steuerbescheid bekommen und finde ihn falsch
+Einspruch gegen Steuerbescheid einlegen
+ich habe geerbt und muss das dem finanzamt melden
+Wo melde ich eine Schenkung von meinen Eltern
+mein Opa hat mir 50000 euro geschenkt
+Erbschaftsteuer zahlen wie geht das
+ich will meine steuerklasse wechseln
+Steuerklasse ändern nach Heirat
+Freibetrag auf der Lohnsteuerkarte eintragen lassen
+ich habe nebenbei als selbstständiger gearbeitet und muss Umsatzsteuer zahlen
+Kleinunternehmerregelung beantragen
+umsatzsteuer voranmeldung abgeben
+Fristverlängerung für Steuererklärung
+Steuerliche Anmeldung nach Gewerbeanmeldung fragebogen
+Fragebogen zur steuerlichen Erfassung ausfüllen
+Gewerbesteuer Bescheid erhalten wo einspruch
+Ich möchte eine Steuerrückerstattung beantragen
+wann bekomme ich mein Geld vom Finanzamt zurück
+Stundung von Steuerschulden beantragen
+Ich kann meine Steuern nicht zahlen Ratenzahlung
+Steuerberater Vollmacht beim Finanzamt hinterlegen
+Grunderwerbsteuer nach Hauskauf
+Grundsteuererklärung abgeben
+Grundsteuer Wert Erklärung wie ausfüllen
+Kirchensteuer austreten Auswirkungen auf Steuer
+Spendenbescheinigung bei der Steuer angeben
+ich habe eine Photovoltaikanlage und muss das beim Finanzamt anmelden
+Steuernummer für Rechnung herausfinden
+Bescheinigung über Steuerliche Ansässigkeit
+Freistellungsbescheinigung nach 48b beantragen
+USt-IdNr beantragen
+Umsatzsteuer-Identifikationsnummer für Export
+Nachzahlung Einkommensteuer wie bezahlen
+Anlage N ausfüllen was ist das
+Lohnsteuerjahresausgleich machen
+Pendlerpauschale geltend machen
+Homeoffice Pauschale Steuer absetzen
+Kinderfreibetrag in der Steuererklärung
+Kapitalertragsteuer Freistellungsauftrag
+Steuer auf Aktiengewinne melden
+Steuer bei Vermietung angeben Anlage V
+ich habe eine Wohnung vermietet und muss das versteuern
+Steuerfahndung Brief erhalten
+Wo kann ich die Vorauszahlungen für die Einkommensteuer ändern
+stadtverwaltung:
+Ich möchte meinen Hund anmelden
+hund anmelden wo
+Hundesteuer zahlen
+Hundesteuer abmelden wenn Hund gestorben ist
+Hundemarke verloren
+Hund umgezogen Wohnort ändern Steuer
+ich habe einen welpen bekommen und muss ihn registrieren
+Zweithund anmelden Kosten
+Hundesteuerbefreiung beantragen
+Kampfhund anmelden Erlaubnis
+Wo bekomme ich Müllsäcke
+Mülltonne bestellen
+Restmülltonne größer beantragen
+Biotonne bestellen
+Sperrmüll anmelden
+Sperrmüllabholung Termin vereinbaren
+Gelbe Säcke abholen
+Abfallkalender abholen
+Mülltonne reklamieren nicht geleert
+Wertstoffhof Öffnungszeiten
+Friedhofsgebühren Grabnutzung verlängern
+Grabstelle reservieren
+Urnengrab beantragen
+Wo kann ich eine Bestattung anmelden
+Marktstand beantragen Wochenmarkt
+Standplatz auf dem Weihnachtsmarkt bewerben
+Straßenfest anmelden
+Veranstaltung auf öffentlicher Fläche beantragen
+Bücherei Ausweis beantragen Stadtbibliothek
+Straßenlaterne defekt melden
+Schlagloch in der Straße melden
+Baum umgestürzt auf dem Gehweg wen anrufen
+Spielplatz kaputt Mängelmelder
+Rathaus Öffnungszeiten
+Wo ist das Rathaus
+Beschwerde an die Gemeinde schreiben
+Gemeinderat Sitzung öffentlich zugang
+Straßenreinigung Gebühren Bescheid
+Kanalgebühren Bescheid Widerspruch
+Wasserzähler ablesen Gemeinde
+Anschlussbeitrag Wasser Bescheid
+kreisverwaltung:
+Ich brauche einen Jagdschein
+Jagdschein verlängern
+Wo bekomme ich einen Fischereischein
+Angelschein für Kinder
+Waffenbesitzkarte beantragen als Sportschütze
+ich habe eine Waffe geerbt was muss ich tun
+Kleiner Waffenschein Antrag
+Landratsamt Termin vereinbaren
+Landratsamt Kontakt Telefonnummer
+Wo ist die Kreisverwaltung
+Kreisstraße gesperrt wen informieren
+Landkreis Abfallentsorgung Deponie Preise
+Deponie Anlieferung Bauschutt
+Waffenschrank Kontrolle Termin
+Sprengstofferlaubnis für Silvesterfeuerwerk
+Großes Feuerwerk anmelden Hochzeit
+Wildschaden am Feld melden
+Wildunfall Bescheinigung Jäger
+Jagdpacht anzeigen
+Waffe verloren was jetzt
+Wie werde ich Jäger Prüfung anmelden
+Fischerprüfung anmelden
+Rettungsdienst Rechnung Widerspruch
+Katastrophenschutz Ehrenamt
+Kreisbrandmeister Kontakt
+Landrat sprechen Termin
+Kreishaus Adresse
+Kreistag Beschluss Einsicht
+Landkreisverwaltung Stellenangebote
+Waffenbehörde Öffnungszeiten
+Sportschützen Bedürfnisprüfung Waffe
+regierungsprs:
+Regierungspräsidium Beschwerde
+Wie lege ich Widerspruch beim Regierungspräsidium ein
+Bezirksregierung Kontakt
+Dienstaufsichtsbeschwerde gegen den Bürgermeister
+Kommunalaufsicht Beschwerde Gemeinde
+Planfeststellung Einwendung einreichen
+Einwendung gegen Autobahnbau
+Raumordnungsverfahren Beteiligung
+Approbation als Arzt aus dem Ausland beantragen
+Berufserlaubnis Ärztin aus Syrien
+Anerkennung meines Medizinstudiums aus dem Ausland
+Approbation Zahnarzt beantragen
+Apothekenbetriebserlaubnis beantragen
+Apotheke eröffnen Genehmigung
+Heilpraktiker Überprüfung Anmeldung
+Anerkennung Pflegefachkraft aus dem Ausland
+Berufsanerkennung reglementierte Berufe
+Agrarförderung Sammelantrag stellen
+Direktzahlungen Landwirt Antrag
+Flurbereinigung Antrag
+Bergschaden melden
+Immissionsschutz Genehmigung Biogasanlage
+Genehmigung für Windkraftanlage beantragen
+Genehmigung Tierhaltungsanlage Mastbetrieb
+Landesdirektion Sachsen Kontakt
+Landesverwaltungsamt Termin
+Fachaufsichtsbeschwerde einreichen
+Widerspruchsbehörde zuständig für meinen Bescheid
+Bergbau Genehmigung Steinbruch
+ordnungsamt:
+Mein Nachbar macht ständig Lärm
+Ruhestörung melden nachts
+Lärmbelästigung durch Gaststätte
+Falschparker melden
+Auto steht auf meiner Einfahrt wen rufe ich an
+Fahrzeug abschleppen lassen Ordnungsamt
+Knöllchen Widerspruch einlegen
+Bußgeldbescheid erhalten was tun
+Anwohnerparkausweis
+Hundehaltung Auflagen Beschwerde Nachbarhund bellt
+Hund hat mich gebissen melden
+Gefährlicher Hund Anzeige Ordnungsamt
+Wildes Müllablagern melden
+illegale Müllkippe im Wald melden
+Sondernutzung Gehweg Café Tische
+Gaststättenerlaubnis beantragen
+Schankerlaubnis für Vereinsfest
+gestattung für ein Fest beantragen
+Feuerwerk Ausnahmegenehmigung
+Fundsachen abgeben Fundbüro
+Ich habe mein Portemonnaie verloren wo ist das Fundbüro
+Fundbüro Anfrage Fahrrad gefunden
+Verkehrsschild beschädigt melden
+Halteverbot für Umzug beantragen
+Umzugswagen Halteverbotszone
+Obdachlosigkeit Hilfe Ordnungsbehörde
+Gewahrsam Betrunkene
+Versammlung anmelden Demonstration
+Demo anmelden Kundgebung
+Gefahrenabwehr Baum droht umzustürzen
+Pfefferspray Erlaubnis
+Schrottauto auf dem Grundstück entfernen lassen
+buergeramt:
+Personalausweis beantragen
+Personalausweis verlängern
+Perso abgelaufen was tun
+Reisepass beantragen
+Reisepass verloren
+Kinderreisepass beantragen
+Reisepass für mein Baby
+Personalausweis verloren
+ich habe meinen Ausweis verloren
+Ausweis Termin Bürgerbüro
+Bürgeramt Termin online
+Ummelden nach Umzug
+Ich bin umgezogen und muss mich ummelden
+Wohnsitz anmelden
+Wohnung abmelden Auslandsumzug
+Abmeldung ins Ausland Meldebehörde
+Anmeldung Zweitwohnsitz
+Nebenwohnsitz anmelden
+Meldebescheinigung beantragen
+Aufenthaltsbescheinigung für Bank
+Führungszeugnis beantragen
+Polizeiliches Führungszeugnis online
+erweitertes Führungszeugnis für Ehrenamt
+Beglaubigung Kopie Zeugnis
+Dokumente beglaubigen lassen
+Unterschrift beglaubigen lassen
+Beglaubigung Vollmacht
+Online-Ausweis Funktion freischalten
+PIN Brief Personalausweis vergessen
+Lebensbescheinigung für Rente
+Wo bekomme ich ein Anwohnerparkausweis
+Wahlbenachrichtigung nicht erhalten
+Briefwahl beantragen
+Melderegisterauskunft beantragen
+Auskunftssperre im Melderegister
+Vorläufigen Personalausweis beantragen
+Ausweis für Kinder unter 16
+Passfoto Anforderungen biometrisch
+standesamt:
+Wir wollen heiraten was brauchen wir
+Eheschließung anmelden
+Termin zur Trauung
+Heiraten im Ausland Ehefähigkeitszeugnis
+Aufgebot bestellen
+Standesamt Termin Hochzeit
+Trauzeugen Anforderungen
+Heiratsurkunde beantragen
+Eheurkunde Kopie
+Geburtsurkunde beantragen
+Geburtsurkunde verloren
+Geburt anmelden Baby
+mein Kind ist geboren und braucht eine Geburtsurkunde
+Namen des Kindes ändern
+Vaterschaft anerkennen Urkunde
+Sterbeurkunde beantragen
+Todesfall melden
+Mein Vater ist gestorben was muss ich tun
+Namensänderung nach Scheidung
+Ehenamen bestimmen
+Nachnamen ändern lassen
+Vornamen ändern lassen
+Lebenspartnerschaft eintragen
+Eingetragene Lebenspartnerschaft in Ehe umwandeln
+Stammbuch beantragen
+Familienstammbuch Neuausstellung
+Personenstandsurkunde internationale
+Urkunde aus dem Ausland nachbeurkunden lassen
+Beurkundung Auslandsgeburt
+Namensrecht Doppelname
+Geschlechtseintrag ändern Selbstbestimmungsgesetz
+Erklärung zum Geschlechtseintrag
+Hochzeit im Garten genehmigen lassen
+Scheidung Urkunde Ehe beendet
+auslaenderbehoerde:
+Aufenthaltstitel verlängern
+Aufenthaltserlaubnis beantragen
+Visum verlängern
+Niederlassungserlaubnis beantragen nach 5 Jahren
+Blaue Karte EU beantragen
+Familiennachzug Antrag Ehefrau
+Meine Frau soll nachkommen
+Einbürgerung beantragen
+Deutscher Pass werden wie
+Staatsangehörigkeit feststellen
+Duldung verlängern
+Arbeitserlaubnis für Ausländer
+Beschäftigungserlaubnis Asylbewerber
+Aufenthaltstitel Studium
+Aufenthaltserlaubnis Ausbildung
+Fachkräfteeinwanderung Antrag
+Chancenkarte beantragen
+Daueraufenthalt EU
+Visum für meine Mutter zu Besuch
+Verpflichtungserklärung Einladung
+Termin Ausländeramt
+Wo ist die Ausländerbehörde
+Fiktionsbescheinigung
+eAT Karte verloren
+Aufenthaltskarte Verlust
+Wohnsitzauflage ändern
+Abschiebung Widerspruch
+Ausweisung Anwalt
+Aufenthaltsstatus Wechsel
+Aufenthaltserlaubnis Au-pair
+Aufenthaltsgenehmigung für Ehegatten
+Einbürgerungstest Anmeldung
+bundesamt_migration:
+Asylantrag stellen
+Wie beantrage ich Asyl in Deutschland
+Ich bin Flüchtling was muss ich tun
+Asylverfahren Stand Anfrage
+Anhörung beim BAMF Termin
+Asylbescheid Widerspruch
+Ablehnung Asylantrag Klage
+Integrationskurs anmelden
+Integrationskurs Berechtigung
+Deutschkurs für Flüchtlinge
+Orientierungskurs Test
+Berufsbezogene Deutschförderung
+Sprachkurs Zuschuss Migration
+Migrationsberatung für Erwachsene
+Dublin Verfahren
+Schutzstatus Verlängerung
+Ukraine Flüchtling Schutz beantragen
+Anerkennung als Flüchtling
+Familienasyl
+Widerruf Asylstatus
+freiwillige Rückkehr Beratung
+Rückkehrförderung REAG
+Kontingentflüchtling Aufnahme
+Resettlement
+Asylbewerber Unterkunft zugewiesen
+Härtefall Integration Kurs Befreiung
+BAMF Hotline
+Dolmetscher Asylverfahren
+Folgeantrag Asyl
+Aufnahme Afghanistan Ortskräfte
+amtsgericht:
+ich möchte mich von meiner frau scheiden lassen
+Scheidung einreichen
+Scheidungsantrag stellen
+wie läuft eine Scheidung ab
+Trennungsjahr Scheidung Antrag
+Mein Mann will die Scheidung
+einvernehmliche Scheidung ohne Anwalt
+Versorgungsausgleich Scheidung
+Erbschein beantragen
+Ich brauche einen Erbschein für die Bank
+Testament hinterlegen
+Testament beim Gericht abgeben
+Erbe ausschlagen Frist
+Erbschaft ausschlagen weil Schulden
+Nachlassgericht Termin
+Testament eröffnen lassen
+Nachlassinsolvenz
+Grundbuchauszug beantragen
+Grundbucheinsicht
+Eintragung ins Grundbuch nach Hauskauf
+Grundschuld löschen lassen
+Handelsregister Auszug
+GmbH Eintragung Handelsregister
+Vereinsregister Eintragung e.V. gründen
+Verein eintragen lassen
+Mahnbescheid beantragen
+Ich will einen Mahnbescheid gegen meinen Schuldner
+Widerspruch gegen Mahnbescheid
+Privatinsolvenz anmelden
+Insolvenzantrag stellen
+Restschuldbefreiung beantragen
+Zwangsversteigerung Termin
+Betreuung für meinen Vater beantragen
+rechtliche Betreuung einrichten
+Betreuungsgericht Antrag
+Vorsorgevollmacht Registrierung
+Sorgerecht Antrag gemeinsames Sorgerecht
+Umgangsrecht gerichtlich regeln
+Unterhaltsklage einreichen
+Gewaltschutzantrag Kontaktverbot
+Kontaktverbot gegen Ex beantragen
+Beratungshilfeschein beantragen
+Prozesskostenhilfe Antrag
+Rechtsantragstelle
+Klage einreichen ohne Anwalt
+Räumungsklage Mieter
+Wohnungseigentum Streitigkeit Klage
+Namensänderung gerichtlich
+Adoption Antrag Gericht
+Todeserklärung vermisst Person
+Zeuge Ladung Amtsgericht
+Schöffe werden Bewerbung
+landgericht:
+Berufung gegen Urteil Amtsgericht einlegen
+Berufung Landgericht Frist
+Klage über 10000 Euro Streitwert
+Zivilkammer Landgericht Termin
+Strafkammer Landgericht Verhandlung
+Landgericht Adresse
+Wo ist das Landgericht
+Schadensersatzklage hoher Streitwert
+Landgericht Akteneinsicht
+Beschwerde gegen Beschluss des Amtsgerichts
+Anwaltszwang Landgericht
+Revision Strafsache
+Schwurgericht Prozess Zuschauer
+Handelskammer Landgericht Streit zwischen Kaufleuten
+Landgericht Prozesstermin Zuschauer
+Gerichtsvollzieher Beschwerde Landgericht
+Pressestelle Landgericht
+verwaltungsgericht:
+Klage gegen Ausländerbehörde Verwaltungsgericht
+Klage gegen Baugenehmigung
+Verwaltungsgericht Klage einreichen
+Eilantrag gegen Abschiebung
+Klage gegen Bescheid der Stadt
+Widerspruchsbescheid angefochten Klage
+Klage gegen Führerscheinentzug
+Klage gegen Rundfunkbeitrag
+Klage Studienplatz Verwaltungsgericht
+Beamtenrecht Klage Versetzung
+Klage gegen Gewerbeuntersagung
+Verwaltungsgericht Prozesskostenhilfe
+Klage gegen Lärmschutz Entscheidung
+Klage gegen Bußgeld der Behörde
+Verwaltungsgericht Adresse
+Rechtsmittel gegen abgelehnte Aufenthaltserlaubnis
+Normenkontrolle Bebauungsplan
+Klage gegen Schulverweis
+staatsanwaltschaft:
+Strafanzeige bei der Staatsanwaltschaft erstatten
+Staatsanwaltschaft Ermittlungsverfahren Akteneinsicht
+Ich habe einen Brief von der Staatsanwaltschaft bekommen
+Einstellung des Verfahrens Beschwerde
+Anzeige wegen Betrug online
+Strafantrag stellen Beleidigung
+Ermittlungsverfahren gegen mich was tun
+Zeugenladung Staatsanwaltschaft
+Opferentschädigung Antrag Staatsanwaltschaft
+Strafvollstreckung Geldstrafe Ratenzahlung
+Geldstrafe bezahlen Staatsanwaltschaft
+Generalstaatsanwaltschaft Beschwerde
+Wirtschaftsstrafsachen Anzeige
+Verfahrenseinstellung Auflage Zahlung
+Staatsanwaltschaft Kontakt
+Privatklage oder Strafanzeige
+Hinweis Korruption melden
+Akteneinsicht als Geschädigter
+polizei:
+Mein Fahrrad wurde gestohlen
+Fahrraddiebstahl anzeigen
+Ich wurde bestohlen
+Diebstahl anzeigen online
+Einbruch in meine Wohnung
+Anzeige erstatten Sachbeschädigung
+Unfall melden Polizei Fahrerflucht
+Verkehrsunfall aufnehmen lassen
+Autoaufbruch anzeigen
+Handy gestohlen anzeigen
+Online Wache Anzeige
+Betrug im Internet anzeigen
+Ich bin Opfer von Betrug geworden
+Trickbetrug Anruf Polizei
+Bedrohung anzeigen
+Stalking Polizei
+häusliche Gewalt melden
+Vermisstenanzeige aufgeben
+Mein Kind ist verschwunden
+Polizeilicher Unfallbericht anfordern
+Polizeiinspektion Öffnungszeiten
+Notruf nicht Notfall Polizei
+Kennzeichen gestohlen
+Führerschein gestohlen Anzeige
+Ausweis gestohlen Verlustanzeige
+Graffiti Sachbeschädigung melden
+Kfz Aufbruch Zeugen
+Wo kann ich Anzeige gegen Unbekannt erstatten
+Cybercrime melden Hacker Konto
+Schockanruf Enkeltrick
+Waffe gefunden Polizei
+zoll:
+Zoll Einfuhr aus China Paket
+Paket aus dem Ausland Zoll abholen
+Zollgebühren für Bestellung aus den USA
+Einfuhrumsatzsteuer Paket
+Zollanmeldung privat
+Wie viel Alkohol darf ich einführen
+Zigaretten Einfuhr Schweiz
+Mitbringsel aus dem Urlaub Freigrenze
+Hauptzollamt Termin
+Kfz-Steuer Bescheid
+Kraftfahrzeugsteuer zahlen
+Kfz Steuer Befreiung Elektroauto
+Kfz-Steuer Rückerstattung nach Abmeldung
+Schwarzarbeit melden
+Mindestlohn Verstoß melden
+Mindestlohn Kontrolle Arbeitgeber
+Zoll Arbeitgeber Prüfung Sozialversicherung
+Bargeld Ausreise anmelden über 10000 Euro
+Bargeld mitnehmen Grenze
+Ausfuhr Waren Drittland
+EORI Nummer beantragen
+Zolltarifnummer herausfinden
+Verbrauchsteuer Alkohol Kaffeesteuer
+Tabaksteuer
+Energiesteuer Erstattung Landwirtschaft
+Stromsteuer Befreiung beantragen
+Zollstrafverfahren
+Artenschutz Souvenir Einfuhr Elfenbein
+Auto aus Ausland importieren Zoll
+Mit Haustier einreisen Zollkontrolle
+Zoll Pfändung Vollstreckung Hauptzollamt
+jugendamt:
+Unterhaltsvorschuss beantragen
+Alleinerziehend Unterhaltsvorschuss
+Mein Ex zahlt keinen Unterhalt
+Beistandschaft beantragen
+Vaterschaftsanerkennung Jugendamt
+Sorgeerklärung abgeben
+Gemeinsames Sorgerecht unverheiratet
+Pflegekind aufnehmen
+Pflegeeltern werden
+Adoption Kind Voraussetzungen
+Erziehungsberatung Jugendamt
+Hilfe zur Erziehung beantragen
+Familienhilfe Sozialpädagogische
+Kindeswohlgefährdung melden
+Verdacht auf Kindesmisshandlung Nachbarn
+Jugendamt Besuch angekündigt
+Vormundschaft für Minderjährige
+Jugendhilfe Antrag
+Inobhutnahme Kind
+Kita Platz Antrag
+Kinderbetreuung Platz suchen
+Tagesmutter finden
+Kindertagespflege Erlaubnis
+Elternbeitrag Kita Ermäßigung
+Eingliederungshilfe Kind mit Behinderung
+Ferienbetreuung Zuschuss
+Jugendleiter Card Ehrenamt
+Jugendschutz Veranstaltung
+Umgangsregelung Beratung
+Trennung Scheidung Beratung Kinder
+Schulsozialarbeit Hilfe
+Hilfe für junge Volljährige
+Elterngeld Antrag
+Elterngeld beantragen
+Elterngeld Plus
+Elternzeit Antrag
+sozialamt:
+Sozialhilfe beantragen
+Hilfe zum Lebensunterhalt Antrag
+Grundsicherung im Alter beantragen
+Grundsicherung bei Erwerbsminderung
+Rente reicht nicht Grundsicherung
+Pflegewohngeld
+Hilfe zur Pflege Sozialamt
+Pflegeheim Kosten übernehmen Sozialamt
+Heizkostenzuschuss
+Bildung und Teilhabe Antrag
+Schulbedarfspaket beantragen
+Schulmittagessen Zuschuss
+Klassenfahrt Zuschuss Antrag
+Lernförderung Nachhilfe Zuschuss
+Behindertenausweis Antrag
+Schwerbehindertenausweis beantragen
+Schwerbehinderung Grad der Behinderung Antrag
+Merkzeichen aG beantragen
+Eingliederungshilfe Erwachsene
+Persönliches Budget Antrag
+Bestattungskosten Übernahme Sozialamt
+Sozialticket beantragen
+Sozialpass Stadt
+Tafel Berechtigung Bescheinigung
+Wohnungslos Notunterkunft
+Asylbewerberleistungen
+Blindengeld
+Hilfe in besonderen Lebenslagen
+Mietschulden Übernahme Sozialamt
+Hilfsmittel für Behinderte Zuschuss
+Fahrdienst für Behinderte
+Sozialamt Termin
+Barbetrag Pflegeheim Taschengeld
+jobcenter:
+Bürgergeld beantragen
+Arbeitslosengeld II beantragen
+Hartz 4 Antrag
+Ich habe meinen Job verloren und kein Geld
+Bürgergeld Weiterbewilligung
+Bürgergeld Mietkosten Übernahme
+Bürgergeld Umzug Genehmigung
+Jobcenter Termin Einladung
+Meldeaufforderung Jobcenter
+Sanktion Jobcenter Widerspruch
+Jobcenter Bescheid Widerspruch
+Bürgergeld Nebenjob anrechnen
+Aufstocker Bürgergeld
+Einstiegsgeld Selbständigkeit
+Bildungsgutschein Jobcenter
+Eingliederungsvereinbarung
+Erstausstattung Wohnung Bürgergeld
+Erstausstattung Baby Bürgergeld
+Mehrbedarf Alleinerziehende
+Mehrbedarf Schwangerschaft
+Kinderzuschlag Jobcenter oder Familienkasse
+Bürgergeld Student
+Weiterbildung Bürgergeld Förderung
+Jobcenter Online Antrag
+Leistungen für Bildung und Teilhabe Jobcenter
+Bürgergeld Schonvermögen
+Jobcenter Darlehen
+Nebenkostenabrechnung Jobcenter vorlegen
+Jobcenter Erreichbarkeit Ortsabwesenheit
+Bürgergeld Stromkosten Nachzahlung
+Hartz IV Rückzahlung Forderung
+arbeitsagentur:
+Arbeitslosengeld beantragen
+Arbeitslos melden
+Ich bin arbeitslos geworden was muss ich tun
+Kündigung erhalten Arbeitsagentur melden
+Arbeitssuchend melden
+Arbeitslosengeld I Höhe
+Kurzarbeitergeld Antrag Arbeitgeber
+Insolvenzgeld beantragen
+Berufsberatung Termin
+Ausbildungsplatz suchen Agentur für Arbeit
+Berufsausbildungsbeihilfe beantragen
+Umschulung Förderung Arbeitsagentur
+Bildungsgutschein Arbeitsagentur
+Arbeitsvermittlung online
+Jobbörse Arbeitsagentur
+Sperrzeit Arbeitslosengeld Widerspruch
+Arbeitsbescheinigung vom Arbeitgeber
+Arbeitslosengeld Nebeneinkommen
+Existenzgründungszuschuss
+Gründungszuschuss beantragen
+Rente und Arbeitslosengeld
+Arbeitslosengeld Auslandsaufenthalt
+Arbeitslosengeld Krankheit
+Mobilitätshilfe Bewerbungskosten
+Eingliederungszuschuss Arbeitgeber
+Berufsinformationszentrum
+Qualifizierung Beschäftigte Förderung
+Arbeitsagentur Telefonnummer
+Arbeitsuchend Online Meldung Frist
+Elternzeit Arbeitslosenversicherung Beitrag
+Agentur für Arbeit Termin ändern
+familienkasse:
+Kindergeld beantragen
+Kindergeld Antrag nach Geburt
+Kindergeld online beantragen
+Kindergeld für volljähriges Kind Studium
+Kindergeld Ausbildung Nachweis
+Kindergeld Auslandsstudium
+Kindergeld Höhe
+Kindergeld ändern Kontonummer
+Kindergeld wurde eingestellt
+Kindergeld Rückforderung Familienkasse
+Kindergeld Überzahlung
+Kindergeld Nachzahlung
+Kindergeld Kind im Ausland
+Kindergeld Polen
+Kinderzuschlag beantragen
+Kinderzuschlag Antrag online
+Kindergeld Bescheid verloren
+Kindergeld Anspruch Ausländer
+Kindergeldkasse Adresse
+Kindergeld Wechsel zu anderem Elternteil
+Kindergeld Pflegekind
+Kindergeld Waise
+Familienkasse Termin
+Kindergeld Kind Arbeitslos gemeldet
+Kindergeld Freiwilligendienst
+Kindergeldkasse Telefon Hotline
+Kindergeld Steuer Familienkasse Auskunft
+Kindergeld Nachweis Schulbescheinigung
+wohngeldstelle:
+Wohngeld beantragen
+Wohngeld Antrag online
+Wohngeld Höhe berechnen
+Wohngeldrechner
+Wohngeld Voraussetzungen Einkommen
+Wohngeld Weiterbewilligung
+Wohngeld Student
+Wohngeld Rentner
+Lastenzuschuss Eigenheim
+Wohngeld Nachzahlung
+Wohngeld Bescheid Widerspruch
+Wohngeld Überzahlung
+Wohngeld Heizkosten Zuschuss
+Wohngeld Mietbescheinigung Vermieter
+Wohngeld Plus
+Wohngeld und Bürgergeld
+Wohngeldstelle Termin
+Wohngeld Einkommen ändern
+Wohngeld Untermiete
+Wohngeld Antrag Unterlagen
+Wohngeld Ausbildung Azubi
+Wohngeld Kinder
+Wohnberechtigungsschein beantragen
+WBS beantragen
+Sozialwohnung Antrag
+Mietzuschuss
+Miete zu hoch Hilfe vom Staat
+strassenverkehrsbehoerde:
+Führerschein beantragen
+Führerschein umtauschen
+Führerschein verloren Ersatz
+Kartenführerschein Umtausch Pflicht
+Führerschein mit 17 begleitetes Fahren
+Führerscheinprüfung anmelden Fahrschule
+Fahrerlaubnis Klasse B erweitern
+Motorradführerschein Antrag
+Führerschein entzogen wieder bekommen
+Fahrerlaubnis Entziehung Widerspruch
+MPU Aufforderung was tun
+MPU Gutachten Anordnung
+Punkte in Flensburg Auskunft
+Fahreignungsregister Auskunft
+Fahrverbot Frist verschieben
+Aufbauseminar Punkte
+Internationaler Führerschein beantragen
+Ausländischen Führerschein umschreiben
+Führerschein aus der Türkei anerkennen
+Fahrerlaubnis auf Probe Verlängerung
+Ärztliches Gutachten Führerschein Ü70
+Sehtest Führerschein Bescheinigung
+Erste Hilfe Kurs Nachweis Führerschein
+Parkerleichterung Schwerbehinderte Parkausweis
+Behindertenparkplatz vor dem Haus beantragen
+Bewohnerparkausweis beantragen
+Anwohnerparken Antrag
+Schwertransport Genehmigung
+Großraumtransport Erlaubnis
+Verkehrszeichen Anordnung Antrag Straßensperrung
+Straßensperrung für Baustelle beantragen
+Ausnahmegenehmigung Fahrverbot Umweltzone
+Taxi Konzession
+Fahrgastbeförderung Personenbeförderungsschein
+P-Schein beantragen
+Fahrlehrerlaubnis
+Verkehrsunterricht Anmeldung
+Fahrtenbuch Anordnung
+Tempo 30 Zone beantragen vor Schule
+Verkehrsberuhigung Antrag Anwohner
+zulassungsstelle:
+Auto anmelden
+Auto zulassen
+Fahrzeug zulassen Termin
+Neues Auto zulassen was brauche ich
+Gebrauchtwagen ummelden
+Fahrzeug umschreiben nach Kauf
+Auto abmelden
+Fahrzeug stilllegen
+Kfz außer Betrieb setzen online
+Kennzeichen reservieren
+Wunschkennzeichen beantragen
+Kennzeichen verloren
+Nummernschild gestohlen was tun
+Saisonkennzeichen beantragen
+Kurzzeitkennzeichen
+Rotes Kennzeichen Händler
+Ausfuhrkennzeichen beantragen
+Oldtimer Kennzeichen H-Zulassung
+Elektroauto E-Kennzeichen
+Zulassungsbescheinigung verloren
+Fahrzeugschein verloren
+Fahrzeugbrief verloren
+Zulassungsbescheinigung Teil 2 Ersatz
+Umzug neues Kennzeichen Landkreis
+Adresse im Fahrzeugschein ändern
+Halterwechsel melden
+Fahrzeug auf Firma zulassen
+Anhänger zulassen
+Motorrad anmelden
+Roller Versicherungskennzeichen
+Wohnmobil zulassen
+Importfahrzeug Zulassung Ausland
+Feinstaubplakette Umweltplakette
+HU Plakette Termin
+e-bike Versicherungskennzeichen
+Quad zulassen
+Fahrzeug online abmelden i-Kfz
+Zulassung Verkehrsunfall Totalschaden abmelden
+Parkplatz Zulassungsstelle Termin
+Zulassungsstelle Öffnungszeiten
+bauamt:
+Baugenehmigung beantragen
+Bauantrag einreichen
+Wo reiche ich einen Bauantrag ein
+Bauvoranfrage stellen
+Ich möchte ein Haus bauen
+Eigenheim Baugenehmigung wie lange dauert das
+Anbau Genehmigung
+Wintergarten Genehmigung
+Carport bauen Genehmigung
+Gartenhaus Baugenehmigung
+Zaun höhe Genehmigung
+Dachausbau Genehmigung
+Dachgeschoss Wohnung ausbauen Baugenehmigung
+Nutzungsänderung Gewerbe in Wohnen
+Abriss Genehmigung Haus
+Bebauungsplan einsehen
+Flächennutzungsplan Auskunft
+Baulast Eintragung
+Baulastenverzeichnis Auskunft
+Abstandsfläche Nachbar Baurecht
+Nachbar baut illegal melden
+Schwarzbau melden
+Bauaufsicht Beschwerde
+Baugenehmigung Photovoltaik Dach
+Solaranlage Balkon Genehmigung
+Wärmepumpe Genehmigung Außengerät
+Schornsteinfeger Feuerstättenschau Bauamt
+Denkmalschutz Genehmigung Fenster
+Denkmalschutz Umbau Antrag
+Bauvorlageberechtigter Architekt
+Baubeginn anzeigen
+Bauschein Kopie anfordern
+Bauakte einsehen
+Hausnummer vergeben beantragen
+Straßenname Hausnummer Änderung
+Erschließungsbeitrag Bescheid
+Grundstück teilen Teilungsgenehmigung
+Wohnungsbauförderung Antrag
+Aufzug einbauen Mehrfamilienhaus Genehmigung
+Stellplatznachweis
+Bauleitplanung Öffentlichkeitsbeteiligung
+gesundheitsamt:
+Gesundheitszeugnis beantragen
+Belehrung nach Infektionsschutzgesetz
+Infektionsschutzbelehrung Gastronomie
+Rote Karte Gesundheitsamt
+Impfberatung Gesundheitsamt
+Impfausweis Beratung Reiseimpfung
+Tuberkulose Untersuchung Pflicht
+Amtsarzt Termin
+Amtsärztliches Gutachten Beamte
+Schuleingangsuntersuchung Termin
+Einschulungsuntersuchung
+Gesundheitsamt Hygiene Beschwerde Restaurant
+Legionellen Trinkwasser Prüfung
+Meldepflicht Infektionskrankheit
+Coronavirus Quarantäne Anordnung
+Krätze Läuse Kindergarten Meldung
+Sozialpsychiatrischer Dienst Hilfe
+Beratungsstelle Sucht Gesundheitsamt
+HIV Test anonym Beratung
+Schwangerschaftskonfliktberatung
+Schwangerenberatung Gesundheitsamt
+Zahngesundheit Untersuchung Kindergarten
+Trinkwasseranalyse Brunnen
+Schimmel Wohnung Gesundheitsamt melden
+Bettwanzen melden
+Rattenbefall melden
+Bestattungsgesetz Leichenschau
+Leichenschein
+Heilpraktikererlaubnis Prüfung
+Heilpraktiker Zulassung Gesundheitsamt
+Gesundheitsamt Termin
+veterinaeramt:
+Lebensmittelkontrolle Beschwerde
+Lebensmittelbetrieb anmelden Registrierung
+Tierschutz Verstoß melden
+Tierquälerei anzeigen
+Nachbar vernachlässigt Hund
+Tierhaltung Verbot
+Tierseuchen Anzeige
+Geflügelpest Stallpflicht
+Tollwut Verdacht Meldung
+Hundeführerschein Sachkunde
+Gefährliche Hunde Wesenstest
+Tiertransport Genehmigung
+Pferd registrieren
+Rinder Ohrmarken Registrierung
+Schlachtgenehmigung Hausschlachtung
+Tierarzt Notdienst Amtstierarzt
+Heimtierzucht Genehmigung Erlaubnis nach 11 Tierschutzgesetz
+Hundezucht anmelden Erlaubnis
+Tierheim Aufnahme Fundtier
+Exotische Tiere halten Genehmigung
+Wildtier gefunden verletzt
+Bienenvolk anmelden
+Fleischbeschau
+Tiergesundheitszeugnis Reise mit Hund
+Heimtierausweis ausstellen
+Tierpension Betrieb Genehmigung
+Pferdepass Beantragung
+umweltamt:
+Baum fällen Genehmigung
+Baumfällung im Garten erlaubt
+Baumschutzsatzung Antrag
+Naturschutz Genehmigung Eingriff
+Biotop Schutz Anfrage
+Artenschutz Fledermäuse Gebäude
+Gewässerverunreinigung melden
+Öl im Bach melden
+Wasserschutzgebiet Auflagen
+Grundwasserentnahme Brunnen bohren Genehmigung
+Gartenbrunnen anmelden
+Erdwärmebohrung Genehmigung
+Altlastenkataster Auskunft
+Bodenschutz Verdacht Altlasten
+Immissionsschutz Geruchsbelästigung
+Lärmschutz Gewerbebetrieb Messung
+Feinstaub Kaminofen Messung
+Kaminofen Betrieb Anzeige
+Luftreinhalteplan
+Umweltzone Plakette
+Abfall illegale Lagerung melden
+Asbest Entsorgung Genehmigung
+Fällgenehmigung Hecke Vogelschutz
+Gewässerrandstreifen Anfrage
+Hochwasser Überschwemmungsgebiet Bauen
+Umweltinformationen anfordern
+Naturschutzgebiet Betreten Genehmigung Drohne
+Teich anlegen Genehmigung
+Regenwasser Einleitung Genehmigung
+Klimaschutz Förderung Stadt Antrag
+Lichtverschmutzung Beschwerde Beleuchtung
+gewerbeamt:
+Gewerbe anmelden
+Gewerbeanmeldung online
+Gewerbe abmelden
+Gewerbe ummelden Adresse
+Gewerbeschein beantragen
+Kleingewerbe anmelden
+Nebengewerbe anmelden
+Ich will mich selbstständig machen
+Selbstständig machen was muss ich tun
+Existenzgründung Anmeldung
+Onlineshop Gewerbe anmelden
+Etsy verkaufen Gewerbe
+Gewerbeanmeldung Kosten
+Gewerbeanmeldung Bestätigung Kopie
+Reisegewerbekarte
+Marktkaufmann Reisegewerbe
+Straßenhandel Genehmigung
+Gaststättengewerbe Anmeldung
+Imbiss eröffnen Genehmigung
+Spielhalle Erlaubnis
+Makler Erlaubnis 34c
+Bewachungsgewerbe 34a Erlaubnis
+Versicherungsvermittler Erlaubnis 34d
+Finanzanlagenvermittler 34f
+Pfandleiher Erlaubnis
+Gewerbeuntersagung Widerspruch
+Gewerbezentralregister Auskunft
+Gewerbeanmeldung Frist
+Gewerbeanmeldung für Ausländer
+Gewerbe Gesellschaft GbR anmelden
+Handwerk ins Gewerbe eintragen
+Firmennamen ändern Gewerbeamt
+Betriebsübergabe Gewerbe
+Taxigewerbe Anmeldung
+Prostitutionsgewerbe Anmeldung Erlaubnis
+Schaustellergewerbe
+ihk:
+IHK Beitrag
+IHK Mitgliedschaft Befreiung
+Ausbildungsvertrag eintragen lassen IHK
+Ausbilderschein machen
+AEVO Prüfung Anmeldung
+Ursprungszeugnis beantragen
+Carnet ATA beantragen
+Sachkundeprüfung 34a IHK Anmeldung
+Unterrichtung Gaststätte IHK
+Industriemeister Prüfung
+Fachwirt IHK Prüfung Anmeldung
+IHK Zeugnis Duplikat
+Abschlusszeugnis IHK verloren
+Zwischenprüfung IHK Termin
+Anerkennung ausländischer Berufsabschluss IHK
+Gründungsberatung IHK
+Unternehmensnachfolge Beratung IHK
+Sachverständiger bestellen lassen
+Handelskammer Kontakt
+Exportdokumente beglaubigen lassen
+IHK Prüfung Ergebnis
+IHK Weiterbildung Betriebswirt
+Außenwirtschaft Beratung IHK
+Wettbewerbsrecht Abmahnung IHK
+Ausbildungsberater IHK Kontakt
+IHK Wirtschaftsjunioren
+handwerkskammer:
+Handwerkskammer Beitrag
+Handwerksrolle Eintragung
+Meisterbrief verloren
+Meisterprüfung Anmeldung
+Gesellenprüfung anmelden
+Lehrling anmelden Handwerk
+Ausbildungsvertrag Handwerkskammer
+Betrieb in Handwerksrolle eintragen
+Meisterpflicht Handwerk
+Ausnahmebewilligung Handwerk
+Altgesellenregelung
+Handwerkskarte beantragen
+Betriebsberatung Handwerk
+Betriebsnachfolge Handwerk
+Gesellenbrief Duplikat
+Berufsanerkennung Handwerk Ausland
+Meistergründungsprämie
+Innung beitreten
+Handwerkskammer Termin
+Betriebsübergabe Handwerksbetrieb
+Selbstständig als Friseur Meister
+Tischlerbetrieb gründen Handwerksrolle
+Kfz-Werkstatt eröffnen Voraussetzung Meister
+rentenversicherung:
+Rente beantragen
+Rentenantrag online stellen
+Wann kann ich in Rente gehen
+Rentenauskunft beantragen
+Renteninformation verloren
+Rentenbescheid Widerspruch
+Rentenversicherungsnummer verloren
+Sozialversicherungsausweis verloren
+Erwerbsminderungsrente beantragen
+Witwenrente beantragen
+Waisenrente Antrag
+Altersrente für langjährig Versicherte
+Rente mit 63
+Teilrente Antrag
+Hinzuverdienstgrenze Rente
+Kontenklärung Rentenversicherung
+Versicherungsverlauf anfordern
+Kindererziehungszeiten Rente anrechnen
+Mütterrente Antrag
+Reha beantragen Rentenversicherung
+Kur beantragen Antrag
+Anschlussheilbehandlung Antrag
+Rente ins Ausland Lebensbescheinigung
+Freiwillige Beiträge Rentenversicherung zahlen
+Befreiung von der Rentenversicherung Antrag
+Beitragserstattung Rentenversicherung Ausland
+Rentensplitting Ehegatten
+Riester Zulage Antrag
+Rentenüberzahlung Todesfall
+Rentenberatung Termin
+Rentenanpassung Brief
+krankenkasse:
+Krankenkasse wechseln
+Krankenkasse kündigen
+Zusatzbeitrag Krankenkasse Erhöhung Sonderkündigung
+Gesundheitskarte verloren
+Neue Gesundheitskarte beantragen
+Krankenversichertenkarte Ersatz
+Familienversicherung anmelden
+Kind bei der Krankenkasse anmelden
+Krankengeld beantragen
+Krankengeld Höhe
+Mutterschaftsgeld beantragen
+Kinderkrankengeld Antrag
+Krankenversicherung Student
+Krankenversicherung Selbstständige
+Mitgliedsbescheinigung Krankenkasse
+Befreiungsausweis Zuzahlung
+Zuzahlungsbefreiung beantragen
+Zahnersatz Zuschuss Antrag
+Bonusheft Zahnarzt
+Kostenübernahme Hörgerät
+Kostenübernahme Krankentransport
+Krankenfahrt Genehmigung
+Kur beantragen Krankenkasse
+Europäische Krankenversicherungskarte beantragen
+Auslandskrankenschein
+Beitragsschulden Krankenversicherung Ratenzahlung
+Basistarif PKV
+Rückkehr in die gesetzliche Krankenversicherung
+Elektronische Patientenakte aktivieren
+pflegekasse:
+Pflegegrad beantragen
+Pflegegrad Antrag stellen
+Pflegegrad erhöhen Höherstufung
+Pflegegrad Ablehnung Widerspruch
+Begutachtung Pflegegrad Termin Medizinischer Dienst
+Pflegegeld beantragen
+Pflegegeld Höhe Pflegegrad 2
+Pflegesachleistung ambulanter Pflegedienst
+Verhinderungspflege beantragen
+Kurzzeitpflege Antrag
+Tagespflege Zuschuss Pflegegrad
+Entlastungsbetrag 125 Euro nutzen
+Pflegehilfsmittel zum Verbrauch beantragen
+Pflegebett Kostenübernahme
+Hausnotruf Pflegekasse bezahlt
+Treppenlift Zuschuss
+Wohnumfeld verbessern Zuschuss Badumbau
+Pflegekurs für Angehörige
+Pflegeberatung Termin
+Pflegeunterstützungsgeld Antrag
+Pflegezeit Angehörige Antrag
+Eigenanteil Pflegeheim Zuschuss
+Pflegeheimplatz Kostenübernahme
+24 Stunden Pflege Kosten Zuschuss
+Pflegestützpunkt Beratung
+Demenz Pflegegrad Antrag
+Pflegeversicherung Beitrag Kinderlose
+bafoegamt:
+BAföG beantragen
+BAföG Antrag online
+BAföG Weiterbewilligungsantrag
+BAföG Höhe
+BAföG Rückzahlung
+BAföG Darlehen Erlass
+BAföG Auslandssemester
+Auslands-BAföG
+Schüler-BAföG
+Aufstiegs-BAföG Meister
+BAföG elternunabhängig
+BAföG Fachrichtungswechsel
+BAföG Bescheid Widerspruch
+Studienstarthilfe beantragen
+Amt für Ausbildungsförderung Termin
+BAföG Nebenjob Verdienstgrenze
+BAföG Leistungsnachweis Formblatt 5
+BAföG Eltern Einkommen aktualisieren
+BAföG Studienabbruch Rückforderung
+BAföG Masterstudium
+BAföG Praktikum
+BAföG Kind Zuschlag
+Studiengebühren finanzieren staatliche Förderung
+Studierendenwerk BAföG Beratung
+schulamt:
+Schulplatz Antrag
+Schulwechsel beantragen
+Schulbezirk Befreiung Antrag
+Einschulung zurückstellen
+vorzeitige Einschulung Antrag
+Schulpflicht befreien
+Schulbefreiung Urlaub beantragen
+Hausunterricht Antrag Krankheit
+Förderschule Antrag Aufnahme
+Sonderpädagogischer Förderbedarf feststellen
+Nachteilsausgleich Legasthenie Antrag
+Klasse überspringen
+Schülerbeförderung Antrag
+Schülerticket Zuschuss
+Schulbuchausleihe Befreiung
+Zeugnis Duplikat Schule
+Abitur nachholen Abendschule
+Externenprüfung Realschulabschluss
+Zeugnis Ausland anerkennen lassen
+Schulabschluss Ausland Anerkennung
+Privatschule gründen Genehmigung
+Homeschooling Genehmigung
+Schulpflichtverletzung Bußgeld
+Beschwerde über Lehrer Schulaufsicht
+Mobbing Schule melden
+Lehrer werden Quereinstieg
+Referendariat Bewerbung
+Schulpsychologe Beratung
+bundesverwaltungsamt:
+Spätaussiedler Aufnahme Antrag
+Aufnahmebescheid Spätaussiedler
+Spätaussiedlerbescheinigung beantragen
+Bescheinigung nach 15 BVFG
+Auslandsschule Lehrer Bewerbung
+Auslandsdienstlehrkraft werden
+Lastenausgleich Antrag
+Vertriebenenausweis beantragen
+Beihilfe Bundesbeamte Antrag
+Bundeszentralregister Auskunft
+Strafregisterauszug Ausland
+Deutsche im Ausland Hilfe Notlage
+Behördennummer 115
+Bundesverwaltungsamt Köln Kontakt
+Einheitlicher Ansprechpartner Dienstleistung
+Zentralstelle Auslandsschulwesen
+Aussiedler Antrag Statusfeststellung
+Spätaussiedler Familienangehörige Einbeziehung
+Spätaussiedler Sprachtest Deutsch
+Rückführung Deutscher aus dem Ausland
+Vereinsverbot Bund
+Auslandsdeutsche Beratung
+# --- weitere zulässige Kategorien (je nach Bundesland/Kommune verschieden oder mehrere Stellen beteiligt)
+extra:
+Kampfhund anmelden Erlaubnis => ordnungsamt
+Wo kann ich eine Bestattung anmelden => standesamt
+Wo bekomme ich einen Fischereischein => ordnungsamt
+Angelschein für Kinder => ordnungsamt
+Sprengstofferlaubnis für Silvesterfeuerwerk => ordnungsamt
+Großes Feuerwerk anmelden Hochzeit => ordnungsamt
+Immissionsschutz Genehmigung Biogasanlage => umweltamt
+Genehmigung für Windkraftanlage beantragen => bauamt,umweltamt
+Genehmigung Tierhaltungsanlage Mastbetrieb => veterinaeramt,umweltamt
+Anwohnerparkausweis => strassenverkehrsbehoerde,buergeramt,stadtverwaltung
+Anwohnerparken Antrag => ordnungsamt,stadtverwaltung,buergeramt
+Bewohnerparkausweis beantragen => ordnungsamt,stadtverwaltung,buergeramt
+Wo bekomme ich ein Anwohnerparkausweis => strassenverkehrsbehoerde,ordnungsamt,stadtverwaltung
+Sondernutzung Gehweg Café Tische => stadtverwaltung,strassenverkehrsbehoerde
+Gaststättenerlaubnis beantragen => gewerbeamt
+Fundsachen abgeben Fundbüro => stadtverwaltung,buergeramt
+Ich habe mein Portemonnaie verloren wo ist das Fundbüro => stadtverwaltung,buergeramt
+Fundbüro Anfrage Fahrrad gefunden => stadtverwaltung,buergeramt
+Halteverbot für Umzug beantragen => stadtverwaltung,strassenverkehrsbehoerde
+Pfefferspray Erlaubnis => kreisverwaltung
+Lebensbescheinigung für Rente => rentenversicherung
+Scheidung Urkunde Ehe beendet => amtsgericht
+Sorgerecht Antrag gemeinsames Sorgerecht => jugendamt
+Adoption Antrag Gericht => jugendamt
+Anzeige wegen Betrug online => polizei
+Strafantrag stellen Beleidigung => polizei
+Privatklage oder Strafanzeige => polizei
+Führerschein gestohlen Anzeige => strassenverkehrsbehoerde
+Ausweis gestohlen Verlustanzeige => buergeramt
+Graffiti Sachbeschädigung melden => ordnungsamt
+Waffe gefunden Polizei => kreisverwaltung,ordnungsamt
+Zollstrafverfahren => staatsanwaltschaft
+Mit Haustier einreisen Zollkontrolle => veterinaeramt
+Vormundschaft für Minderjährige => amtsgericht
+Kita Platz Antrag => stadtverwaltung
+Schulsozialarbeit Hilfe => schulamt
+Heizkostenzuschuss => wohngeldstelle
+Sozialpass Stadt => stadtverwaltung
+Hilfsmittel für Behinderte Zuschuss => krankenkasse
+Ich habe meinen Job verloren und kein Geld => arbeitsagentur
+Wohngeld und Bürgergeld => jobcenter
+Wohnberechtigungsschein beantragen => bauamt,stadtverwaltung
+WBS beantragen => bauamt,stadtverwaltung
+Sozialwohnung Antrag => bauamt,stadtverwaltung
+Nummernschild gestohlen was tun => polizei
+Feinstaubplakette Umweltplakette => strassenverkehrsbehoerde,umweltamt
+Erschließungsbeitrag Bescheid => stadtverwaltung
+Hundeführerschein Sachkunde => ordnungsamt,stadtverwaltung
+Gefährliche Hunde Wesenstest => ordnungsamt
+Wildtier gefunden verletzt => ordnungsamt,umweltamt
+Spielhalle Erlaubnis => ordnungsamt
+Prostitutionsgewerbe Anmeldung Erlaubnis => ordnungsamt
+Pflegeheimplatz Kostenübernahme => sozialamt
+Namensänderung nach Scheidung => amtsgericht

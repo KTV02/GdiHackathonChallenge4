@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>Leistungsadressat</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Über die Zuordnung des Leistungsadressaten wird festgelegt, wer die Verwaltungsleistung in Anspruch nehmen kann.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2024-07-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>xzufi.leistungsadressat</ShortName>
+      <LongName>Leistungsadressat</LongName>
+      <Version>3</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.leistungsadressat</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.leistungsadressat_3</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Adressat" Use="required">
+         <ShortName>Adressat</ShortName>
+         <LongName>Adressat</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="addressee" Use="required">
+         <ShortName>addressee</ShortName>
+         <LongName>addressee</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Column Id="Beschreibung" Use="optional">
+         <ShortName>Beschreibung</ShortName>
+         <LongName>Beschreibung</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="Adressat">
+            <SimpleValue>Bürger</SimpleValue>
+         </Value>
+         <Value ColumnRef="addressee">
+            <SimpleValue>Citizen</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Leistung kann von natürlichen Personen in Anspruch genommen werden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="Adressat">
+            <SimpleValue>Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="addressee">
+            <SimpleValue>Company</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Leistung kann von juristischen Personen des Privatrechts (z. B. AG, GmbH, eingetragenen Vereinen, Stiftungen des bürgerlichen Rechts), Personengesellschaften (z. B. OHG, GbR) sowie Einzelunternehmen (z.B. Gewerbetreibenden, Landwirten, Freiberuflern) in Anspruch genommen werden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="Adressat">
+            <SimpleValue>Andere Behörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="addressee">
+            <SimpleValue>Other authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Leistung kann von juristischen Personen des öffentlichen Rechts (z. B. Gebietskörperschaften, Gemeindeverbänden, kommunalen Zweckverbänden, Industrie- und Handelskammern, Handwerkskammern, sonstigen Berufskammern, Innungen, Universitäten, öffentliche Schulen, Sparkassenverbänden, Anstalten des öffentlichen Rechts, Stiftungen öffentlichen Rechts) in Anspruch genommen werden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="Adressat">
+            <SimpleValue>Personen in Behörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="addressee">
+            <SimpleValue>Persons in authority</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Leistung kann von Personen, die in einer Behörde tätig sind, in Anspruch genommen werden.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>NachrichtAntwortCode</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Definition der Rückgabecodes für Antworten auf Anfragen innerhalb von Nachrichten.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2024-01-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>xzufi.nachrichtantwortcode</ShortName>
+      <LongName>Antwort-Code für Nachrichten</LongName>
+      <Version>2</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.nachrichtantwortcode</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.nachrichtantwortcode_2</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Antwortcode" Use="required">
+         <ShortName>Antwortcode</ShortName>
+         <LongName>Antwortcode</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="response-code" Use="required">
+         <ShortName>response-code</ShortName>
+         <LongName>response code</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Column Id="Beschreibung" Use="optional">
+         <ShortName>Beschreibung</ShortName>
+         <LongName>Beschreibung</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>000</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>OK</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>OK</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Anfrage wurde erfolgreich bearbeitet.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>OK - Verändertes Suchprofil</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>OK - changed search profile</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Anfrage war erfolgreich, aber das Suchprofil wurde geändert.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>101</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Authentifizierung fehlgeschlagen</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>authentification failed</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Überprüfung der Identität des Schnittstellen-Nutzers ist nicht gelungen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>102</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Keine Zugriffsberechtigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>no access authorization</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Der Nutzer hat keine Erlaubnis, auf die angeforderte Ressource zuzugreifen.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>201</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Ungültige Anfrage</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>invalid request</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Anfrage war in einem ungültigen Format oder enthielt ungültige Daten.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>202</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Funktion wird nicht unterstützt</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>function is not supported</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die angeforderte Funktion ist in der Schnittstelle nicht vorhanden.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>203</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Falsche XZuFi-Version</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>incorrect XZuFi version</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die verwendete XZuFi-Version der Anfrage stimmt nicht mit der Version der Schnittstelle überein.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>204</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Suchprofil wird nicht unterstützt</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>search profile is not supported</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Das angegebene Suchprofil wird von der Schnittstelle nicht unterstützt.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>301</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Rückgabemenge übersteigt Quota</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>return quantity exceeds quota</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Menge der angeforderten Daten überschreitet das festgelegte Limit.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>302</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Paginierung wird nicht unterstützt</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>pagination is not supported</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Anfrage unterstützt keine Aufteilung der Ergebnisse in einzelne Seiten.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>303</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Ungültige Paginierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>invalid pagination</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Angaben zur Paginierung sind ungültig oder fehlerhaft.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>901</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Wartung</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>maintenance</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Die Schnittstelle ist wegen Wartungsarbeiten vorübergehend nicht erreichbar.</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>999</SimpleValue>
+         </Value>
+         <Value ColumnRef="Antwortcode">
+            <SimpleValue>Allgemeiner Fehler</SimpleValue>
+         </Value>
+         <Value ColumnRef="response-code">
+            <SimpleValue>general error</SimpleValue>
+         </Value>
+         <Value ColumnRef="Beschreibung">
+            <SimpleValue>Ein unspezifischer Fehler ist aufgetreten.</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

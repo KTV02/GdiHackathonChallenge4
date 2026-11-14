@@ -82,6 +82,8 @@ def _parse_hit(item: dict) -> GeoHit | None:
 
 
 class Geocoder:
+    name = "nominatim"
+
     def __init__(self, url: str | None = None, contact: str | None = None, *, http_get=None,
                  min_interval: float = 1.1, timeout: float = 12.0, clock=time.monotonic, sleep=time.sleep):
         self.url = url or os.environ.get("NOMINATIM_URL", DEFAULT_URL)
@@ -152,3 +154,88 @@ class Geocoder:
         alternatives = tuple(h for h, km in distances if km >= ALTERNATIVE_MIN_KM)
         ambiguous = any(km >= AMBIGUOUS_MIN_KM for _, km in distances)
         return GeocodeResult(query=self._normalise(query), best=best, alternatives=alternatives, ambiguous=ambiguous)
+
+
+# --- Photon (komoot) ---------------------------------------------------------------------------------------------
+
+PHOTON_URL = "https://photon.komoot.io/api/"
+GERMANY_BBOX = "5.87,47.27,15.04,55.06"   # lon_min,lat_min,lon_max,lat_max
+
+
+def _photon_hit(feature: dict) -> GeoHit | None:
+    try:
+        lon, lat = (float(v) for v in feature["geometry"]["coordinates"][:2])
+    except (KeyError, TypeError, ValueError):
+        return None
+    if not (math.isfinite(lat) and math.isfinite(lon) and -90 <= lat <= 90 and -180 <= lon <= 180):
+        return None
+    p = feature.get("properties") or {}
+    if p.get("countrycode") and str(p["countrycode"]).upper() != "DE":
+        return None
+    street = p.get("street") or (p.get("name") if p.get("type") == "street" else None)
+    if p.get("housenumber"):
+        precision = "hausnummer"
+    elif street:
+        precision = "strasse"
+    else:
+        precision = "ort"
+    first = " ".join(x for x in (street, p.get("housenumber")) if x)
+    name = p.get("name") if p.get("name") and p.get("name") != street else None
+    place = " ".join(x for x in (p.get("postcode"), p.get("city") or p.get("town") or p.get("village")) if x)
+    display = ", ".join(x for x in (name, first, place, p.get("state")) if x)
+    osm_id = p.get("osm_id")
+    return GeoHit(lat=lat, lon=lon, display_name=display or str(p.get("name") or ""), precision=precision,
+                  importance=None, osm_type={"N": "node", "W": "way", "R": "relation"}.get(p.get("osm_type"), p.get("osm_type")),
+                  osm_id=int(osm_id) if isinstance(osm_id, (int, str)) and str(osm_id).isdigit() else None)
+
+
+class PhotonGeocoder(Geocoder):
+    """Wie ``Geocoder``, aber über Photon (OSM-Daten, tippfehlertolerant, eignet sich für Vorschläge beim Tippen)."""
+
+    name = "photon"
+
+    def __init__(self, url: str | None = None, **kwargs):
+        kwargs.setdefault("min_interval", 0.2)
+        super().__init__(url or os.environ.get("PHOTON_URL", PHOTON_URL), **kwargs)
+
+    def search(self, query: str, limit: int = 5) -> list[GeoHit]:
+        query = self._normalise(query or "")
+        if not 3 <= len(query) <= 200:
+            raise GeocodingError("Die Adresse muss zwischen 3 und 200 Zeichen lang sein.")
+        key = f"{query.casefold()}|{limit}"
+        with self._lock:
+            if key in self._cache:
+                return list(self._cache[key])
+            self._throttle()
+            try:
+                response = self._get(self.url, params={"q": query, "limit": limit, "lang": "de", "bbox": GERMANY_BBOX},
+                                     headers={"User-Agent": f"Behoerdenfinder-Hackathon/0.1 ({self.contact})"},
+                                     timeout=self.timeout)
+            except requests.RequestException as exc:
+                raise GeocodingError(f"Geocoder nicht erreichbar: {exc}") from exc
+            finally:
+                self._last_request = self._clock()
+            if response.status_code == 429:
+                raise GeocodingError("Geocoder meldet zu viele Anfragen (HTTP 429). Bitte kurz warten.")
+            if response.status_code != 200:
+                raise GeocodingError(f"Geocoder antwortete mit HTTP {response.status_code}.")
+            try:
+                data = response.json()
+            except ValueError as exc:
+                raise GeocodingError("Geocoder lieferte keine gültige JSON-Antwort.") from exc
+            features = data.get("features") if isinstance(data, dict) else None
+            if not isinstance(features, list):
+                raise GeocodingError("Geocoder lieferte ein unerwartetes Antwortformat.")
+            hits = [h for h in (_photon_hit(f) for f in features if isinstance(f, dict)) if h is not None]
+            if len(self._cache) >= 100:
+                self._cache.pop(next(iter(self._cache)))
+            self._cache[key] = hits
+            return list(hits)
+
+
+def make_geocoder(name: str = "nominatim") -> Geocoder:
+    if name == "photon":
+        return PhotonGeocoder()
+    if name == "nominatim":
+        return Geocoder()
+    raise ValueError(f"Unbekannter Geocoder: {name} (nominatim oder photon)")

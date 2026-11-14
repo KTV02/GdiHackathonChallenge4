@@ -83,6 +83,14 @@ class Finder:
         self.include_details = include_details
 
     # --- Schritte -----------------------------------------------------------------
+    @staticmethod
+    def _kat_hinweis(result, text):
+        """Hinweis zur Herkunft/Ermittlung der Behördenart: in 'hinweise' und zusätzlich unter 'kategorie'
+        (damit Oberflächen ihn getrennt behandeln können)."""
+        result["hinweise"].append(text)
+        if isinstance(result.get("kategorie"), dict):
+            result["kategorie"].setdefault("hinweise", []).append(text)
+
     def _categorise(self, anliegen, kategorie, result):
         if kategorie:
             info = _category_info(kategorie)
@@ -98,19 +106,21 @@ class Finder:
         label = None
         if outcome.category:
             label = _category_info(outcome.category)["label"]
-        result["kategorie"] = {"id": outcome.category, "label": label, "quelle": "matcher",
+        result["kategorie"] = {"id": outcome.category, "label": label, "quelle": outcome.source,
                                "status": outcome.status, "score": outcome.score,
                                "kandidaten": outcome.candidates}
         if outcome.category:
+            if outcome.note:
+                self._kat_hinweis(result, outcome.note)
             return outcome.category
         if outcome.ambiguous:
             result["status"] = "kategorie_mehrdeutig"
-            result["hinweise"].append(
+            self._kat_hinweis(result, 
                 "Das Anliegen passt zu mehreren Behördenarten; es wurde keine gewählt. "
                 "Anliegen genauer formulieren oder mit --kategorie vorgeben (--bei-mehrdeutig beste nimmt die erste).")
         else:
             result["status"] = "keine_kategorie"
-            result["hinweise"].append(
+            self._kat_hinweis(result, 
                 "Für dieses Anliegen konnte keine Behördenkategorie belegt werden "
                 f"(Matcher-Status: {outcome.status}).")
         return None
@@ -133,7 +143,7 @@ class Finder:
             return None
         best = geo.best
         result["standort"] = {"lat": best.lat, "lon": best.lon, "anzeige_name": best.display_name,
-                              "genauigkeit": best.precision, "quelle": "nominatim",
+                              "genauigkeit": best.precision, "quelle": getattr(self.geocoder, "name", "nominatim"),
                               "mehrdeutig": geo.ambiguous,
                               "alternativen": [a.as_dict() for a in geo.alternatives]}
         if geo.ambiguous:
@@ -167,6 +177,11 @@ class Finder:
             return
         result["status"] = _final_status(z)
         result["zustaendigkeit"] = z if self.include_geometry else _strip_polygons(z)
+        if not z.get("matches") and "no_local_data" in (z.get("status"), z.get("area_search_status")):
+            result["hinweise"].append(
+                "Für diese Kategorie sind keine Daten in der lokalen Datenbank importiert (leere Kategorietabelle). "
+                "Sind alle Kategorien leer, fehlt der Import: im Ordner behoerden-resolver "
+                "'docker compose run --rm cli load' ausführen.")
         if z.get("requires_case_context"):
             result["hinweise"].append(
                 "Die Zuständigkeit hängt vom Einzelfall ab: " + str(z.get("required_context") or

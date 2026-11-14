@@ -1,0 +1,1127 @@
+# Erwartungen sind Annahmen (nicht amtlich belegt); erzeugt aus eval_1000.txt
+{"anliegen": "Wo gebe ich meine Steuererklärung ab", "erwartet": ["finanzamt"]}
+{"anliegen": "ich muss meine steuererklärung machen und weiß nicht wie", "erwartet": ["finanzamt"]}
+{"anliegen": "wie funktioniert elster", "erwartet": ["finanzamt"]}
+{"anliegen": "Elster Zugang vergessen was tun", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich habe meine Steuer-ID verloren", "erwartet": ["finanzamt"]}
+{"anliegen": "steuernummer beantragen als freiberufler", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich habe einen Steuerbescheid bekommen und finde ihn falsch", "erwartet": ["finanzamt"]}
+{"anliegen": "Einspruch gegen Steuerbescheid einlegen", "erwartet": ["finanzamt"]}
+{"anliegen": "ich habe geerbt und muss das dem finanzamt melden", "erwartet": ["finanzamt"]}
+{"anliegen": "Wo melde ich eine Schenkung von meinen Eltern", "erwartet": ["finanzamt"]}
+{"anliegen": "mein Opa hat mir 50000 euro geschenkt", "erwartet": ["finanzamt"]}
+{"anliegen": "Erbschaftsteuer zahlen wie geht das", "erwartet": ["finanzamt"]}
+{"anliegen": "ich will meine steuerklasse wechseln", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuerklasse ändern nach Heirat", "erwartet": ["finanzamt"]}
+{"anliegen": "Freibetrag auf der Lohnsteuerkarte eintragen lassen", "erwartet": ["finanzamt"]}
+{"anliegen": "ich habe nebenbei als selbstständiger gearbeitet und muss Umsatzsteuer zahlen", "erwartet": ["finanzamt"]}
+{"anliegen": "Kleinunternehmerregelung beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "umsatzsteuer voranmeldung abgeben", "erwartet": ["finanzamt"]}
+{"anliegen": "Fristverlängerung für Steuererklärung", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuerliche Anmeldung nach Gewerbeanmeldung fragebogen", "erwartet": ["finanzamt"]}
+{"anliegen": "Fragebogen zur steuerlichen Erfassung ausfüllen", "erwartet": ["finanzamt"]}
+{"anliegen": "Gewerbesteuer Bescheid erhalten wo einspruch", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich möchte eine Steuerrückerstattung beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "wann bekomme ich mein Geld vom Finanzamt zurück", "erwartet": ["finanzamt"]}
+{"anliegen": "Stundung von Steuerschulden beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich kann meine Steuern nicht zahlen Ratenzahlung", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuerberater Vollmacht beim Finanzamt hinterlegen", "erwartet": ["finanzamt"]}
+{"anliegen": "Grunderwerbsteuer nach Hauskauf", "erwartet": ["finanzamt"]}
+{"anliegen": "Grundsteuererklärung abgeben", "erwartet": ["finanzamt"]}
+{"anliegen": "Grundsteuer Wert Erklärung wie ausfüllen", "erwartet": ["finanzamt"]}
+{"anliegen": "Kirchensteuer austreten Auswirkungen auf Steuer", "erwartet": ["finanzamt"]}
+{"anliegen": "Spendenbescheinigung bei der Steuer angeben", "erwartet": ["finanzamt"]}
+{"anliegen": "ich habe eine Photovoltaikanlage und muss das beim Finanzamt anmelden", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuernummer für Rechnung herausfinden", "erwartet": ["finanzamt"]}
+{"anliegen": "Bescheinigung über Steuerliche Ansässigkeit", "erwartet": ["finanzamt"]}
+{"anliegen": "Freistellungsbescheinigung nach 48b beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "USt-IdNr beantragen", "erwartet": ["finanzamt"]}
+{"anliegen": "Umsatzsteuer-Identifikationsnummer für Export", "erwartet": ["finanzamt"]}
+{"anliegen": "Nachzahlung Einkommensteuer wie bezahlen", "erwartet": ["finanzamt"]}
+{"anliegen": "Anlage N ausfüllen was ist das", "erwartet": ["finanzamt"]}
+{"anliegen": "Lohnsteuerjahresausgleich machen", "erwartet": ["finanzamt"]}
+{"anliegen": "Pendlerpauschale geltend machen", "erwartet": ["finanzamt"]}
+{"anliegen": "Homeoffice Pauschale Steuer absetzen", "erwartet": ["finanzamt"]}
+{"anliegen": "Kinderfreibetrag in der Steuererklärung", "erwartet": ["finanzamt"]}
+{"anliegen": "Kapitalertragsteuer Freistellungsauftrag", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuer auf Aktiengewinne melden", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuer bei Vermietung angeben Anlage V", "erwartet": ["finanzamt"]}
+{"anliegen": "ich habe eine Wohnung vermietet und muss das versteuern", "erwartet": ["finanzamt"]}
+{"anliegen": "Steuerfahndung Brief erhalten", "erwartet": ["finanzamt"]}
+{"anliegen": "Wo kann ich die Vorauszahlungen für die Einkommensteuer ändern", "erwartet": ["finanzamt"]}
+{"anliegen": "Ich möchte meinen Hund anmelden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "hund anmelden wo", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Hundesteuer zahlen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Hundesteuer abmelden wenn Hund gestorben ist", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Hundemarke verloren", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Hund umgezogen Wohnort ändern Steuer", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "ich habe einen welpen bekommen und muss ihn registrieren", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Zweithund anmelden Kosten", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Hundesteuerbefreiung beantragen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Kampfhund anmelden Erlaubnis", "erwartet": ["stadtverwaltung", "ordnungsamt"]}
+{"anliegen": "Wo bekomme ich Müllsäcke", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Mülltonne bestellen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Restmülltonne größer beantragen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Biotonne bestellen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Sperrmüll anmelden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Sperrmüllabholung Termin vereinbaren", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Gelbe Säcke abholen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Abfallkalender abholen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Mülltonne reklamieren nicht geleert", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wertstoffhof Öffnungszeiten", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Friedhofsgebühren Grabnutzung verlängern", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Grabstelle reservieren", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Urnengrab beantragen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wo kann ich eine Bestattung anmelden", "erwartet": ["stadtverwaltung", "standesamt"]}
+{"anliegen": "Marktstand beantragen Wochenmarkt", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Standplatz auf dem Weihnachtsmarkt bewerben", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Straßenfest anmelden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Veranstaltung auf öffentlicher Fläche beantragen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Bücherei Ausweis beantragen Stadtbibliothek", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Straßenlaterne defekt melden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Schlagloch in der Straße melden", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Baum umgestürzt auf dem Gehweg wen anrufen", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Spielplatz kaputt Mängelmelder", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Rathaus Öffnungszeiten", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wo ist das Rathaus", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Beschwerde an die Gemeinde schreiben", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Gemeinderat Sitzung öffentlich zugang", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Straßenreinigung Gebühren Bescheid", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Kanalgebühren Bescheid Widerspruch", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Wasserzähler ablesen Gemeinde", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Anschlussbeitrag Wasser Bescheid", "erwartet": ["stadtverwaltung"]}
+{"anliegen": "Ich brauche einen Jagdschein", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Jagdschein verlängern", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wo bekomme ich einen Fischereischein", "erwartet": ["kreisverwaltung", "ordnungsamt"]}
+{"anliegen": "Angelschein für Kinder", "erwartet": ["kreisverwaltung", "ordnungsamt"]}
+{"anliegen": "Waffenbesitzkarte beantragen als Sportschütze", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "ich habe eine Waffe geerbt was muss ich tun", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Kleiner Waffenschein Antrag", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Landratsamt Termin vereinbaren", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Landratsamt Kontakt Telefonnummer", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wo ist die Kreisverwaltung", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Kreisstraße gesperrt wen informieren", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Landkreis Abfallentsorgung Deponie Preise", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Deponie Anlieferung Bauschutt", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Waffenschrank Kontrolle Termin", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Sprengstofferlaubnis für Silvesterfeuerwerk", "erwartet": ["kreisverwaltung", "ordnungsamt"]}
+{"anliegen": "Großes Feuerwerk anmelden Hochzeit", "erwartet": ["kreisverwaltung", "ordnungsamt"]}
+{"anliegen": "Wildschaden am Feld melden", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wildunfall Bescheinigung Jäger", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Jagdpacht anzeigen", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Waffe verloren was jetzt", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Wie werde ich Jäger Prüfung anmelden", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Fischerprüfung anmelden", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Rettungsdienst Rechnung Widerspruch", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Katastrophenschutz Ehrenamt", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Kreisbrandmeister Kontakt", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Landrat sprechen Termin", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Kreishaus Adresse", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Kreistag Beschluss Einsicht", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Landkreisverwaltung Stellenangebote", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Waffenbehörde Öffnungszeiten", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Sportschützen Bedürfnisprüfung Waffe", "erwartet": ["kreisverwaltung"]}
+{"anliegen": "Regierungspräsidium Beschwerde", "erwartet": ["regierungsprs"]}
+{"anliegen": "Wie lege ich Widerspruch beim Regierungspräsidium ein", "erwartet": ["regierungsprs"]}
+{"anliegen": "Bezirksregierung Kontakt", "erwartet": ["regierungsprs"]}
+{"anliegen": "Dienstaufsichtsbeschwerde gegen den Bürgermeister", "erwartet": ["regierungsprs"]}
+{"anliegen": "Kommunalaufsicht Beschwerde Gemeinde", "erwartet": ["regierungsprs"]}
+{"anliegen": "Planfeststellung Einwendung einreichen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Einwendung gegen Autobahnbau", "erwartet": ["regierungsprs"]}
+{"anliegen": "Raumordnungsverfahren Beteiligung", "erwartet": ["regierungsprs"]}
+{"anliegen": "Approbation als Arzt aus dem Ausland beantragen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Berufserlaubnis Ärztin aus Syrien", "erwartet": ["regierungsprs"]}
+{"anliegen": "Anerkennung meines Medizinstudiums aus dem Ausland", "erwartet": ["regierungsprs"]}
+{"anliegen": "Approbation Zahnarzt beantragen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Apothekenbetriebserlaubnis beantragen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Apotheke eröffnen Genehmigung", "erwartet": ["regierungsprs"]}
+{"anliegen": "Heilpraktiker Überprüfung Anmeldung", "erwartet": ["regierungsprs"]}
+{"anliegen": "Anerkennung Pflegefachkraft aus dem Ausland", "erwartet": ["regierungsprs"]}
+{"anliegen": "Berufsanerkennung reglementierte Berufe", "erwartet": ["regierungsprs"]}
+{"anliegen": "Agrarförderung Sammelantrag stellen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Direktzahlungen Landwirt Antrag", "erwartet": ["regierungsprs"]}
+{"anliegen": "Flurbereinigung Antrag", "erwartet": ["regierungsprs"]}
+{"anliegen": "Bergschaden melden", "erwartet": ["regierungsprs"]}
+{"anliegen": "Immissionsschutz Genehmigung Biogasanlage", "erwartet": ["regierungsprs", "umweltamt"]}
+{"anliegen": "Genehmigung für Windkraftanlage beantragen", "erwartet": ["regierungsprs", "bauamt", "umweltamt"]}
+{"anliegen": "Genehmigung Tierhaltungsanlage Mastbetrieb", "erwartet": ["regierungsprs", "veterinaeramt", "umweltamt"]}
+{"anliegen": "Landesdirektion Sachsen Kontakt", "erwartet": ["regierungsprs"]}
+{"anliegen": "Landesverwaltungsamt Termin", "erwartet": ["regierungsprs"]}
+{"anliegen": "Fachaufsichtsbeschwerde einreichen", "erwartet": ["regierungsprs"]}
+{"anliegen": "Widerspruchsbehörde zuständig für meinen Bescheid", "erwartet": ["regierungsprs"]}
+{"anliegen": "Bergbau Genehmigung Steinbruch", "erwartet": ["regierungsprs"]}
+{"anliegen": "Mein Nachbar macht ständig Lärm", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Ruhestörung melden nachts", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Lärmbelästigung durch Gaststätte", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Falschparker melden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Auto steht auf meiner Einfahrt wen rufe ich an", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Fahrzeug abschleppen lassen Ordnungsamt", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Knöllchen Widerspruch einlegen", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Bußgeldbescheid erhalten was tun", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Anwohnerparkausweis", "erwartet": ["ordnungsamt", "strassenverkehrsbehoerde", "buergeramt", "stadtverwaltung"]}
+{"anliegen": "Hundehaltung Auflagen Beschwerde Nachbarhund bellt", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Hund hat mich gebissen melden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Gefährlicher Hund Anzeige Ordnungsamt", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Wildes Müllablagern melden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "illegale Müllkippe im Wald melden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Sondernutzung Gehweg Café Tische", "erwartet": ["ordnungsamt", "stadtverwaltung", "strassenverkehrsbehoerde"]}
+{"anliegen": "Gaststättenerlaubnis beantragen", "erwartet": ["ordnungsamt", "gewerbeamt"]}
+{"anliegen": "Schankerlaubnis für Vereinsfest", "erwartet": ["ordnungsamt"]}
+{"anliegen": "gestattung für ein Fest beantragen", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Feuerwerk Ausnahmegenehmigung", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Fundsachen abgeben Fundbüro", "erwartet": ["ordnungsamt", "stadtverwaltung", "buergeramt"]}
+{"anliegen": "Ich habe mein Portemonnaie verloren wo ist das Fundbüro", "erwartet": ["ordnungsamt", "stadtverwaltung", "buergeramt"]}
+{"anliegen": "Fundbüro Anfrage Fahrrad gefunden", "erwartet": ["ordnungsamt", "stadtverwaltung", "buergeramt"]}
+{"anliegen": "Verkehrsschild beschädigt melden", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Halteverbot für Umzug beantragen", "erwartet": ["ordnungsamt", "stadtverwaltung", "strassenverkehrsbehoerde"]}
+{"anliegen": "Umzugswagen Halteverbotszone", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Obdachlosigkeit Hilfe Ordnungsbehörde", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Gewahrsam Betrunkene", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Versammlung anmelden Demonstration", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Demo anmelden Kundgebung", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Gefahrenabwehr Baum droht umzustürzen", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Pfefferspray Erlaubnis", "erwartet": ["ordnungsamt", "kreisverwaltung"]}
+{"anliegen": "Schrottauto auf dem Grundstück entfernen lassen", "erwartet": ["ordnungsamt"]}
+{"anliegen": "Personalausweis beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Personalausweis verlängern", "erwartet": ["buergeramt"]}
+{"anliegen": "Perso abgelaufen was tun", "erwartet": ["buergeramt"]}
+{"anliegen": "Reisepass beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Reisepass verloren", "erwartet": ["buergeramt"]}
+{"anliegen": "Kinderreisepass beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Reisepass für mein Baby", "erwartet": ["buergeramt"]}
+{"anliegen": "Personalausweis verloren", "erwartet": ["buergeramt"]}
+{"anliegen": "ich habe meinen Ausweis verloren", "erwartet": ["buergeramt"]}
+{"anliegen": "Ausweis Termin Bürgerbüro", "erwartet": ["buergeramt"]}
+{"anliegen": "Bürgeramt Termin online", "erwartet": ["buergeramt"]}
+{"anliegen": "Ummelden nach Umzug", "erwartet": ["buergeramt"]}
+{"anliegen": "Ich bin umgezogen und muss mich ummelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Wohnsitz anmelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Wohnung abmelden Auslandsumzug", "erwartet": ["buergeramt"]}
+{"anliegen": "Abmeldung ins Ausland Meldebehörde", "erwartet": ["buergeramt"]}
+{"anliegen": "Anmeldung Zweitwohnsitz", "erwartet": ["buergeramt"]}
+{"anliegen": "Nebenwohnsitz anmelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Meldebescheinigung beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Aufenthaltsbescheinigung für Bank", "erwartet": ["buergeramt"]}
+{"anliegen": "Führungszeugnis beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Polizeiliches Führungszeugnis online", "erwartet": ["buergeramt"]}
+{"anliegen": "erweitertes Führungszeugnis für Ehrenamt", "erwartet": ["buergeramt"]}
+{"anliegen": "Beglaubigung Kopie Zeugnis", "erwartet": ["buergeramt"]}
+{"anliegen": "Dokumente beglaubigen lassen", "erwartet": ["buergeramt"]}
+{"anliegen": "Unterschrift beglaubigen lassen", "erwartet": ["buergeramt"]}
+{"anliegen": "Beglaubigung Vollmacht", "erwartet": ["buergeramt"]}
+{"anliegen": "Online-Ausweis Funktion freischalten", "erwartet": ["buergeramt"]}
+{"anliegen": "PIN Brief Personalausweis vergessen", "erwartet": ["buergeramt"]}
+{"anliegen": "Lebensbescheinigung für Rente", "erwartet": ["buergeramt", "rentenversicherung"]}
+{"anliegen": "Wo bekomme ich ein Anwohnerparkausweis", "erwartet": ["buergeramt", "strassenverkehrsbehoerde", "ordnungsamt", "stadtverwaltung"]}
+{"anliegen": "Wahlbenachrichtigung nicht erhalten", "erwartet": ["buergeramt"]}
+{"anliegen": "Briefwahl beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Melderegisterauskunft beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Auskunftssperre im Melderegister", "erwartet": ["buergeramt"]}
+{"anliegen": "Vorläufigen Personalausweis beantragen", "erwartet": ["buergeramt"]}
+{"anliegen": "Ausweis für Kinder unter 16", "erwartet": ["buergeramt"]}
+{"anliegen": "Passfoto Anforderungen biometrisch", "erwartet": ["buergeramt"]}
+{"anliegen": "Wir wollen heiraten was brauchen wir", "erwartet": ["standesamt"]}
+{"anliegen": "Eheschließung anmelden", "erwartet": ["standesamt"]}
+{"anliegen": "Termin zur Trauung", "erwartet": ["standesamt"]}
+{"anliegen": "Heiraten im Ausland Ehefähigkeitszeugnis", "erwartet": ["standesamt"]}
+{"anliegen": "Aufgebot bestellen", "erwartet": ["standesamt"]}
+{"anliegen": "Standesamt Termin Hochzeit", "erwartet": ["standesamt"]}
+{"anliegen": "Trauzeugen Anforderungen", "erwartet": ["standesamt"]}
+{"anliegen": "Heiratsurkunde beantragen", "erwartet": ["standesamt"]}
+{"anliegen": "Eheurkunde Kopie", "erwartet": ["standesamt"]}
+{"anliegen": "Geburtsurkunde beantragen", "erwartet": ["standesamt"]}
+{"anliegen": "Geburtsurkunde verloren", "erwartet": ["standesamt"]}
+{"anliegen": "Geburt anmelden Baby", "erwartet": ["standesamt"]}
+{"anliegen": "mein Kind ist geboren und braucht eine Geburtsurkunde", "erwartet": ["standesamt"]}
+{"anliegen": "Namen des Kindes ändern", "erwartet": ["standesamt"]}
+{"anliegen": "Vaterschaft anerkennen Urkunde", "erwartet": ["standesamt"]}
+{"anliegen": "Sterbeurkunde beantragen", "erwartet": ["standesamt"]}
+{"anliegen": "Todesfall melden", "erwartet": ["standesamt"]}
+{"anliegen": "Mein Vater ist gestorben was muss ich tun", "erwartet": ["standesamt"]}
+{"anliegen": "Namensänderung nach Scheidung", "erwartet": ["standesamt", "amtsgericht"]}
+{"anliegen": "Ehenamen bestimmen", "erwartet": ["standesamt"]}
+{"anliegen": "Nachnamen ändern lassen", "erwartet": ["standesamt"]}
+{"anliegen": "Vornamen ändern lassen", "erwartet": ["standesamt"]}
+{"anliegen": "Lebenspartnerschaft eintragen", "erwartet": ["standesamt"]}
+{"anliegen": "Eingetragene Lebenspartnerschaft in Ehe umwandeln", "erwartet": ["standesamt"]}
+{"anliegen": "Stammbuch beantragen", "erwartet": ["standesamt"]}
+{"anliegen": "Familienstammbuch Neuausstellung", "erwartet": ["standesamt"]}
+{"anliegen": "Personenstandsurkunde internationale", "erwartet": ["standesamt"]}
+{"anliegen": "Urkunde aus dem Ausland nachbeurkunden lassen", "erwartet": ["standesamt"]}
+{"anliegen": "Beurkundung Auslandsgeburt", "erwartet": ["standesamt"]}
+{"anliegen": "Namensrecht Doppelname", "erwartet": ["standesamt"]}
+{"anliegen": "Geschlechtseintrag ändern Selbstbestimmungsgesetz", "erwartet": ["standesamt"]}
+{"anliegen": "Erklärung zum Geschlechtseintrag", "erwartet": ["standesamt"]}
+{"anliegen": "Hochzeit im Garten genehmigen lassen", "erwartet": ["standesamt"]}
+{"anliegen": "Scheidung Urkunde Ehe beendet", "erwartet": ["standesamt", "amtsgericht"]}
+{"anliegen": "Aufenthaltstitel verlängern", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltserlaubnis beantragen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Visum verlängern", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Niederlassungserlaubnis beantragen nach 5 Jahren", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Blaue Karte EU beantragen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Familiennachzug Antrag Ehefrau", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Meine Frau soll nachkommen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Einbürgerung beantragen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Deutscher Pass werden wie", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Staatsangehörigkeit feststellen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Duldung verlängern", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Arbeitserlaubnis für Ausländer", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Beschäftigungserlaubnis Asylbewerber", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltstitel Studium", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltserlaubnis Ausbildung", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Fachkräfteeinwanderung Antrag", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Chancenkarte beantragen", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Daueraufenthalt EU", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Visum für meine Mutter zu Besuch", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Verpflichtungserklärung Einladung", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Termin Ausländeramt", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Wo ist die Ausländerbehörde", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Fiktionsbescheinigung", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "eAT Karte verloren", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltskarte Verlust", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Wohnsitzauflage ändern", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Abschiebung Widerspruch", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Ausweisung Anwalt", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltsstatus Wechsel", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltserlaubnis Au-pair", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Aufenthaltsgenehmigung für Ehegatten", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Einbürgerungstest Anmeldung", "erwartet": ["auslaenderbehoerde"]}
+{"anliegen": "Asylantrag stellen", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Wie beantrage ich Asyl in Deutschland", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Ich bin Flüchtling was muss ich tun", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Asylverfahren Stand Anfrage", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Anhörung beim BAMF Termin", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Asylbescheid Widerspruch", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Ablehnung Asylantrag Klage", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Integrationskurs anmelden", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Integrationskurs Berechtigung", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Deutschkurs für Flüchtlinge", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Orientierungskurs Test", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Berufsbezogene Deutschförderung", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Sprachkurs Zuschuss Migration", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Migrationsberatung für Erwachsene", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Dublin Verfahren", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Schutzstatus Verlängerung", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Ukraine Flüchtling Schutz beantragen", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Anerkennung als Flüchtling", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Familienasyl", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Widerruf Asylstatus", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "freiwillige Rückkehr Beratung", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Rückkehrförderung REAG", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Kontingentflüchtling Aufnahme", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Resettlement", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Asylbewerber Unterkunft zugewiesen", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Härtefall Integration Kurs Befreiung", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "BAMF Hotline", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Dolmetscher Asylverfahren", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Folgeantrag Asyl", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "Aufnahme Afghanistan Ortskräfte", "erwartet": ["bundesamt_migration"]}
+{"anliegen": "ich möchte mich von meiner frau scheiden lassen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Scheidung einreichen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Scheidungsantrag stellen", "erwartet": ["amtsgericht"]}
+{"anliegen": "wie läuft eine Scheidung ab", "erwartet": ["amtsgericht"]}
+{"anliegen": "Trennungsjahr Scheidung Antrag", "erwartet": ["amtsgericht"]}
+{"anliegen": "Mein Mann will die Scheidung", "erwartet": ["amtsgericht"]}
+{"anliegen": "einvernehmliche Scheidung ohne Anwalt", "erwartet": ["amtsgericht"]}
+{"anliegen": "Versorgungsausgleich Scheidung", "erwartet": ["amtsgericht"]}
+{"anliegen": "Erbschein beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Ich brauche einen Erbschein für die Bank", "erwartet": ["amtsgericht"]}
+{"anliegen": "Testament hinterlegen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Testament beim Gericht abgeben", "erwartet": ["amtsgericht"]}
+{"anliegen": "Erbe ausschlagen Frist", "erwartet": ["amtsgericht"]}
+{"anliegen": "Erbschaft ausschlagen weil Schulden", "erwartet": ["amtsgericht"]}
+{"anliegen": "Nachlassgericht Termin", "erwartet": ["amtsgericht"]}
+{"anliegen": "Testament eröffnen lassen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Nachlassinsolvenz", "erwartet": ["amtsgericht"]}
+{"anliegen": "Grundbuchauszug beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Grundbucheinsicht", "erwartet": ["amtsgericht"]}
+{"anliegen": "Eintragung ins Grundbuch nach Hauskauf", "erwartet": ["amtsgericht"]}
+{"anliegen": "Grundschuld löschen lassen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Handelsregister Auszug", "erwartet": ["amtsgericht"]}
+{"anliegen": "GmbH Eintragung Handelsregister", "erwartet": ["amtsgericht"]}
+{"anliegen": "Vereinsregister Eintragung e.V. gründen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Verein eintragen lassen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Mahnbescheid beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Ich will einen Mahnbescheid gegen meinen Schuldner", "erwartet": ["amtsgericht"]}
+{"anliegen": "Widerspruch gegen Mahnbescheid", "erwartet": ["amtsgericht"]}
+{"anliegen": "Privatinsolvenz anmelden", "erwartet": ["amtsgericht"]}
+{"anliegen": "Insolvenzantrag stellen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Restschuldbefreiung beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Zwangsversteigerung Termin", "erwartet": ["amtsgericht"]}
+{"anliegen": "Betreuung für meinen Vater beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "rechtliche Betreuung einrichten", "erwartet": ["amtsgericht"]}
+{"anliegen": "Betreuungsgericht Antrag", "erwartet": ["amtsgericht"]}
+{"anliegen": "Vorsorgevollmacht Registrierung", "erwartet": ["amtsgericht"]}
+{"anliegen": "Sorgerecht Antrag gemeinsames Sorgerecht", "erwartet": ["amtsgericht", "jugendamt"]}
+{"anliegen": "Umgangsrecht gerichtlich regeln", "erwartet": ["amtsgericht"]}
+{"anliegen": "Unterhaltsklage einreichen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Gewaltschutzantrag Kontaktverbot", "erwartet": ["amtsgericht"]}
+{"anliegen": "Kontaktverbot gegen Ex beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Beratungshilfeschein beantragen", "erwartet": ["amtsgericht"]}
+{"anliegen": "Prozesskostenhilfe Antrag", "erwartet": ["amtsgericht"]}
+{"anliegen": "Rechtsantragstelle", "erwartet": ["amtsgericht"]}
+{"anliegen": "Klage einreichen ohne Anwalt", "erwartet": ["amtsgericht"]}
+{"anliegen": "Räumungsklage Mieter", "erwartet": ["amtsgericht"]}
+{"anliegen": "Wohnungseigentum Streitigkeit Klage", "erwartet": ["amtsgericht"]}
+{"anliegen": "Namensänderung gerichtlich", "erwartet": ["amtsgericht"]}
+{"anliegen": "Adoption Antrag Gericht", "erwartet": ["amtsgericht", "jugendamt"]}
+{"anliegen": "Todeserklärung vermisst Person", "erwartet": ["amtsgericht"]}
+{"anliegen": "Zeuge Ladung Amtsgericht", "erwartet": ["amtsgericht"]}
+{"anliegen": "Schöffe werden Bewerbung", "erwartet": ["amtsgericht"]}
+{"anliegen": "Berufung gegen Urteil Amtsgericht einlegen", "erwartet": ["landgericht"]}
+{"anliegen": "Berufung Landgericht Frist", "erwartet": ["landgericht"]}
+{"anliegen": "Klage über 10000 Euro Streitwert", "erwartet": ["landgericht"]}
+{"anliegen": "Zivilkammer Landgericht Termin", "erwartet": ["landgericht"]}
+{"anliegen": "Strafkammer Landgericht Verhandlung", "erwartet": ["landgericht"]}
+{"anliegen": "Landgericht Adresse", "erwartet": ["landgericht"]}
+{"anliegen": "Wo ist das Landgericht", "erwartet": ["landgericht"]}
+{"anliegen": "Schadensersatzklage hoher Streitwert", "erwartet": ["landgericht"]}
+{"anliegen": "Landgericht Akteneinsicht", "erwartet": ["landgericht"]}
+{"anliegen": "Beschwerde gegen Beschluss des Amtsgerichts", "erwartet": ["landgericht"]}
+{"anliegen": "Anwaltszwang Landgericht", "erwartet": ["landgericht"]}
+{"anliegen": "Revision Strafsache", "erwartet": ["landgericht"]}
+{"anliegen": "Schwurgericht Prozess Zuschauer", "erwartet": ["landgericht"]}
+{"anliegen": "Handelskammer Landgericht Streit zwischen Kaufleuten", "erwartet": ["landgericht"]}
+{"anliegen": "Landgericht Prozesstermin Zuschauer", "erwartet": ["landgericht"]}
+{"anliegen": "Gerichtsvollzieher Beschwerde Landgericht", "erwartet": ["landgericht"]}
+{"anliegen": "Pressestelle Landgericht", "erwartet": ["landgericht"]}
+{"anliegen": "Klage gegen Ausländerbehörde Verwaltungsgericht", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Baugenehmigung", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Verwaltungsgericht Klage einreichen", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Eilantrag gegen Abschiebung", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Bescheid der Stadt", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Widerspruchsbescheid angefochten Klage", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Führerscheinentzug", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Rundfunkbeitrag", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage Studienplatz Verwaltungsgericht", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Beamtenrecht Klage Versetzung", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Gewerbeuntersagung", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Verwaltungsgericht Prozesskostenhilfe", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Lärmschutz Entscheidung", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Bußgeld der Behörde", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Verwaltungsgericht Adresse", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Rechtsmittel gegen abgelehnte Aufenthaltserlaubnis", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Normenkontrolle Bebauungsplan", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Klage gegen Schulverweis", "erwartet": ["verwaltungsgericht"]}
+{"anliegen": "Strafanzeige bei der Staatsanwaltschaft erstatten", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Staatsanwaltschaft Ermittlungsverfahren Akteneinsicht", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Ich habe einen Brief von der Staatsanwaltschaft bekommen", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Einstellung des Verfahrens Beschwerde", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Anzeige wegen Betrug online", "erwartet": ["staatsanwaltschaft", "polizei"]}
+{"anliegen": "Strafantrag stellen Beleidigung", "erwartet": ["staatsanwaltschaft", "polizei"]}
+{"anliegen": "Ermittlungsverfahren gegen mich was tun", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Zeugenladung Staatsanwaltschaft", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Opferentschädigung Antrag Staatsanwaltschaft", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Strafvollstreckung Geldstrafe Ratenzahlung", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Geldstrafe bezahlen Staatsanwaltschaft", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Generalstaatsanwaltschaft Beschwerde", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Wirtschaftsstrafsachen Anzeige", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Verfahrenseinstellung Auflage Zahlung", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Staatsanwaltschaft Kontakt", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Privatklage oder Strafanzeige", "erwartet": ["staatsanwaltschaft", "polizei"]}
+{"anliegen": "Hinweis Korruption melden", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Akteneinsicht als Geschädigter", "erwartet": ["staatsanwaltschaft"]}
+{"anliegen": "Mein Fahrrad wurde gestohlen", "erwartet": ["polizei"]}
+{"anliegen": "Fahrraddiebstahl anzeigen", "erwartet": ["polizei"]}
+{"anliegen": "Ich wurde bestohlen", "erwartet": ["polizei"]}
+{"anliegen": "Diebstahl anzeigen online", "erwartet": ["polizei"]}
+{"anliegen": "Einbruch in meine Wohnung", "erwartet": ["polizei"]}
+{"anliegen": "Anzeige erstatten Sachbeschädigung", "erwartet": ["polizei"]}
+{"anliegen": "Unfall melden Polizei Fahrerflucht", "erwartet": ["polizei"]}
+{"anliegen": "Verkehrsunfall aufnehmen lassen", "erwartet": ["polizei"]}
+{"anliegen": "Autoaufbruch anzeigen", "erwartet": ["polizei"]}
+{"anliegen": "Handy gestohlen anzeigen", "erwartet": ["polizei"]}
+{"anliegen": "Online Wache Anzeige", "erwartet": ["polizei"]}
+{"anliegen": "Betrug im Internet anzeigen", "erwartet": ["polizei"]}
+{"anliegen": "Ich bin Opfer von Betrug geworden", "erwartet": ["polizei"]}
+{"anliegen": "Trickbetrug Anruf Polizei", "erwartet": ["polizei"]}
+{"anliegen": "Bedrohung anzeigen", "erwartet": ["polizei"]}
+{"anliegen": "Stalking Polizei", "erwartet": ["polizei"]}
+{"anliegen": "häusliche Gewalt melden", "erwartet": ["polizei"]}
+{"anliegen": "Vermisstenanzeige aufgeben", "erwartet": ["polizei"]}
+{"anliegen": "Mein Kind ist verschwunden", "erwartet": ["polizei"]}
+{"anliegen": "Polizeilicher Unfallbericht anfordern", "erwartet": ["polizei"]}
+{"anliegen": "Polizeiinspektion Öffnungszeiten", "erwartet": ["polizei"]}
+{"anliegen": "Notruf nicht Notfall Polizei", "erwartet": ["polizei"]}
+{"anliegen": "Kennzeichen gestohlen", "erwartet": ["polizei"]}
+{"anliegen": "Führerschein gestohlen Anzeige", "erwartet": ["polizei", "strassenverkehrsbehoerde"]}
+{"anliegen": "Ausweis gestohlen Verlustanzeige", "erwartet": ["polizei", "buergeramt"]}
+{"anliegen": "Graffiti Sachbeschädigung melden", "erwartet": ["polizei", "ordnungsamt"]}
+{"anliegen": "Kfz Aufbruch Zeugen", "erwartet": ["polizei"]}
+{"anliegen": "Wo kann ich Anzeige gegen Unbekannt erstatten", "erwartet": ["polizei"]}
+{"anliegen": "Cybercrime melden Hacker Konto", "erwartet": ["polizei"]}
+{"anliegen": "Schockanruf Enkeltrick", "erwartet": ["polizei"]}
+{"anliegen": "Waffe gefunden Polizei", "erwartet": ["polizei", "kreisverwaltung", "ordnungsamt"]}
+{"anliegen": "Zoll Einfuhr aus China Paket", "erwartet": ["zoll"]}
+{"anliegen": "Paket aus dem Ausland Zoll abholen", "erwartet": ["zoll"]}
+{"anliegen": "Zollgebühren für Bestellung aus den USA", "erwartet": ["zoll"]}
+{"anliegen": "Einfuhrumsatzsteuer Paket", "erwartet": ["zoll"]}
+{"anliegen": "Zollanmeldung privat", "erwartet": ["zoll"]}
+{"anliegen": "Wie viel Alkohol darf ich einführen", "erwartet": ["zoll"]}
+{"anliegen": "Zigaretten Einfuhr Schweiz", "erwartet": ["zoll"]}
+{"anliegen": "Mitbringsel aus dem Urlaub Freigrenze", "erwartet": ["zoll"]}
+{"anliegen": "Hauptzollamt Termin", "erwartet": ["zoll"]}
+{"anliegen": "Kfz-Steuer Bescheid", "erwartet": ["zoll"]}
+{"anliegen": "Kraftfahrzeugsteuer zahlen", "erwartet": ["zoll"]}
+{"anliegen": "Kfz Steuer Befreiung Elektroauto", "erwartet": ["zoll"]}
+{"anliegen": "Kfz-Steuer Rückerstattung nach Abmeldung", "erwartet": ["zoll"]}
+{"anliegen": "Schwarzarbeit melden", "erwartet": ["zoll"]}
+{"anliegen": "Mindestlohn Verstoß melden", "erwartet": ["zoll"]}
+{"anliegen": "Mindestlohn Kontrolle Arbeitgeber", "erwartet": ["zoll"]}
+{"anliegen": "Zoll Arbeitgeber Prüfung Sozialversicherung", "erwartet": ["zoll"]}
+{"anliegen": "Bargeld Ausreise anmelden über 10000 Euro", "erwartet": ["zoll"]}
+{"anliegen": "Bargeld mitnehmen Grenze", "erwartet": ["zoll"]}
+{"anliegen": "Ausfuhr Waren Drittland", "erwartet": ["zoll"]}
+{"anliegen": "EORI Nummer beantragen", "erwartet": ["zoll"]}
+{"anliegen": "Zolltarifnummer herausfinden", "erwartet": ["zoll"]}
+{"anliegen": "Verbrauchsteuer Alkohol Kaffeesteuer", "erwartet": ["zoll"]}
+{"anliegen": "Tabaksteuer", "erwartet": ["zoll"]}
+{"anliegen": "Energiesteuer Erstattung Landwirtschaft", "erwartet": ["zoll"]}
+{"anliegen": "Stromsteuer Befreiung beantragen", "erwartet": ["zoll"]}
+{"anliegen": "Zollstrafverfahren", "erwartet": ["zoll", "staatsanwaltschaft"]}
+{"anliegen": "Artenschutz Souvenir Einfuhr Elfenbein", "erwartet": ["zoll"]}
+{"anliegen": "Auto aus Ausland importieren Zoll", "erwartet": ["zoll"]}
+{"anliegen": "Mit Haustier einreisen Zollkontrolle", "erwartet": ["zoll", "veterinaeramt"]}
+{"anliegen": "Zoll Pfändung Vollstreckung Hauptzollamt", "erwartet": ["zoll"]}
+{"anliegen": "Unterhaltsvorschuss beantragen", "erwartet": ["jugendamt"]}
+{"anliegen": "Alleinerziehend Unterhaltsvorschuss", "erwartet": ["jugendamt"]}
+{"anliegen": "Mein Ex zahlt keinen Unterhalt", "erwartet": ["jugendamt"]}
+{"anliegen": "Beistandschaft beantragen", "erwartet": ["jugendamt"]}
+{"anliegen": "Vaterschaftsanerkennung Jugendamt", "erwartet": ["jugendamt"]}
+{"anliegen": "Sorgeerklärung abgeben", "erwartet": ["jugendamt"]}
+{"anliegen": "Gemeinsames Sorgerecht unverheiratet", "erwartet": ["jugendamt"]}
+{"anliegen": "Pflegekind aufnehmen", "erwartet": ["jugendamt"]}
+{"anliegen": "Pflegeeltern werden", "erwartet": ["jugendamt"]}
+{"anliegen": "Adoption Kind Voraussetzungen", "erwartet": ["jugendamt"]}
+{"anliegen": "Erziehungsberatung Jugendamt", "erwartet": ["jugendamt"]}
+{"anliegen": "Hilfe zur Erziehung beantragen", "erwartet": ["jugendamt"]}
+{"anliegen": "Familienhilfe Sozialpädagogische", "erwartet": ["jugendamt"]}
+{"anliegen": "Kindeswohlgefährdung melden", "erwartet": ["jugendamt"]}
+{"anliegen": "Verdacht auf Kindesmisshandlung Nachbarn", "erwartet": ["jugendamt"]}
+{"anliegen": "Jugendamt Besuch angekündigt", "erwartet": ["jugendamt"]}
+{"anliegen": "Vormundschaft für Minderjährige", "erwartet": ["jugendamt", "amtsgericht"]}
+{"anliegen": "Jugendhilfe Antrag", "erwartet": ["jugendamt"]}
+{"anliegen": "Inobhutnahme Kind", "erwartet": ["jugendamt"]}
+{"anliegen": "Kita Platz Antrag", "erwartet": ["jugendamt", "stadtverwaltung"]}
+{"anliegen": "Kinderbetreuung Platz suchen", "erwartet": ["jugendamt"]}
+{"anliegen": "Tagesmutter finden", "erwartet": ["jugendamt"]}
+{"anliegen": "Kindertagespflege Erlaubnis", "erwartet": ["jugendamt"]}
+{"anliegen": "Elternbeitrag Kita Ermäßigung", "erwartet": ["jugendamt"]}
+{"anliegen": "Eingliederungshilfe Kind mit Behinderung", "erwartet": ["jugendamt"]}
+{"anliegen": "Ferienbetreuung Zuschuss", "erwartet": ["jugendamt"]}
+{"anliegen": "Jugendleiter Card Ehrenamt", "erwartet": ["jugendamt"]}
+{"anliegen": "Jugendschutz Veranstaltung", "erwartet": ["jugendamt"]}
+{"anliegen": "Umgangsregelung Beratung", "erwartet": ["jugendamt"]}
+{"anliegen": "Trennung Scheidung Beratung Kinder", "erwartet": ["jugendamt"]}
+{"anliegen": "Schulsozialarbeit Hilfe", "erwartet": ["jugendamt", "schulamt"]}
+{"anliegen": "Hilfe für junge Volljährige", "erwartet": ["jugendamt"]}
+{"anliegen": "Elterngeld Antrag", "erwartet": ["jugendamt"]}
+{"anliegen": "Elterngeld beantragen", "erwartet": ["jugendamt"]}
+{"anliegen": "Elterngeld Plus", "erwartet": ["jugendamt"]}
+{"anliegen": "Elternzeit Antrag", "erwartet": ["jugendamt"]}
+{"anliegen": "Sozialhilfe beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Hilfe zum Lebensunterhalt Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Grundsicherung im Alter beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Grundsicherung bei Erwerbsminderung", "erwartet": ["sozialamt"]}
+{"anliegen": "Rente reicht nicht Grundsicherung", "erwartet": ["sozialamt"]}
+{"anliegen": "Pflegewohngeld", "erwartet": ["sozialamt"]}
+{"anliegen": "Hilfe zur Pflege Sozialamt", "erwartet": ["sozialamt"]}
+{"anliegen": "Pflegeheim Kosten übernehmen Sozialamt", "erwartet": ["sozialamt"]}
+{"anliegen": "Heizkostenzuschuss", "erwartet": ["sozialamt", "wohngeldstelle"]}
+{"anliegen": "Bildung und Teilhabe Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Schulbedarfspaket beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Schulmittagessen Zuschuss", "erwartet": ["sozialamt"]}
+{"anliegen": "Klassenfahrt Zuschuss Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Lernförderung Nachhilfe Zuschuss", "erwartet": ["sozialamt"]}
+{"anliegen": "Behindertenausweis Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Schwerbehindertenausweis beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Schwerbehinderung Grad der Behinderung Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Merkzeichen aG beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Eingliederungshilfe Erwachsene", "erwartet": ["sozialamt"]}
+{"anliegen": "Persönliches Budget Antrag", "erwartet": ["sozialamt"]}
+{"anliegen": "Bestattungskosten Übernahme Sozialamt", "erwartet": ["sozialamt"]}
+{"anliegen": "Sozialticket beantragen", "erwartet": ["sozialamt"]}
+{"anliegen": "Sozialpass Stadt", "erwartet": ["sozialamt", "stadtverwaltung"]}
+{"anliegen": "Tafel Berechtigung Bescheinigung", "erwartet": ["sozialamt"]}
+{"anliegen": "Wohnungslos Notunterkunft", "erwartet": ["sozialamt"]}
+{"anliegen": "Asylbewerberleistungen", "erwartet": ["sozialamt"]}
+{"anliegen": "Blindengeld", "erwartet": ["sozialamt"]}
+{"anliegen": "Hilfe in besonderen Lebenslagen", "erwartet": ["sozialamt"]}
+{"anliegen": "Mietschulden Übernahme Sozialamt", "erwartet": ["sozialamt"]}
+{"anliegen": "Hilfsmittel für Behinderte Zuschuss", "erwartet": ["sozialamt", "krankenkasse"]}
+{"anliegen": "Fahrdienst für Behinderte", "erwartet": ["sozialamt"]}
+{"anliegen": "Sozialamt Termin", "erwartet": ["sozialamt"]}
+{"anliegen": "Barbetrag Pflegeheim Taschengeld", "erwartet": ["sozialamt"]}
+{"anliegen": "Bürgergeld beantragen", "erwartet": ["jobcenter"]}
+{"anliegen": "Arbeitslosengeld II beantragen", "erwartet": ["jobcenter"]}
+{"anliegen": "Hartz 4 Antrag", "erwartet": ["jobcenter"]}
+{"anliegen": "Ich habe meinen Job verloren und kein Geld", "erwartet": ["jobcenter", "arbeitsagentur"]}
+{"anliegen": "Bürgergeld Weiterbewilligung", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Mietkosten Übernahme", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Umzug Genehmigung", "erwartet": ["jobcenter"]}
+{"anliegen": "Jobcenter Termin Einladung", "erwartet": ["jobcenter"]}
+{"anliegen": "Meldeaufforderung Jobcenter", "erwartet": ["jobcenter"]}
+{"anliegen": "Sanktion Jobcenter Widerspruch", "erwartet": ["jobcenter"]}
+{"anliegen": "Jobcenter Bescheid Widerspruch", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Nebenjob anrechnen", "erwartet": ["jobcenter"]}
+{"anliegen": "Aufstocker Bürgergeld", "erwartet": ["jobcenter"]}
+{"anliegen": "Einstiegsgeld Selbständigkeit", "erwartet": ["jobcenter"]}
+{"anliegen": "Bildungsgutschein Jobcenter", "erwartet": ["jobcenter"]}
+{"anliegen": "Eingliederungsvereinbarung", "erwartet": ["jobcenter"]}
+{"anliegen": "Erstausstattung Wohnung Bürgergeld", "erwartet": ["jobcenter"]}
+{"anliegen": "Erstausstattung Baby Bürgergeld", "erwartet": ["jobcenter"]}
+{"anliegen": "Mehrbedarf Alleinerziehende", "erwartet": ["jobcenter"]}
+{"anliegen": "Mehrbedarf Schwangerschaft", "erwartet": ["jobcenter"]}
+{"anliegen": "Kinderzuschlag Jobcenter oder Familienkasse", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Student", "erwartet": ["jobcenter"]}
+{"anliegen": "Weiterbildung Bürgergeld Förderung", "erwartet": ["jobcenter"]}
+{"anliegen": "Jobcenter Online Antrag", "erwartet": ["jobcenter"]}
+{"anliegen": "Leistungen für Bildung und Teilhabe Jobcenter", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Schonvermögen", "erwartet": ["jobcenter"]}
+{"anliegen": "Jobcenter Darlehen", "erwartet": ["jobcenter"]}
+{"anliegen": "Nebenkostenabrechnung Jobcenter vorlegen", "erwartet": ["jobcenter"]}
+{"anliegen": "Jobcenter Erreichbarkeit Ortsabwesenheit", "erwartet": ["jobcenter"]}
+{"anliegen": "Bürgergeld Stromkosten Nachzahlung", "erwartet": ["jobcenter"]}
+{"anliegen": "Hartz IV Rückzahlung Forderung", "erwartet": ["jobcenter"]}
+{"anliegen": "Arbeitslosengeld beantragen", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitslos melden", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Ich bin arbeitslos geworden was muss ich tun", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Kündigung erhalten Arbeitsagentur melden", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitssuchend melden", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitslosengeld I Höhe", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Kurzarbeitergeld Antrag Arbeitgeber", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Insolvenzgeld beantragen", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Berufsberatung Termin", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Ausbildungsplatz suchen Agentur für Arbeit", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Berufsausbildungsbeihilfe beantragen", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Umschulung Förderung Arbeitsagentur", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Bildungsgutschein Arbeitsagentur", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitsvermittlung online", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Jobbörse Arbeitsagentur", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Sperrzeit Arbeitslosengeld Widerspruch", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitsbescheinigung vom Arbeitgeber", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitslosengeld Nebeneinkommen", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Existenzgründungszuschuss", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Gründungszuschuss beantragen", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Rente und Arbeitslosengeld", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitslosengeld Auslandsaufenthalt", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitslosengeld Krankheit", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Mobilitätshilfe Bewerbungskosten", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Eingliederungszuschuss Arbeitgeber", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Berufsinformationszentrum", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Qualifizierung Beschäftigte Förderung", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitsagentur Telefonnummer", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Arbeitsuchend Online Meldung Frist", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Elternzeit Arbeitslosenversicherung Beitrag", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Agentur für Arbeit Termin ändern", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Kindergeld beantragen", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Antrag nach Geburt", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld online beantragen", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld für volljähriges Kind Studium", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Ausbildung Nachweis", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Auslandsstudium", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Höhe", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld ändern Kontonummer", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld wurde eingestellt", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Rückforderung Familienkasse", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Überzahlung", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Nachzahlung", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Kind im Ausland", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Polen", "erwartet": ["familienkasse"]}
+{"anliegen": "Kinderzuschlag beantragen", "erwartet": ["familienkasse"]}
+{"anliegen": "Kinderzuschlag Antrag online", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Bescheid verloren", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Anspruch Ausländer", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeldkasse Adresse", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Wechsel zu anderem Elternteil", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Pflegekind", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Waise", "erwartet": ["familienkasse"]}
+{"anliegen": "Familienkasse Termin", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Kind Arbeitslos gemeldet", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Freiwilligendienst", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeldkasse Telefon Hotline", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Steuer Familienkasse Auskunft", "erwartet": ["familienkasse"]}
+{"anliegen": "Kindergeld Nachweis Schulbescheinigung", "erwartet": ["familienkasse"]}
+{"anliegen": "Wohngeld beantragen", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Antrag online", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Höhe berechnen", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeldrechner", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Voraussetzungen Einkommen", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Weiterbewilligung", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Student", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Rentner", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Lastenzuschuss Eigenheim", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Nachzahlung", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Bescheid Widerspruch", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Überzahlung", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Heizkosten Zuschuss", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Mietbescheinigung Vermieter", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Plus", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld und Bürgergeld", "erwartet": ["wohngeldstelle", "jobcenter"]}
+{"anliegen": "Wohngeldstelle Termin", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Einkommen ändern", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Untermiete", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Antrag Unterlagen", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Ausbildung Azubi", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohngeld Kinder", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Wohnberechtigungsschein beantragen", "erwartet": ["wohngeldstelle", "bauamt", "stadtverwaltung"]}
+{"anliegen": "WBS beantragen", "erwartet": ["wohngeldstelle", "bauamt", "stadtverwaltung"]}
+{"anliegen": "Sozialwohnung Antrag", "erwartet": ["wohngeldstelle", "bauamt", "stadtverwaltung"]}
+{"anliegen": "Mietzuschuss", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Miete zu hoch Hilfe vom Staat", "erwartet": ["wohngeldstelle"]}
+{"anliegen": "Führerschein beantragen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein umtauschen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein verloren Ersatz", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Kartenführerschein Umtausch Pflicht", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein mit 17 begleitetes Fahren", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerscheinprüfung anmelden Fahrschule", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrerlaubnis Klasse B erweitern", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Motorradführerschein Antrag", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein entzogen wieder bekommen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrerlaubnis Entziehung Widerspruch", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "MPU Aufforderung was tun", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "MPU Gutachten Anordnung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Punkte in Flensburg Auskunft", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahreignungsregister Auskunft", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrverbot Frist verschieben", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Aufbauseminar Punkte", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Internationaler Führerschein beantragen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ausländischen Führerschein umschreiben", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Führerschein aus der Türkei anerkennen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrerlaubnis auf Probe Verlängerung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ärztliches Gutachten Führerschein Ü70", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Sehtest Führerschein Bescheinigung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Erste Hilfe Kurs Nachweis Führerschein", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Parkerleichterung Schwerbehinderte Parkausweis", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Behindertenparkplatz vor dem Haus beantragen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Bewohnerparkausweis beantragen", "erwartet": ["strassenverkehrsbehoerde", "ordnungsamt", "stadtverwaltung", "buergeramt"]}
+{"anliegen": "Anwohnerparken Antrag", "erwartet": ["strassenverkehrsbehoerde", "ordnungsamt", "stadtverwaltung", "buergeramt"]}
+{"anliegen": "Schwertransport Genehmigung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Großraumtransport Erlaubnis", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Verkehrszeichen Anordnung Antrag Straßensperrung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Straßensperrung für Baustelle beantragen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Ausnahmegenehmigung Fahrverbot Umweltzone", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Taxi Konzession", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrgastbeförderung Personenbeförderungsschein", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "P-Schein beantragen", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrlehrerlaubnis", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Verkehrsunterricht Anmeldung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Fahrtenbuch Anordnung", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Tempo 30 Zone beantragen vor Schule", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Verkehrsberuhigung Antrag Anwohner", "erwartet": ["strassenverkehrsbehoerde"]}
+{"anliegen": "Auto anmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Auto zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeug zulassen Termin", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Neues Auto zulassen was brauche ich", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Gebrauchtwagen ummelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeug umschreiben nach Kauf", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Auto abmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeug stilllegen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Kfz außer Betrieb setzen online", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Kennzeichen reservieren", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Wunschkennzeichen beantragen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Kennzeichen verloren", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Nummernschild gestohlen was tun", "erwartet": ["zulassungsstelle", "polizei"]}
+{"anliegen": "Saisonkennzeichen beantragen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Kurzzeitkennzeichen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Rotes Kennzeichen Händler", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Ausfuhrkennzeichen beantragen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Oldtimer Kennzeichen H-Zulassung", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Elektroauto E-Kennzeichen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Zulassungsbescheinigung verloren", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeugschein verloren", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeugbrief verloren", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Zulassungsbescheinigung Teil 2 Ersatz", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Umzug neues Kennzeichen Landkreis", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Adresse im Fahrzeugschein ändern", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Halterwechsel melden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeug auf Firma zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Anhänger zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Motorrad anmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Roller Versicherungskennzeichen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Wohnmobil zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Importfahrzeug Zulassung Ausland", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Feinstaubplakette Umweltplakette", "erwartet": ["zulassungsstelle", "strassenverkehrsbehoerde", "umweltamt"]}
+{"anliegen": "HU Plakette Termin", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "e-bike Versicherungskennzeichen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Quad zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Fahrzeug online abmelden i-Kfz", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Zulassung Verkehrsunfall Totalschaden abmelden", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Parkplatz Zulassungsstelle Termin", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Zulassungsstelle Öffnungszeiten", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Baugenehmigung beantragen", "erwartet": ["bauamt"]}
+{"anliegen": "Bauantrag einreichen", "erwartet": ["bauamt"]}
+{"anliegen": "Wo reiche ich einen Bauantrag ein", "erwartet": ["bauamt"]}
+{"anliegen": "Bauvoranfrage stellen", "erwartet": ["bauamt"]}
+{"anliegen": "Ich möchte ein Haus bauen", "erwartet": ["bauamt"]}
+{"anliegen": "Eigenheim Baugenehmigung wie lange dauert das", "erwartet": ["bauamt"]}
+{"anliegen": "Anbau Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Wintergarten Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Carport bauen Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Gartenhaus Baugenehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Zaun höhe Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Dachausbau Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Dachgeschoss Wohnung ausbauen Baugenehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Nutzungsänderung Gewerbe in Wohnen", "erwartet": ["bauamt"]}
+{"anliegen": "Abriss Genehmigung Haus", "erwartet": ["bauamt"]}
+{"anliegen": "Bebauungsplan einsehen", "erwartet": ["bauamt"]}
+{"anliegen": "Flächennutzungsplan Auskunft", "erwartet": ["bauamt"]}
+{"anliegen": "Baulast Eintragung", "erwartet": ["bauamt"]}
+{"anliegen": "Baulastenverzeichnis Auskunft", "erwartet": ["bauamt"]}
+{"anliegen": "Abstandsfläche Nachbar Baurecht", "erwartet": ["bauamt"]}
+{"anliegen": "Nachbar baut illegal melden", "erwartet": ["bauamt"]}
+{"anliegen": "Schwarzbau melden", "erwartet": ["bauamt"]}
+{"anliegen": "Bauaufsicht Beschwerde", "erwartet": ["bauamt"]}
+{"anliegen": "Baugenehmigung Photovoltaik Dach", "erwartet": ["bauamt"]}
+{"anliegen": "Solaranlage Balkon Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Wärmepumpe Genehmigung Außengerät", "erwartet": ["bauamt"]}
+{"anliegen": "Schornsteinfeger Feuerstättenschau Bauamt", "erwartet": ["bauamt"]}
+{"anliegen": "Denkmalschutz Genehmigung Fenster", "erwartet": ["bauamt"]}
+{"anliegen": "Denkmalschutz Umbau Antrag", "erwartet": ["bauamt"]}
+{"anliegen": "Bauvorlageberechtigter Architekt", "erwartet": ["bauamt"]}
+{"anliegen": "Baubeginn anzeigen", "erwartet": ["bauamt"]}
+{"anliegen": "Bauschein Kopie anfordern", "erwartet": ["bauamt"]}
+{"anliegen": "Bauakte einsehen", "erwartet": ["bauamt"]}
+{"anliegen": "Hausnummer vergeben beantragen", "erwartet": ["bauamt"]}
+{"anliegen": "Straßenname Hausnummer Änderung", "erwartet": ["bauamt"]}
+{"anliegen": "Erschließungsbeitrag Bescheid", "erwartet": ["bauamt", "stadtverwaltung"]}
+{"anliegen": "Grundstück teilen Teilungsgenehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Wohnungsbauförderung Antrag", "erwartet": ["bauamt"]}
+{"anliegen": "Aufzug einbauen Mehrfamilienhaus Genehmigung", "erwartet": ["bauamt"]}
+{"anliegen": "Stellplatznachweis", "erwartet": ["bauamt"]}
+{"anliegen": "Bauleitplanung Öffentlichkeitsbeteiligung", "erwartet": ["bauamt"]}
+{"anliegen": "Gesundheitszeugnis beantragen", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Belehrung nach Infektionsschutzgesetz", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Infektionsschutzbelehrung Gastronomie", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Rote Karte Gesundheitsamt", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Impfberatung Gesundheitsamt", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Impfausweis Beratung Reiseimpfung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Tuberkulose Untersuchung Pflicht", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Amtsarzt Termin", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Amtsärztliches Gutachten Beamte", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Schuleingangsuntersuchung Termin", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Einschulungsuntersuchung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Gesundheitsamt Hygiene Beschwerde Restaurant", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Legionellen Trinkwasser Prüfung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Meldepflicht Infektionskrankheit", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Coronavirus Quarantäne Anordnung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Krätze Läuse Kindergarten Meldung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Sozialpsychiatrischer Dienst Hilfe", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Beratungsstelle Sucht Gesundheitsamt", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "HIV Test anonym Beratung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Schwangerschaftskonfliktberatung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Schwangerenberatung Gesundheitsamt", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Zahngesundheit Untersuchung Kindergarten", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Trinkwasseranalyse Brunnen", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Schimmel Wohnung Gesundheitsamt melden", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Bettwanzen melden", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Rattenbefall melden", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Bestattungsgesetz Leichenschau", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Leichenschein", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Heilpraktikererlaubnis Prüfung", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Heilpraktiker Zulassung Gesundheitsamt", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Gesundheitsamt Termin", "erwartet": ["gesundheitsamt"]}
+{"anliegen": "Lebensmittelkontrolle Beschwerde", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Lebensmittelbetrieb anmelden Registrierung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierschutz Verstoß melden", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierquälerei anzeigen", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Nachbar vernachlässigt Hund", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierhaltung Verbot", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierseuchen Anzeige", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Geflügelpest Stallpflicht", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tollwut Verdacht Meldung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Hundeführerschein Sachkunde", "erwartet": ["veterinaeramt", "ordnungsamt", "stadtverwaltung"]}
+{"anliegen": "Gefährliche Hunde Wesenstest", "erwartet": ["veterinaeramt", "ordnungsamt"]}
+{"anliegen": "Tiertransport Genehmigung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Pferd registrieren", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Rinder Ohrmarken Registrierung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Schlachtgenehmigung Hausschlachtung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierarzt Notdienst Amtstierarzt", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Heimtierzucht Genehmigung Erlaubnis nach 11 Tierschutzgesetz", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Hundezucht anmelden Erlaubnis", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierheim Aufnahme Fundtier", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Exotische Tiere halten Genehmigung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Wildtier gefunden verletzt", "erwartet": ["veterinaeramt", "ordnungsamt", "umweltamt"]}
+{"anliegen": "Bienenvolk anmelden", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Fleischbeschau", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tiergesundheitszeugnis Reise mit Hund", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Heimtierausweis ausstellen", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Tierpension Betrieb Genehmigung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Pferdepass Beantragung", "erwartet": ["veterinaeramt"]}
+{"anliegen": "Baum fällen Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Baumfällung im Garten erlaubt", "erwartet": ["umweltamt"]}
+{"anliegen": "Baumschutzsatzung Antrag", "erwartet": ["umweltamt"]}
+{"anliegen": "Naturschutz Genehmigung Eingriff", "erwartet": ["umweltamt"]}
+{"anliegen": "Biotop Schutz Anfrage", "erwartet": ["umweltamt"]}
+{"anliegen": "Artenschutz Fledermäuse Gebäude", "erwartet": ["umweltamt"]}
+{"anliegen": "Gewässerverunreinigung melden", "erwartet": ["umweltamt"]}
+{"anliegen": "Öl im Bach melden", "erwartet": ["umweltamt"]}
+{"anliegen": "Wasserschutzgebiet Auflagen", "erwartet": ["umweltamt"]}
+{"anliegen": "Grundwasserentnahme Brunnen bohren Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Gartenbrunnen anmelden", "erwartet": ["umweltamt"]}
+{"anliegen": "Erdwärmebohrung Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Altlastenkataster Auskunft", "erwartet": ["umweltamt"]}
+{"anliegen": "Bodenschutz Verdacht Altlasten", "erwartet": ["umweltamt"]}
+{"anliegen": "Immissionsschutz Geruchsbelästigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Lärmschutz Gewerbebetrieb Messung", "erwartet": ["umweltamt"]}
+{"anliegen": "Feinstaub Kaminofen Messung", "erwartet": ["umweltamt"]}
+{"anliegen": "Kaminofen Betrieb Anzeige", "erwartet": ["umweltamt"]}
+{"anliegen": "Luftreinhalteplan", "erwartet": ["umweltamt"]}
+{"anliegen": "Umweltzone Plakette", "erwartet": ["umweltamt"]}
+{"anliegen": "Abfall illegale Lagerung melden", "erwartet": ["umweltamt"]}
+{"anliegen": "Asbest Entsorgung Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Fällgenehmigung Hecke Vogelschutz", "erwartet": ["umweltamt"]}
+{"anliegen": "Gewässerrandstreifen Anfrage", "erwartet": ["umweltamt"]}
+{"anliegen": "Hochwasser Überschwemmungsgebiet Bauen", "erwartet": ["umweltamt"]}
+{"anliegen": "Umweltinformationen anfordern", "erwartet": ["umweltamt"]}
+{"anliegen": "Naturschutzgebiet Betreten Genehmigung Drohne", "erwartet": ["umweltamt"]}
+{"anliegen": "Teich anlegen Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Regenwasser Einleitung Genehmigung", "erwartet": ["umweltamt"]}
+{"anliegen": "Klimaschutz Förderung Stadt Antrag", "erwartet": ["umweltamt"]}
+{"anliegen": "Lichtverschmutzung Beschwerde Beleuchtung", "erwartet": ["umweltamt"]}
+{"anliegen": "Gewerbe anmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeanmeldung online", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbe abmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbe ummelden Adresse", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeschein beantragen", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Kleingewerbe anmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Nebengewerbe anmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Ich will mich selbstständig machen", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Selbstständig machen was muss ich tun", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Existenzgründung Anmeldung", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Onlineshop Gewerbe anmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Etsy verkaufen Gewerbe", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeanmeldung Kosten", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeanmeldung Bestätigung Kopie", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Reisegewerbekarte", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Marktkaufmann Reisegewerbe", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Straßenhandel Genehmigung", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gaststättengewerbe Anmeldung", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Imbiss eröffnen Genehmigung", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Spielhalle Erlaubnis", "erwartet": ["gewerbeamt", "ordnungsamt"]}
+{"anliegen": "Makler Erlaubnis 34c", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Bewachungsgewerbe 34a Erlaubnis", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Versicherungsvermittler Erlaubnis 34d", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Finanzanlagenvermittler 34f", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Pfandleiher Erlaubnis", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeuntersagung Widerspruch", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbezentralregister Auskunft", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeanmeldung Frist", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbeanmeldung für Ausländer", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Gewerbe Gesellschaft GbR anmelden", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Handwerk ins Gewerbe eintragen", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Firmennamen ändern Gewerbeamt", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Betriebsübergabe Gewerbe", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Taxigewerbe Anmeldung", "erwartet": ["gewerbeamt"]}
+{"anliegen": "Prostitutionsgewerbe Anmeldung Erlaubnis", "erwartet": ["gewerbeamt", "ordnungsamt"]}
+{"anliegen": "Schaustellergewerbe", "erwartet": ["gewerbeamt"]}
+{"anliegen": "IHK Beitrag", "erwartet": ["ihk"]}
+{"anliegen": "IHK Mitgliedschaft Befreiung", "erwartet": ["ihk"]}
+{"anliegen": "Ausbildungsvertrag eintragen lassen IHK", "erwartet": ["ihk"]}
+{"anliegen": "Ausbilderschein machen", "erwartet": ["ihk"]}
+{"anliegen": "AEVO Prüfung Anmeldung", "erwartet": ["ihk"]}
+{"anliegen": "Ursprungszeugnis beantragen", "erwartet": ["ihk"]}
+{"anliegen": "Carnet ATA beantragen", "erwartet": ["ihk"]}
+{"anliegen": "Sachkundeprüfung 34a IHK Anmeldung", "erwartet": ["ihk"]}
+{"anliegen": "Unterrichtung Gaststätte IHK", "erwartet": ["ihk"]}
+{"anliegen": "Industriemeister Prüfung", "erwartet": ["ihk"]}
+{"anliegen": "Fachwirt IHK Prüfung Anmeldung", "erwartet": ["ihk"]}
+{"anliegen": "IHK Zeugnis Duplikat", "erwartet": ["ihk"]}
+{"anliegen": "Abschlusszeugnis IHK verloren", "erwartet": ["ihk"]}
+{"anliegen": "Zwischenprüfung IHK Termin", "erwartet": ["ihk"]}
+{"anliegen": "Anerkennung ausländischer Berufsabschluss IHK", "erwartet": ["ihk"]}
+{"anliegen": "Gründungsberatung IHK", "erwartet": ["ihk"]}
+{"anliegen": "Unternehmensnachfolge Beratung IHK", "erwartet": ["ihk"]}
+{"anliegen": "Sachverständiger bestellen lassen", "erwartet": ["ihk"]}
+{"anliegen": "Handelskammer Kontakt", "erwartet": ["ihk"]}
+{"anliegen": "Exportdokumente beglaubigen lassen", "erwartet": ["ihk"]}
+{"anliegen": "IHK Prüfung Ergebnis", "erwartet": ["ihk"]}
+{"anliegen": "IHK Weiterbildung Betriebswirt", "erwartet": ["ihk"]}
+{"anliegen": "Außenwirtschaft Beratung IHK", "erwartet": ["ihk"]}
+{"anliegen": "Wettbewerbsrecht Abmahnung IHK", "erwartet": ["ihk"]}
+{"anliegen": "Ausbildungsberater IHK Kontakt", "erwartet": ["ihk"]}
+{"anliegen": "IHK Wirtschaftsjunioren", "erwartet": ["ihk"]}
+{"anliegen": "Handwerkskammer Beitrag", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Handwerksrolle Eintragung", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Meisterbrief verloren", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Meisterprüfung Anmeldung", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Gesellenprüfung anmelden", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Lehrling anmelden Handwerk", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Ausbildungsvertrag Handwerkskammer", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Betrieb in Handwerksrolle eintragen", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Meisterpflicht Handwerk", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Ausnahmebewilligung Handwerk", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Altgesellenregelung", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Handwerkskarte beantragen", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Betriebsberatung Handwerk", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Betriebsnachfolge Handwerk", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Gesellenbrief Duplikat", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Berufsanerkennung Handwerk Ausland", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Meistergründungsprämie", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Innung beitreten", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Handwerkskammer Termin", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Betriebsübergabe Handwerksbetrieb", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Selbstständig als Friseur Meister", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Tischlerbetrieb gründen Handwerksrolle", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Kfz-Werkstatt eröffnen Voraussetzung Meister", "erwartet": ["handwerkskammer"]}
+{"anliegen": "Rente beantragen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenantrag online stellen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Wann kann ich in Rente gehen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenauskunft beantragen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Renteninformation verloren", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenbescheid Widerspruch", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenversicherungsnummer verloren", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Sozialversicherungsausweis verloren", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Erwerbsminderungsrente beantragen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Witwenrente beantragen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Waisenrente Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Altersrente für langjährig Versicherte", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rente mit 63", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Teilrente Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Hinzuverdienstgrenze Rente", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Kontenklärung Rentenversicherung", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Versicherungsverlauf anfordern", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Kindererziehungszeiten Rente anrechnen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Mütterrente Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Reha beantragen Rentenversicherung", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Kur beantragen Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Anschlussheilbehandlung Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rente ins Ausland Lebensbescheinigung", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Freiwillige Beiträge Rentenversicherung zahlen", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Befreiung von der Rentenversicherung Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Beitragserstattung Rentenversicherung Ausland", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentensplitting Ehegatten", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Riester Zulage Antrag", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenüberzahlung Todesfall", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenberatung Termin", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Rentenanpassung Brief", "erwartet": ["rentenversicherung"]}
+{"anliegen": "Krankenkasse wechseln", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankenkasse kündigen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Zusatzbeitrag Krankenkasse Erhöhung Sonderkündigung", "erwartet": ["krankenkasse"]}
+{"anliegen": "Gesundheitskarte verloren", "erwartet": ["krankenkasse"]}
+{"anliegen": "Neue Gesundheitskarte beantragen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankenversichertenkarte Ersatz", "erwartet": ["krankenkasse"]}
+{"anliegen": "Familienversicherung anmelden", "erwartet": ["krankenkasse"]}
+{"anliegen": "Kind bei der Krankenkasse anmelden", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankengeld beantragen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankengeld Höhe", "erwartet": ["krankenkasse"]}
+{"anliegen": "Mutterschaftsgeld beantragen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Kinderkrankengeld Antrag", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankenversicherung Student", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankenversicherung Selbstständige", "erwartet": ["krankenkasse"]}
+{"anliegen": "Mitgliedsbescheinigung Krankenkasse", "erwartet": ["krankenkasse"]}
+{"anliegen": "Befreiungsausweis Zuzahlung", "erwartet": ["krankenkasse"]}
+{"anliegen": "Zuzahlungsbefreiung beantragen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Zahnersatz Zuschuss Antrag", "erwartet": ["krankenkasse"]}
+{"anliegen": "Bonusheft Zahnarzt", "erwartet": ["krankenkasse"]}
+{"anliegen": "Kostenübernahme Hörgerät", "erwartet": ["krankenkasse"]}
+{"anliegen": "Kostenübernahme Krankentransport", "erwartet": ["krankenkasse"]}
+{"anliegen": "Krankenfahrt Genehmigung", "erwartet": ["krankenkasse"]}
+{"anliegen": "Kur beantragen Krankenkasse", "erwartet": ["krankenkasse"]}
+{"anliegen": "Europäische Krankenversicherungskarte beantragen", "erwartet": ["krankenkasse"]}
+{"anliegen": "Auslandskrankenschein", "erwartet": ["krankenkasse"]}
+{"anliegen": "Beitragsschulden Krankenversicherung Ratenzahlung", "erwartet": ["krankenkasse"]}
+{"anliegen": "Basistarif PKV", "erwartet": ["krankenkasse"]}
+{"anliegen": "Rückkehr in die gesetzliche Krankenversicherung", "erwartet": ["krankenkasse"]}
+{"anliegen": "Elektronische Patientenakte aktivieren", "erwartet": ["krankenkasse"]}
+{"anliegen": "Pflegegrad beantragen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegegrad Antrag stellen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegegrad erhöhen Höherstufung", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegegrad Ablehnung Widerspruch", "erwartet": ["pflegekasse"]}
+{"anliegen": "Begutachtung Pflegegrad Termin Medizinischer Dienst", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegegeld beantragen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegegeld Höhe Pflegegrad 2", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegesachleistung ambulanter Pflegedienst", "erwartet": ["pflegekasse"]}
+{"anliegen": "Verhinderungspflege beantragen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Kurzzeitpflege Antrag", "erwartet": ["pflegekasse"]}
+{"anliegen": "Tagespflege Zuschuss Pflegegrad", "erwartet": ["pflegekasse"]}
+{"anliegen": "Entlastungsbetrag 125 Euro nutzen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegehilfsmittel zum Verbrauch beantragen", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegebett Kostenübernahme", "erwartet": ["pflegekasse"]}
+{"anliegen": "Hausnotruf Pflegekasse bezahlt", "erwartet": ["pflegekasse"]}
+{"anliegen": "Treppenlift Zuschuss", "erwartet": ["pflegekasse"]}
+{"anliegen": "Wohnumfeld verbessern Zuschuss Badumbau", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegekurs für Angehörige", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegeberatung Termin", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegeunterstützungsgeld Antrag", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegezeit Angehörige Antrag", "erwartet": ["pflegekasse"]}
+{"anliegen": "Eigenanteil Pflegeheim Zuschuss", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegeheimplatz Kostenübernahme", "erwartet": ["pflegekasse", "sozialamt"]}
+{"anliegen": "24 Stunden Pflege Kosten Zuschuss", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegestützpunkt Beratung", "erwartet": ["pflegekasse"]}
+{"anliegen": "Demenz Pflegegrad Antrag", "erwartet": ["pflegekasse"]}
+{"anliegen": "Pflegeversicherung Beitrag Kinderlose", "erwartet": ["pflegekasse"]}
+{"anliegen": "BAföG beantragen", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Antrag online", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Weiterbewilligungsantrag", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Höhe", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Rückzahlung", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Darlehen Erlass", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Auslandssemester", "erwartet": ["bafoegamt"]}
+{"anliegen": "Auslands-BAföG", "erwartet": ["bafoegamt"]}
+{"anliegen": "Schüler-BAföG", "erwartet": ["bafoegamt"]}
+{"anliegen": "Aufstiegs-BAföG Meister", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG elternunabhängig", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Fachrichtungswechsel", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Bescheid Widerspruch", "erwartet": ["bafoegamt"]}
+{"anliegen": "Studienstarthilfe beantragen", "erwartet": ["bafoegamt"]}
+{"anliegen": "Amt für Ausbildungsförderung Termin", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Nebenjob Verdienstgrenze", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Leistungsnachweis Formblatt 5", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Eltern Einkommen aktualisieren", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Studienabbruch Rückforderung", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Masterstudium", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Praktikum", "erwartet": ["bafoegamt"]}
+{"anliegen": "BAföG Kind Zuschlag", "erwartet": ["bafoegamt"]}
+{"anliegen": "Studiengebühren finanzieren staatliche Förderung", "erwartet": ["bafoegamt"]}
+{"anliegen": "Studierendenwerk BAföG Beratung", "erwartet": ["bafoegamt"]}
+{"anliegen": "Schulplatz Antrag", "erwartet": ["schulamt"]}
+{"anliegen": "Schulwechsel beantragen", "erwartet": ["schulamt"]}
+{"anliegen": "Schulbezirk Befreiung Antrag", "erwartet": ["schulamt"]}
+{"anliegen": "Einschulung zurückstellen", "erwartet": ["schulamt"]}
+{"anliegen": "vorzeitige Einschulung Antrag", "erwartet": ["schulamt"]}
+{"anliegen": "Schulpflicht befreien", "erwartet": ["schulamt"]}
+{"anliegen": "Schulbefreiung Urlaub beantragen", "erwartet": ["schulamt"]}
+{"anliegen": "Hausunterricht Antrag Krankheit", "erwartet": ["schulamt"]}
+{"anliegen": "Förderschule Antrag Aufnahme", "erwartet": ["schulamt"]}
+{"anliegen": "Sonderpädagogischer Förderbedarf feststellen", "erwartet": ["schulamt"]}
+{"anliegen": "Nachteilsausgleich Legasthenie Antrag", "erwartet": ["schulamt"]}
+{"anliegen": "Klasse überspringen", "erwartet": ["schulamt"]}
+{"anliegen": "Schülerbeförderung Antrag", "erwartet": ["schulamt"]}
+{"anliegen": "Schülerticket Zuschuss", "erwartet": ["schulamt"]}
+{"anliegen": "Schulbuchausleihe Befreiung", "erwartet": ["schulamt"]}
+{"anliegen": "Zeugnis Duplikat Schule", "erwartet": ["schulamt"]}
+{"anliegen": "Abitur nachholen Abendschule", "erwartet": ["schulamt"]}
+{"anliegen": "Externenprüfung Realschulabschluss", "erwartet": ["schulamt"]}
+{"anliegen": "Zeugnis Ausland anerkennen lassen", "erwartet": ["schulamt"]}
+{"anliegen": "Schulabschluss Ausland Anerkennung", "erwartet": ["schulamt"]}
+{"anliegen": "Privatschule gründen Genehmigung", "erwartet": ["schulamt"]}
+{"anliegen": "Homeschooling Genehmigung", "erwartet": ["schulamt"]}
+{"anliegen": "Schulpflichtverletzung Bußgeld", "erwartet": ["schulamt"]}
+{"anliegen": "Beschwerde über Lehrer Schulaufsicht", "erwartet": ["schulamt"]}
+{"anliegen": "Mobbing Schule melden", "erwartet": ["schulamt"]}
+{"anliegen": "Lehrer werden Quereinstieg", "erwartet": ["schulamt"]}
+{"anliegen": "Referendariat Bewerbung", "erwartet": ["schulamt"]}
+{"anliegen": "Schulpsychologe Beratung", "erwartet": ["schulamt"]}
+{"anliegen": "Spätaussiedler Aufnahme Antrag", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Aufnahmebescheid Spätaussiedler", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Spätaussiedlerbescheinigung beantragen", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Bescheinigung nach 15 BVFG", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Auslandsschule Lehrer Bewerbung", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Auslandsdienstlehrkraft werden", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Lastenausgleich Antrag", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Vertriebenenausweis beantragen", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Beihilfe Bundesbeamte Antrag", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Bundeszentralregister Auskunft", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Strafregisterauszug Ausland", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Deutsche im Ausland Hilfe Notlage", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Behördennummer 115", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Bundesverwaltungsamt Köln Kontakt", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Einheitlicher Ansprechpartner Dienstleistung", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Zentralstelle Auslandsschulwesen", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Aussiedler Antrag Statusfeststellung", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Spätaussiedler Familienangehörige Einbeziehung", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Spätaussiedler Sprachtest Deutsch", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Rückführung Deutscher aus dem Ausland", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Vereinsverbot Bund", "erwartet": ["bundesverwaltungsamt"]}
+{"anliegen": "Auslandsdeutsche Beratung", "erwartet": ["bundesverwaltungsamt"]}

@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "codelistKeys": {
+      "properties": {
+        "code": {
+          "type": "keyword"
+        },
+        "uri": {
+          "type": "keyword"
+        },
+        "version": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

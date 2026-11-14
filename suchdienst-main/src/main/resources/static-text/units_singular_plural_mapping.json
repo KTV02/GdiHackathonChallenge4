@@ -1,0 +1,24 @@
+{
+    "de": {
+        "jahr": "Jahre",
+        "minute": "Minuten",
+        "monat": "Monate",
+        "sekunde": "Sekunden",
+        "stunde": "Stunden",
+        "tag": "Tage",
+        "werktag": "Werktage",
+        "woche": "Wochen",
+        "arbeitstag": "Arbeitstage"
+    },
+    "en": {
+        "day": "days",
+        "hour": "hours",
+        "minute": "minutes",
+        "month": "months",
+        "second": "seconds",
+        "week": "weeks",
+        "working day": "working days",
+        "year": "years",
+        "weekday": "weekdays"
+    }
+}

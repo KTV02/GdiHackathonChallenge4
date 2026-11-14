@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xzufi:transfer.operation.050502
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xzufi="http://xoev.de/schemata/xzufi/2_3_1"
+  produktbezeichnung=""
+  produkthersteller=""
+  produktversion=""
+  xzufiVersion="2.3.1"
+>
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>065edb61-a010-4ada-9cdc-975b2e93c136</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2018-11-17T07:40:16.568+01:00</xzufi:erstelltDatumZeit>
+        <xzufi:empfaenger>Portalverbund Online-Gateway Sammlerdienst</xzufi:empfaenger>
+        <xzufi:sender>BayernPortal</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:kennzeichenTransaktionsende>true</xzufi:kennzeichenTransaktionsende>
+    <xzufi:schreibe>
+        <xzufi:onlinedienst xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xzufi:OnlinedienstErweitert">
+            <xzufi:id schemeAgencyID="L100001">19</xzufi:id>
+            <xzufi:bezeichnung languageCode="de">URL Online-Dienst</xzufi:bezeichnung>
+            <xzufi:status listURI="urn:xoev-de:fim:codeliste:xzufi.onlinedienststatus" listVersionID="1">
+                <code>00</code>
+            </xzufi:status>
+            <xzufi:link languageCode="de">
+                <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.onlinedienstlinktyp" listVersionID="1">
+                    <code>0</code>
+                </xzufi:typ>
+                <xzufi:link>https://www.marburg.de/buergerservice/online/angebot/personalausweis-online-ausweisfunktion-eigene-daten-auslesen-900000026-23001.html</xzufi:link>
+                <xzufi:titel>Personalausweis: Online-Ausweisfunktion eigene Daten auslesen</xzufi:titel>
+                <xzufi:beschreibung>Erfahren Sie welche Daten auf Ihrem Online-Ausweis gespeichert sind.</xzufi:beschreibung>
+            </xzufi:link>
+            <xzufi:parameterEfA>
+                <xzufi:parameterEfA listURI="urn:xoev-de:fim:codeliste:xzufi.efaparameter" listVersionID="1">
+                    <code>efa.datenschutzerklaerung.url</code>
+                </xzufi:parameterEfA>
+                <xzufi:parameterWert>Test_Datenschutzerklärung_DE</xzufi:parameterWert>
+                <xzufi:languageCode>de</xzufi:languageCode>
+            </xzufi:parameterEfA>
+            <xzufi:parameterEfA>
+                <xzufi:parameterEfA listURI="urn:xoev-de:fim:codeliste:xzufi.efaparameter" listVersionID="1">
+                    <code>efa.contact.url</code>
+                </xzufi:parameterEfA>
+                <xzufi:parameterWert>Test_Contact</xzufi:parameterWert>
+            </xzufi:parameterEfA>
+            <xzufi:parameterEfA>
+                <xzufi:parameterEfA listURI="urn:xoev-de:fim:codeliste:xzufi.efaparameter" listVersionID="1">
+                    <code>efa.impressum.url</code>
+                </xzufi:parameterEfA>
+                <xzufi:parameterWert>Test_Impressum_EN</xzufi:parameterWert>
+                <xzufi:languageCode>en</xzufi:languageCode>
+            </xzufi:parameterEfA>
+            <xzufi:parameterEfA>
+                <xzufi:parameterEfA listURI="urn:xoev-de:fim:codeliste:xzufi.efaparameter" listVersionID="1">
+                    <code>efa.accessibility.url</code>
+                </xzufi:parameterEfA>
+                <xzufi:parameterWert>Test_Accessibility</xzufi:parameterWert>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:languageCode>en</xzufi:languageCode>
+            </xzufi:parameterEfA>
+            <xzufi:parameterIndividuell>
+                <xzufi:parameterName>Test_individueller_ParameterName</xzufi:parameterName>
+                <xzufi:parameterWert>Test_individueller_ParameterWert</xzufi:parameterWert>
+            </xzufi:parameterIndividuell>
+            <xzufi:parameterIndividuell>
+                <xzufi:parameterName>Test_individueller_ParameterName_DE</xzufi:parameterName>
+                <xzufi:parameterWert>Test_individueller_ParameterWert_DE</xzufi:parameterWert>
+                <xzufi:languageCode>de</xzufi:languageCode>
+            </xzufi:parameterIndividuell>
+            <xzufi:parameterIndividuell>
+                <xzufi:parameterName>Test_individueller_ParameterName_EN</xzufi:parameterName>
+                <xzufi:parameterWert>Test_individueller_ParameterWert_EN</xzufi:parameterWert>
+                <xzufi:languageCode>en</xzufi:languageCode>
+            </xzufi:parameterIndividuell>
+            <xzufi:parameterIndividuell>
+                <xzufi:parameterName>Test_individueller_ParameterName_SHARED</xzufi:parameterName>
+                <xzufi:parameterWert>Test_individueller_ParameterWert_SHARED</xzufi:parameterWert>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:languageCode>en</xzufi:languageCode>
+            </xzufi:parameterIndividuell>
+            <xzufi:vertrauensniveau listURI="urn:xoev-de:fim:codeliste:xzufi.vertrauensniveau" listVersionID="1">
+                <code>00</code>
+            </xzufi:vertrauensniveau>
+            <xzufi:zahlungsweisen>
+                <xzufi:keineAngabe>true</xzufi:keineAngabe>
+            </xzufi:zahlungsweisen>
+            <xzufi:logo>
+                <xzufi:dateiReferenz>
+                    <xzufi:dateiID schemeAgencyID="XZUFI_ERWEITERUNG" schemeID="LEIKA_SCHLUESSEL">http://link.zum/logo1</xzufi:dateiID>
+                </xzufi:dateiReferenz>
+            </xzufi:logo>
+            <xzufi:kennzeichenOeffentlichAnzeigen>true</xzufi:kennzeichenOeffentlichAnzeigen>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>en</xzufi:languageCode>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+            <xzufi:zustaendigkeit>
+                <xzufi:leistungID schemeAgencyID="L100001" schemeID="OID">346134126</xzufi:leistungID>
+                <xzufi:gebietID schemeID="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" schemeVersionID="2018-07-31">065340014014</xzufi:gebietID>
+            </xzufi:zustaendigkeit>
+        </xzufi:onlinedienst>
+    </xzufi:schreibe>
+</xzufi:transfer.operation.050502>

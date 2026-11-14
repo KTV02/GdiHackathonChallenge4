@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "idLB": {
+      "type": "keyword"
+    },
+    "arsFederalState": {
+      "type": "keyword"
+    },
+    "lastUpdate": {
+      "type": "date"
+    },
+    "jzufi": {
+      "type": "object",
+      "enabled": false
+    },
+    "metaData": {
+      "properties": {
+        "schemeAgencyId": {
+          "type": "keyword"
+        },
+        "producer": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

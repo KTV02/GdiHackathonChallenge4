@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xzufi:transfer.operation.050502 produktbezeichnung="DADID" produkthersteller="TSA Public Service GmbH" produktversion="1.0" xzufiVersion="2.3.1" xmlns:xzufi="http://xoev.de/schemata/xzufi/2_3_1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <xzufi:nachrichtenkopf>
+        <xzufi:nachrichtUUID>4b911341-2dce-4fb5-9f8b-4cca4894c4ad</xzufi:nachrichtUUID>
+        <xzufi:erstelltDatumZeit>2024-07-23T09:25:50.636+02:00</xzufi:erstelltDatumZeit>
+        <xzufi:empfaenger>Portalverbund Sammlerdienst</xzufi:empfaenger>
+        <xzufi:sender>L100012|99150085001000</xzufi:sender>
+    </xzufi:nachrichtenkopf>
+    <xzufi:kennzeichenTransaktionsende>true</xzufi:kennzeichenTransaktionsende>
+    <xzufi:schreibe>
+        <xzufi:organisationseinheit xsi:type="xzufi:OrganisationseinheitErweitert" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <xzufi:id schemeAgencyID="L100012" schemeID="OID">9137467</xzufi:id>
+            <xzufi:externeOrganisationseinheitsermittlung>false</xzufi:externeOrganisationseinheitsermittlung>
+            <xzufi:kategorie>
+                <xzufi:id schemeAgencyID="L100012" schemeID="OID">9081960</xzufi:id>
+                <xzufi:klasse>
+                    <xzufi:id>ORGANISATIONSEINHEITSKATEGORIE</xzufi:id>
+                    <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.kategorieklassetyp" listVersionID="1">
+                        <code>002</code>
+                    </xzufi:typ>
+                    <xzufi:bezeichnung languageCode="de">Organisationseinheitkategorie</xzufi:bezeichnung>
+                </xzufi:klasse>
+                <xzufi:bezeichnung languageCode="de">Kammer</xzufi:bezeichnung>
+            </xzufi:kategorie>
+            <xzufi:name>
+                <xzufi:name languageCode="de">Architekten- und Ingenieurkammer Schleswig-Holstein</xzufi:name>
+                <xzufi:name languageCode="en">Chamber of Architects and Engineers of Schleswig-Holstein</xzufi:name>
+            </xzufi:name>
+            <xzufi:infoOeffnungszeitenText html="true" languageCode="de">Montag - Donnerstag: 9.00 - 12.00 Uhr und 14.00 - 16.00 Uhr\n Freitag: 9.00 - 12.00 Uhr\n\n</xzufi:infoOeffnungszeitenText>
+            <xzufi:infoOeffnungszeitenText html="true" languageCode="en">Monday - Thursday: 9:00 am - 12:00 pm and 2:00 pm - 4:00 pm\n Friday: 9:00 am - 12:00 pm\n\n</xzufi:infoOeffnungszeitenText>
+            <xzufi:anschrift>
+                <xzufi:typ listURI="urn:xoev-de:fim:codeliste:xzufi.anschrifttyp" listVersionID="4">
+                    <code>001</code>
+                </xzufi:typ>
+                <xzufi:strasse>Düsternbrooker Weg</xzufi:strasse>
+                <xzufi:hausnummer>71</xzufi:hausnummer>
+                <xzufi:postleitzahl>24105</xzufi:postleitzahl>
+                <xzufi:ort>Kiel</xzufi:ort>
+                <xzufi:ortID schemeID="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" schemeVersionID="2022-09-30">010020000000</xzufi:ortID>
+                <xzufi:verwaltungspolitischeKodierung>
+                    <xzufi:staat listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staat" listVersionID="2022-02-18">
+                        <code>000</code>
+                        <name>Deutschland</name>
+                    </xzufi:staat>
+                    <xzufi:bundesland listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bundesland" listVersionID="2010-04-01">
+                        <code>01</code>
+                        <name>Schleswig-Holstein</name>
+                    </xzufi:bundesland>
+                    <xzufi:gemeindeschluessel listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags" listVersionID="2018-07-31">
+                        <code>01002000</code>
+                        <name>Kiel</name>
+                    </xzufi:gemeindeschluessel>
+                    <xzufi:regionalschluessel listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" listVersionID="2022-09-30">
+                        <code>010020000000</code>
+                        <name>Kiel</name>
+                    </xzufi:regionalschluessel>
+                </xzufi:verwaltungspolitischeKodierung>
+                <xzufi:geokodierung>
+                    <gml:Point srsName="EPSG:25832" axisLabels="longitude latitude" uomLabels="">
+                        <gml:pos axisLabels="" uomLabels="">574786.184 6021298.671</gml:pos>
+                    </gml:Point>
+                </xzufi:geokodierung>
+                <xzufi:kennzeichenAufzug>false</xzufi:kennzeichenAufzug>
+            </xzufi:anschrift>
+            <xzufi:erreichbarkeit>
+                <xzufi:kanal listURI="urn:de:xoev:codeliste:erreichbarkeit" listVersionID="3">
+                    <code>02</code>
+                </xzufi:kanal>
+                <xzufi:kennung>+49 431 57065-0</xzufi:kennung>
+            </xzufi:erreichbarkeit>
+            <xzufi:erreichbarkeit>
+                <xzufi:kanal listURI="urn:de:xoev:codeliste:erreichbarkeit" listVersionID="3">
+                    <code>04</code>
+                </xzufi:kanal>
+                <xzufi:kennung>+49 431 57065-25</xzufi:kennung>
+            </xzufi:erreichbarkeit>
+            <xzufi:erreichbarkeit>
+                <xzufi:kanal listURI="urn:de:xoev:codeliste:erreichbarkeit" listVersionID="3">
+                    <code>01</code>
+                </xzufi:kanal>
+                <xzufi:kennung>info@aik-sh.de</xzufi:kennung>
+            </xzufi:erreichbarkeit>
+            <xzufi:internetadresse languageCode="de">
+                <xzufi:uri>http://www.aik-sh.de</xzufi:uri>
+                <xzufi:titel>www.aik-sh.de</xzufi:titel>
+            </xzufi:internetadresse>
+            <xzufi:internetadresse languageCode="en">
+                <xzufi:uri>https://example.org/aik-sh/en</xzufi:uri>
+                <xzufi:titel>Chamber website (English)</xzufi:titel>
+            </xzufi:internetadresse>
+            <xzufi:kennzeichenOeffentlichAnzeigen>true</xzufi:kennzeichenOeffentlichAnzeigen>
+            <xzufi:versionsinformation>
+                <xzufi:geaendertDatumZeit>2023-10-12T16:37:14+02:00</xzufi:geaendertDatumZeit>
+            </xzufi:versionsinformation>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>de</xzufi:languageCode>
+                <xzufi:sprachbezeichnungDeutsch>Deutsch</xzufi:sprachbezeichnungDeutsch>
+                <xzufi:sprachbezeichnungNativ>Deutsch</xzufi:sprachbezeichnungNativ>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+            <xzufi:sprachversion>
+                <xzufi:languageCode>en</xzufi:languageCode>
+                <xzufi:sprachbezeichnungDeutsch>Englisch</xzufi:sprachbezeichnungDeutsch>
+                <xzufi:sprachbezeichnungNativ>English</xzufi:sprachbezeichnungNativ>
+                <xzufi:kennzeichenMaschinelleUebersetzung>false</xzufi:kennzeichenMaschinelleUebersetzung>
+            </xzufi:sprachversion>
+        </xzufi:organisationseinheit>
+    </xzufi:schreibe>
+</xzufi:transfer.operation.050502>

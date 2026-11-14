@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:gc='http://docs.oasis-open.org/codelist/ns/genericode/1.0/'
+    xmlns:xoev-cl='http://xoev.de/schemata/genericode/1_0'
+    xsi:schemaLocation='http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/genericode/xsd/genericode.xsd http://xoev.de/schemata/genericode/1_0 http://xoev.de/schemata/genericode/1_0/xoev-cl-attributes.xsd'>
+    <Annotation>
+        <Description>
+            <xoev-cl:beschreibung>Ein Dokumenttyp typisiert bzw. klassifiziert ein Dokument.</xoev-cl:beschreibung>
+            <xoev-cl:datumgueltigkeitab>2018-03-01</xoev-cl:datumgueltigkeitab>
+        </Description>
+    </Annotation>
+    <Identification>
+        <ShortName>Dokumenttyp</ShortName>
+        <LongName>Dokumenttyp eines Dokuments</LongName>
+        <Version>2018-03-01</Version>
+        <CanonicalUri>urn:de:fim:codeliste:dokumenttyp</CanonicalUri>
+        <CanonicalVersionUri>urn:de:fim:codeliste:dokumenttyp_2018-03-01</CanonicalVersionUri>
+        <Agency>
+            <ShortName>FIM Baustein Formulare</ShortName>
+            <LongName>Koordination FIM Baustein Formulare</LongName>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Id="Code" Use="required">
+            <ShortName>Dokumenttyp Code</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="Name" Use="required">
+            <ShortName>Dokumenttyp Name</ShortName>
+            <Data Type="string"/>
+        </Column>
+        <Key Id="codeKey">
+            <ShortName>CodeKey</ShortName>
+            <ColumnRef Ref="Code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>001</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Abschrift</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>002</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Antrag</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>003</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Anzeige</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>004</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Ausweis</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>005</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Bericht</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>006</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Bescheid</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>007</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Bescheinigung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>008</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Erklärung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>009</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Erlaubnis</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>010</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Genehmigung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>011</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Gestattung/Zulassung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>012</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Gutachten</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>013</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Lichtbild</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>014</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Mitteilung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>015</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Nachweis</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>016</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Registerauskunft</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>017</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Registerauszug</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>018</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Satzung</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>019</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Stellungnahme</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>020</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Unterschrift</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>021</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Urkunde</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>022</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Vertrag</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="Code">
+                <SimpleValue>023</SimpleValue>
+            </Value>
+            <Value ColumnRef="Name">
+                <SimpleValue>Zeugnis</SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</gc:CodeList>
+

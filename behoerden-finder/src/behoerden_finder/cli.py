@@ -46,6 +46,10 @@ def build_parser() -> argparse.ArgumentParser:
     m.add_argument("--reference-ars", help="Kommaseparierte Referenzgebiete für die PVOG-Datenbeschaffung")
     m.add_argument("--live-top", type=int, default=3, help="Anzahl LeiKa-Schlüssel pro Anfrage (1-10)")
     m.add_argument("--no-start-docker", action="store_true", help="Elasticsearch nicht selbst starten")
+    m.add_argument("--no-themenhinweise", action="store_true",
+                   help="Keine Behördenart aus Stichwörtern ableiten, wenn die amtlichen Daten keine liefern")
+    m.add_argument("--matcher-vorrang", action="store_true",
+                   help="Amtliche Matcher-Ergebnisse haben Vorrang vor dem Fall-Katalog (Standard: Fall-Katalog zuerst)")
     m.add_argument("--bei-mehrdeutig", choices=["stop", "beste"], default="stop",
                    help="Bei mehrdeutiger Kategorie anhalten (Standard) oder die bestplatzierte nehmen")
     return p
@@ -67,7 +71,9 @@ def _make_finder(args) -> Finder:
         matcher = AuthorityMatcher(semantic=not args.no_semantic, live=not args.no_live,
                                    reference_ars=args.reference_ars, live_top=args.live_top,
                                    start_docker=not args.no_start_docker,
-                                   accept_ambiguous=args.bei_mehrdeutig == "beste")
+                                   accept_ambiguous=args.bei_mehrdeutig == "beste",
+                                   topic_hints=not args.no_themenhinweise,
+                                   faelle_vorrang=not args.matcher_vorrang)
     options = ResolveOptions(backend=args.backend, point_fallback=not args.no_point_fallback,
                              radius_km=args.radius_km, point_limit=args.point_limit, dsn=args.dsn)
     return Finder(matcher=matcher, geocoder=None if (args.lat is not None) else Geocoder(), options=options,

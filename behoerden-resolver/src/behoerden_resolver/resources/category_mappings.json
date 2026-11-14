@@ -1,0 +1,188 @@
+{
+  "description": "Statutory category mappings: when no own jurisdiction polygon of the requested category covers the point, the task is assigned by law to an authority that is already imported as an explicit polygon of another category (Stadt-/Gemeindeverwaltung or Kreisverwaltung). Rules are evaluated in order; the first rule that yields a match wins. Only explicit, named base authorities are reused; no administrative boundary alone becomes an authority. A mapping never replaces a direct polygon of the requested category.",
+  "reviewed_at": "2026-11-14",
+  "rules": [
+    {
+      "id": "bb_schwedt_auslaenderbehoerde",
+      "targets": [
+        "auslaenderbehoerde"
+      ],
+      "scope": [
+        "BB"
+      ],
+      "base_category": "stadtverwaltung",
+      "base_sources": [
+        "bb_kommunal_gebiete",
+        "gemfa_vg25"
+      ],
+      "municipality_filter": {
+        "ags": [
+          "12073532"
+        ]
+      },
+      "evidence_level": "norm_verified",
+      "legal_basis": "https://bravors.brandenburg.de/verordnungen/auslrzv",
+      "legal_reference": "§ 1 Nr. 1 AuslRZV Brandenburg",
+      "short_reference": "§ 1 AuslRZV Brandenburg",
+      "note": "Die Große kreisangehörige Stadt Schwedt/Oder ist als örtliche Ordnungsbehörde selbst Ausländerbehörde."
+    },
+    {
+      "id": "rp_grosse_kreisangehoerige_staedte_bauaufsicht",
+      "targets": [
+        "bauamt"
+      ],
+      "scope": [
+        "RP"
+      ],
+      "base_category": "stadtverwaltung",
+      "base_sources": [
+        "gemfa_vg25"
+      ],
+      "municipality_filter": {
+        "ags": [
+          "07137003",
+          "07133006",
+          "07339005",
+          "07134045",
+          "07339030",
+          "07141075",
+          "07137068",
+          "07138045"
+        ]
+      },
+      "evidence_level": "norm_verified",
+      "legal_basis": "https://fimportal.de/api/v0/xzufi-services/L100039/11480667/de/pdf",
+      "legal_reference": "§ 58 LBauO Rheinland-Pfalz",
+      "short_reference": "§ 58 LBauO Rheinland-Pfalz",
+      "note": "Untere Bauaufsichtsbehörde ist in kreisfreien und großen kreisangehörigen Städten die Stadtverwaltung (Andernach, Bad Kreuznach, Bingen am Rhein, Idar-Oberstein, Ingelheim am Rhein, Lahnstein, Mayen, Neuwied). Übertragungen auf Verbandsgemeindeverwaltungen sind nicht abgebildet."
+    },
+    {
+      "id": "kreisfreie_stadt",
+      "targets": [
+        "bauamt",
+        "zulassungsstelle",
+        "strassenverkehrsbehoerde",
+        "jugendamt",
+        "sozialamt",
+        "auslaenderbehoerde",
+        "wohngeldstelle"
+      ],
+      "scope": "all",
+      "base_category": "stadtverwaltung",
+      "base_sources": [
+        "by_kreis",
+        "bb_kommunal_gebiete",
+        "gemfa_vg25"
+      ],
+      "municipality_filter": {
+        "vg25_bem": [
+          "kreisfrei"
+        ]
+      },
+      "evidence_level": "statutory_general_rule",
+      "legal_basis": "https://www.gesetze-im-internet.de/sgb_12/__3.html",
+      "legal_reference": "Kreisfreie Städte sind untere Verwaltungs-/Kreisebene: § 69 SGB VIII i.V.m. Landesrecht (z. B. Art. 15 AGSG Bayern), § 3 Abs. 2 SGB XII, Landesbauordnungen (z. B. § 58 LBauO RP, § 57 BauO NRW, § 58 BbgBO), Ausländerrechts- und Verkehrszuständigkeitsrecht der Länder (z. B. § 1 ZustVAuslR Bayern, § 2 SächsAuslZuG, § 1 AuslRZV BB, ZustVVerk Bayern)",
+      "short_reference": "Aufgaben der Kreisebene in kreisfreien Städten",
+      "note": "In kreisfreien Städten nimmt die Stadtverwaltung diese Aufgaben der Kreisebene selbst wahr. Gesundheits- und Veterinäramt sind bewusst ausgenommen, weil einzelne kreisfreie Städte von einem Landratsamt mitversorgt werden (z. B. Art. 1 Abs. 2 GDG Bayern)."
+    },
+    {
+      "id": "gemeinde_eigene_verwaltung",
+      "targets": [
+        "buergeramt",
+        "gewerbeamt",
+        "ordnungsamt"
+      ],
+      "scope": "all",
+      "base_category": "stadtverwaltung",
+      "base_sources": [
+        "by_kreis",
+        "bb_kommunal_gebiete",
+        "gemfa_vg25"
+      ],
+      "municipality_filter": null,
+      "evidence_level": "statutory_general_rule",
+      "legal_basis": "https://www.gesetze-bayern.de/Content/Pdf/BayAGBMG-1?all=False",
+      "legal_reference": "Meldebehörden sind die Gemeinden bzw. örtlichen Ordnungsbehörden (z. B. Art. 1 BayAGBMG, § 1 SächsAGBMG, § 1 BMG-AG LSA, § 1 AGBMG RP); Gewerbeanzeigen nach § 14 GewO bei der Gemeinde (z. B. § 1 Abs. 3 GewV Bayern, GewO-ZuVO RP, Verzeichnis zur ZustVO NRW: OrdB); örtliche Ordnungsbehörde ist die Gemeinde (z. B. § 3 OBG NRW, § 89 POG RP)",
+      "short_reference": "Melde-, Gewerbe- und Ordnungsrecht: Aufgabe der Gemeinde",
+      "note": "Nur explizit als Stadt- oder Gemeindeverwaltung belegte, selbst verwaltende Gemeinden. Mitgliedsgemeinden von Ämtern, Verbands- oder Verwaltungsgemeinschaften erhalten keine geratene Zuordnung."
+    },
+    {
+      "id": "by_landratsamt",
+      "targets": [
+        "jugendamt",
+        "sozialamt",
+        "auslaenderbehoerde",
+        "gesundheitsamt",
+        "veterinaeramt",
+        "zulassungsstelle"
+      ],
+      "scope": [
+        "BY"
+      ],
+      "base_category": "kreisverwaltung",
+      "base_sources": [
+        "by_kreis"
+      ],
+      "municipality_filter": null,
+      "evidence_level": "norm_verified",
+      "legal_basis": "https://www.gesetze-bayern.de/Content/Pdf/BayAGSG-15?all=False",
+      "legal_reference": "Art. 15 und Art. 80 AGSG (Jugend-, Sozialhilfe), § 1 Nr. 1 ZustVAuslR (untere Ausländerbehörden), Art. 1 Abs. 1 Nr. 3 GDG (Gesundheitsämter), Art. 2 Abs. 1 Nr. 3 GVVG (Veterinärwesen), FZV i.V.m. ZustVVerk (Zulassung durch die Kreisverwaltungsbehörde)",
+      "short_reference": "AGSG, ZustVAuslR, GDG, GVVG, ZustVVerk Bayern",
+      "note": "Landratsamt als Kreisverwaltungsbehörde für das Gebiet des Landkreises. Bauaufsicht und Straßenverkehr sind ausgenommen, weil Große Kreisstädte und weitere Gemeinden dort eigene Zuständigkeiten haben."
+    },
+    {
+      "id": "sn_landkreis",
+      "targets": [
+        "jugendamt",
+        "sozialamt",
+        "auslaenderbehoerde",
+        "gesundheitsamt",
+        "veterinaeramt",
+        "zulassungsstelle"
+      ],
+      "scope": [
+        "SN"
+      ],
+      "base_category": "kreisverwaltung",
+      "base_sources": [
+        "sn_kreis"
+      ],
+      "municipality_filter": null,
+      "evidence_level": "statutory_general_rule",
+      "legal_basis": "https://www.revosax.sachsen.de/vorschrift/9523",
+      "legal_reference": "§ 2 Abs. 1 Nr. 3 SächsAuslZuG (Landkreise als untere Ausländerbehörden), Landkreise als untere Verwaltungsbehörden, § 69 SGB VIII, § 3 Abs. 2 SGB XII, Sächsisches Gesundheitsdienstgesetz",
+      "short_reference": "SächsAuslZuG und Kreisaufgaben Sachsen",
+      "note": "Landratsamt für das Gebiet des Landkreises. Bauaufsicht und Straßenverkehr sind ausgenommen (Große Kreisstädte)."
+    },
+    {
+      "id": "bb_landkreis",
+      "targets": [
+        "jugendamt",
+        "sozialamt",
+        "auslaenderbehoerde",
+        "gesundheitsamt",
+        "veterinaeramt",
+        "zulassungsstelle"
+      ],
+      "scope": [
+        "BB"
+      ],
+      "base_category": "kreisverwaltung",
+      "base_sources": [
+        "bb_kommunal_gebiete"
+      ],
+      "municipality_filter": {
+        "exclude_ags_for": {
+          "auslaenderbehoerde": [
+            "12073532"
+          ]
+        }
+      },
+      "evidence_level": "statutory_general_rule",
+      "legal_basis": "https://bravors.brandenburg.de/verordnungen/auslrzv",
+      "legal_reference": "§ 1 Nr. 1 AuslRZV (Landkreise als Kreisordnungsbehörden), § 69 SGB VIII, § 3 Abs. 2 SGB XII, Brandenburgisches Gesundheitsdienstgesetz",
+      "short_reference": "AuslRZV und Kreisaufgaben Brandenburg",
+      "note": "Landkreisverwaltung für das Gebiet des Landkreises. Bauaufsicht und Straßenverkehr sind ausgenommen (Große kreisangehörige Städte)."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Erwartungen sind Annahmen (nicht amtlich belegt); bitte gegen die FIM-Zuordnung prüfen und ergänzen.
+{"anliegen": "Meine Oma hat mir 10.000 € geschenkt. Wo muss ich das melden?", "erwartet": ["finanzamt"], "leistung_enthaelt": "Schenkung"}
+{"anliegen": "Schenkung melden", "erwartet": ["finanzamt"], "leistung_enthaelt": "Schenkung"}
+{"anliegen": "Ich habe geerbt und muss Erbschaftsteuer anzeigen", "erwartet": ["finanzamt"]}
+{"anliegen": "ich möchte mich von meiner frau scheiden lassen", "erwartet": ["amtsgericht"], "leistung_enthaelt": "Scheidung"}
+{"anliegen": "Wir wollen heiraten", "erwartet": ["standesamt"]}
+{"anliegen": "Ich brauche eine Geburtsurkunde für mein Kind", "erwartet": ["standesamt"]}
+{"anliegen": "Ich ziehe um und muss mich ummelden", "erwartet": ["buergeramt"]}
+{"anliegen": "Mein Personalausweis ist abgelaufen", "erwartet": ["buergeramt"]}
+{"anliegen": "Ich möchte meinen Hund anmelden", "erwartet": []}
+{"anliegen": "Ich möchte mein Auto zulassen", "erwartet": ["zulassungsstelle"]}
+{"anliegen": "Ich habe meinen Job verloren und brauche Arbeitslosengeld", "erwartet": ["arbeitsagentur"]}
+{"anliegen": "Ich möchte Kindergeld beantragen", "erwartet": ["familienkasse"]}
+{"anliegen": "Ich möchte BAföG für mein Studium beantragen", "erwartet": ["bafoegamt"]}
+{"anliegen": "Ich möchte einen Bauantrag für ein Einfamilienhaus stellen", "erwartet": ["bauamt"]}
+# Bekannte Lücke: FIM kennt keine Leistung "Diebstahl anzeigen"; der Matcher landet bei "Fahrrad herrenlos melden".
+{"anliegen": "Mir wurde mein Fahrrad gestohlen", "erwartet": ["polizei"]}

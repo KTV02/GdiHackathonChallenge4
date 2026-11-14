@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+    <Annotation>
+        <Description>
+            <xoev-cl-4:shortName>Zugangskanal</xoev-cl-4:shortName>
+            <xoev-cl-4:codelistDescription>Der Zugangskanal dient der Kennzeichnung der Informationen über
+                Verwaltungsleistungen für den Leistungsadressaten. Es können je Leistungsmodul explizit Informationen
+                für die Nutzung des Onlinedienstes bereitgestellt werden (Zugangskanal „Online“) und Informationen für
+                den persönlichen Zugang, z. B. auch in schriftlicher, mündlicher oder fernmündlicher Form oder per
+                E-Mail (Zugangskanal „Offline“). Wenn die Informationen nicht je Zugangskanal gekennzeichnet werden
+                sollen, besteht die Möglichkeit den Zugangskanal „Online/Offline“ zuzuordnen. Bei Spezialisierungen ist
+                zu beachten, dass die Modulinformationen immer ersetzend und nicht ergänzend gelten. Die Informationen
+                für die einzelnen Zugangskanäle müssen deshalb immer vollständig sein. Wenn Stamminformationen für
+                „Online“ bereitgestellt werden, können diese durch entsprechende Informationen in der Spezialisierung
+                ersetzt werden. Sollen Informationen zum Zugangskanal „Online/Offline“ ersetzt werden, müssen
+                Informationen zum Zugangskanal „Online“ und „Offline“ vorhanden sein. Wenn Informationen für den
+                Zugangskanal "Online" bereitgestellt werden, müssen auch Onlinedienste vorhanden und hinterlegt sein.
+            </xoev-cl-4:codelistDescription>
+            <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+            <xoev-cl-4:validFrom>2024-01-01</xoev-cl-4:validFrom>
+            <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+        </Description>
+    </Annotation>
+    <Identification>
+        <ShortName>xzufi.zugangskanal</ShortName>
+        <LongName>Typen von Zugangskanälen für Leistungen</LongName>
+        <Version>1</Version>
+        <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.zugangskanal</CanonicalUri>
+        <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.zugangskanal_1</CanonicalVersionUri>
+        <Agency>
+            <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen
+            </LongName>
+        </Agency>
+    </Identification>
+    <ColumnSet>
+        <Column Id="code" Use="required">
+            <ShortName>code</ShortName>
+            <LongName>code</LongName>
+            <Data Type="string"/>
+        </Column>
+        <Column Id="Zugangskanal" Use="required">
+            <ShortName>Zugangskanal</ShortName>
+            <LongName>Zugangskanal</LongName>
+            <Data Type="string" Lang="de-DE"/>
+        </Column>
+        <Column Id="Access-Channel" Use="required">
+            <Annotation>
+                <Description>
+                    <xoev-cl-4:isTranslation ref="Zugangskanal"/>
+                </Description>
+            </Annotation>
+            <ShortName>Access-Channel</ShortName>
+            <LongName>Access-Channel</LongName>
+            <Data Type="string" Lang="en-GB"/>
+        </Column>
+        <Column Id="Beschreibung" Use="required">
+            <ShortName>Beschreibung</ShortName>
+            <LongName>Beschreibung</LongName>
+            <Data Type="string" Lang="de-DE"/>
+        </Column>
+        <Column Id="description" Use="required">
+            <ShortName>description</ShortName>
+            <LongName>description</LongName>
+            <Data Type="string" Lang="en-GB"/>
+        </Column>
+        <Key Id="codeKey">
+            <Annotation>
+                <AppInfo>
+                    <xoev-cl-4:recommendedKeyColumn/>
+                </AppInfo>
+            </Annotation>
+            <ShortName>codeKey</ShortName>
+            <ColumnRef Ref="code"/>
+        </Key>
+    </ColumnSet>
+    <SimpleCodeList>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>000</SimpleValue>
+            </Value>
+            <Value ColumnRef="Zugangskanal">
+                <SimpleValue>Online/Offline</SimpleValue>
+            </Value>
+            <Value ColumnRef="Access-Channel">
+                <SimpleValue>Online/Offline</SimpleValue>
+            </Value>
+            <Value ColumnRef="Beschreibung">
+                <SimpleValue>Es handelt sich um übergreifende Informationen, die sowohl für online als auch offline
+                    Zugang gelten.
+                </SimpleValue>
+            </Value>
+            <Value ColumnRef="description">
+                <SimpleValue>Provision of information for online/offline, i.e. "cross-channel access"</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>100</SimpleValue>
+            </Value>
+            <Value ColumnRef="Zugangskanal">
+                <SimpleValue>Online</SimpleValue>
+            </Value>
+            <Value ColumnRef="Access-Channel">
+                <SimpleValue>Onlinee</SimpleValue>
+            </Value>
+            <Value ColumnRef="Beschreibung">
+                <SimpleValue>Es handelt sich um Informationen für die Nutzung eines Onlinedienstes.</SimpleValue>
+            </Value>
+            <Value ColumnRef="description">
+                <SimpleValue>Provision of information for the use of an online service</SimpleValue>
+            </Value>
+        </Row>
+        <Row>
+            <Value ColumnRef="code">
+                <SimpleValue>200</SimpleValue>
+            </Value>
+            <Value ColumnRef="Zugangskanal">
+                <SimpleValue>Offline</SimpleValue>
+            </Value>
+            <Value ColumnRef="Access-Channel">
+                <SimpleValue>Offline</SimpleValue>
+            </Value>
+            <Value ColumnRef="Beschreibung">
+                <SimpleValue>Es handelt sich um Informationen für den persönlichen Zugang, z. B. auch in schriftlicher,
+                    mündlicher oder fernmündlicher Form oder per E-Mail.
+                </SimpleValue>
+            </Value>
+            <Value ColumnRef="description">
+                <SimpleValue>Provision of information for personal access, e.g. also in written, oral or telephone form
+                    or by e-mail
+                </SimpleValue>
+            </Value>
+        </Row>
+    </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>Signatur</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Codeliste für Ausprägungen zur Notwendigkeit von Signaturen (von Dokumenten/Formularen).</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>GK_FIM</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2024-01-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>xzufi.signatur</ShortName>
+      <LongName>Signatur</LongName>
+      <Version>4</Version>
+      <CanonicalUri>urn:xoev-de:fim:codeliste:xzufi.signatur</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:fim:codeliste:xzufi.signatur_4</CanonicalVersionUri>
+      <Agency>
+         <LongName>Geschäfts- und Koordinierungsstelle Föderales Informationsmanagement – Baustein Leistungen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="Signatur" Use="required">
+         <ShortName>Signatur</ShortName>
+         <LongName>Signatur</LongName>
+         <Data Type="string" Lang="de-DE"/>
+      </Column>
+      <Column Id="signature" Use="required">
+         <ShortName>signature</ShortName>
+         <LongName>signature</LongName>
+         <Data Type="string" Lang="en-GB"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Keine Signatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>no signature</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Handschriftliche Signatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>handwritten signature</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>101</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Einfache elektronische Signatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>simple electronic signature</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>102</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Fortgeschrittene elektronische Signatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>advanced electronic signature</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>103</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Qualifizierte elektronische Signatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>qualified electronic signature</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>104</SimpleValue>
+         </Value>
+         <Value ColumnRef="Signatur">
+            <SimpleValue>Qualifizierte elektronische Signatur mit Anbieterakkreditierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="signature">
+            <SimpleValue>qualified electronic signature with provider accreditation</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

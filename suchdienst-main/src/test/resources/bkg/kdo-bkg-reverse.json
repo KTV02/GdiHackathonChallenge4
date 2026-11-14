@@ -1,0 +1,68 @@
+{
+   "type" : "FeatureCollection",
+   "features" : [
+      {
+         "type" : "Feature",
+         "bbox" : [
+            8.20079989535969,
+            53.1515155679733,
+            8.20094941322669,
+            53.1516054512217
+         ],
+         "geometry" : {
+            "coordinates" : [
+               8.20087,
+               53.15156
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "text" : "Elsässer Straße 66, 26121 Oldenburg(Oldb) - Bürgerfelde",
+            "regbezirk" : "Weser-Ems",
+            "rs" : "034030000000",
+            "score" : 1.4436188,
+            "gemeinde" : "Oldenburg (Oldenb.), Stadt",
+            "verwgem" : "Oldenburg (Oldb)",
+            "typ" : "Haus",
+            "schluessel" : "034030000000000000353",
+            "ags" : "03403000",
+            "haus" : "66",
+            "bundesland" : "Niedersachsen",
+            "bbox" : {
+               "type" : "Polygon",
+               "coordinates" : [
+                  [
+                     [
+                        8.2008,
+                        53.15152
+                     ],
+                     [
+                        8.2008,
+                        53.15161
+                     ],
+                     [
+                        8.20095,
+                        53.15161
+                     ],
+                     [
+                        8.20095,
+                        53.15152
+                     ],
+                     [
+                        8.2008,
+                        53.15152
+                     ]
+                  ]
+               ]
+            },
+            "ort" : "Oldenburg(Oldb)",
+            "strasse" : "Elsässer Straße",
+            "plz" : "26121",
+            "qualitaet" : "A",
+            "kreis" : "Oldenburg(Oldb), Kreisfreie Stadt",
+            "ortsteil" : "Bürgerfelde"
+         },
+         "id" : "DENIHK0000376120"
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+# default Verhalten, ueberlasse git die Entscheidung, was am besten zu tun ist:
+* text=auto
+
+# setze EOL explizit für spezielle Dateitypen:
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.ldif text eol=lf
+*.sh text eol=lf
+
+# kennzeichne spezielle Dateitypen als binary files:
+*.png binary
+*.jpg binary
+
