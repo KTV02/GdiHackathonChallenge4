@@ -4,3 +4,20 @@ __pycache__/
 *.py[cod]
 .env
 .DS_Store
+node_modules/
+*.egg-info/
+build/
+dist/
+.env.*
+!.env.example
+logs/
+*.log
+~$*
+*.backup
+*.sqlite3
+*.sqlite3-*
+# Reproduzierbare Berichte bleiben versioniert, einzelne Laufprotokolle nicht.
+behoerden-resolver/data/*
+!behoerden-resolver/data/snapshots/
+!behoerden-resolver/data/coverage-summary.json
+!behoerden-resolver/data/delivery-manifest.json

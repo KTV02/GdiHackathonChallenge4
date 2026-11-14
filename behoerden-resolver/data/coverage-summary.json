@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-14T09:36:26.824427+00:00",
-  "authority_records": 7018,
+  "generated_at": "2026-11-14T14:08:39.649198+00:00",
+  "measured_from": "gemessen aus den neuesten vollständigen Snapshots je Quelle ohne PostGIS (scripts/measure_snapshots.py)",
+  "authority_records": 6838,
   "location_records": 1105,
   "boundary_records": 11396,
-  "categories_with_authorities": 17,
+  "categories_with_authorities": 16,
   "categories_with_locations": 35,
   "categories_total": 36,
   "national_coverage_guaranteed": false,
@@ -19,15 +20,13 @@
         "Familiengericht",
         "Grundbuchamt beim Amtsgericht"
       ],
-      "limitations": "BZB Open: allgemeine Amtsgerichtsbezirke, keine zentralisierten Register-, Insolvenz- oder anderen Spezialzuständigkeiten.",
       "coverage_status": "nationwide_dataset",
       "resolution_mode": "spatial",
+      "limitations": "BZB Open: allgemeine Amtsgerichtsbezirke, keine zentralisierten Register-, Insolvenz- oder anderen Spezialzuständigkeiten.",
       "authority_count": 650,
       "boundary_count": 0,
       "location_count": 26,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 10963,
       "municipal_reference_by_state": [
         {
@@ -181,15 +180,13 @@
         "Arbeitsagentur",
         "Arbeitsamt"
       ],
-      "limitations": "BZB Open: Agenturbezirke, keine konkrete Geschäftsstelle/Terminzuordnung.",
       "coverage_status": "nationwide_dataset",
       "resolution_mode": "spatial",
+      "limitations": "BZB Open: Agenturbezirke, keine konkrete Geschäftsstelle/Terminzuordnung.",
       "authority_count": 146,
       "boundary_count": 0,
       "location_count": 2,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 10954,
       "municipal_reference_by_state": [
         {
@@ -345,15 +342,13 @@
         "Ausländerwesen",
         "Ausländerbehörden"
       ],
-      "limitations": "Gemeinde- oder Kreisgrenze ist ohne explizite Zuordnung kein belegter Ausländerbehördenbezirk.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Gemeinde- oder Kreisgrenze ist ohne explizite Zuordnung kein belegter Ausländerbehördenbezirk.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -445,15 +440,13 @@
         "BAföG Stelle",
         "Ausbildungsförderungsamt"
       ],
-      "limitations": "§45 BAföG: abhängig u.a. von Ausbildungsart/-stätte, Elternwohnsitz und Auslandsstaat; Wohnort allein reicht nicht.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "§45 BAföG: abhängig u.a. von Ausbildungsart/-stätte, Elternwohnsitz und Auslandsstaat; Wohnort allein reicht nicht.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -477,15 +470,13 @@
         "Bauamt",
         "Bauordnungsbehörde"
       ],
-      "limitations": "Untere Bauaufsicht in Nordrhein-Westfalen aus dem amtlichen Verzeichnis; in kreisfreien Städten und den großen kreisangehörigen Städten in Rheinland-Pfalz per gesetzlicher Zuordnung die Stadtverwaltung. Bauaufsicht und staatliche Bauämter sind unterschiedliche Aufgaben. Staatsbauämter werden nicht als örtliche Bauaufsicht importiert.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Untere Bauaufsicht in Nordrhein-Westfalen aus dem amtlichen Verzeichnis; in kreisfreien Städten und den großen kreisangehörigen Städten in Rheinland-Pfalz per gesetzlicher Zuordnung die Stadtverwaltung. Bauaufsicht und staatliche Bauämter sind unterschiedliche Aufgaben. Staatsbauämter werden nicht als örtliche Bauaufsicht importiert.",
       "authority_count": 211,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": true,
       "municipal_reference_matches": 389,
       "municipal_reference_by_state": [
         {
@@ -572,15 +563,13 @@
         "Passbehörde",
         "Personalausweisbehörde"
       ],
-      "limitations": "Bürgerbüros können freie Standortwahl und besondere Zuständigkeitsregeln haben; Gemeindegrenze allein genügt nicht.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Bürgerbüros können freie Standortwahl und besondere Zuständigkeitsregeln haben; Gemeindegrenze allein genügt nicht.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 21,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -662,15 +651,13 @@
         "BAMF",
         "Bundesamt für Migration und Flüchtlinge"
       ],
-      "limitations": "Bundesbehörde; Außenstellenzuständigkeit hängt von Aufgabe und Verfahren ab. BAMF-NAvI enthält nicht nur Behördenstandorte.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Bundesbehörde; Außenstellenzuständigkeit hängt von Aufgabe und Verfahren ab. BAMF-NAvI enthält nicht nur Behördenstandorte.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 11,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -711,15 +698,13 @@
         "BVA",
         "Bundesverwaltungsamt"
       ],
-      "limitations": "Bundesweite aufgabenbezogene Bundesoberbehörde; kein exklusiver Wohnortbezirk. Konkrete Leistung für zuständige Organisationseinheit erforderlich.",
       "coverage_status": "non_spatial",
       "resolution_mode": "non_spatial",
+      "limitations": "Bundesweite aufgabenbezogene Bundesoberbehörde; kein exklusiver Wohnortbezirk. Konkrete Leistung für zuständige Organisationseinheit erforderlich.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 5,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -742,15 +727,13 @@
         "Familienkasse der Bundesagentur für Arbeit",
         "Familienkassen"
       ],
-      "limitations": "Wohnsitz, Auslandsbezug und Sonderzuständigkeiten können entscheidend sein. Keine Ableitung aus Arbeitsagenturbezirken.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Wohnsitz, Auslandsbezug und Sonderzuständigkeiten können entscheidend sein. Keine Ableitung aus Arbeitsagenturbezirken.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 3,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -776,15 +759,13 @@
         "Finanzamt für Erbschaftsteuer",
         "Veranlagungsstelle"
       ],
-      "limitations": "Allgemeine Bezirke aus Bayern und Hamburg sowie bundesweit eindeutige GEMFA-Gemeindezuordnungen mit VG25. GEMFA-Geometrien sind ausdrücklich belegte Teilflächen; geteilte Gemeinden und widersprechende Adressregeln bleiben offen. Sondersteuerzuständigkeiten nicht aus dem Polygon ableiten.",
       "coverage_status": "partial_nationwide",
       "resolution_mode": "spatial",
+      "limitations": "Allgemeine Bezirke aus Bayern und Hamburg sowie bundesweit eindeutige GEMFA-Gemeindezuordnungen mit VG25. GEMFA-Geometrien sind ausdrücklich belegte Teilflächen; geteilte Gemeinden und widersprechende Adressregeln bleiben offen. Sondersteuerzuständigkeiten nicht aus dem Polygon ableiten.",
       "authority_count": 530,
       "boundary_count": 0,
       "location_count": 117,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 10882,
       "municipal_reference_by_state": [
         {
@@ -936,15 +917,13 @@
         "Gesundheitsbehörde",
         "Öffentlicher Gesundheitsdienst"
       ],
-      "limitations": "Landratsamt-Geometrien werden nicht ohne amtliche Fachzuordnung zu Gesundheitsämtern umgedeutet.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Landratsamt-Geometrien werden nicht ohne amtliche Fachzuordnung zu Gesundheitsämtern umgedeutet.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 30,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1010,15 +989,13 @@
         "Gewerbemeldestelle",
         "Gewerbeangelegenheiten"
       ],
-      "limitations": "Keine importierte explizite Gewerbebehördenzuordnung; kommunale Verwaltungsverbände beachten.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Keine importierte explizite Gewerbebehördenzuordnung; kommunale Verwaltungsverbände beachten.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1097,15 +1074,13 @@
         "HWK",
         "Handwerksrolle"
       ],
-      "limitations": "Amtliche Kammerbezirke in Bayern; Dienststellen bleiben als Quelleinträge getrennt, gegebenenfalls mehrere Treffer.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Amtliche Kammerbezirke in Bayern; Dienststellen bleiben als Quelleinträge getrennt, gegebenenfalls mehrere Treffer.",
       "authority_count": 7,
       "boundary_count": 0,
       "location_count": 10,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 2221,
       "municipal_reference_by_state": [
         {
@@ -1138,15 +1113,13 @@
         "IHK",
         "Industrie und Handelskammer"
       ],
-      "limitations": "Amtliche Kammerbezirke in Bayern; Zugehörigkeit hängt zusätzlich von Betrieb und Tätigkeit ab.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Amtliche Kammerbezirke in Bayern; Zugehörigkeit hängt zusätzlich von Betrieb und Tätigkeit ab.",
       "authority_count": 10,
       "boundary_count": 0,
       "location_count": 13,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 2221,
       "municipal_reference_by_state": [
         {
@@ -1179,15 +1152,13 @@
         "gemeinsame Einrichtung Jobcenter",
         "kommunales Jobcenter"
       ],
-      "limitations": "BZB Open: Jobcenter-Bezirke; keine persönliche Anspruchsprüfung oder Ermittlung besonderer Fallzuständigkeiten.",
       "coverage_status": "nationwide_dataset",
       "resolution_mode": "spatial",
+      "limitations": "BZB Open: Jobcenter-Bezirke; keine persönliche Anspruchsprüfung oder Ermittlung besonderer Fallzuständigkeiten.",
       "authority_count": 404,
       "boundary_count": 0,
       "location_count": 7,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 10955,
       "municipal_reference_by_state": [
         {
@@ -1344,15 +1315,13 @@
         "Amt für Kinder, Jugend und Familie",
         "Fachdienst Jugend"
       ],
-      "limitations": "Örtliche Jugendhilfeträger und Ausnahmen müssen explizit zugeordnet werden; keine Kreispauschale.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Örtliche Jugendhilfeträger und Ausnahmen müssen explizit zugeordnet werden; keine Kreispauschale.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 64,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1455,15 +1424,13 @@
         "Gesetzliche Krankenversicherung",
         "GKV"
       ],
-      "limitations": "Mitgliedschaft und Wahlrecht bestimmen den Träger; ein Wohnortpolygon bestimmt keine Krankenkasse.",
       "coverage_status": "non_spatial",
       "resolution_mode": "non_spatial",
+      "limitations": "Mitgliedschaft und Wahlrecht bestimmen den Träger; ein Wohnortpolygon bestimmt keine Krankenkasse.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1486,15 +1453,13 @@
         "Landkreis",
         "Landratsämter"
       ],
-      "limitations": "Explizite Landratsämter bzw. Kreisverwaltungen in Bayern, Sachsen und Brandenburg. Kreisfreie Städte werden als Stadtverwaltung geführt; VG25-Kreisgrenzen allein sind kein Behördennachweis.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Explizite Landratsämter bzw. Kreisverwaltungen in Bayern, Sachsen und Brandenburg. Kreisfreie Städte werden als Stadtverwaltung geführt; VG25-Kreisgrenzen allein sind kein Behördennachweis.",
       "authority_count": 95,
       "boundary_count": 403,
       "location_count": 84,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 3020,
       "municipal_reference_by_state": [
         {
@@ -1544,15 +1509,13 @@
         "Zivilkammer",
         "Strafkammer"
       ],
-      "limitations": "BZB Open: allgemeine Landgerichtsbezirke; örtliche Anknüpfung hängt vom Verfahren ab.",
       "coverage_status": "nationwide_dataset",
       "resolution_mode": "spatial",
+      "limitations": "BZB Open: allgemeine Landgerichtsbezirke; örtliche Anknüpfung hängt vom Verfahren ab.",
       "authority_count": 115,
       "boundary_count": 0,
       "location_count": 5,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 10963,
       "municipal_reference_by_state": [
         {
@@ -1708,15 +1671,13 @@
         "Ordnungs- und Gewerbeamt",
         "Ordnungsamt"
       ],
-      "limitations": "Keine importierte, explizite Behörden-Gebiets-Zuordnung. Ordnungsbehörden nicht pauschal aus Gemeinden ableiten.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Keine importierte, explizite Behörden-Gebiets-Zuordnung. Ordnungsbehörden nicht pauschal aus Gemeinden ableiten.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 3,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1801,15 +1762,13 @@
         "Pflegekassen",
         "soziale Pflegeversicherung"
       ],
-      "limitations": "Zuständige Pflegekasse folgt der Krankenversicherung; keine fiktiven Gebietsmonopole.",
       "coverage_status": "non_spatial",
       "resolution_mode": "non_spatial",
+      "limitations": "Zuständige Pflegekasse folgt der Krankenversicherung; keine fiktiven Gebietsmonopole.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 2,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1832,15 +1791,13 @@
         "Polizeipräsidium",
         "Kriminalpolizei"
       ],
-      "limitations": "Polizeiinspektionen/-stationen in Bayern und Polizeiinspektionen Brandenburgs. Keine Übertragung auf Bundes-, Kriminal-, Verkehrs- oder andere Polizeifunktionen.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Polizeiinspektionen/-stationen in Bayern und Polizeiinspektionen Brandenburgs. Keine Übertragung auf Bundes-, Kriminal-, Verkehrs- oder andere Polizeifunktionen.",
       "authority_count": 279,
       "boundary_count": 0,
       "location_count": 322,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 2615,
       "municipal_reference_by_state": [
         {
@@ -1886,15 +1843,13 @@
         "Landesverwaltungsamt",
         "Regierungsbezirk"
       ],
-      "limitations": "Bayerische Regierungen sowie explizit zugeordnete Regierungspräsidien in Baden-Württemberg/Hessen und Bezirksregierungen in Nordrhein-Westfalen. Keine bundesweite Zuständigkeit aller Mittelbehörden; Spezialaufgaben können abweichen.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Bayerische Regierungen sowie explizit zugeordnete Regierungspräsidien in Baden-Württemberg/Hessen und Bezirksregierungen in Nordrhein-Westfalen. Keine bundesweite Zuständigkeit aller Mittelbehörden; Spezialaufgaben können abweichen.",
       "authority_count": 19,
       "boundary_count": 19,
       "location_count": 7,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 4145,
       "municipal_reference_by_state": [
         {
@@ -1950,15 +1905,13 @@
         "Deutsche Rentenversicherung Bund",
         "Regionalträger der Rentenversicherung"
       ],
-      "limitations": "Zuständiger Versicherungsträger ist aus Versicherungsverhältnis/-konto zu bestimmen, nicht allein aus Wohnortpolygon.",
       "coverage_status": "non_spatial",
       "resolution_mode": "non_spatial",
+      "limitations": "Zuständiger Versicherungsträger ist aus Versicherungsverhältnis/-konto zu bestimmen, nicht allein aus Wohnortpolygon.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 3,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -1985,15 +1938,13 @@
         "Schulbehörde",
         "Schulaufsichtsbehörde"
       ],
-      "limitations": "Schulamtsbezirke aus Bayern, Hessen und Thüringen. Schulart/Aufgabe prüfen; Thüringer Quelldatenstand 2024 ausdrücklich erhalten.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Schulamtsbezirke aus Bayern, Hessen und Thüringen. Schulart/Aufgabe prüfen; Thüringer Quelldatenstand 2024 ausdrücklich erhalten.",
       "authority_count": 116,
       "boundary_count": 0,
       "location_count": 103,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 3251,
       "municipal_reference_by_state": [
         {
@@ -2053,15 +2004,13 @@
         "Sozialhilfeträger",
         "Sozialbehörde"
       ],
-      "limitations": "Leistung, örtlicher und überörtlicher Sozialhilfeträger unterscheiden; keine allgemeine Kreiszuständigkeit erfinden.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Leistung, örtlicher und überörtlicher Sozialhilfeträger unterscheiden; keine allgemeine Kreiszuständigkeit erfinden.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 6,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -2156,80 +2105,18 @@
         "Staatsanwaltschaften",
         "Generalstaatsanwaltschaft"
       ],
-      "limitations": "Bayern: explizite Staatsanwaltschaften aus dem bayerischen Justizlayer (Vorrang). Bundesweit ergänzend Staatsanwaltschaftsbezirke inkl. Zweigstellen aus BKG BZB (nicht offen, zugangsbeschränkt). Keine Ableitung aus Landgerichtsbezirken.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
-      "authority_count": 161,
+      "limitations": "Bayern: explizite Staatsanwaltschaften aus dem bayerischen Justizlayer (Vorrang). Bundesweit ergänzend Staatsanwaltschaftsbezirke inkl. Zweigstellen aus BKG BZB (nicht offen, zugangsbeschränkt). Keine Ableitung aus Landgerichtsbezirken.",
+      "authority_count": 22,
       "boundary_count": 0,
       "location_count": 28,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
-      "municipal_reference_matches": 10952,
+      "municipal_reference_matches": 2062,
       "municipal_reference_by_state": [
         {
-          "state": "BB",
-          "matched": 413
-        },
-        {
-          "state": "BE",
-          "matched": 1
-        },
-        {
-          "state": "BW",
-          "matched": 1102
-        },
-        {
           "state": "BY",
-          "matched": 2221
-        },
-        {
-          "state": "HB",
-          "matched": 2
-        },
-        {
-          "state": "HE",
-          "matched": 425
-        },
-        {
-          "state": "HH",
-          "matched": 1
-        },
-        {
-          "state": "MV",
-          "matched": 719
-        },
-        {
-          "state": "NI",
-          "matched": 962
-        },
-        {
-          "state": "NW",
-          "matched": 396
-        },
-        {
-          "state": "RP",
-          "matched": 2312
-        },
-        {
-          "state": "SH",
-          "matched": 1104
-        },
-        {
-          "state": "SL",
-          "matched": 53
-        },
-        {
-          "state": "SN",
-          "matched": 418
-        },
-        {
-          "state": "ST",
-          "matched": 218
-        },
-        {
-          "state": "TH",
-          "matched": 605
+          "matched": 2062
         }
       ],
       "location_states": [
@@ -2245,71 +2132,11 @@
       ],
       "mapping_rules": [],
       "mapped_additional_matches": 0,
-      "combined_reference_matches": 10952,
+      "combined_reference_matches": 2062,
       "combined_reference_by_state": [
         {
-          "state": "BB",
-          "matched": 413
-        },
-        {
-          "state": "BE",
-          "matched": 1
-        },
-        {
-          "state": "BW",
-          "matched": 1102
-        },
-        {
           "state": "BY",
-          "matched": 2221
-        },
-        {
-          "state": "HB",
-          "matched": 2
-        },
-        {
-          "state": "HE",
-          "matched": 425
-        },
-        {
-          "state": "HH",
-          "matched": 1
-        },
-        {
-          "state": "MV",
-          "matched": 719
-        },
-        {
-          "state": "NI",
-          "matched": 962
-        },
-        {
-          "state": "NW",
-          "matched": 396
-        },
-        {
-          "state": "RP",
-          "matched": 2312
-        },
-        {
-          "state": "SH",
-          "matched": 1104
-        },
-        {
-          "state": "SL",
-          "matched": 53
-        },
-        {
-          "state": "SN",
-          "matched": 418
-        },
-        {
-          "state": "ST",
-          "matched": 218
-        },
-        {
-          "state": "TH",
-          "matched": 605
+          "matched": 2062
         }
       ]
     },
@@ -2326,15 +2153,13 @@
         "Bürgermeisteramt",
         "Rathaus"
       ],
-      "limitations": "Explizite Stadt-/Gemeindeverwaltungen aus GEMFA (nur Anrede Stadtverwaltung oder Gemeindeverwaltung), bayerische kreisfreie Städte sowie amtsfreie Gemeinden und kreisfreie Städte aus dem Brandenburger Kommunalverzeichnis. Keine erfundenen Verbandsverwaltungsnamen aus Mitgliedsgemeinden.",
       "coverage_status": "partial_nationwide",
       "resolution_mode": "spatial",
+      "limitations": "Explizite Stadt-/Gemeindeverwaltungen aus GEMFA (nur Anrede Stadtverwaltung oder Gemeindeverwaltung), bayerische kreisfreie Städte sowie amtsfreie Gemeinden und kreisfreie Städte aus dem Brandenburger Kommunalverzeichnis. Keine erfundenen Verbandsverwaltungsnamen aus Mitgliedsgemeinden.",
       "authority_count": 4132,
       "boundary_count": 10974,
       "location_count": 170,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 3972,
       "municipal_reference_by_state": [
         {
@@ -2473,15 +2298,13 @@
         "Standesbehörde",
         "Standesämter"
       ],
-      "limitations": "Ereignis, Registerführung, Eheschließung und Wohnsitz können verschiedene Zuständigkeiten ergeben; Standesamtsverbände nicht mit Gemeinden gleichsetzen.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Ereignis, Registerführung, Eheschließung und Wohnsitz können verschiedene Zuständigkeiten ergeben; Standesamtsverbände nicht mit Gemeinden gleichsetzen.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 5,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -2512,15 +2335,13 @@
         "Führerscheinstelle",
         "Fahrerlaubnisbehörde"
       ],
-      "limitations": "Straßenverkehrsrecht, Fahrerlaubnis und Straßenbaulast unterscheiden; Kategorie allein bestimmt keine eindeutige Zuständigkeit.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Straßenverkehrsrecht, Fahrerlaubnis und Straßenbaulast unterscheiden; Kategorie allein bestimmt keine eindeutige Zuständigkeit.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 1,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -2594,15 +2415,13 @@
         "Untere Wasserbehörde",
         "Umweltamt"
       ],
-      "limitations": "Untere Wasser-, Naturschutz-, Immissionsschutz- und andere Behörden haben unterschiedliche Zuständigkeiten.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
+      "limitations": "Untere Wasser-, Naturschutz-, Immissionsschutz- und andere Behörden haben unterschiedliche Zuständigkeiten.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 7,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": true,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -2633,15 +2452,13 @@
       "aliases": [
         "Verwaltungsgerichte"
       ],
-      "limitations": "Bayern: örtliche Bezirke der sechs Verwaltungsgerichte aus Art. 1 Abs. 2 AGVwGO und VG25-Regierungsbezirken abgeleitet. Sachliche oder spezielle Verfahrenszuständigkeiten sind nicht eingeschlossen. Der Standortpunkt allein wird nicht als Gebiet verwendet.",
       "coverage_status": "regional",
       "resolution_mode": "spatial",
+      "limitations": "Bayern: örtliche Bezirke der sechs Verwaltungsgerichte aus Art. 1 Abs. 2 AGVwGO und VG25-Regierungsbezirken abgeleitet. Sachliche oder spezielle Verfahrenszuständigkeiten sind nicht eingeschlossen. Der Standortpunkt allein wird nicht als Gebiet verwendet.",
       "authority_count": 6,
       "boundary_count": 0,
       "location_count": 9,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 2221,
       "municipal_reference_by_state": [
         {
@@ -2676,15 +2493,13 @@
         "Veterinär- und Lebensmittelüberwachungsamt",
         "Untere Veterinärbehörde"
       ],
-      "limitations": "Keine importierte explizite Veterinärbehörden-Gebietszuordnung.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Keine importierte explizite Veterinärbehörden-Gebietszuordnung.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 29,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -2746,15 +2561,13 @@
         "Amt für Wohngeld",
         "Wohngeldabteilung"
       ],
-      "limitations": "Bayern: Landratsämter und kreisfreie Gemeinden als Wohngeldbehörden nach § 3 ZustV. Andernorts nur per gesetzlicher Zuordnung in kreisfreien Städten; keine pauschale Gemeinde-/Kreiszuordnung.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Bayern: Landratsämter und kreisfreie Gemeinden als Wohngeldbehörden nach § 3 ZustV. Andernorts nur per gesetzlicher Zuordnung in kreisfreien Städten; keine pauschale Gemeinde-/Kreiszuordnung.",
       "authority_count": 96,
       "boundary_count": 0,
       "location_count": 0,
       "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": false,
       "municipal_reference_matches": 2221,
       "municipal_reference_by_state": [
         {
@@ -2828,82 +2641,15 @@
         "Zollverwaltung",
         "Zollamt"
       ],
-      "limitations": "Allgemeine Bezirke der Hauptzollämter aus BKG BZB (nicht offen, zugangsbeschränkt). Zuständigkeit hängt u.a. von Zollverfahren und Steuerart ab; Spezialbezirke (Kfz-Steuer, Finanzkontrolle Schwarzarbeit, Ausfuhr, Vollstreckung) sind nicht importiert.",
       "coverage_status": "context_required",
       "resolution_mode": "context_required",
-      "authority_count": 41,
+      "limitations": "Allgemeine Bezirke der Hauptzollämter aus BKG BZB (nicht offen, zugangsbeschränkt). Zuständigkeit hängt u.a. von Zollverfahren und Steuerart ab; Spezialbezirke (Kfz-Steuer, Finanzkontrolle Schwarzarbeit, Ausfuhr, Vollstreckung) sind nicht importiert.",
+      "authority_count": 0,
       "boundary_count": 0,
       "location_count": 4,
-      "empty_local_table": false,
-      "data_coverage_status": "polygons_available",
-      "requires_case_context": true,
-      "municipal_reference_matches": 10952,
-      "municipal_reference_by_state": [
-        {
-          "state": "BB",
-          "matched": 413
-        },
-        {
-          "state": "BE",
-          "matched": 1
-        },
-        {
-          "state": "BW",
-          "matched": 1102
-        },
-        {
-          "state": "BY",
-          "matched": 2221
-        },
-        {
-          "state": "HB",
-          "matched": 2
-        },
-        {
-          "state": "HE",
-          "matched": 425
-        },
-        {
-          "state": "HH",
-          "matched": 1
-        },
-        {
-          "state": "MV",
-          "matched": 719
-        },
-        {
-          "state": "NI",
-          "matched": 962
-        },
-        {
-          "state": "NW",
-          "matched": 396
-        },
-        {
-          "state": "RP",
-          "matched": 2312
-        },
-        {
-          "state": "SH",
-          "matched": 1104
-        },
-        {
-          "state": "SL",
-          "matched": 53
-        },
-        {
-          "state": "SN",
-          "matched": 418
-        },
-        {
-          "state": "ST",
-          "matched": 218
-        },
-        {
-          "state": "TH",
-          "matched": 605
-        }
-      ],
+      "empty_local_table": true,
+      "municipal_reference_matches": 0,
+      "municipal_reference_by_state": [],
       "location_states": [
         {
           "state": "HE"
@@ -2917,73 +2663,8 @@
       ],
       "mapping_rules": [],
       "mapped_additional_matches": 0,
-      "combined_reference_matches": 10952,
-      "combined_reference_by_state": [
-        {
-          "state": "BB",
-          "matched": 413
-        },
-        {
-          "state": "BE",
-          "matched": 1
-        },
-        {
-          "state": "BW",
-          "matched": 1102
-        },
-        {
-          "state": "BY",
-          "matched": 2221
-        },
-        {
-          "state": "HB",
-          "matched": 2
-        },
-        {
-          "state": "HE",
-          "matched": 425
-        },
-        {
-          "state": "HH",
-          "matched": 1
-        },
-        {
-          "state": "MV",
-          "matched": 719
-        },
-        {
-          "state": "NI",
-          "matched": 962
-        },
-        {
-          "state": "NW",
-          "matched": 396
-        },
-        {
-          "state": "RP",
-          "matched": 2312
-        },
-        {
-          "state": "SH",
-          "matched": 1104
-        },
-        {
-          "state": "SL",
-          "matched": 53
-        },
-        {
-          "state": "SN",
-          "matched": 418
-        },
-        {
-          "state": "ST",
-          "matched": 218
-        },
-        {
-          "state": "TH",
-          "matched": 605
-        }
-      ]
+      "combined_reference_matches": 0,
+      "combined_reference_by_state": []
     },
     {
       "id": "zulassungsstelle",
@@ -2994,15 +2675,13 @@
         "Kraftfahrzeugzulassungsstelle",
         "Kfz Zulassungsstelle"
       ],
-      "limitations": "Keine importierte explizite Zulassungsbezirks-/Behördenzuordnung. Kreisgeometrie reicht als Beleg nicht.",
       "coverage_status": "gap",
       "resolution_mode": "spatial",
+      "limitations": "Keine importierte explizite Zulassungsbezirks-/Behördenzuordnung. Kreisgeometrie reicht als Beleg nicht.",
       "authority_count": 0,
       "boundary_count": 0,
       "location_count": 3,
       "empty_local_table": true,
-      "data_coverage_status": "locations_only",
-      "requires_case_context": false,
       "municipal_reference_matches": 0,
       "municipal_reference_by_state": [],
       "location_states": [
@@ -3088,26 +2767,21 @@
       ]
     }
   ],
-  "boundary_sources": [
-    "vg25_gem",
-    "vg25_krs",
-    "vg25_rbz"
-  ],
   "geometry_checks": {
     "authorities": {
-      "records": 7018,
+      "records": 6838,
       "repaired": 2805,
-      "invalid": 0
+      "invalid": null
     },
     "boundaries": {
       "records": 11396,
       "repaired": 6122,
-      "invalid": 0
+      "invalid": null
     },
     "locations": {
       "records": 1105,
       "repaired": 0,
-      "invalid": 0
+      "invalid": null
     }
   },
   "source_counts": [
@@ -3617,12 +3291,6 @@
     },
     {
       "category": "staatsanwaltschaft",
-      "source_id": "bzb_restricted_staatsanwaltschaft",
-      "records": 139,
-      "geometry_kind": "polygon"
-    },
-    {
-      "category": "staatsanwaltschaft",
       "source_id": "mv_rostock_locations",
       "records": 1,
       "geometry_kind": "point"
@@ -3773,12 +3441,6 @@
     },
     {
       "category": "zoll",
-      "source_id": "bzb_restricted_zoll",
-      "records": 41,
-      "geometry_kind": "polygon"
-    },
-    {
-      "category": "zoll",
       "source_id": "mv_rostock_locations",
       "records": 1,
       "geometry_kind": "point"
@@ -3869,6 +3531,12 @@
       "municipalities": 605
     }
   ],
+  "boundary_sources": [
+    "vg25_gem",
+    "vg25_krs",
+    "vg25_rbz"
+  ],
+  "measurement_note": "Hinweis zur Messung: Diese Fassung wurde aus den geladenen Snapshots ohne laufende Datenbank berechnet. ST_IsValid wurde dabei nicht erneut ausgeführt; alle Geometrien wurden beim Abruf mit make_valid geprüft. `python scripts/report.py` misst denselben Bestand direkt in PostGIS.",
   "mapping_rules": [
     {
       "id": "bb_schwedt_auslaenderbehoerde",

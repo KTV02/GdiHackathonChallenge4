@@ -2,19 +2,13 @@
 
 Dieses Dokument ergänzt [ABDECKUNG.md](ABDECKUNG.md). Es beschreibt, welche Quellen seit der letzten gemessenen Abdeckung hinzukamen, welche mit dieser Erweiterung neu eingebunden wurden und welche Kandidaten bewusst noch nicht importiert werden.
 
-**Wichtig:** Die Erweiterung wurde ohne Netzzugriff auf die Dienste aus der Entwicklungsumgebung erstellt. Capabilities, Schema und Beispielfeatures der neuen Dienste wurden vorab per Webabruf eingesehen; ein vollständiger `verify`/`fetch`, die Tests und eine neue Abdeckungsmessung (`python scripts/report.py`) müssen lokal ausgeführt werden. Bis dahin gelten die Zahlen unten nicht als gemessen.
+Die Erweiterungsadapter sind implementiert. Die unten genannten Berlin-/BW-/OSM-Länderquellen sind im öffentlichen Lieferinventar noch nicht enthalten; ein vollständiger Abruf und eine erneute Abdeckungsmessung sind vor einer entsprechenden Abdeckungsbehauptung erforderlich.
 
-## 1. Ausgangslage der gemessenen Abdeckung
+## 1. Aktueller gemessener Stand
 
-Die Tabelle in `ABDECKUNG.md` (Messung 2026-11-13 18:05 UTC; 6.376 Flächeneinträge in 14 Kategorien, 767 Standorte) zeigt für Flächen:
+Die Neumessung vom 14. November 2026 enthält 46 offene Snapshots, 6.838 Flächeneinträge, 1.105 Standorte und 11.396 Verwaltungsgebietsreferenzen. Die vollständige Kategorieübersicht und gesetzlichen Aufgaben-Zuordnungen stehen in [ABDECKUNG.md](ABDECKUNG.md). Optional berechtigt importierte eingeschränkte Daten sind nicht Teil dieses Lieferbestands.
 
-| Gruppe | Kategorien | Gemeindeindikator (VG25-AGS) |
-| --- | --- | --- |
-| Bundesweit (BZB Open / GEMFA) | amtsgericht, landgericht, jobcenter, arbeitsagentur, finanzamt | 99,2–99,9 % |
-| Regional | stadtverwaltung (36,2 %), regierungsprs (37,8 %), schulamt (29,6 %), kreisverwaltung (23,8 %), polizei (23,8 %), ihk/handwerkskammer/verwaltungsgericht (≈20 %), staatsanwaltschaft (18,8 %) | siehe Tabelle |
-| Keine Fläche | auslaenderbehoerde, buergeramt, gesundheitsamt, gewerbeamt, jugendamt, ordnungsamt, veterinaeramt, zulassungsstelle u. a. | 0 % |
-
-Nach dieser Messung wurden weitere Snapshots erzeugt; die Neumessung vom 14. November 2026 in `ABDECKUNG.md` enthält sie inzwischen (zusätzlich die gesetzlichen Kategorie-Zuordnungen aus `category_mappings.json`): `by_wohngeld_gesetz` (96 Wohngeldbehörden, BY), `nw_bau_gesetz` (211 untere Bauaufsichten, NW), `bb_kommunal_gebiete` (141 Stadt-/Gemeindeverwaltungen und 14 Kreisverwaltungen, BB) sowie Standortquellen (u. a. `hh_jugend_asd_locations`, `bb_registry_locations`, `bb_kommunal_locations`, `nw_muenster_locations`, `sn_chemnitz_*`, `mv_rostock_locations`, `osm_exact_offices`). `python scripts/report.py` erzeugt `ABDECKUNG.md` und `data/coverage-summary.json` neu.
+Die später ergänzten offenen Snapshots, etwa `by_wohngeld_gesetz`, `nw_bau_gesetz`, `bb_kommunal_gebiete` und kommunale Standortverzeichnisse, sind dort bereits mitgemessen. Neue Quellen nach `verify`/`fetch`/`load` mit `scripts/measure_snapshots.py` bzw. `scripts/report.py` neu messen.
 
 ## 2. Neu eingebundene Quellen
 
@@ -38,6 +32,8 @@ Technische Voraussetzungen, die dafür ergänzt wurden:
 
 ## 3. Befehle
 
+Die folgenden Befehle werden aus `behoerden-resolver/` ausgeführt; die gemeinsame Python-Umgebung liegt eine Ebene darüber.
+
 ```bash
 docker compose run --rm cli verify --source be_polizei_abschnitt --source bw_polizei_areas --output /data/verification-erweiterung.json
 docker compose run --rm cli sync --source be_polizei_abschnitt --source bw_polizei_areas --source bw_polizei_locations
@@ -52,8 +48,8 @@ docker compose run --rm cli resolve polizei --lon 9.1829 --lat 48.7758      # St
 Die bundesweite Overpass-Abfrage lief in Zeitlimits. `scripts/osm_fetch_states.py` fragt stattdessen alle 16 Länder einzeln ab, cacht jede validierte Antwort (Wiederaufnahme nach Abbruch) und schreibt nur dann eine Ausgabedatei, wenn **alle** Länder vollständig waren (kein `remark`, Zeitstempel vorhanden):
 
 ```bash
-python scripts/osm_fetch_states.py --out data/osm_states.json --pause 15
-docker compose run --rm cli sync --source osm_states_locations --input data/osm_states.json
+../.venv/bin/python scripts/osm_fetch_states.py --out data/osm_states.json --pause 15
+docker compose run --rm cli sync --source osm_states_locations --input /data/osm_states.json
 ```
 
 Die Abfragevorlage `resources/osm_states.overpass` ist über `query_sha256` an die Quellenkonfiguration gebunden. OSM-Standorte bleiben Gemeinschaftsdaten (ODbL), werden nie als Zuständigkeitsfläche behandelt und stehen nur im Standort-Fallback bereit. Für regelmäßige Läufe eine eigene Overpass-Instanz oder einen Extrakt verwenden.
@@ -64,11 +60,11 @@ Die Abfragevorlage `resources/osm_states.overpass` ist über `query_sha256` an d
 | --- | --- |
 | Berlin Polizeidirektionen, Kontaktbereiche, Wachen (`polizei:d_/b_/a_*`, derselbe Dienst wie die Abschnitte) | Layer laut Capabilities vorhanden; Attributnamen der Direktionen/Wachen nicht geprüft; Abschnitte decken die Fläche bereits ab |
 | Saarland Polizeistandorte, BW Schulamts-Standorte, Dortmund (Gesundheitsamt, Jugendamt, Finanzamt als GeoJSON) | Hinweise aus der Recherche; Endpunkt, Lizenz und Schema nicht verifiziert |
-| BZB Open (nicht offene BZB-Layer) | Nutzung nicht frei; ausgeschlossen |
+| BKG BZB ohne Open | Nur optional mit vorhandener Nutzungsberechtigung importierbar; nicht Teil des öffentlichen Lieferbestands |
 | Hamburg Behördenfinder | keine nachgewiesene offene Lizenz für Gebiete; ausgeschlossen |
 
 Neue Kandidaten werden nur mit dokumentierter Lizenz, geprüften Capabilities/Schema und einem vollständigen `fetch` aufgenommen.
 
 ## 6. Weiterhin nicht flächig belegbar
 
-Für `auslaenderbehoerde`, `buergeramt`, `gewerbeamt`, `zulassungsstelle`, `strassenverkehrsbehoerde`, `sozialamt`, `umweltamt` und `bafoegamt` fehlt bundesweit eine offene Gebietsquelle; dort bleiben Standorte mit Entfernungsfallback bzw. der Status `context_required`. Das ist kein Defizit der Implementierung, sondern die Datenlage: Die Zuständigkeit folgt häufig Land- oder Kommunalrecht oder Wahlfreiheit.
+Für `auslaenderbehoerde`, `buergeramt`, `gewerbeamt`, `zulassungsstelle`, `strassenverkehrsbehoerde`, `sozialamt`, `umweltamt` und `bafoegamt` fehlt bundesweit eine offene Gebietsquelle; dort bleiben Standorte mit Entfernungsfallback bzw. der Status `context_required`. Diese Kategorien brauchen zusätzliche Daten und fachliche Prüfung: Die Zuständigkeit folgt häufig Land- oder Kommunalrecht oder Wahlfreiheit.

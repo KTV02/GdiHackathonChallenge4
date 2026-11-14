@@ -1,4 +1,6 @@
-# Quellenentscheidung, geprüft am 13. November 2026
+# Quellenentscheidung und Recherche
+
+Historische Quellenprüfung vom 13. November 2026, ergänzt um den finalen Lieferstand. Die aktuellen Messzahlen stehen in [ABDECKUNG.md](ABDECKUNG.md), die vorhandenen gesetzlichen Kategorie-Zuordnungen in `resources/category_mappings.json`. Eingeschränkte BZB-Importe sind optional und nicht mitgeliefert.
 
 Der Import wird auf belegte, frei verwendbare Gebietsdaten und explizite Zuordnungen begrenzt. „Nicht importiert“ bedeutet, dass in diesem Lieferstand kein ausreichend belegter und lizenzierter Import eingerichtet wurde. Es ist keine Behauptung, dass weltweit kein passender Datensatz existiere. Das Quellenmanifest dokumentiert die tatsächlich unterstützten Dienste; diese Datei beschreibt die Grenzen und Erweiterungswege.
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:36:50.648018+00:00",
+  "generated_at": "2026-11-14T14:08:40.073459+00:00",
   "snapshots": [
     {
       "directory": "data/snapshots/bb_kommunal_gebiete--20261113T190000030731Z",
@@ -295,26 +295,6 @@
       "records_sha256": "168fdd93265527a1e03cb1a2154a06b91a29a45472f2d4ca58e042535bda65ab",
       "records_file_bytes": 1524932,
       "completed_at": "2026-11-13T16:39:39.419532+00:00"
-    },
-    {
-      "directory": "data/snapshots/bzb_restricted_staatsanwaltschaft--20261114T093600355172Z",
-      "source_id": "bzb_restricted_staatsanwaltschaft",
-      "records_per_category": {
-        "staatsanwaltschaft": 139
-      },
-      "records_sha256": "e06a682dc23edb8f0b3d3d09d2a82e3510475fdc98419b29aeab72134cb91e33",
-      "records_file_bytes": 12669333,
-      "completed_at": "2026-11-14T09:36:00.253219+00:00"
-    },
-    {
-      "directory": "data/snapshots/bzb_restricted_zoll--20261114T093615356981Z",
-      "source_id": "bzb_restricted_zoll",
-      "records_per_category": {
-        "zoll": 41
-      },
-      "records_sha256": "2c838210d0e52629e20b8756676ec178893da89e063250db9a00587e09e3118d",
-      "records_file_bytes": 7691109,
-      "completed_at": "2026-11-14T09:36:15.341063+00:00"
     },
     {
       "directory": "data/snapshots/gemfa_vg25--20261113T172407121830Z",

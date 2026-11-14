@@ -1,131 +1,85 @@
-# Authority Matcher v0.3 – FIM + Elasticsearch + öffentlicher PVOG-Live-Abgleich
+# Behörden-Matcher: FIM, Elasticsearch und PVOG
 
-**Ergebnisausgabe:** Standardmäßig gibt die CLI ausschließlich die Behördenkategorie und ihren aggregierten Ranking-Score aus. Bei `--json` besteht die Antwort exakt aus `behoerdenkategorie` und `score`, ohne Organisationsnamen oder Verwaltungsleistungen. Mit `--details` (alias `--debug`) können bei Bedarf die vollständigen PVOG-Belege und Diagnosedaten ausgegeben werden. Wenn keine eindeutige Kategorie ermittelt wurde, sind beide Werte `null`. Scores sind keine Prozentwahrscheinlichkeiten.
+Dieses Paket ordnet einem Freitextanliegen eine der **36 projektspezifischen Behördenkategorien** zu. Es erfragt keinen Nutzerstandort und bestimmt keine konkrete örtliche Behörde. Webapp und vollständige Suche befinden sich im Schwesterpaket [Finder](../behoerden-finder/README.md).
 
-Beispiel (Score nur illustrativ):
+## Einrichtung und Daten
+
+Die [Haupt-README](../README.md) installiert dieses Paket gemeinsam mit Finder und Resolver in `.venv/`. Optional sind `elastic` für Elasticsearch und `semantic` für Embeddings; der Standard-Setup installiert beide. Das FIM-Importwerkzeug liegt nach `npm ci` unter `tools/fim-cli/node_modules/`, nicht im Git-Bestand.
+
+Der Katalog liegt standardmäßig unter `~/.local/share/authority-matcher/fim_catalog.sqlite3`, umstellbar mit `AUTHORITY_MATCHER_HOME`. Eine vorhandene Datenbank wird weiterverwendet. Auf einem neuen Rechner muss sie aus einer Sicherung bereitgestellt oder importiert werden:
+
+```bash
+# Im Repository-Hauptordner:
+.venv/bin/python scripts/sync-fim.py
+.venv/bin/authority-matcher --status
+.venv/bin/authority-matcher 'Ich möchte meinen Hund anmelden'
+```
+
+Der FIM-Import ist fortsetzbar; `--retry` versucht fehlgeschlagene Details sofort erneut. `--workers` und `--max-rps` steuern die Abrufe. Der Import baut noch keinen Elasticsearch-Index und lädt keine vollständige bundesweite Kategoriezuordnung.
+
+Elasticsearch wird bei Bedarf mit der paketlokalen `compose.yaml` gestartet. Der erste Suchaufruf baut den Index auf; optional werden E5-Embeddings berechnet und das Modell `intfloat/multilingual-e5-small` heruntergeladen. Spätere Aufrufe verwenden den vorhandenen Index. Ein Wechsel zwischen semantischem Modus und `--no-semantic` löst einen erneuten Aufbau aus.
+
+## Bedienung
+
+```bash
+.venv/bin/authority-matcher
+.venv/bin/authority-matcher --json 'Ich brauche einen Personalausweis'
+.venv/bin/authority-matcher --json --details 'Ich brauche einen Erbschein'
+.venv/bin/authority-matcher --no-semantic 'Hund anmelden'
+.venv/bin/authority-matcher --no-live 'Wohnsitz abmelden'
+.venv/bin/authority-matcher --reindex 'Personalausweis beantragen'
+```
+
+Die kompakte JSON-Ausgabe enthält genau diese beiden Felder:
 
 ```json
-{
-  "behoerdenkategorie": "buergeramt",
-  "score": 0.03814
-}
+{"behoerdenkategorie": "buergeramt", "score": 0.03814}
 ```
 
-Eine deutsche Bürgeranfrage wird mit dem bereits importierten **FIM-Leistungskatalog** abgeglichen. Für die bestplatzierten Leistungen mit gültigem 14-stelligen LeiKa-Schlüssel fragt der Matcher **den öffentlichen PVOG-Suchdienst live** ab. Dabei verbindet er Leistungs-ID, JZuFi-Zuständigkeiten und amtliche Organisationseinheiten mit den **36 projektspezifischen Behördenkategorien** aus `data/categories.json`.
+Der Score ist illustrativ und bezeichnet einen aggregierten Ranking-Wert, **keine Prozentwahrscheinlichkeit**. Ohne eindeutige Kategorie sind beide Werte `null`. `--details`/`--debug` zeigt zusätzlich Leistungen, Organisationen, Belege, Kandidaten und Diagnosen.
 
-**Kein XZuFi-Export, keine Bereitstelldienst-Zugangsdaten, kein erneuter FIM-Download notwendig.** Die vorhandene SQLite-Datei `~/.local/share/authority-matcher/fim_catalog.sqlite3` bleibt erhalten. Nur für die öffentliche Leistungsabfrage sind Referenz-ARS nötig; keine Bürgeradresse wird erfragt oder an PVOG gesendet.
+| Option | Zweck |
+| --- | --- |
+| `--no-live` | Nur gespeicherte PVOG-Belege verwenden |
+| `--reference-ars` | Kommaseparierte Referenzregionen für den PVOG-Abgleich |
+| `--live-top` | Maximale Zahl unterschiedlicher LeiKa-Schlüssel je Anfrage, Standard 3 |
+| `--no-start-docker` | Elasticsearch bereits extern bereitstellen |
+| `--no-semantic` | BM25 ohne Embeddings |
+| `--status`, `--reindex` | Bestand prüfen bzw. Index neu aufbauen |
 
-> **Reichweite:** Der öffentliche PVOG-Suchdienst liefert geografisch eingegrenzte Leistungen, nicht den gesamten deutschlandweiten Export. Deshalb ist die Klassifikation anhand einiger *Referenzregionen* eine Stichprobe. Eine regional anders organisierte Zuständigkeit kann fehlen. Die 36 Kategorien sind vom Hackathon definiert, nicht offiziell von LeiKa vorgegeben. Unbelegte, fehlgeschlagene oder widersprüchliche Zuordnungen werden nicht als eindeutig ausgegeben.
+Standardreferenzen sind Berlin `110000000000`, Hamburg `020000000000` und Mainz `073150000000`. Das sind Abrufregionen, keine aus der Bürgeradresse ermittelten Zuständigkeiten. Standardadresse von Elasticsearch ist `http://127.0.0.1:9200`; `ELASTICSEARCH_URL` und `AUTHORITY_MATCHER_INDEX` überschreiben Dienst bzw. Indexnamen.
 
-## Installation auf vorhandenem Mac
+## Belegkette
 
-Alte FIM-Synchronisierung im ersten Terminal **mit `Ctrl+C` beenden**, bevor Python-Dateien überschrieben werden. Das Update-ZIP in `~/Desktop/GdiHackathonChallenge4` entpacken; der enthaltene Ordner `behoerden-matcher/` überschreibt nur den Quellcode im Projektordner, **niemals** die Datenbank in `~/.local/share/authority-matcher/`.
+1. FIM-Leistungssteckbriefe und Stammtexte werden normalisiert in SQLite gespeichert und lokal indexiert.
+2. BM25 und optional E5 ranken die Leistungen. Für gültige 14-stellige LeiKa-Schlüssel sucht PVOG regionale Leistungsbeschreibungs-IDs.
+3. JZuFi-Leistungsdaten/-Relationen und Organisationstitel verbinden die Leistung mit amtlich benannten Organisationen.
+4. Explizite Namens-Aliasse aus `data/categories.json` normieren Organisationen auf die 36 Kategorien. Rollen `01`/`02` gelten als Zuständigkeitsbeleg, `03` allein nicht.
+5. Eindeutige Belege werden aggregiert; fehlende oder widersprüchliche Zuordnungen bleiben sichtbar.
+
+PVOG erhält die LeiKa-/Leistungs-IDs und Referenz-ARS, nicht den ursprünglichen Freitext. Tabellen `jzufi_services`, `jzufi_orgs`, `jzufi_links` und `pvog_live_attempts` speichern Beziehungen und Abrufstatus. Fehlversuche werden nach ungefähr fünf Minuten, leere Resultate nach 24 Stunden und erfolgreiche Abfragen nach sieben Tagen erneut versucht.
+
+Die maßgebliche Zuordnung ist konservativ: Herausgeber oder Freigabestelle eines FIM-Textes allein sind keine zuständige Behörde. Der Finder ergänzt separat einen redaktionellen Fallkatalog und Themenhinweise; diese gehören nicht zum kompakten Matcher allein.
+
+## Diagnose und weitere Werkzeuge
 
 ```bash
-cd ~/Desktop/GdiHackathonChallenge4
-unzip -o ~/Downloads/authority-matcher-pvog-live-v3.zip
-cd behoerden-matcher
-zsh update.command
-
-authority-matcher --status
+.venv/bin/authority-matcher jzufi-fetch --leika 99008001000000 --ars 110000000000
+.venv/bin/authority-matcher jzufi-import /pfad/zu/jzufi.jsonl
+.venv/bin/behoerden-match --help
 ```
 
-**Docker Desktop muss laufen**, damit die lokale Elasticsearch-Instanz gestartet werden kann. Beim ersten Start wird der schon geladene FIM-Bestand lokal indexiert; im Hybridmodus werden Embeddings mit `intfloat/multilingual-e5-small` erstellt und das Modell gegebenenfalls erstmals heruntergeladen. Der Indexaufbau kann erheblich länger dauern als einzelne Textanfragen. Er wird bei späteren Starts nicht nur deshalb wiederholt, weil PVOG-Daten hinzugekommen sind.
+`behoerden-match` bietet die kleineren Import-/Normalisierungs-/Index-/Suchwerkzeuge. Der Standard-Datensatz seiner lokalen `query`-Funktion ist ausdrücklich eine Demo; er ersetzt nicht den vollständigen FIM/PVOG-Betrieb.
 
-## Benutzung – ein Befehl
+`autorun_legacy.py` bleibt erhalten, weil der aktuelle Starter dessen Elasticsearch-Startfunktion verwendet. Sein älterer Gesamtworkflow ist kein zusätzlicher empfohlener Startweg. Die früheren Hotfix-ZIPs und Installations-/Update-Skripte sind durch die gemeinsame Einrichtung ersetzt.
+
+## Tests und Tuning
 
 ```bash
-authority-matcher
+bash scripts/test.sh
+zsh scripts/tuning.command
 ```
 
-Dann natürliche Anliegen eingeben:
+Die Matcher-Tests prüfen unter anderem Normalisierung, FIM-Synchronisierung, Ranking-Ausgabe, JZuFi-Beziehungen, Live-API-Verträge und Cacheverhalten mit synthetischen Antworten. Sie belegen keine aktuelle Erreichbarkeit externer Dienste. Tuning verwendet redaktionelle Erwartungen aus `data/eval_1000.jsonl` und getrennte Kontrollmengen `eval_holdout*.jsonl`. Der Bericht unter `../docs/evaluation/` ist ein historischer Messstand; Laufzeitwerte werden daraus nicht automatisch geladen.
 
-```text
-Anliegen> Ich habe einen Hund gekauft und will ihn anmelden
-Anliegen> Meine Oma hat mir Geld geschenkt. Muss ich das melden?
-Anliegen> Ich brauche einen Erbschein
-```
-
-In einem frischen System kann das Ergebnis zunächst „keine eindeutige Kategorie“ lauten. Das bedeutet, dass die öffentlichen PVOG-Abfragen für die betreffende Leistung/Referenzregion keinen prüfbaren Behördenbeleg ergaben. **Die drei Zeilen oben sind Eingabebeispiele, keine zugesicherten Ergebnisse.**
-
-### Schnelltest / Diagnose
-
-```bash
-# BM25-Suche: kein Embedding-Download, trotzdem echter Elasticsearch-Index
-# Erster Indexaufbau auch hier erforderlich.
-authority-matcher --no-semantic
-
-# Kompaktes Maschinen-JSON: genau Kategorie und Score
-authority-matcher --json --no-semantic 'Ich möchte meinen Wohnsitz abmelden'
-
-# Nur bei Fehleranalyse: komplette FIM-/PVOG-Nachweise anzeigen
-authority-matcher --json --details --no-semantic 'Ich möchte meinen Wohnsitz abmelden'
-
-# Vorhandene FIM-Einträge und belegte JZuFi-Links
-authority-matcher --status
-
-# Öffentliche PVOG-Suche für genau einen LeiKa-Schlüssel und ARS prüfen
-# Gibt bei null regionalen Treffern eine Diagnose statt des früheren argparse-Fehlers aus.
-authority-matcher jzufi-fetch --leika 99008001000000 --ars 110000000000
-```
-
-Eine andere Auswahl von **Referenzgebieten** (das sind keine Nutzerstandorte):
-
-```bash
-authority-matcher --reference-ars 110000000000,020000000000,073150000000
-```
-
-Standardmäßig werden die drei genannten ARS verwendet (Berlin, Hamburg, Mainz). Die Abfragen pro (LeiKa, ARS) werden gespeichert und nicht bei jeder Anfrage wiederholt. Fehlversuche werden nach etwa 5 Minuten, leere Treffer nach 24 Stunden und erfolgreiche Abfragen nach sieben Tagen erneut versucht. Für weniger Live-Aufrufe:
-
-```bash
-authority-matcher --live-top 1
-```
-
-Um ausschließlich mit den gecachten PVOG-Daten zu suchen:
-
-```bash
-authority-matcher --no-live
-```
-
-## Technische Pipeline
-
-1. **Elasticsearch BM25 + Embeddings:** Sucht in den bereits importierten und normalisierten FIM-Leistungssteckbriefen und Stammtexten. Datenquelle: [FIM-Portal](https://fimportal.de/).
-2. **LeiKa-Schlüssel → regionale LB-IDs:** `GET https://pvog.fitko.net/suchdienst/api/v3/servicedescriptions/leikaid?leikaIds=...&ars=...` mit `page`, `size`, `useArsHierarchy`, `withOrgIds`, `validDate`.
-3. **JZuFi-Objekte:** `GET /v1/servicedescriptions/{id}/jzufi-2-3` und `GET /v1/relations/jzufi-2-3` für die amtlichen Beziehungen. Diese werden auf den 14-stelligen LeiKa-Schlüssel zurückgeführt.
-4. **Amtliche Organisationstitel und Rollen:** `GET /v2/organisationunits/titles?lbids=...&ars=...`. Der Endpunkt ergänzt JZuFi und ist besonders hilfreich, wenn JZuFi-Transferhüllen nicht in allen Daten einheitlich sind. Nur Rollen `01` (zuständige Stelle + Ansprechpunkt) oder `02` (zuständige Stelle) gelten als Behördenbeleg; `03` (nur Ansprechpunkt) wird nicht als zuständige Stelle ausgegeben. Fehlende Rollen bleiben als ungeklärt erhalten.
-5. **Behördennormierung:** Offizielle Namen wie „Bürgeramt Beispielstadt“ werden durch nachprüfbare Namens-Aliase der 36 Kategorien auf `buergeramt` abgebildet. Ergebnis und Originalbelege werden in den bestehenden, zusätzlich erstellten SQLite-Tabellen `jzufi_services`, `jzufi_orgs`, `jzufi_links` und `pvog_live_attempts` gespeichert.
-6. **Anfrageergebnis:** Es wird eine Kategorie vorgeschlagen, wenn die belegte Zuordnung ausreichend eindeutig ist. Bei mehreren Behördenarten, regionalen Unterschieden oder Lücken wird die Unsicherheit offengelegt. Ein `score` ist ein **Ranking-Wert, keine Wahrscheinlichkeit**.
-
-Die Bürgeranfrage wird **nur an die lokale Elasticsearch-Instanz** gesendet; PVOG erhält ausschließlich die LeiKa-IDs, die daraus ermittelten regionalen LB-IDs und die festen Referenz-ARS. Personenbezogene Angaben aus Nutzeranfragen werden nicht an PVOG übertragen.
-
-### Grenzen und offene Qualitätssicherung
-
-- Live-Antworten konnten in der Entwicklungsumgebung wegen fehlendem Netzwerkzugang nicht gegen `pvog.fitko.net` getestet werden. Die automatisierten API-Vertragstests verwenden **synthetische Antworten**.
-- Der Suchdienst kann eine LeiKa-Leistung in einer Referenzregion nicht finden (z. B. weil keine regionale Leistungsbeschreibung vorhanden ist). Das ist kein Beweis für bundesweite Nichtzuständigkeit. Weitere ARS können helfen, garantieren aber keinen vollständigen Überblick.
-- Nicht jeder FIM-Stammtext hat den für den Join nötigen LeiKa-Schlüssel; die Leistungssteckbriefe sind die verlässlichere Basis. Bei fehlenden Schlüsseln kann kein amtliches Mapping abgeleitet werden.
-- Die PVOG-Rollen- und Organisationsinformationen können bei einzelnen Redaktionen unvollständig oder fehlerhaft sein. Eine Stichprobe sollte vor der Jury-Präsentation auf Genauigkeit und Kategorienabdeckung überprüft werden.
-- FIM- und PVOG-Quellen stellen mehrere unterschiedlich granulaire Beschreibungen derselben Leistung bereit. Das Ranking muss anhand von realen Testanfragen validiert werden.
-- Eine **vollständig deutschlandweite** Zuständigkeitsdatenbank lässt sich ohne berechtigten Gesamtdatenexport nicht garantieren. Die Live-Lösung liefert eine praktikable, nachvollziehbare *gezielte* Auflösung für die jeweilige Bürgeranfrage.
-
-## Tests
-
-```bash
-cd ~/Desktop/GdiHackathonChallenge4/behoerden-matcher
-.venv/bin/python -m pip install -e '.[test]'
-.venv/bin/python -m pytest -q
-```
-
-32 automatisierte Tests, darunter neue Prüfungen für JZuFi-/FIM-Mapping, Caching, den bisherigen `--leika`-CLI-Fehler und Indexaufbau ohne bereits vorhandene Kategorien. Alle JZuFi-Fakes sind klar als synthetisch gekennzeichnet.
-
-## Amtliche Quellen
-
-- [PVOG – Öffentliche Suchdienst-API](https://pvog.fitko.de/docs/suchdienst/doku/)
-- [FITKO – LeiKa-Schlüssel zur Leistungsbeschreibung](https://docs.fitko.de/efa-parametrisierung/docs/parametrisierung_anh%C3%A4nge/ermittlung_der_id_der_leistungsbeschreibung/)
-- [PVOG – JZuFi-Zuständigkeitsbeziehungen 2.3](https://pvog.fitko.de/api/suchdienst/get-zs-tr-by-lb-id-and-ars-231-v-1/)
-- [FITKO – Organisationseinheiten, Rollen, titles](https://docs.fitko.de/efa-parametrisierung/docs/parametrisierung_anh%C3%A4nge/ermittlung_zust%C3%A4ndige_organisationseinheit_im_pvog/)
-- [PVOG – JZuFi-Datenformat 2.3.1](https://pvog.fitko.de/api/suchdienst/get-jzufi-lb-231-v-1/)
-
-
-## Parameter einstellen (`authority_matcher.tune`)
-
-`python -m authority_matcher.tune` probiert Abfrage- und Auswerteparameter (Fuzzy-Stärke und -Schwelle, RRF-Gewichte und -Glättung, Feldgewichte, Mindestscore, Mehrdeutigkeitsschwellen) einzeln durch (Koordinatenabstieg), wählt auf `data/eval_1000.jsonl` und misst `eval_holdout*.jsonl` als Kontrolle mit. Kein Neuaufbau des Index nötig. Einmal mit `--fetch` starten, damit die PVOG-Belege im Zwischenspeicher liegen. Die Standardwerte stehen in `index.py` (`FUZZY_BOOST`, `FUZZINESS`, `LEXICAL_WEIGHT`, `RRF_K`, `LEXICAL_FIELDS`) und `matcher.py` (Schwellen, Abschläge).
+Grenzen: Nicht alle FIM-Einträge haben geeignete LeiKa-Schlüssel, PVOG-Beziehungen können fehlen, regionale Organisationen unterscheiden sich, und Referenzregionen bilden keinen vollständigen bundesweiten Datenexport ab. Eine leere Kategorie ist keine Aussage, dass es tatsächlich keine zuständige Behörde gibt. Weitere Hinweise: [Datenquellen](../docs/data-sources.md) und [Validierung](../docs/testing-and-demo.md).

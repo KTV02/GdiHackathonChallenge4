@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><soap:Fault xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><faultcode>soap:Server</faultcode><faultstring>Code list with canonical URI 'irgendwas falsches' and version '20150601' does not contain a Genericode file or does not exist.</faultstring><detail><ns1:Fault xmlns:ns1="https://www.xrepository.de/services">
-    <code xmlns:ns2="https://www.xrepository.de/services"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:faultCode">NO_GENERICODE_CODE_LIST</code></ns1:Fault></detail></soap:Fault>

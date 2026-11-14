@@ -87,4 +87,4 @@ def test_gml_bbox_uses_projected_xy_and_both_backends_reject_bad_inputs():
     assert values[-1]=='EPSG:3857' and float(values[0])>1_000_000 and float(values[1])>6_000_000
     for backend in ['auto','local','wfs']:
         with pytest.raises(ValueError):resolver.resolve('jobcenter',float('nan'),50,backend=backend)
-    assert resolver.resolve('krankenkasse',8,50)['status']=='non_spatial'
+    assert resolver.resolve('krankenkasse',8,50,point_fallback=False)['status']=='non_spatial'

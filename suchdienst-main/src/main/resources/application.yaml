@@ -1,7 +1,0 @@
-spring:
-  profiles:
-    group:
-      production: default,beta_api_active,deprecated_api_active
-      development: default,dev,beta_api_active,deprecated_api_active,openapi_show_internal,security_off,json_logging_off
-      integration-test: default,test,beta_api_active,deprecated_api_active,security_off,json_logging_off
-    active: production
